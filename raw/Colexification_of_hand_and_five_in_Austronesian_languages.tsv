@@ -1,0 +1,1275 @@
+Language_number	Glottocode	Language_name	Latitude	Longitude	hand	five	Is_there_colexification?	Is_distinctness_due_to_lexical_replacement_or_phonological_change?	Was_there_lexical_replacement_of_hand?	Was_there_lexical_replacement_of_five?	What_replaced_hand?	What_replaced_five?	Language_ID_for_hand	Dataset_for_hand	Source_for_hand	Language_ID_for_five	Dataset_for_five	Source_for_five	Comment
+1	basa1287	Basay	25.0046	121.857	cima	cima	full colexification	_	no	no	_	_	832	abvd	49679	832	abvd	49679
+2	keta1243	Ketangalan	25.0257	121.425	_	Tsima	unknown	_	unknown	no	_	_				keta1243-1	barlowpacific	Mueller1910
+3	kava1241	Kavalan	24.6947	121.645	rima	rima	full colexification	_	no	no	_	_	260	abvd	Ferrell69	720	abvd	21679
+4	saki1247	Sakizaya	24.026316	121.531394	_	lima	unknown	_	unknown	no	_	_				amis1246-8	chan2019	Sakizaya-Amis.htm
+5	amis1246	Amis	23.0917	121.348	ʔulimaʔ	limaʔ	partial colexification	_	no	no	_	_	800	abvd	459321	799	abvd	459321
+6	sira1267	Sirayaic	22.9777	120.315	rima	rima	full colexification	_	no	no	_	_	1516	abvd	17632	276	abvd	Ferrell69
+7	kulo1238	Kulon	25.00238	121.32473	_	_	unknown	_	unknown	unknown	_	_						
+8	sais1237	Saisiyat	24.6043	121.067	imaʔ	ɭasəb	lexically distinct	lexical replacement	no	yes	_	*RaCeb ?	274	abvd	Ferrell69	sais1237-2	chan2019	Saisiyat.htm
+9	kulo1237	Pazeh-Kahabu	23.7562	120.976	rima	xasəp	lexically distinct	lexical replacement	no	yes	_	*RaCeb ?	266	abvd	Ferrell69	kulo1237-1	chan2019	Pazeh.htm
+10	atay1247	Atayal	24.5209	121.388	qbaʔ	aima	lexically distinct	lexical replacement	yes	no	PAN *qabaRa ‘shoulder’ ?	_	255	abvd	Ferrell69	atay1247-2	chan2019	Atayal.htm
+11	taro1264	Seediq	23.9032	121.358	bawa	rima	lexically distinct	lexical replacement	yes	no	PAN *qabaRa ‘shoulder’ ?	_	821	abvd	459321	275	abvd	Ferrell69
+12	papo1239	Papora-Hoanya	24.324	120.577	lima	lima	full colexification	_	no	no	_	_	636	abvd	306286	636	abvd	306286
+13	babu1240	Babuza	24.0017	120.585	lima	achab	lexically distinct	lexical replacement	no	yes	_	*RaCeb ?	635	abvd	306286	257	abvd	Ferrell69
+14	thao1240	Thao	23.8333	120.93	rima	rima	full colexification	_	no	no	_	_	241	abvd	180926	thao1240-2	chan2019	Thao.htm
+15	bunu1267	Bunun	23.4116	121.025	imaʔ	'imaʔ	full colexification	_	no	no	_	_	202	abvd	Ferrell69	202	abvd	Ferrell69
+16	kana1286	Kanakanavu	23.3235	120.887	ramucu	'lima	lexically distinct	lexical replacement	yes	no	Proto-Tsouic *ramuCu ‘finger’ ? ‘hand’ ?	_	825	abvd	459321	kana1286-1	chan2019	Kanakanabu.htm
+17	saar1237	Saaroa	23.2632	120.711	ramucu	la-lima	lexically distinct	lexical replacement	yes	no	Proto-Tsouic *ramuCu ‘finger’ ? ‘hand’ ?	_	826	abvd	459321	saar1237-1	chan2019	Saaroa.htm
+18	tsou1248	Tsou	23.216	120.787	mucu	rimo	lexically distinct	lexical replacement	yes	no	Proto-Tsouic *ramuCu ‘finger’ ? ‘hand’ ?	_	824	abvd	459321	138	abvd	61369
+19	ruka1240	Rukai	22.7738	120.844	arima	rima	partial colexification	_	no	no	_	_	814	abvd	459321	814	abvd	459321
+20	puyu1239	Puyuma	22.643	120.996	rima	rima	full colexification	_	no	no	_	_	271	abvd	Ferrell69	271	abvd	Ferrell69
+21	paiw1248	Paiwan	22.3271	120.806	lima	lima	full colexification	_	no	no	_	_	177	abvd	86263	1328	abvd	Egli2002PaiwanWo
+22	yami1254	Yami	22.055	121.544	lima	lima	full colexification	_	no	no	_	_	335	abvd	Rau-335-2005	254	abvd	Ferrell69
+23	ivat1242	Itbayat	20.77	121.85	lima	lima	full colexification	_	no	no	_	_	248	abvd	46500	248	abvd	46500
+24	ibat1238	Ibatan	18.9398	121.909	panorowan	dadima	lexically distinct	lexical replacement	yes	no	?	_	289	abvd	46500	289	abvd	46500
+25	isna1241	Isnag	18.2139	121.16	ʔi:ma	limmá	lexically distinct	phonological change	no	no	_	_	424	abvd	136553	isna1241-1	barlowpacific	Vanoverbergh1937
+26	fair1238	Faire Atta	17.9808	121.436	_	limá	unknown	_	unknown	no	_	_				fair1238-2	barlowpacific	Vanoverbergh1937
+27	pamp1244	Pamplona Atta	18.4738	121.3	lima:	limaː	full colexification	_	no	no	_	_	410	abvd	136553	pamp1244-1	chan2019	Atta-Pamplona.htm
+28	pudt1235	Pudtol Atta	18.2112	121.379	_	limɑ́ʔ	unknown	_	unknown	no	_	_				pudt1235-1	barlowpacific	Nickell1981Pudtol
+29	mala1534	Malaweg	17.844833	121.391322	_	lima	unknown	_	unknown	no	_	_				mala1534-1	barlowpacific	Reid1987
+30	adas1235	Adasen	17.8187	120.905	_	li'ma	unknown	_	unknown	no	_	_				adas1235-1	chan2019	Adasen.htm
+31	iban1267	Ibanag	17.4201	121.891	lima	lima	full colexification	_	no	no	_	_	279	abvd	Family-279-2005	279	abvd	Family-279-2005
+32	gada1258	Ga'dang	17.2238	121.455	_	limɑ	unknown	_	unknown	no	_	_				gada1258-1	barlowpacific	Anonymous1957
+33	gadd1244	Gaddang	16.5468	121.177	langalay	lima	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	418	abvd	136553	418	abvd	136553
+34	cent2084	Central Cagayan Agta	17.9571	121.857	kʌmʌt	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	409	abvd	136553	cent2084-1	chan2019	Agta-Central-Cagayan.htm
+35	itaw1240	Itawit	17.7329	121.58	ima	lima	lexically distinct	phonological change	no	no	_	_	978	abvd	Barrias-978-2013	978	abvd	Barrias-978-2013
+36	yoga1237	Yogad	16.7015	121.718	kamát	limá	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	713	abvd	32648	713	abvd	32648
+37	dica1235	Dicamay Agta	17.8846	121.606	_	limɑ	unknown	_	unknown	no	_	_				dica1235-1	barlowpacific	Roe1960
+38	dupa1235	Dupaninan Agta	17.3748	122.188	kamat	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	730	abvd	47932	730	abvd	47932
+39	casi1235	Casiguran-Nagtipunan Agta	16.2176	121.878	ka'mɨt	limá	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	417	abvd	136553	casi1235-1	barlowpacific	Vanoverbergh1937
+40	agta1234	Agta-Pahanan	17.0538	122.2802	_	limá	unknown	_	unknown	no	_	_				agta1234-3	barlowpacific	Alviar-Calinawagan1995
+41	para1306	Paranan	17	122.372	_	limma	unknown	_	unknown	no	_	_				para1320-1	chan2019	Paranan.htm
+42	bino1237	Binongan Itneg	17.5972	120.876	'ʔima	li'ma	lexically distinct	phonological change	no	no	_	_	426	abvd	136553	426	abvd	136553
+43	inla1260	Inlaod Itneg	17.61752	120.65389	_	limɑ	unknown	_	unknown	no	_	_				inla1260-1	barlowpacific	Walton2003Danglas
+44	lubu1243	Lubuagan Kalinga	17.3879	121.0365	'ʔima	li'ma	lexically distinct	phonological change	no	no	_	_	429	abvd	136553	429	abvd	136553
+45	sout2908	Bangad	17.2936	121.068	ima	lima	lexically distinct	phonological change	no	no	_	_	671	abvd	65104	671	abvd	65104
+46	butb1235	Butbut Kalinga	17.2239	121.091	_	li'ma	unknown	_	unknown	no	_	_				butb1235-1	chan2019	Kalinga-Butbut.htm
+47	madu1248	Madukayang Kalinga	17.1794	121.236	_	limɑ́	unknown	_	unknown	no	_	_				madu1248-1	barlowpacific	Gieser1973
+48	lowe1412	Tanudan Kalinga	17.3441	121.311	ima	lima	lexically distinct	phonological change	no	no	_	_	711	abvd	olson2008	711	abvd	olson2008
+49	masa1307	Masadiit Itneg	17.4501	120.829	_	limɑ	unknown	_	unknown	no	_	_				masa1307-2	barlowpacific	Walton2003Boliney
+50	moya1235	Moyadan Itneg	17.4232	120.702	_	ˈlimɑ	unknown	_	unknown	no	_	_				moya1235-1	barlowpacific	Walton2003Manabo
+51	limo1248	Limos Kalinga	17.6081	121.381	íma	limá	lexically distinct	phonological change	no	no	_	_	672	abvd	83052	672	abvd	83052
+52	bana1288	Banao Itneg	17.5643	121.05	_	_	unknown	_	unknown	unknown	_	_						
+53	maba1279	Mabaka Valley Kalinga	17.6683	121.073	_	lima	unknown	_	unknown	no	_	_				maba1279-1	barlowpacific	AnonymousMabaka
+54	bala1310	Balangao	17.0994	121.272	'limʌ	le'ma	lexically distinct	phonological change	no	no	_	_	411	abvd	136553	411	abvd	136553
+55	cent2292	Central Bontoc	17.08	120.92	lima	lima	full colexification	_	no	no	_	_	673	abvd	147940	673	abvd	147940
+56	fina1242	Eastern-Southern Bontok	17.0319	121.11	_	lima	unknown	_	unknown	no	_	_				fina1242-1	barlowpacific	Fukuda1981
+57	kank1243	Kankanaey	16.8548	120.689	takkay	lima	lexically distinct	lexical replacement	yes	no	?	_	681	abvd	Allen-681-2010	681	abvd	Allen-681-2010
+58	maen1235	Maeng Itneg	17.2453	120.718	_	liˈmɑ	unknown	_	unknown	no	_	_				maen1235-1	barlowpacific	Walton2003Laplapog
+59	nort2877	Northern Kankanay	17.1057	120.786	lɨ'dɨng	li'ma	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	432	abvd	136553	432	abvd	136553
+60	amga1235	Amganad Ifugao	16.9016	121.042	taʔ'le	li'ma	lexically distinct	lexical replacement	yes	no	?	_	419	abvd	136553	419	abvd	136553
+61	bata1298	Batad Ifugao	16.8266	121.23	ngamay	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	420	abvd	136553	420	abvd	136553
+62	mayo1262	Mayoyao Ifugao	16.9984	121.29	_	le'mə	unknown	_	unknown	no	_	_				mayo1262-1	chan2019	Ifugao-Mayoyao.htm
+63	tuwa1243	Tuwali Ifugao	16.6646	121.113	_	'lima	unknown	_	unknown	no	_	_				tuwa1243-1	chan2019	Ifugao-Tuwali.htm
+64	isin1239	Isinai	16.3299	121.12	lima	limá	full colexification	_	no	no	_	_	1463	abvd	perlawan2015a	1463	abvd	perlawan2015a
+65	ilon1239	Ilongot	16.3785	121.547	gima	tambiang	lexically distinct	lexical replacement	no	yes	_	one count ?	422	abvd	136553	422	abvd	136553
+66	iwak1237	I-Wak	16.30448	120.78633	_	limɑ	unknown	_	unknown	no	_	_				iwak1237-1	barlowpacific	Kamp1986
+67	ibal1244	Ibaloi	16.4263	120.695	takdai	dima	lexically distinct	lexical replacement	yes	no	?	_	679	abvd	anton2010a	423	abvd	136553
+68	ahin1234	Ahin-Kayapa Kalanguya	16.321	120.90003	taklay	lima	lexically distinct	lexical replacement	yes	no	?	_	430	abvd	136553	ahin1234-1	barlowpacific	Reid1971
+69	kele1259	Keley-i Kallahan	16.7099	121.035	taklay	limaʔ	lexically distinct	lexical replacement	yes	no	?	_	431	abvd	136553	431	abvd	136553
+70	kara1487	Karao	16.5655	120.956	_	dima	unknown	_	unknown	no	_	_				kara1487-1	chan2019	Karaw.htm
+71	pang1290	Pangasinan	15.9377	120.365	lima	lima	full colexification	_	no	no	_	_	405	abvd	Daroya-405-2006	pang1290-1	barlowpacific	Scheerer1911
+72	nort2875	Northern Alta	15.6913	121.454	_	limma	unknown	_	unknown	no	_	_				nort2875-1	chan2019	Alta-Northern.htm
+73	sout2905	Southern Alta	15.1841	121.054	_	li'ma	unknown	_	unknown	no	_	_				sout2905-1	chan2019	Alta-Southern.htm
+74	arta1239	Arta	16.4185	121.656	lima	lima	full colexification	_	no	no	_	_	1211	abvd	Kimoto-1211-2015	1211	abvd	Kimoto-1211-2015
+75	ilok1237	Iloko	15.9361	120.993	ima	lima	lexically distinct	phonological change	no	no	_	_	288	abvd	Blust-288-2005	288	abvd	Blust-288-2005
+76	aben1249	Abenlen Ayta	15.4131	120.2	gamɨt	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	1262	abvd	150458	1262	abvd	150458
+77	boto1242	Botolan Sambal	15.2315	120.164	ga'mɨt	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	444	abvd	136553	1266	abvd	150458
+78	amba1267	Ambala Ayta	14.8156	120.283	gamɨt	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	1263	abvd	150458	aben1249-2	chan2019	Ayta-Ambala.htm
+79	bata1297	Bataan Ayta	14.4153	120.49	_	lima	unknown	_	unknown	no	_	_				bata1297-1	barlowpacific	Storck1982
+80	maga1263	Mag-Anchi Ayta	15.1954	120.459	gamɨt	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	1264	abvd	150458	1257	abvd	13192
+81	magi1241	Mag-Indi Ayta	14.9617	120.182	gamɨt	limaʔ	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	1267	abvd	150458	1267	abvd	150458
+82	boli1256	Bolinao	16.3071	119.853	gamɨt	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	1265	abvd	150458	1265	abvd	150458
+83	tina1248	Tinà Sambal	15.5797	120.095	gamot	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	1268	abvd	150458	1268	abvd	150458
+84	pamp1243	Pampanga	14.9603	120.502	gámat	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	1200	abvd	Balatbat-1200-2015	33	abvd	forman1971a;h-McFarland-Northern-Philippine
+85	remo1247	Hatang Kayi	14.6254	121.453	alíma	limá	partial colexification	_	no	no	_	_	686	abvd	Yap2009	686	abvd	Yap2009
+86	kasi1256	Kasiguranin	16.1881	122.118	_	lima	unknown	_	unknown	no	_	_				kasi1256-1	barlowpacific	Headland1972
+87	taga1270	Tagalog	14.06	121.747	kamay	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’	_	788	abvd	54887	389	abvd	Luna-389-2006
+88	fili1244	Filipino	12.265	123.464	_	lima	unknown	_	unknown	no	_	_				fili1244-1	barlowpacific	Castle2010
+89	alab1246	Alabat Island Agta	14.1217	122.014	ʔaˈlimaʔ	lima	partial colexification	_	no	no	_	_	1635	abvd	Lobel2020	alab1246-1	chan2019	Lopez-Agta.htm
+90	cama1250	Camarines Norte Agta	14.1571	122.835	alima	lima	partial colexification	_	no	no	_	_	1641	abvd	Doroja2017	1641	abvd	Doroja2017
+91	cent2087	Coastal-Naga Bikol	13.7574	123.403	kamut	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	859	abvd	Gimoro-859-2011	47	abvd	Daniega-47-2005
+92	sout2912	Coastal-Virac Bikol	13.6989	124.29	_	lima	unknown	_	unknown	no	_	_				sout2912-1	barlowpacific	Meman1990
+93	isar1235	Isarog Agta	13.651	123.332	_	_	unknown	_	unknown	unknown	_	_						
+94	mtir1236	Mt. Iraya Agta	13.4588	123.552	_	limɑ́	unknown	_	unknown	no	_	_				mtir1236-1	barlowpacific	Wolfenden1978
+95	mtir1235	Mt. Iriga Agta	13.4566	123.463	_	ˈlima	unknown	_	unknown	no	_	_				mtir1235-2	barlowpacific	Anonymous1984Bicol
+96	alba1269	Inland-Buhi-Daraga Bikol	13.1989	123.49	kaˈmət	liˈma	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	710	abvd	olson2009	710	abvd	olson2009
+97	irig1242	Iriga Bicolano	13.3896	123.331	kamót	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	722	abvd	lobel2001a	irig1242-1	barlowpacific	Anonymous1984Bicol
+98	nort2883	Northern Catanduanes Bicolano	13.9032	124.27	_	liˈmɑ	unknown	_	unknown	no	_	_				nort2883-1	barlowpacific	Trick1982
+99	bant1288	Bantoanon	12.5194	122.034	damút	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	708	abvd	109918;106220	708	abvd	109918;106220
+100	bant1293	Bantayanon	11.2144	123.755	_	lima	unknown	_	unknown	no	_	_				bant1293-1	chan2019	Bantayanon.htm
+101	capi1239	Capiznon	11.4122	122.954	kamot	limɑ	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	660	abvd	Ricarte-660-2010	capi1239-1	barlowpacific	Werner1977
+102	hili1240	Hiligaynon	10.4018	122.974	kamot	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	193	abvd	Salcedo-193-2005	467	abvd	Enriquez1949
+103	masb1237	Masbate Sorsogon	12.8438	124.002	_	liˈmah	unknown	_	unknown	no	_	_				masb1237-1	barlowpacific	Dimaano1970
+104	masb1238	Masbatenyo	12.21453	123.63579	kamot	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	755	abvd	26161	755	abvd	26161
+105	poro1253	Porohanon	10.6726	124.454	_	lima	unknown	_	unknown	no	_	_				poro1253-1	barlowpacific	Daguman1987
+106	romb1245	Romblomanon	12.4047	122.56	kamót	limá	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	687	abvd	Yap2009	687	abvd	Yap2009
+107	bayb1234	Baybayanon	10.6956	124.8086	_	_	unknown	_	unknown	unknown	_	_						
+108	kina1252	Kinabalian	10.2589	125.2217	_	_	unknown	_	unknown	unknown	_	_						
+109	wara1300	Waray (Philippines)	11.4911	125.012	kamót	limá	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	783	abvd	410676	513	abvd	Rajki-513-2008
+110	wara1299	Waray Sorsogon	12.6795	124.015	_	límɑ	unknown	_	unknown	no	_	_				wara1299-1	barlowpacific	Nickell1978
+111	akla1240	Aklanon	11.55432	122.35413	ʔalí:mah	limáh | alas síŋkoh '5 o'clock'	partial colexification	_	no	no	_	_	43	abvd	Zorc-43-2005	akla1241-1	chan2019	Inakeanon-Aklanon.htm
+112	inon1237	Inonhan	12.284	122.03	limá	lima	full colexification	_	no	no	_	_	1547	abvd	Zorc2018	inon1237-1	chan2019	Aklanon.htm
+113	kina1250	Kinaray-a	10.8131	122.297	lima	lima	full colexification	_	no	no	_	_	657	abvd	Genzola-657-2009	657	abvd	Genzola-657-2009
+114	sulo1237	Sulod	11.2473	122.551	_	limɑ	unknown	_	unknown	no	_	_				sulo1237-1	barlowpacific	Anonymous1961
+115	cuyo1237	Cuyonon	10.3201	119.3	líma	li'ma	full colexification	_	no	no	_	_	688	abvd	Yap2009	cuyo1237-1	chan2019	Cuyonon.htm
+116	calu1238	Caluyanun	12.0489	121.384	líma	li'ma	full colexification	_	no	no	_	_	1550	abvd	Zorc2018	calu1238-1	chan2019	Caluyanun.htm
+117	rata1245	Ratagnon	12.2785	121.187	alíma	limá	partial colexification	_	no	no	_	_	1275	abvd	311529	1275	abvd	311529
+118	karo1299	Northern Binukidnon	9.992	122.816	_	_	unknown	_	unknown	unknown	_	_						
+119	maga1264	Southern Binukidnon	9.49196	122.769	_	_	unknown	_	unknown	unknown	_	_						
+120	ataa1240	Ata	9.715	122.9	_	_	unknown	_	unknown	unknown	_	_						
+121	butu1244	Butuanon	8.87009	125.418	alima	lima	partial colexification	_	no	no	_	_	483	abvd	Jesus-483-2007	483	abvd	Jesus-483-2007
+122	taus1251	Tausug	5.12236	118.88	limah	limah	full colexification	_	no	no	_	_	452	abvd	136553	452	abvd	136553
+123	suri1273	Surigaonon	9	126	alima	lima	partial colexification	_	no	no	_	_	466	abvd	Parker-466-2006	466	abvd	Parker-466-2006
+124	tand1258	Tandaganon	8.9815	126.186	limá	limá	full colexification	_	no	no	_	_	1555	abvd	Zorc1972	tand1258-2	barlowpacific	Zorc1972Naturalis
+125	cebu1242	Cebuano	8.38799	124.367	kamút	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	153	abvd	Go-153-2005	153	abvd	Go-153-2005
+126	mama1275	Mamanwa	9.44744	125.548	ʔalima	lima	partial colexification	_	no	no	_	_	433	abvd	136553	433	abvd	136553
+127	dava1245	Davawenyo	7.22613	126.458	_	lima	unknown	_	unknown	no	_	_				dava1245-1	chan2019	Davawenyo.htm
+128	kara1489	Mandaya	7.50481	126.409	_	_	unknown	_	unknown	unknown	_	_						
+129	mans1262	Mansaka	6.79221	126.181	bɨktɨn	lima	lexically distinct	lexical replacement	yes	no	?	_	442	abvd	136553	442	abvd	136553
+130	kama1363	Kamayo	8.10796	126.314	ʔalíːma	limɑ́	partial colexification	_	no	no	_	_	1549	abvd	Zorc2018	kama1363-1	barlowpacific	Zorc1972Kamayo
+131	kaga1255	Kagan Kalagan	7.10698	125.61	_	'limaː	unknown	_	unknown	no	_	_				kaga1255-1	chan2019	Kalagan-Kagan.htm
+132	kala1388	Kalagan	6.8126	125.328	bɨktɨn	lima	lexically distinct	lexical replacement	yes	no	?	_	428	abvd	136553	428	abvd	136553
+133	taga1268	Tagakaulu Kalagan	6.45338	125.426	_	lima	unknown	_	unknown	no	_	_				taga1268-1	chan2019	Tagakaulu.htm
+134	umir1236	Umiray Dumaget Agta	14.8757	121.508	komot	li'ma	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	1261	abvd	98313	umir1236-1	chan2019	Umiray-Dumaget-Agta.htm
+135	east2482	Eastern Tawbuid	12.8968	121.177	_	lima	unknown	_	unknown	no	_	_				boto1242-2	chan2019	Tawbuid-Eastern.htm
+136	west2559	Western Tawbuid	12.8227	121.026	_	lima	unknown	_	unknown	no	_	_				west2559-1	chan2019	Tawbuid-Western.htm
+137	buhi1245	Buhid	12.6396	121.21	daluwáp	lima	lexically distinct	lexical replacement	yes	no	PPH *dalukap ‘palm of the hand, sole of the foot’	_	1272	abvd	311529	buhi1245-1	chan2019	Buhid.htm
+138	hanu1241	Hanunoo	12.4159	121.221	dalúkap	lima	lexically distinct	lexical replacement	yes	no	PPH *dalukap ‘palm of the hand, sole of the foot’	_	1274	abvd	311529	hanu1241-1	chan2019	Hanunoo.htm
+139	kaga1256	Kagayanen	10.4656	119.872	líma	límma	lexically distinct	phonological change	no	no	_	_	860	abvd	Huggins-860-2011	860	abvd	Huggins-860-2011
+140	higa1237	Higaonon	8.61202	125.071	_	lə'li.ma	unknown	_	unknown	no	_	_				higa1237-1	chan2019	Higaonon.htm
+141	binu1244	Talaandig-Binukid	8.15933	124.892	ʔa'lima	la'lima	partial colexification	_	no	no	_	_	415	abvd	136553	415	abvd	136553
+142	cina1236	Cinamiguin Manobo	9.1793	124.721	_	lɑlimɑ	unknown	_	unknown	no	_	_				cina1236-1	barlowpacific	Elkins1973
+143	atam1240	Ata Manobo	7.7789	125.499	bolad	lalima	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ?	_	434	abvd	136553	434	abvd	136553
+144	mati1250	Matigsalug Manobo	7.72124	125.16	bɨlad	lalima	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ?	_	440	abvd	136553	440	abvd	136553
+145	agus1235	Agusan Manobo	8.62731	125.742	_	li'mɑ	unknown	_	unknown	no	_	_				agus1235-1	chan2019	Manobo-Agusan.htm
+146	diba1242	Dibabawon Manobo	7.85664	126.018	'bɨad	'lima	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ?	_	436	abvd	136553	436	abvd	136553
+147	raja1254	Rajah Kabunsuwan Manobo	8.2934	126.266	_	limɑ	unknown	_	unknown	no	_	_				raja1254-1	barlowpacific	Anonymous1984Manobo
+148	obom1235	Obo Manobo	7.29141	125.09	_	'limmaʔ	unknown	_	unknown	no	_	_				obom1235-1	chan2019	Manobo-Obo.htm
+149	ilia1236	Ilianen Manobo	7.34448	124.766	bɨlad	lima	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ?	_	437	abvd	136553	ilia1236-1	chan2019	Manobo-Ilianen.htm
+150	west2555	Western Bukidnon Manobo	7.6682	124.825	bɨlad	ləlimɑ	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ?	_	441	abvd	136553	west2555-1	chan2019	Manobo-Western-Bukidnon.htm
+151	cota1241	Cotabato Manobo	6.39417	124.234	bɨlad	lima	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ?	_	438	abvd	136553	438	abvd	136553
+152	sara1327	Sarangani Manobo	5.84903	125.499	bʌlad	lima	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ?	_	439	abvd	136553	439	abvd	136553
+153	taga1272	Tagabawa	6.9712	125.175	_	'lima	unknown	_	unknown	no	_	_				taga1272-1	chan2019	Manobo-Tagabawa.htm
+154	cent2089	Central Subanen	8.12701	123.018	bengkɨn	lima	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	447	abvd	136553	447	abvd	136553
+155	east2694	Eastern Subanen	8.2475	123.5234	_	lima	unknown	_	unknown	no	_	_				east2694-1	barlowpacific	Lobel2013
+156	nort2885	Northern Subanen	8.5232	123.588	_	dlima	unknown	_	unknown	no	_	_				nort2885-1	barlowpacific	Lobel2013
+157	lapu1236	Lapuyan Subanun	7.53449	123.13	_	dlima	unknown	_	unknown	no	_	_				lapu1236-2	barlowpacific	Lobel2013
+158	koli1253	Kolibugan Subanon	7.77212	122.567	_	lima	unknown	_	unknown	no	_	_				koli1253-1	barlowpacific	Lobel2013
+159	west2557	Western Subanon	7.79964	122.341	komot	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	448	abvd	136553	448	abvd	136553
+160	bata1301	Batak	10.1115	119.025	ʔalima	lima	partial colexification	_	no	no	_	_	412	abvd	136553	412	abvd	136553
+161	cent2090	Central Tagbanwa	10.6519	119.338	ʔalima	lima	partial colexification	_	no	no	_	_	450	abvd	136553	450	abvd	136553
+162	tagb1258	Tagbanwa	9.54263	118.497	_	'lima	unknown	_	unknown	no	_	_				tagb1258-1	chan2019	Tagbanwa-Southern.htm
+163	molb1237	Molbog	7.956663	117.030502	_	lima	unknown	_	unknown	no	_	_				molb1237-1	barlowpacific	Lobel2016
+164	broo1239	Brooke's Point Palawano	8.83891	117.871	_	lima	unknown	_	unknown	no	_	_				broo1239-1	barlowpacific	Thiessen1980
+165	sout2916	Southwest Palawano	8.67624	117.36	elima	lima	partial colexification	_	no	no	_	_	494	abvd	Davis-494-2007	494	abvd	Davis-494-2007
+166	cent2091	Central Palawano	8.77013	117.838	_	lima	unknown	_	unknown	no	_	_				cent2091-1	barlowpacific	Arnaud1998
+167	taut1234	Taut Batu	8.88129	117.673091	_	lima	unknown	_	unknown	no	_	_				taut1234-1	barlowpacific	Thiessen1980
+168	iran1262	Iranun	4.3362	118.224	lima	lima	full colexification	_	no	no	_	_	458	abvd	Shaiddin-458-2006	458	abvd	Shaiddin-458-2006
+169	magu1243	Maguindanao	6.9453	124.509	líma	líma	full colexification	_	no	no	_	_	685	abvd	sullivan1986a	685	abvd	sullivan1986a
+170	mara1404	Maranao	7.79414	124.175	lima	lima	full colexification	_	no	no	_	_	86	abvd	142538	86	abvd	142538
+171	mong1342	Mongondow	0.64616	124.114	lima	lima	full colexification	_	no	no	_	_	240	abvd	163707	240	abvd	163707
+172	pono1240	Ponosakan	0.91716	124.712	_	lima	unknown	_	unknown	no	_	_				pono1240-1	chan2019	Ponosakan.htm
+173	bint1245	Bintauna	0.75069	123.486	_	lima	unknown	_	unknown	no	_	_				bint1245-1	chan2019	Bintauna.htm
+174	bola1252	Bolango	0.39044	123.888	_	lima	unknown	_	unknown	no	_	_				bola1252-1	chan2019	Bolango.htm
+175	buol1237	Buol	0.97727	121.519	limo	limo	full colexification	_	no	no	_	_	618	abvd	Zobel-618-2009	618	abvd	Zobel-618-2009
+176	goro1259	Gorontalo	0.62689	122.288	ʔuluʔu	limo	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’	_	12	abvd	Machmoed-12-2005	12	abvd	Machmoed-12-2005
+177	kaid1239	Kaidipang	0.85641	123.217	rʔima	Rima	full colexification	_	no	no	_	_	29	abvd	Usup-29-2005	kaid1239-1	barlowpacific	Stokhof1983Vol7.1
+178	lola1250	Lolak	0.85544	124.117	_	(ko)lima	unknown	_	unknown	no	_	_				lola1250-1	chan2019	Lolak.htm
+179	suwa1241	Suwawa	0.4907	123.362	_	lima	unknown	_	unknown	no	_	_				suwa1241-1	barlowpacific	Stokhof1983Vol7.1
+180	alan1249	Alangan	13.0982	121.022	dalukap	limá	lexically distinct	lexical replacement	yes	no	PPH *dalukap ‘palm of the hand, sole of the foot’	_	1270	abvd	311529	1270	abvd	311529
+181	iray1237	Iraya	13.381	120.65	dalukáp	limá	lexically distinct	lexical replacement	yes	no	PPH *dalukap ‘palm of the hand, sole of the foot’	_	1269	abvd	311529	1269	abvd	311529
+182	tady1237	Tadyawan	13.0211	121.305	dalúkap	lima	lexically distinct	lexical replacement	yes	no	PPH *dalukap ‘palm of the hand, sole of the foot’	_	1271	abvd	311529	tady1237-1	chan2019	Tadyawan.htm
+183	cala1258	Calamian Tagbanwa	12.0716	120.094	kalimaʔ	limaʔ	partial colexification	_	no	no	_	_	451	abvd	136553	451	abvd	136553
+184	agut1237	Agutaynen	10.5328	119.655	kalima	lima	partial colexification	_	no	no	_	_	1569	abvd	caabay2018a	1569	abvd	caabay2018a
+185	atii1237	Ati	11.1539	122.512	limá	limá	full colexification	_	no	no	_	_	1553	abvd	Hsiu2018	1553	abvd	Hsiu2018
+186	gian1241	Giangan	6.99967	125.359	limo	limo	full colexification	_	no	no	_	_	1552	abvd	Zorc1972	1551	abvd	Zorc2018
+187	tiru1241	Tiruray	6.77321	124.127	kemer	limo	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	707	abvd	132927	707	abvd	132927
+188	koro1310	Koronadal Blaan	6.20529	125.007	sigal	limɨ	lexically distinct	lexical replacement	yes	no	?	_	413	abvd	136553	413	abvd	136553
+189	sara1326	Sarangani Blaan	6.03691	125.354	sigal	limɨ	lexically distinct	lexical replacement	yes	no	?	_	414	abvd	136553	414	abvd	136553
+190	tbol1240	Tboli	6.20377	124.538	sigɨl	limu	lexically distinct	lexical replacement	yes	no	?	_	449	abvd	136553	tbol1240-1	chan2019	Tboli.htm
+191	sang1337	Sangil	5.40229	125.378	'lima	'lima	full colexification	_	no	no	_	_	445	abvd	136553	445	abvd	136553
+192	sang1336	Sangir	3	125.5	lima	lima	full colexification	_	no	no	_	_	183	abvd	127733	183	abvd	127733
+193	tala1285	Talaud	4.11846	126.795	_	limo	unknown	_	unknown	no	_	_				tala1285-2	barlowpacific	Stokhof1982Vol4
+194	bant1286	Bantik	1.44586	124.846	lima	lima	full colexification	_	no	no	_	_	5	abvd	Theddon-5-2005	bant1286-1	chan2019	Bantik.htm
+195	rata1244	Ratahan	1.07592	124.858	_	lima	unknown	_	unknown	no	_	_				rata1244-1	barlowpacific	Stokhof1983Vol7.2
+196	tomb1243	Tombulu	1.39715	124.754	_	lima	unknown	_	unknown	no	_	_				tomb1243-1	chan2019	Tombulu.htm
+197	tond1251	Tondano	1.28024	124.964	_	lima	unknown	_	unknown	no	_	_				tond1251-1	chan2019	Tondano.htm
+198	tons1240	Tonsea	1.51393	125.052	dengen	dima	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	496	abvd	Ticoalu-496-2007	496	abvd	Ticoalu-496-2007
+199	tont1239	Tontemboan	1.24813	124.654	kama	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’	_	137	abvd	Karisoh-137-2005	137	abvd	Karisoh-137-2005
+200	tons1239	Tonsawang	1.0539	124.652	_	lima	unknown	_	unknown	no	_	_				tons1239-1	chan2019	Tonsawang.htm
+201	toto1304	Totoli	1.14995	120.875	lima	lima	full colexification	_	no	no	_	_	748	abvd	Himmelmann2001Sourcebo	748	abvd	Himmelmann2001Sourcebo
+202	boan1243	Boano (Sulawesi)	0.51152	120.992	_	lima	unknown	_	unknown	no	_	_				boan1243-1	barlowpacific	Himmelmann2001
+203	dond1249	Dondo	0.80348	120.707	_	lelima	unknown	_	unknown	no	_	_				dond1249-1	barlowpacific	Himmelmann2001
+204	lauj1238	Lauje	0.50708	120.262	_	lelima	unknown	_	unknown	no	_	_				lauj1238-1	barlowpacific	Himmelmann2001
+205	tomi1243	Tomini	0.42569	120.89	lima	lelima	partial colexification	_	no	no	_	_	752	abvd	Himmelmann2001Sourcebo	752	abvd	Himmelmann2001Sourcebo
+206	bala1314	Balaesang	-0.05644	119.689	_	lelima	unknown	_	unknown	no	_	_				bala1314-1	barlowpacific	Himmelmann2001
+207	damp1237	Dampelas	0.70234	120.219	_	lelima	unknown	_	unknown	no	_	_				damp1237-1	barlowpacific	Himmelmann2001
+208	pend1242	Pendau	-0.11396	119.862	_	lelima	unknown	_	unknown	no	_	_				pend1242-1	barlowpacific	Himmelmann2001
+209	taje1237	Taje	-0.72583	120.078	_	lelima	unknown	_	unknown	no	_	_				taje1237-1	barlowpacific	Himmelmann2001
+210	taji1246	Tajio	-0.31553	120.01	_	lelima	unknown	_	unknown	no	_	_				taji1246-1	barlowpacific	Himmelmann2001
+211	andi1257	Andio	-0.88368	123.174	lima	limaʔ	partial colexification	_	no	no	_	_	997	abvd	Busenitz-997-2013	997	abvd	Busenitz-997-2013
+212	batu1260	Batui	-1.254442	122.487151	_	ʔolimaʔ	unknown	_	unknown	no	_	_				batu1260-1	chan2019	Butui.htm
+213	salu1253	Saluan	-2.748	121.3	_	olimaʔ	unknown	_	unknown	no	_	_				salu1253-1	chan2019	Saluan-Coastal.htm
+214	bobo1255	Bobongko	-0.36759	121.922	_	olima	unknown	_	unknown	no	_	_				bobo1255-1	chan2019	Bobongko.htm
+215	bala1315	Balantak	-0.86809	123.289	_	limaʔ	unknown	_	unknown	no	_	_				bala1315-1	chan2019	Balantak.htm
+216	bang1368	Banggai	-1.58305	123.171	lima	lima	full colexification	_	no	no	_	_	2	abvd	157306	2	abvd	157306
+217	kada1286	Kadai	-1.74547	125.142	_	lima	unknown	_	unknown	no	_	_				kada1286-1	barlowpacific	Stokhof1980Vol2
+218	tali1262	Taliabu	-1.79516	124.869	lima	lima	full colexification	_	no	no	_	_	127	abvd	13534	127	abvd	13534
+219	baho1237	Bahonsuai	-2.22572	121.707	kae	olima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	875	abvd	161612	875	abvd	161612
+220	bung1269	Bungku	-3.22197	122.212	lima	lima	full colexification	_	no	no	_	_	876	abvd	161612	880	abvd	161612
+221	koro1311	Koroni	-2.6367	121.977	lima	olima	partial colexification	_	no	no	_	_	883	abvd	161612	883	abvd	161612
+222	kuli1254	Kulisusu	-4.58411	123.045	lima	olima	partial colexification	_	no	no	_	_	884	abvd	161612	884	abvd	161612
+223	mori1268	Mori Bawah	-2.56016	121.37	kae	limo	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	41	abvd	Lapotiwa-41-2005	895	abvd	161612
+224	talo1252	Taloki	-4.6478	122.872	lima	olima	partial colexification	_	no	no	_	_	908	abvd	161612	908	abvd	161612
+225	wawo1239	Wawonii	-4.13587	123.1	lima	olima	partial colexification	_	no	no	_	_	917	abvd	161612	917	abvd	161612
+226	moro1287	Moronene	-4.62361	121.824	lima	lima	full colexification	_	no	no	_	_	904	abvd	161612	moro1287-1	chan2019	Moronene.htm
+227	mori1269	Mori Atas	-2.2555	121.035	kai	limo	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	885	abvd	161612	885	abvd	161612
+228	pado1242	Padoe	-2.60642	121.236	kae	limo	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	907	abvd	161612	907	abvd	161612
+229	toma1248	Tomadino	-2.56493	121.944	kae	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	914	abvd	161612	toma1248-1	barlowpacific	Stokhof1985Vol7.4
+230	kode1237	Kodeoha	-3.39566	120.937	_	olimo	unknown	_	unknown	no	_	_				kode1237-1	barlowpacific	Mead1999
+231	raha1237	Rahambuu	-3.24627	121.059	kae	olimo	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	919	abvd	161612	919	abvd	161612
+232	tola1247	Tolaki	-4.03577	121.888	kae	limo	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	674	abvd	Pidani-674-2010	674	abvd	Pidani-674-2010
+233	waru1266	Waru	-3.412	122.058	kae	olimo	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	915	abvd	161612	915	abvd	161612
+234	ciac1237	Cia-Cia	-5.68289	122.791	lima	lima	full colexification	_	no	no	_	_	ciac1237-bahar	lexirumah	mead15-ciacia	ciac1237-batu	lexirumah	mead15-ciacia
+235	kumb1274	Kumbewaha	-5.34485	123.154	lima	lima	full colexification	_	no	no	_	_	1521	abvd	MeadKumbewaha	kumb1274	lexirumah	mead17-kumbewaha
+236	lasa1237	Lasalimu	-5.23602	123.129	lima	lolima	partial colexification	_	no	no	_	_	1522	abvd	MeadLasalimu	1522	abvd	MeadLasalimu
+237	buso1238	Busoa	-5.60524	122.622	lima	lima	full colexification	_	no	no	_	_	buso1238	lexirumah	afa11	buso1238	lexirumah	afa11
+238	kaim1241	Kaimbulawa	-5.65447	122.538	lima	ɗima	lexically distinct	phonological change	no	no	_	_	kaim1241	lexirumah	McDowell10	kaim1241-1	chan2019	Kaimbulawa.htm
+239	kiok1239	Kioko	-4.99012	122.951	lima	dima	lexically distinct	phonological change	no	no	_	_	mead12-kambowa	lexirumah		kamb1300-lagu	lexirumah	berg86
+240	liab1237	Liabuku	-5.32268	122.699	lima	dima	lexically distinct	phonological change	no	no	_	_	liab1237	lexirumah	berg86	liab1237	lexirumah	berg86
+241	muna1247	Muna	-5.40419	122.541	lima	lima	full colexification	_	no	no	_	_	stan1308	lexirumah	bergsidu96	kato1242-lakar	lexirumah	berg86
+242	panc1247	Pancana	-5.29587	122.968	lima	lima	full colexification	_	no	no	_	_	panc1247-kampe	lexirumah	berg00	panc1247-kampe	lexirumah	berg00
+243	tuka1248	Tukang Besi North	-5.30994	123.578	lima	lima	full colexification	_	no	no	_	_	wanc1238	lexirumah	donohue00	wanc1238	lexirumah	donohue00
+244	tuka1249	Tukang Besi South	-5.7478	123.948	lima	lima	full colexification	_	no	no	_	_	112	abvd	Collins-112-2005	bino1238	lexirumah	mead15-ciacia
+245	bone1254	Bonerate	-7.37657	121.792	lima	ˈlima	full colexification	_	no	no	_	_	17	abvd	Collins-17-2005	bone1254-kalao	lexirumah	friberg87
+246	bara1371	Baras	-1.5667	119.342	_	lima	unknown	_	unknown	no	_	_				bara1371-1	barlowpacific	Yamaguchi2003
+247	daak1235	Da'a Kaili	-1.21051	119.527	_	lima	unknown	_	unknown	no	_	_				daak1235-1	barlowpacific	Barr1989
+248	ledo1238	Ledo Kaili	-1.03033	120.132	_	alima	unknown	_	unknown	no	_	_				ledo1238-1	barlowpacific	Arnaud1998
+249	unde1235	Unde Kaili	-0.85876	119.673	_	_	unknown	_	unknown	unknown	_	_						
+250	moma1242	Moma	-1.4313	120.009	_	lima	unknown	_	unknown	no	_	_				moma1242-2	chan2019	Moma.htm
+251	lind1248	Tado-Lindu	-1.35748	120.063	_	a.'ɽi.ma	unknown	_	unknown	no	_	_				lind1248-1	chan2019	Linda-Tado.htm
+252	sedo1237	Sedoa	-1.37295	120.378	_	_	unknown	_	unknown	unknown	_	_						
+253	pamo1252	Pamona	-1.62663	121.268	pale	alima	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	208	abvd	86248	pamp1243-1	chan2019	Pampangan.htm
+254	tomb1245	Tombelala	-2.50998	121.915	_	_	unknown	_	unknown	unknown	_	_						
+255	saru1242	Sarudu	-1.7094	119.349	_	lima	unknown	_	unknown	no	_	_				saru1242-1	barlowpacific	Yamaguchi2003
+256	umaa1242	Uma	-1.70416	119.968	pale	lima	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	999	abvd	Martens-999-2014	999	abvd	Martens-999-2014
+257	topo1243	Topoiyo	-2.06702	119.314	_	lima	unknown	_	unknown	no	_	_				topo1243-1	barlowpacific	Grimes1987
+258	kama1364	Kamaru	-5.15696	123.045	ˈlima	ˈlima	full colexification	_	no	no	_	_	kama1364	lexirumah	anceaux16	kama1364	lexirumah	anceaux16
+259	woli1241	Wolio	-5.33	122.67	lima	lima	full colexification	_	no	no	_	_	192	abvd	309688	192	abvd	309688
+260	laiy1246	Laiyolo	-6.45512	120.483	lima	lima	full colexification	_	no	no	_	_	nucl1577	lexirumah	maingak93	bara1372	lexirumah	laidig93
+261	kala1394	Kalao	-7.31213	120.995	lima	lima	full colexification	_	no	no	_	_	kala1394	lexirumah	laidig96	kala1394	lexirumah	laidig96
+262	wotu1240	Wotu	-2.59593	120.9	lima	lima	full colexification	_	no	no	_	_	wotu1240	lexirumah	laidig93-wotu	wotu1240-1	barlowpacific	Arnaud1998
+263	bada1261	Bada (Indonesia)	-1.80249	120.319	_	limaʔ	unknown	_	unknown	no	_	_				bada1261-1	chan2019	Bada-Sulawesi.htm
+264	beso1237	Besoa	-1.60095	120.379	_	lima	unknown	_	unknown	no	_	_				beso1237-1	chan2019	Besoa.htm
+265	napu1241	Napu	-1.43707	120.338	_	lima	unknown	_	unknown	no	_	_				napu1241-1	barlowpacific	Arnaud1998
+266	ramp1243	Rampi	-2.1399	120.356	_	limo	unknown	_	unknown	no	_	_				ramp1243-1	chan2019	Rampi.htm
+267	budo1241	Budong-Budong	-2.07756	119.327	_	lima	unknown	_	unknown	no	_	_				budo1241-1	barlowpacific	Yamaguchi2003
+268	pana1303	Panasuan	-2.24049	119.65	_	lima	unknown	_	unknown	no	_	_				pana1303-1	chan2019	Panasuan.htm
+269	seko1243	Seko Padang	-2.14311	119.959	_	lima	unknown	_	unknown	no	_	_				seko1243-1	chan2019	Seko-Padang.htm
+270	seko1242	Seko Tengah	-2.22069	119.823	_	lima	unknown	_	unknown	no	_	_				seko1242-1	barlowpacific	Grimes1987
+271	lemo1243	Lemolang	-2.63313	120.27	_	lima	unknown	_	unknown	no	_	_				lemo1243-1	barlowpacific	Grimes1987
+272	kalu1247	Kalumpang	-2.33388	119.474	_	lima	unknown	_	unknown	no	_	_				kalu1247-1	barlowpacific	Arnaud1998
+273	mama1276	Mamasa	-3.0811	119.484	_	lima	unknown	_	unknown	no	_	_				mama1276-1	barlowpacific	Stokhof1984Vol7.3
+274	taee1237	Tae'	-2.58205	120.139	_	lima	unknown	_	unknown	no	_	_				taee1237-1	barlowpacific	Grimes1987
+275	talo1251	Talondo'	-2.4525	119.35	_	_	unknown	_	unknown	unknown	_	_						
+276	tora1261	Toraja-Sa'dan	-2.97144	119.829	lima	lima	full colexification	_	no	no	_	_	226	abvd	21023	226	abvd	21023
+277	mamu1255	Mamuju	-2.50762	119.082	_	lima	unknown	_	unknown	no	_	_				mamu1255-1	barlowpacific	Stokhof1987Vol11
+278	dakk1238	Dakka	-3.33671	119.235	_	_	unknown	_	unknown	unknown	_	_						
+279	aral1243	Aralle-Tabulahan	-2.78397	119.319	_	lima	unknown	_	unknown	no	_	_				aral1243-1	barlowpacific	Arnaud1998
+280	bamb1270	Bambam	-3.02759	119.201	_	lima	unknown	_	unknown	no	_	_				bamb1270-1	chan2019	Bambam-Pitu-Ulunna-Salu.htm
+281	ulum1237	Ulumanda'	-3.00933	118.994	_	lima	unknown	_	unknown	no	_	_				ulum1237-1	barlowpacific	Grimes1987
+282	pann1239	Pannei	-3.21973	119.191	_	_	unknown	_	unknown	unknown	_	_						
+283	mand1442	Mandar	-3.34717	119.068	_	lima	unknown	_	unknown	no	_	_				mand1442-1	barlowpacific	Stokhof1985Vol7.4
+284	duri1242	Duri	-3.37081	119.871	_	lima	unknown	_	unknown	no	_	_				duri1242-1	barlowpacific	Arnaud1998
+285	enre1239	Enrekang	-3.53848	119.66	_	lima	unknown	_	unknown	no	_	_				enre1239-1	barlowpacific	Arnaud1998
+286	maiw1250	Maiwa (Indonesia)	-3.59444	119.978	_	_	unknown	_	unknown	unknown	_	_						
+287	mali1283	Malimpung	-3.6996	119.76	_	_	unknown	_	unknown	unknown	_	_						
+288	bugi1244	Buginese	-4.47	119.977	lima	lima	full colexification	_	no	no	_	_	48	abvd	Taha-48-2005	48	abvd	Taha-48-2005
+289	camp1262	Campalagian	-4.016667	119.623611	_	lima	unknown	_	unknown	no	_	_				camp1262-1	barlowpacific	Grimes1987
+290	emba1238	Embaloh	1.3156	112.63	taŋan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	83	abvd	26070	83	abvd	26070
+291	tama1335	Taman (Indonesia)	1.00003	112.975	_	lima	unknown	_	unknown	no	_	_				tama1335-1	chan2019	Taman-Kalimantan.htm
+292	coas1295	Coastal Konjo	-5.41532	120.304	_	lima	unknown	_	unknown	no	_	_				coas1295-1	chan2019	Konjo.htm
+293	high1275	Highland Konjo	-5.26559	119.928	_	_	unknown	_	unknown	unknown	_	_						
+294	bent1237	Bentong	-4.76004	119.806	_	_	unknown	_	unknown	unknown	_	_						
+295	maka1311	Makasar	-5.65551	119.838	lima	lima	full colexification	_	no	no	_	_	166	abvd	Rajab-166-2005	166	abvd	Rajab-166-2005
+296	sela1260	Selayar	-6.10145	120.496	_	lima	unknown	_	unknown	no	_	_				sela1260-1	barlowpacific	Stokhof1984Vol7.3
+297	basa1286	Basap	1.41405	117.942	_	lima	unknown	_	unknown	no	_	_				basa1286-1	chan2019	Basap.htm
+298	inab1237	Inabaknon	12.4264	124.166	kambag	lima	lexically distinct	lexical replacement	yes	no	PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ ?	_	490	abvd	Jacobson-490-2007	490	abvd	Jacobson-490-2007
+299	indo1317	Indonesian Bajau	-3.68664	122.253	tangan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	489	abvd	Nuraini-489-2007	619	abvd	75297
+300	mapu1244	Mapun	6.09061	118.75	tangan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	491	abvd	97255	491	abvd	97255
+301	west2560	West Coast Bajau	6.00631	116.124	_	limo	unknown	_	unknown	no	_	_				west2560-1	barlowpacific	Arnaud1998
+302	bala1311	Balangingi	6.011614	121.686646	_	lima	unknown	_	unknown	no	_	_				bala1311-1	chan2019	Sama-Balangingi.htm
+303	cent2092	Central Sama	7.004574	118.455978	taŋan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	1643	abvd	Pallesen2021	443	abvd	136553
+304	sout2918	Southern Sama	4.755836	119.483887	tangan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	732	abvd	allison1979a	732	abvd	allison1979a
+305	pang1291	Pangutaran Sama	6.27167	120.536	tangan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	733	abvd	walton1979a;walton1992a	733	abvd	walton1979a;walton1992a
+306	yaka1277	Yakan	6.531023	122.021729	taŋan	lime	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	200	abvd	134664;pack1975a;molony1969a	200	abvd	134664;pack1975a;molony1969a
+307	ampa1239	Ampanang	-0.79259	116.349	_	lima	unknown	_	unknown	no	_	_				ampa1239-1	barlowpacific	Knappert1905
+308	tunj1244	Tunjung	-0.29048	115.883	aŋaʔ	limaʔ	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	189	abvd	7677	tunj1244-2	chan2019	Tunjung.htm
+309	dusu1269	Dusun Malang	-0.85277	115.392	_	dime	unknown	_	unknown	no	_	_				dusu1269-1	chan2019	Dusun-Malang.htm
+310	lawa1257	Lawangan	-1.80261	115.876	kayang	limo'	lexically distinct	lexical replacement	yes	no	?	_	1209	abvd	Hendra-1209-2015	1209	abvd	Hendra-1209-2015
+311	tawo1243	Tawoyan	-1.30017	115.204	_	liməʔ	unknown	_	unknown	no	_	_				tunj1244-1	chan2019	Tawoyan.htm
+312	dusu1271	Dusun Deyah	-1.95514	115.578	_	dimɔ	unknown	_	unknown	no	_	_				dusu1271-1	chan2019	Dusun-Deyah.htm
+313	kohi1250	Kohin	-1.43973	111.905	_	lime	unknown	_	unknown	no	_	_				kohi1250-1	barlowpacific	Iper2003
+314	otda1235	Ot Danum	-0.3955	113.469	ɾoŋo	limo	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	487	abvd	Inagaki-487-2007	otda1235-1	chan2019	Ot-Danum-Dohoi.htm
+315	sian1254	Siang	-0.38398	114.693	_	limo	unknown	_	unknown	no	_	_				sian1254-1	barlowpacific	Ray1913
+316	baku1263	Bakumpai	-1.98842	114.77	_	limɛ	unknown	_	unknown	no	_	_				baku1263-1	chan2019	Bakumpai.htm
+317	ngaj1237	Ngaju	-1.58463	112.794	lenge	lime	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	360	abvd	Turangan-360-2005	154	abvd	JRTurangan-154-2005
+318	dusu1267	Dusun Witu	-1.57408	114.979	_	dime	unknown	_	unknown	no	_	_				dusu1267-1	chan2019	Dusun-Witu.htm
+319	maan1238	Ma'anyan	-2.1239	115.092	taŋan	limɨʔ	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	215	abvd	312062	maan1238-1	chan2019	Lawangan.htm
+320	paku1239	Paku	-1.9063	115.087	_	dimo	unknown	_	unknown	no	_	_				paku1239-2	chan2019	Paku-AN.htm
+321	plat1254	Plateau Malagasy	-19.5907	47.1211	tánana	dimy	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	92	abvd	110341;81814	92	abvd	110341;81814
+322	sout2920	Southern Betsimisaraka Malagasy	-22.8	47.82	_	díme	unknown	_	unknown	no	_	_				sout2920-1	barlowpacific	Ruud1955
+323	bush1250	Kibosy Kiantalaotsy-Majunga	-12.9652	45.1368	_	paipo	unknown	_	unknown	yes	_	?				bush1250-2	barlowpacific	Gueunier1986
+324	anta1255	Antankarana Malagasy	-13.2164	49.2402	_	di̍mi	unknown	_	unknown	no	_	_				anta1255-1	barlowpacific	ThomasFattier1982
+325	nort2890	Northern Betsimisaraka Malagasy	-19.9184	48.812	_	dimý	unknown	_	unknown	no	_	_				nort2890-1	barlowpacific	Jully1901
+326	tsim1257	Tsimihety Malagasy	-15.4294	48.8102	_	_	unknown	_	unknown	unknown	_	_						
+327	bara1369	Bara Malagasy	-23.9716	45.5937	_	límy	unknown	_	unknown	no	_	_				bara1369-1	barlowpacific	Rabenilaina1974
+328	tano1246	Tanosy Malagasy	-24.9186	47.1357	_	limý	unknown	_	unknown	no	_	_				tano1246-1	barlowpacific	Jully1901
+329	masi1268	Masikoro Malagasy	-22.5582	43.8156	_	lime	unknown	_	unknown	no	_	_				masi1268-1	barlowpacific	Dahl1968
+330	saka1291	West Malagasy Sakalava	-20.28	44.32	taŋa	lime	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	1184	abvd	14148	1184	abvd	14148
+331	maha1309	Mahafaly-Antanalana Malagasy	-24.2	44.5	_	limé	unknown	_	unknown	no	_	_				maha1309-2	barlowpacific	Jully1901
+332	tesa1236	Tesaka Malagasy	-23.3	47.33	_	dimi	unknown	_	unknown	no	_	_				tesa1236-1	barlowpacific	Deschamps1936
+333	tand1256	Tandroy Malagasy	-24.80155	45.9	tàña	lìme	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	1186	abvd	319701	1186	abvd	319701
+334	bong1289	Bonggi	7.29249	117.174	fī	lima	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ?	_	3	abvd	124789	bong1289-1	barlowpacific	Lobel2016
+335	idaa1241	Ida'an	5.29059	118.515	ʌppiʔ	limo	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ?	_	262	abvd	Moody-262-2005	262	abvd	Moody-262-2005
+336	dump1242	Dumpas	5.93483	117.419	_	limo	unknown	_	unknown	no	_	_				dump1242-1	barlowpacific	Lobel2016
+337	labu1249	Labuk-Kinabatangan Kadazan	5.51924	117.507	_	limo	unknown	_	unknown	no	_	_				labu1249-1	barlowpacific	Smith1970
+338	rung1259	Rungus	6.83989	116.743	_	'ɮimɔ	unknown	_	unknown	no	_	_				rung1259-1	chan2019	Rungus.htm
+339	kima1244	Kimaragang	6.61982	116.96	_	limoʔ	unknown	_	unknown	no	_	_				kima1244-1	chan2019	Kimaragang-Dusun.htm
+340	tobi1239	Tobilung	6.56097	116.67	_	limo	unknown	_	unknown	no	_	_				tobi1239-1	barlowpacific	Lobel2016
+341	kota1279	Kota Marudu Talantang	6.48554	116.853	_	_	unknown	_	unknown	unknown	_	_						
+342	cent2100	Kadazan Dusun	6.02998	116.681	longon	lima	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	495	abvd	Atin-495-2007	cent2100-5	barlowpacific	Ray1913
+343	mino1243	Minokok	5.43348	116.759	_	liməʔ	unknown	_	unknown	no	_	_				mino1243-1	barlowpacific	Lobel2016
+344	sugu1243	Sugut Dusun	6.14235	117.176	longon	limo	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	934	abvd	Sariau-934-2012	934	abvd	Sariau-934-2012
+345	kuij1237	Kuijau	5.47179	116.108	_	limoᵘ	unknown	_	unknown	no	_	_				kuij1237-1	chan2019	Kuijau.htm
+346	klia1235	Klias River Kadazan	5.39453	115.582	_	_	unknown	_	unknown	unknown	_	_						
+347	tomb1244	Tombonuo	6.2892	117.322	_	limə	unknown	_	unknown	no	_	_				tomb1244-1	barlowpacific	Lobel2016
+348	abai1240	Abai Sungai	5.55394	118.306	_	limo	unknown	_	unknown	no	_	_				abai1240-1	chan2019	Abai-Sungai.htm
+349	lana1236	Lanas Lobu	5.39196	116.577	_	limə	unknown	_	unknown	no	_	_				lana1236-1	barlowpacific	Lobel2016
+350	tamp1254	Tampias Lobu	5.72467	116.789	_	limo	unknown	_	unknown	no	_	_				tamp1254-1	barlowpacific	Lobel2016
+351	uppe1427	Upper Kinabatangan	5.31911	116.901	_	limo	unknown	_	unknown	no	_	_				uppe1427-1	barlowpacific	Lobel2016
+352	seru1246	Serudung Murut	4.39954	117.279	_	limo	unknown	_	unknown	no	_	_				seru1246-1	barlowpacific	Lobel2016
+353	brun1245	Brunei Bisaya-Dusun	4.60791	114.517	_	limɔʰ	unknown	_	unknown	no	_	_				brun1245-1	chan2019	Bisaya-Brunei.htm
+354	lotu1250	Lotud	6.13732	116.232	_	limo	unknown	_	unknown	no	_	_				lotu1250-1	barlowpacific	Lobel2016
+355	saba1267	Sabah Bisaya	5.30433	115.512	_	limo	unknown	_	unknown	no	_	_				saba1267-2	barlowpacific	Lobel2016
+356	gana1277	Gana	5.57583	116.145	_	limo	unknown	_	unknown	no	_	_				gana1277-1	chan2019	Gana-Sabah.htm
+357	book1241	Bookan	5.32519	116.474	_	limoʔ	unknown	_	unknown	no	_	_				book1241-1	chan2019	Bookan.htm
+358	keni1249	Keningau Murut	5.42272	116.198	_	limo	unknown	_	unknown	no	_	_				keni1249-1	barlowpacific	Brewis1990
+359	timu1262	Timugon Murut	5.1796	115.826	loŋon	limo	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	22	abvd	Prentice-22-2005	timu1262-1	barlowpacific	Lobel2016
+360	palu1253	Paluan	5.02715	116.346	_	limo	unknown	_	unknown	no	_	_				palu1253-1	barlowpacific	Lobel2016
+361	taga1273	Tagal Murut	4.42907	116.177	_	limo	unknown	_	unknown	no	_	_				taga1273-1	barlowpacific	Lobel2016
+362	buru1304	Burusu	3.36912	117.012	_	lima	unknown	_	unknown	no	_	_				buru1304-1	chan2019	Burusu.htm
+363	nort3262	Northern Tidung	5.8606	117.5455	_	limo	unknown	_	unknown	no	_	_				nort3262-1	barlowpacific	Lobel2016
+364	sout3241	Southern Tidung	4	117.75	_	limo	unknown	_	unknown	no	_	_				sout3241-1	barlowpacific	Lobel2016
+365	kala1391	Kalabakan	4.53605	117.317	_	limo	unknown	_	unknown	no	_	_				kala1391-1	barlowpacific	Lobel2016
+366	okol1241	Okolod	4.53989	115.753	_	limo	unknown	_	unknown	no	_	_				okol1241-1	barlowpacific	Lobel2016
+367	selu1243	Selungai Murut	4.34788	116.45	_	limo	unknown	_	unknown	no	_	_				selu1243-1	barlowpacific	Lobel2016
+368	semb1240	Sembakung Murut	4.22102	116.799	_	limo	unknown	_	unknown	no	_	_				semb1240-1	barlowpacific	Lobel2016
+369	abai1241	Abai Tubu-Abai Sembuak	3.524226	116.162455	_	limo	unknown	_	unknown	no	_	_				abai1241-1	barlowpacific	Lobel2016
+370	papa1268	Papar	5.57378	115.58	_	limo	unknown	_	unknown	no	_	_				papa1268-1	barlowpacific	Lobel2016
+371	tata1257	Tatana	5.49808	115.553	_	limo	unknown	_	unknown	no	_	_				tata1257-1	barlowpacific	Lobel2016
+372	bolo1268	Bolongan	2.75927	117.293	_	lima	unknown	_	unknown	no	_	_				bolo1268-1	barlowpacific	Ray1913
+373	kipu1237	Kiput	4.16535	114.367	_	liməh	unknown	_	unknown	no	_	_				kipu1237-1	chan2019	Kiput.htm
+374	bela1260	Lemeting	4.96207	114.933	ŋan	limah	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	151	abvd	Mastin-151-2005	151	abvd	Mastin-151-2005
+375	tuto1241	Tutong	4.74327	114.638	_	limɒʰ	unknown	_	unknown	no	_	_				tuto1241-1	chan2019	Tutung.htm
+376	lela1246	Lelak	4.11426	114.029	_	limă	unknown	_	unknown	no	_	_				lela1246-1	barlowpacific	Ray1913
+377	naro1251	Narom	4.42115	114.011	_	lima	unknown	_	unknown	no	_	_				naro1251-1	barlowpacific	Ray1913
+378	cent2098	Central Berawan	3.97194	114.565	_	dimah	unknown	_	unknown	no	_	_				cent2098-1	chan2019	Berawan-Central.htm
+379	east2486	East Berawan	3.96098	114.606	_	dimiey	unknown	_	unknown	no	_	_				east2486-1	chan2019	Berawan-East.htm
+380	west2564	West Berawan	3.9815	114.528	tisu	dimmah	lexically distinct	lexical replacement	yes	no	?	_	45	abvd	Blust-45-2005	45	abvd	Blust-45-2005
+381	kela1258	Kelabit	3.31783	115.428	tidʰuʔ	limah	lexically distinct	lexical replacement	yes	no	?	_	60	abvd	Blust-60-2005	kela1258-3	chan2019	Kelabit.htm
+382	leng1260	Lengilu	3.69641	115.91	_	_	unknown	_	unknown	unknown	_	_						
+383	lund1271	Lundayeh	4.25064	115.5	ticu'	ˈli.məh	lexically distinct	lexical replacement	yes	no	?	_	712	abvd	ganang2009a	lund1271-1	chan2019	LunBawang.htm
+384	saba1265	Sa'ban	3.58723	115.664	_	imɑh	unknown	_	unknown	no	_	_				saba1265-1	chan2019	Saban.htm
+385	trin1273	Tring	1.335	110.036	_	lima	unknown	_	unknown	no	_	_				trin1273-1	barlowpacific	Ray1913
+386	bint1246	Bintulu	3.867	113.634	agem	lima	lexically distinct	lexical replacement	yes	no	?	_	15	abvd	Blust-15-2005	bint1246-1	chan2019	Bintulu.htm
+387	waha1238	Eastern Lowland Kenyah	1.56635	116.655	_	ləme	unknown	_	unknown	no	_	_				1471	abvd	478018
+388	east2485	Eastern Penan	4.5915	114.584	_	ləmah	unknown	_	unknown	no	_	_				east2485-1	chan2019	Penan-Eastern.htm
+389	sebo1238	Sebop	3.42701	114.178	_	lĕma	unknown	_	unknown	no	_	_				sebo1238-1	barlowpacific	Ray1913
+390	west2563	Western Penan	3.4667	114.523	_	lima	unknown	_	unknown	no	_	_				west2563-3	barlowpacific	Urquhart1955
+391	long1406	Western Lowland Kenyah	3.85226	114.82	_	ləmɨ	unknown	_	unknown	no	_	_				long1406-1	barlowpacific	Smith2015
+392	umal1239	Uma' Lasan	2.14141	114.205	_	lima	unknown	_	unknown	no	_	_				umal1239-2	barlowpacific	Ray1913
+393	umal1238	Uma' Lung	3.25	116.5	_	_	unknown	_	unknown	unknown	_	_						
+394	main1275	Usun Apau Kenyah	3.54443	114.039	lekuʔan	ləma	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	62	abvd	Blust-62-2005	1472	abvd	478018
+395	kaja1250	Kajaman	2.78613	113.886	_	limah	unknown	_	unknown	no	_	_				kaja1250-1	barlowpacific	Urquhart1955
+396	laha1253	Lahanan	2.72734	113.947	tuju	limah	lexically distinct	lexical replacement	yes	no	?	_	205	abvd	LakeIdo-205-2005	laha1253-1	barlowpacific	Urquhart1955
+397	seka1248	Sekapan	2.47567	113.562	_	lima	unknown	_	unknown	no	_	_				seka1248-1	barlowpacific	Urquhart1955
+398	cent2101	Central Melanau	2.524086	111.346451	ñagem	lima	lexically distinct	lexical replacement	yes	no	?	_	90	abvd	Blust-90-2005	90	abvd	Blust-90-2005
+399	daro1239	Daro-Matu Melanau	2.54435	111.536	_	_	unknown	_	unknown	unknown	_	_						
+400	kano1244	Kanowit-Tanjong Melanau	2.03781	112.383	_	limah	unknown	_	unknown	no	_	_				kano1244-1	barlowpacific	Urquhart1955
+401	sibu1258	Sibu Melanau	2.26758	111.763	_	lima	unknown	_	unknown	no	_	_				sibu1258-1	barlowpacific	Ray1913
+402	puna1267	Punan Aput	1.38035	116.089	_	limoʔ	unknown	_	unknown	no	_	_				puna1267-1	chan2019	Punan-Aput.htm
+403	puna1278	Punan Batu 1	2.65327	113.93	_	limoh	unknown	_	unknown	no	_	_				puna1278-1	barlowpacific	Urquhart1955
+404	puna1268	Punan Merah	0.50763	115.588	_	_	unknown	_	unknown	unknown	_	_						
+405	sian1255	Sihan	2.66154	113.843	_	Limoh	unknown	_	unknown	no	_	_				sian1255-1	barlowpacific	Sandin1985
+406	buka1261	Bukat	1.29075	113.246	laŋər	līmɛ	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	195	abvd	Rousseau-195-2005	buka1261-1	chan2019	Bukat.htm
+407	buki1248	Bukitan	2.34947	114.895	_	limo	unknown	_	unknown	no	_	_				buki1248-1	chan2019	Bukitan.htm
+408	ukit1237	Ukit	1.56623	114.579	_	limə	unknown	_	unknown	no	_	_				ukit1237-1	chan2019	Ukit.htm
+409	puna1275	Punan Bah-Biau	2.27377	113.156	_	limo	unknown	_	unknown	no	_	_				puna1275-1	barlowpacific	Urquhart1955
+410	puna1266	Punan Tubu	2.86972	116.26	_	limoh	unknown	_	unknown	no	_	_				puna1266-1	chan2019	Punan-Tubu.htm
+411	saja1241	Sajau-Latti	2.43432	117.401	_	_	unknown	_	unknown	unknown	_	_						
+412	aohe1237	Aoheng-Seputan	0.87404	114.127	_	līmo	unknown	_	unknown	no	_	_				aohe1237-1	barlowpacific	Stokhof1986Vol8
+413	hovo1239	Hobongan	0.9841	113.897	_	dīmo	unknown	_	unknown	no	_	_				hovo1239-1	chan2019	Hovongan.htm
+414	kere1285	Kereho	0.64649	113.644	_	dimo	unknown	_	unknown	no	_	_				kere1285-1	chan2019	Kereho.htm
+415	baha1257	Bahau	0.30801	115.332	_	limaʔ	unknown	_	unknown	no	_	_				baha1257-1	chan2019	Bahua.htm
+416	bara1370	Baram Kayan	3.51211	114.482	_	limaʔ	unknown	_	unknown	no	_	_				1478	abvd	478018
+417	kaya1325	Kayan River Kayan	1.78269	115.827	_	_	unknown	_	unknown	unknown	_	_						
+418	mend1267	Mendalam Kayan	0.98794	113.286	_	_	unknown	_	unknown	unknown	_	_						
+419	busa1255	Busang Kayan	0.03494	115.401	_	limaʔ	unknown	_	unknown	no	_	_				busa1255-1	chan2019	Busang.htm
+420	kaya1324	Kayan Mahakam	0.91787	114.452	_	limö’	unknown	_	unknown	no	_	_				kaya1324-1	barlowpacific	Barth1910
+421	reja1241	Rejang Kayan	2.71903	114.169	usu	limaʔ	lexically distinct	lexical replacement	yes	no	?	_	237	abvd	Blust-237-2005	237	abvd	Blust-237-2005
+422	muri1259	Murik (Malaysia)	3.7519	114.434	_	lemaʔ	unknown	_	unknown	no	_	_				muri1259-1	barlowpacific	Smith2015
+423	moda1244	Modang	0.80793	116.573	gwɛ	mao̯ʔ	lexically distinct	lexical replacement	yes	no	?	_	232	abvd	Guerreiro-232-2005	moda1244-1	chan2019	Modang-AN.htm
+424	sega1243	Segai	1.97695	116.954	eguy	moʔ	lexically distinct	lexical replacement	yes	no	?	_	181	abvd	Guerreiro-181-2005	sega1243-1	chan2019	Segai-Gaai.htm
+425	iban1264	Iban	2.09041	112.934	taŋan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	28	abvd	41604	iban1264-1	barlowpacific	Urquhart1955
+426	remu1237	Remun	1.26305	110.82	_	_	unknown	_	unknown	unknown	_	_						
+427	sebe1242	Seberuang	-0.02463	111.212	_	limaʔ	unknown	_	unknown	no	_	_				sebe1242-1	chan2019	Seberuang.htm
+428	mual1241	Mualang	0.31083	111.077	_	limaʔ	unknown	_	unknown	no	_	_				mual1241-1	chan2019	Mualang.htm
+429	keni1248	Keninjal	-0.63184	111.808	_	limaʔ	unknown	_	unknown	no	_	_				keni1248-1	chan2019	Keninjal.htm
+430	kend1254	Kendayan-Belangin	1.47957	109.467	_	limɔʔ	unknown	_	unknown	no	_	_				kend1254-1	chan2019	Kendayan-Selako.htm
+431	ment1251	Menterap	-0.293181	110.670512	_	_	unknown	_	unknown	unknown	_	_						
+432	mala1480	Malayic Dayak	-2.78384	111.136	_	lima'	unknown	_	unknown	no	_	_				mala1480-1	barlowpacific	Stokhof1986Vol8
+433	haji1235	Haji	-5.07781	104.714	_	lima	unknown	_	unknown	no	_	_				haji1235-1	chan2019	Haji.htm
+434	oldm1243	Old Malay	-0.648259	103.353479	_	_	unknown	_	unknown	unknown	_	_						
+435	duan1242	Duano	0.72162	103.46759	_	limoh	unknown	_	unknown	no	_	_				duan1242-1	barlowpacific	Arnaud1998
+436	beta1252	Betawi	-6.21174	107.022	taŋan	lime	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	1686	abvd	Chaer2009	beta1252-1	barlowpacific	Ikranegara1980
+437	coco1260	Cocos Islands Malay	-12.193342	96.833679	_	lima	unknown	_	unknown	no	_	_				coco1260-1	barlowpacific	Adelaar1996
+438	pera1256	Peranakan Indonesian	-7.982	112.619	_	lima	unknown	_	unknown	no	_	_				pera1256-2	barlowpacific	Rafferty1982
+439	kaur1269	Kaur	-4.6251	103.512	_	lima	unknown	_	unknown	no	_	_				kaur1269-1	barlowpacific	Stokhof1987Vol10.2
+440	cent2053	South Barisan Malay	-3.79673	103.137	taŋan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	1204	abvd	Irsan2009;McDonnell2008	cent2053-2	barlowpacific	Stokhof1987Vol10.2
+441	kubu1239	Kubu	-2.42661	102.193	_	lima	unknown	_	unknown	no	_	_				kubu1239-1	barlowpacific	Anderbeck2008
+442	coll1240	Col	-3.52245	103.451	_	limɛ	unknown	_	unknown	no	_	_				coll1240-1	chan2019	Col.htm
+443	musi1241	Musi	-2.93987	103.945	_	limo	unknown	_	unknown	no	_	_				musi1241-1	chan2019	Musi.htm
+444	bang1365	Bangka	-1.73288	105.897	taŋan	lime	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	1191	abvd	Iswanto-1191-2014	1193	abvd	67307
+445	lonc1237	Loncong	-0.02586	103.548	_	limaʔ	unknown	_	unknown	no	_	_				lonc1237-1	chan2019	Loncong.htm
+446	jamb1236	Jambi Malay	-2.6469	103.13	taŋan	limo	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	1192	abvd	73764	1192	abvd	73764
+447	keri1250	Kerinci	-1.93668	101.403	tana	limo	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	63	abvd	Nikelas-63-2005	keri1250-1	chan2019	Kerinci.htm
+448	lubu1241	Lubu	0.63989	99.74549	_	limö	unknown	_	unknown	no	_	_				lubu1241-1	barlowpacific	Helbig1933
+449	mina1268	Minangkabau	-0.896	100.44	taŋan	limo	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	172	abvd	Hana-172-2005	172	abvd	Hana-172-2005
+450	nege1240	Negeri Sembilan Malay	2.66503	102.291	_	limõ	unknown	_	unknown	no	_	_				nege1240-1	barlowpacific	Hendon1966
+451	peka1242	Pekal	-3.02248	101.691	_	limʉ	unknown	_	unknown	no	_	_				peka1242-1	chan2019	Pekal.htm
+452	bali1279	Balinese Malay	-8.355884	114.648391	_	limê	unknown	_	unknown	no	_	_				bali1279-1	barlowpacific	Sumarsono1990
+453	mala1479	Central Malay	1.85856	103	tangan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	507	abvd	Iszan-507-2008	mala1479-1	chan2019	Malay.htm
+454	jaku1244	Jakun	2.64582	103.342	_	_	unknown	_	unknown	unknown	_	_						
+455	keda1251	Kedah-Perak Malay	5.933	100.492	_	_	unknown	_	unknown	unknown	_	_						
+456	patt1249	Kelantan-Pattani Malay	6.38148	101.41	_	limɔ	unknown	_	unknown	no	_	_				patt1249-1	barlowpacific	Pakkhem2007
+457	urak1238	Urak Lawoi'	7.5258	99.0768	tangan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	793	abvd	87810	793	abvd	87810
+458	oran1258	Orang Kanaq	1.88296	104.008	_	limu	unknown	_	unknown	no	_	_				oran1258-1	barlowpacific	Yusop2013
+459	oran1259	Orang Seletar	1.45841	103.766	_	limə	unknown	_	unknown	no	_	_				oran1259-1	barlowpacific	Arnaud1998
+460	temu1239	Temuan	2.78176	101.906	_	_	unknown	_	unknown	unknown	_	_						
+461	teng1267	Tenggarong Kutai Malay	0.71803	117.645	_	lima	unknown	_	unknown	no	_	_				teng1267-1	barlowpacific	Suryadikara1984
+462	indo1316	Standard Indonesian	-7.33458	109.716	tangan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	1556	abvd	552133	233	abvd	67091
+463	stan1306	Standard Malay	3.08896	101.699	tangan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	468	abvd	Fynnie-468-2006	468	abvd	Fynnie-468-2006
+464	banj1239	Banjar	0.747105	115.79	tangan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	150	abvd	Adul-150-2005	150	abvd	Adul-150-2005
+465	buki1247	Bukit Malay	-2.75049	115.64	_	lima	unknown	_	unknown	no	_	_				buki1247-1	barlowpacific	Ismail1979
+466	bera1262	Berau Malay	1.6687	117.934	_	lima	unknown	_	unknown	no	_	_				bera1262-1	barlowpacific	Collins1994
+467	baca1243	Bacanese Malay	-0.62275	127.49	_	lima	unknown	_	unknown	no	_	_				baca1243-1	barlowpacific	Teljeur1982
+468	brun1242	Brunei	4.456045	114.429505	tangan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	263	abvd	Chuchu-263-2005	263	abvd	Chuchu-263-2005
+469	saba1263	Sabah Malay	4.64808	117.024	_	lima	unknown	_	unknown	no	_	_				saba1263-1	barlowpacific	Aye2005
+470	kota1275	Kota Bangun Kutai Malay	-0.27049	116.297	_	lima	unknown	_	unknown	no	_	_				kota1275-1	barlowpacific	Stokhof1986Vol8
+471	baba1267	Baba Malay	1.75414	103.076	_	lima	unknown	_	unknown	no	_	_				baba1267-1	barlowpacific	Lee2014
+472	mala1482	Malaccan Creole Malay	2.20265	102.240488	_	_	unknown	_	unknown	unknown	_	_						
+473	sril1245	Sri Lanka Malay	6.91603	79.864	_	liima	unknown	_	unknown	no	_	_				sril1245-1	barlowpacific	Nordhoff2009
+474	maka1305	Makassar Malay	-5.16108	119.408	_	lima	unknown	_	unknown	no	_	_				maka1305-1	barlowpacific	Arief1985
+475	lara1260	Larantuka Malay	-8.4746	122.7619	_	lima	unknown	_	unknown	no	_	_				lara1260-1	barlowpacific	Paauw2009
+476	kupa1239	Kupang Malay	-10.2526	123.63	_	lima	unknown	_	unknown	no	_	_				kupa1239-1	barlowpacific	Paauw2009
+477	ambo1250	Ambonese Malay	-3.71342	128.184	taŋaŋ	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	170	abvd	Kakerissa-170-2005	ambo1250-1	barlowpacific	Paauw2009
+478	band1353	Banda Malay	-4.55565	129.905	_	lima	unknown	_	unknown	no	_	_				band1353-1	barlowpacific	Stokhof1982Vol3.3
+479	nort2828	North Moluccan Malay	-0.86437	128.323	tangan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	652	abvd	Albaar-652-2009	652	abvd	Albaar-652-2009
+480	gora1261	Gorap	2.13058	128.261	_	_	unknown	_	unknown	unknown	_	_						
+481	mala1481	Manado Malay	1.48099	124.843	_	lima	unknown	_	unknown	no	_	_				mala1481-2	barlowpacific	Paauw2009
+482	papu1250	Papuan Malay	-2.53482	139.651	_	lima	unknown	_	unknown	no	_	_				papu1250-1	barlowpacific	Paauw2009
+483	achi1257	Acehnese	3.90757	96.6032	taŋɨn	limong	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	648	abvd	Rajki-648-2009	648	abvd	Rajki-648-2009
+484	east2563	Eastern Cham	11.2853	108.49	taŋin	limɯ	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	371	abvd	130362;104212	east2563-1	chan2019	Cham-Eastern.htm
+485	west2650	Western Cham	12.4771	104.026	tangơn	lamɨː	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	830	abvd	61607	west2650-1	chan2019	Cham-Western.htm
+486	haro1237	Haroi	13.2201	108.995	_	lə'mɨᵃ	unknown	_	unknown	no	_	_				haro1237-1	chan2019	Haroi.htm
+487	cacg1235	Cacgia Roglai	11.6489	109.138	_	ləmɨŋ	unknown	_	unknown	no	_	_				cacg1235-1	chan2019	Roglai-Cat-Gia.htm
+488	chru1239	Chru	11.6625	108.529	tənga:n	ləmɑ	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	406	abvd	Shikanov-406-2006	chru1239-1	chan2019	Chru.htm
+489	sout3010	Southern Roglai	11.3003	108.318	_	lumɑ	unknown	_	unknown	no	_	_				sout3010-1	chan2019	Roglai-Southern.htm
+490	nort2994	Northern Roglai	12.1967	108.849	tangãn	li'mɑ̃	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	745	abvd	161507	nort2994-1	chan2019	Roglai-Northern.htm
+491	tsat1238	Tsat	18.3192	109.336	ŋa:n 33	ma 33	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	361	abvd	Thurgood-361-2005	361	abvd	Thurgood-361-2005
+492	biha1246	Bih	12.483333	108.016667	_	ima	unknown	_	unknown	no	_	_				biha1246-1	barlowpacific	Nguyen2013
+493	jara1266	Jarai	13.6161	107.813	tơngan	rơma	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	744	abvd	119556	744	abvd	119556
+494	rade1240	Rade	12.979	108.41	kngan	i'mɑ	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	741	abvd	146372	rade1240-1	chan2019	Bih.htm
+495	buka1257	Bukar-Sadung Bidayuh	0.96817	110.657	_	rīməh	unknown	_	unknown	no	_	_				buka1257-1	chan2019	Bukar-Sadong.htm
+496	baub1235	Bau-Jagoi Bidayuh	1.54467	109.985	toŋan	limo	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	125	abvd	319956	baub1235-1	barlowpacific	Ray1913
+497	biat1246	Biatah Bidayuh	1.17596	110.254	_	riməh	unknown	_	unknown	no	_	_				biat1246-1	chan2019	Biatah-Bidayuh.htm
+498	trin1271	Tringgus-Sembaan Bidayuh	1.4313	109.95	_	_	unknown	_	unknown	unknown	_	_						
+499	jang1257	Jangkang	0.29738	110.647	_	ɣimú	unknown	_	unknown	no	_	_				jang1257-1	chan2019	Jangkang.htm
+500	kemb1249	Mateq	0.66181	110.468	_	limöng	unknown	_	unknown	no	_	_				kemb1249-1	barlowpacific	Stokhof1986Vol8
+501	sema1269	Onya Darat	-0.75188	110.527	_	limaʔ	unknown	_	unknown	no	_	_				sema1269-3	chan2019	Semandang.htm
+502	ribu1241	Ribun	0.32189	110.207	_	hɪmuh	unknown	_	unknown	no	_	_				ribu1241-1	chan2019	Ribun.htm
+503	sang1339	Sanggau	-0.13152	110.404	_	ɣima	unknown	_	unknown	no	_	_				sang1339-1	chan2019	Bakati.htm
+504	rara1235	Rara Bakati'	1.27026	109.539	_	(rima)	unknown	_	unknown	no	_	_				rara1235-1	barlowpacific	Ray1913
+505	sara1329	Sara Bakati'	1.20403	109.6155	_	_	unknown	_	unknown	unknown	_	_						
+506	beka1241	Riuk Bekati'	1.3307	109.576	barekng	rimaʔ	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ?	_	488	abvd	Bryant-488-2007	488	abvd	Bryant-488-2007
+507	beny1237	Benyadu'	0.78534	109.753	_	rima	unknown	_	unknown	no	_	_				beny1237-1	chan2019	Benyadu.htm
+508	mokl1243	Moklen	8.16761	98.3176	ŋɐn	nɛmaːʔ	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	1570	abvd	318891	mokl1243-1	chan2019	Moklen.htm
+509	moke1242	Moken	10.1474	98.6765	ŋan	lemaʔ	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	95	abvd	59047	95	abvd	59047
+510	gayo1244	Gayo	4.3733	97.3456	pumu	limə	lexically distinct	lexical replacement	yes	no	?	_	6	abvd	Banta-6-2005	gayo1244-1	chan2019	Gayo.htm
+511	bata1292	Batak Alas-Kluet	3.4293	97.8123	_	limə	unknown	_	unknown	no	_	_				bata1292-1	chan2019	Batak-Alas.htm
+512	bata1294	Batak Dairi	2.51438	98.2427	_	lima	unknown	_	unknown	no	_	_				bata1294-2	barlowpacific	Stokhof1986Vol9
+513	bata1293	Batak Karo	2.12787	98.2517	tān	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	661	abvd	15258	661	abvd	15258
+514	bata1288	Batak Simalungun	3.04372	98.9083	_	lima	unknown	_	unknown	no	_	_				bata1288-1	chan2019	Simalungan.htm
+515	bata1290	Batak Angkola	1.66127	99.60248	tangan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	863	abvd	harahap2007a	863	abvd	harahap2007a
+516	bata1291	Batak Mandailing	0.85805	99.898	tangan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	1655	abvd	harahap2007a	1655	abvd	harahap2007a
+517	bata1289	Batak Toba	2.35498	99.1761	taŋan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	188	abvd	Sihotang-188-2005	188	abvd	Sihotang-188-2005
+518	ment1249	Mentawai	-1.41092	98.9401	kabei	lima	lexically distinct	lexical replacement	yes	no	PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ ?	_	864	abvd	302656	864	abvd	302656
+519	nias1242	Nias	0.90691	97.4961	taŋa	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	104	abvd	Blust-104-2005	104	abvd	Blust-104-2005
+520	siku1242	Sikule	2.69113	95.9636	_	lima	unknown	_	unknown	no	_	_				siku1242-2	barlowpacific	Stokhof1987Vol10.3
+521	sime1241	Simeulue	2.50288	96.2757	kaoʔ	lima	lexically distinct	lexical replacement	yes	no	PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ ?	_	994	abvd	Kahler1961Simalurd	994	abvd	Kahler1961Simalurd
+522	reja1240	Rejang	-3.33056	102.434	taŋən	ləmo	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	114	abvd	Endarwati-114-2005	reja1240-1	chan2019	Rejang.htm
+523	nasa1239	Nasal	-4.8652	103.5719	culʊʔ	lima	lexically distinct	lexical replacement	yes	no	?	_	1210	abvd	300794	nasa1239-1	barlowpacific	Stokhof1987Vol10.2
+524	engg1245	Enggano	-5.38846	102.245	ʔeap	alima	lexically distinct	lexical replacement	yes	no	PMP *kapet ‘hold onto, cling to’	_	993	abvd	303787	engg1245-2	barlowpacific	Codrington1885
+525	lamp1242	Lampung Nyo	-4.43957	105.397	puŋew	limå	lexically distinct	lexical replacement	yes	no	?	_	616	abvd	anderback2006	lamp1242-1	barlowpacific	Stokhof1987Vol10.2
+526	kome1238	Komering	-3.79215	105.107	puŋu	lima	lexically distinct	lexical replacement	yes	no	?	_	333	abvd	Anderbeck-333-2005	333	abvd	Anderbeck-333-2005
+527	lamp1243	Lampung Api	-5.73463	105.037	puŋew	lima	lexically distinct	lexical replacement	yes	no	?	_	214	abvd	Junaiyah-214-2005	lamp1243-1	barlowpacific	Stokhof1987Vol10.2
+528	sund1252	Sundanese	-6.89708	107.106	leuŋeun	lima	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	284	abvd	Oekon-284-2005	284	abvd	Oekon-284-2005
+529	kawi1241	Kawi	-7	111	_	lima	unknown	_	unknown	no	_	_				kawi1241-1	barlowpacific	Teselkin1972
+530	java1254	Javanese	-7.001	109.287	taŋan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	20	abvd	Suyata-20-2005	20	abvd	Suyata-20-2005
+531	cari1276	Caribbean Javanese	5.62695	-54.6305	_	lima	unknown	_	unknown	no	_	_				cari1276-1	barlowpacific	Kertodjojo1992
+532	newc1244	New Caledonian Javanese	-22.3001	166.445	_	_	unknown	_	unknown	unknown	_	_						
+533	teng1272	Tengger	-7.89069	113.037	tangan	lima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	1533	abvd	140791	1533	abvd	140791
+534	osin1237	Osing	-8.25262	114.292	_	_	unknown	_	unknown	unknown	_	_						
+535	kang1289	Kangean	-7.98335	112.968	_	lima	unknown	_	unknown	no	_	_				kang1289-1	barlowpacific	Stokhof1987Vol11
+536	nucl1460	Madurese	-7	113	tanaŋ	lemaʔ	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	75	abvd	80269;safioedin1977	nucl1460-1	chan2019	Madurese.htm
+537	bali1278	Balinese	-8.35714	115.075	limə	limə	full colexification	_	no	no	_	_	1	abvd	Denes-1-2005	1	abvd	Denes-1-2005
+538	sasa1249	Sasak	-8.58349	116.284	imə	limə	lexically distinct	phonological change	no	no	_	_	185	abvd	Austin-185-2005	185	abvd	Austin-185-2005
+539	sumb1241	Sumbawa	-8.71919	117.472	ima	lima	lexically distinct	phonological change	no	no	_	_	663	abvd	Ryan-663-2010	663	abvd	Ryan-663-2010
+540	sang1334	Sangar	-8.376	118.29287	_	_	unknown	_	unknown	unknown	_	_						
+541	bima1247	Bima	-8.57376	118.445	rima	lima	lexically distinct	phonological change	no	no	_	_	14	abvd	Syamsuddin-14-2005	14	abvd	Syamsuddin-14-2005
+542	anak1240	Anakalangu	-9.63425	119.605	lima	lima	full colexification	_	no	no	_	_	320	abvd	Asplund-320-2005	320	abvd	Asplund-320-2005
+543	bali1287	Baliledu-Buawa	-9.56709	119.49165	_	_	unknown	_	unknown	unknown	_	_						
+544	wanu1241	Wanukaka	-9.69834	119.468	lima	lima	full colexification	_	no	no	_	_	319	abvd	Asplund-319-2005	319	abvd	Asplund-319-2005
+545	kamb1299	Kambera	-9.88447	120.235	lima	lima	full colexification	_	no	no	_	_	328	abvd	Asplund-328-2005	32	abvd	150485
+546	mamb1305	Mamboru	-9.42302	119.55	lúma	limma	lexically distinct	phonological change	no	no	_	_	324	abvd	Asplund-324-2005	mamb1305-1	chan2019	Mamboru.htm
+547	ngga1239	Garo (Sumba)	-9.71011	119.25403	_	_	unknown	_	unknown	unknown	_	_						
+548	kodi1247	Kodi	-9.6373	119.114	limya	limya	full colexification	_	no	no	_	_	318	abvd	Asplund-318-2005	kodi1247-1	chan2019	Kodi.htm
+549	lamb1273	Lamboya	-9.70434	119.344	lima	lima	full colexification	_	no	no	_	_	323	abvd	Asplund-323-2005	323	abvd	Asplund-323-2005
+550	weje1237	Wewewa	-9.55099	119.349	lima	limma	full colexification	_	no	no	_	_	326	abvd	Asplund-326-2005	laur1249-1	chan2019	Loura.htm	hand: <limma> in Bulu (2018:72)
+551	dhao1237	Dhao	-10.8098	122.658	_	ləmːi	unknown	_	unknown	no	_	_				dhao1237-1	chan2019	Ndao-Dhao.htm
+552	sabu1255	Hawu	-10.5522	121.847	wulaba	lemi	lexically distinct	lexical replacement	yes	no	?	_	482	abvd	Parkinson1773	119	abvd	Blust-119-2005
+553	kepo1237	Kepo'	-8.603241	120.775273	_	_	unknown	_	unknown	unknown	_	_						
+554	komo1261	Komodo	-8.64518	119.477	lima	lima	full colexification	_	no	no	_	_	komo1261	lexirumah	verheijen82	komo1261	lexirumah	verheijen82
+555	mang1405	Manggarai	-8.55748	120.329	lime	lima	partial colexification	_	no	no	_	_	mang1405	lexirumah	verheijen67	84	abvd	478432
+556	riun1237	Riung	-8.60342	121.122	_	lima	unknown	_	unknown	no	_	_				riun1237-1	barlowpacific	Pita2016
+557	remb1250	Rembong-Wangka	-8.53361	120.973	mod͡zoʔ	lima	lexically distinct	lexical replacement	yes	no	?	_	remb1250	lexirumah	verheijen77;verheijen78	remb1250	lexirumah	verheijen77;verheijen78
+558	waer1237	Kolor	-8.78645	120.70299	_	lima	unknown	_	unknown	no	_	_				waer1237-1	barlowpacific	Antonius1994
+559	rajo1237	Rajong	-8.658096	120.874418	_	_	unknown	_	unknown	unknown	_	_						
+560	ende1246	Ende	-8.70998	121.555	rima	rima	full colexification	_	no	no	_	_	503	abvd	Maselli-503-2007	ende1246-2	barlowpacific	Stokhof1983Vol6
+561	lioo1240	Li'o	-8.68615	121.832	lima	lima	full colexification	_	no	no	_	_	lioo1240	lexirumah	elias17	lioo1240-1	barlowpacific	Stokhof1983Vol6
+562	keoo1238	Kéo	-8.8704	121.256	dima	(ʔəsa) dima	full colexification	_	no	no	_	_	keoo1238	lexirumah	baird02	keoo1238-1	chan2019	Keo.htm
+563	nage1237	Nage	-8.70513	121.31	lima	lima	full colexification	_	no	no	_	_	341	abvd	Asplund-341-2005	cent2355-boaw	lexirumah	baird02
+564	namu1249	Namut-Nginamanu	-8.578948	120.975435	_	lima	unknown	_	unknown	no	_	_				namu1249-1	barlowpacific	Sugono2002
+565	ngad1261	Ngad'a	-8.79508	120.976	lima	lima	full colexification	_	no	no	_	_	ngad1267	lexirumah	arndt61	100	abvd	96970
+566	rong1269	Rongga	-8.84604	120.702	lima	lima	full colexification	_	no	no	_	_	rong1269	lexirumah	arka07	rong1269	lexirumah	arka07
+567	palu1252	Palu'e	-8.32877	121.718	lima	lima	full colexification	_	no	no	_	_	palu1252	lexirumah	donohue03	592	abvd	Donohue-592-2009
+568	sika1262	Sika	-8.67302	122.38	lima	lima	full colexification	_	no	no	_	_	1194	abvd	320303	1194	abvd	320303
+569	alor1247	Alorese	-8.20382	124.264	limaŋ	lema	lexically distinct	phonological change	no	no	_	_	alor1247-besar	lexirumah	moro16	alor1247-baran-YS	lexirumah	sulistyono18
+570	lama1277	Lamaholot	-8.36439	122.803	lima	lema	lexically distinct	phonological change	no	no	_	_	lama1277-baipi	lexirumah	keraf1978	34	abvd	Fernandes-34-2005
+571	lewo1244	Lewotobi	-8.54573	122.747	lima	lema	lexically distinct	phonological change	no	no	_	_	lama1277-lewob	lexirumah	keraf1978	lewo1244-1	chan2019	Lewotobi.htm
+572	puka1244	Pukaunu	-8.405661	122.690759	lima	_	unknown	_	no	unknown	_	_	lama1277-pukau	lexirumah	keraf1978			
+573	adon1237	Adonara	-8.32027	123.159	lima	lema	lexically distinct	phonological change	no	no	_	_	lama1277-botun	lexirumah	keraf1978	adon1237-1	chan2019	Adonara-Lamahotot.htm
+574	ilea1237	Ile Ape	-8.38636	123.442	limak	_	unknown	_	no	unknown	_	_	lama1277-ileap	lexirumah	keraf1978			
+575	lama1278	Peripheral Lembata	-8.53225	123.442	lima	lema	lexically distinct	phonological change	no	no	_	_	lama1277-mulan	lexirumah	keraf1978	486	abvd	G-486-2007
+576	levu1239	Central Lembata-Lewokukun	-8.47094	123.44	liˈma	lɛm	lexically distinct	phonological change	no	no	_	_	lama1277-kalik	lexirumah	fricke15	lama1277-kalik	lexirumah	fricke15
+577	sout2896	Eastern Atadei	-8.49783	123.531	liˈma	ˈlɛma	lexically distinct	phonological change	no	no	_	_	lama1277-lerek	lexirumah	fricke15-lerek	lama1277-lerek	lexirumah	fricke15-lerek
+578	west2541	West Lembata	-8.49669	123.298	limasa	_	unknown	_	no	unknown	_	_	lama1277-imulo	lexirumah	keraf1978			
+579	lama1279	Lamatuka	-8.39374	123.586	lima	_	unknown	_	no	unknown	_	_	lama1277-lamat	lexirumah	keraf1978			
+580	lewo1243	Lewo Eleng	-8.35741	123.652	lima	_	unknown	_	no	unknown	_	_	lama1277-lewoe	lexirumah	keraf1978			
+581	keda1252	Kedang	-8.23039	123.77	liŋ	leme	lexically distinct	phonological change	no	no	_	_	keda1252	lexirumah	keraf1978	236	abvd	Apelaby-236-2005
+582	bilb1242	Bilba	-10.6503	123.307	_	lima	unknown	_	unknown	no	_	_				bilb1242-1	barlowpacific	Jonker1908
+583	ring1244	Ringgou	-10.5515	123.311	_	lima	unknown	_	unknown	no	_	_				ring1244	lexirumah	nako14
+584	term1237	Termanu	-10.7326	123.169	lima	lima	full colexification	_	no	no	_	_	115	abvd	50012	115	abvd	50012
+585	lole1239	Lole	-10.8069	123.085	_	lima	unknown	_	unknown	no	_	_				lole1239	lexirumah	zacharias14
+586	tiii1241	Tii	-10.8425	122.963	_	lima	unknown	_	unknown	no	_	_				tiii1241	lexirumah	grimes14-Tii
+587	dela1251	Dela-Oenale	-10.8469	122.852	_	lima	unknown	_	unknown	no	_	_				dela1251-1	barlowpacific	Jonker1908
+588	deng1253	Dengka	-10.7866	122.946	_	lima	unknown	_	unknown	no	_	_				deng1253-1	barlowpacific	Jonker1908
+589	amar1273	Amarasi	-10.21751	123.96373	nimi+f	nima	partial colexification	_	no	no	_	_	rois1241	lexirumah	edwards17-Rois	amar1273-1	chan2019	Amarasi.htm
+590	baik1238	Baikeno	-9.32991	124.256	_	nim	unknown	_	unknown	no	_	_				baik1238-1	chan2019	Baikeno-Timorese.htm
+591	uabm1237	Uab Meto	-9.77284	124.144	nima-	nim	partial colexification	_	no	no	_	_	42	abvd	Blust-42-2005	uabm1237-1	chan2019	UabMeto-Dawan.htm
+592	helo1243	Helong	-10.2647	123.377	_	lima	unknown	_	unknown	no	_	_				funa1237	lexirumah	edwards18
+593	idat1237	Idaté	-8.76258	125.832	lima	lima	full colexification	_	no	no	_	_	idat1237	lexirumah	klamer02	idat1237	lexirumah	klamer02
+594	laka1255	Lakalei	-8.86372	125.716	limɑn	lima	partial colexification	_	no	no	_	_	laka1255	lexirumah	klamer02	laka1255	lexirumah	klamer02
+595	habu1241	Habu	-8.76565	125.965	_	lima	unknown	_	unknown	no	_	_				habu1241	lexirumah	dawson14
+596	tetu1245	Tetum	-9.11217	125.528	liman	lima	partial colexification	_	no	no	_	_	1366	abvd	VanKlinken_99	1366	abvd	VanKlinken_99
+597	tetu1246	Tetun Dili	-8.58405	125.583	liman	lima	partial colexification	_	no	no	_	_	134	abvd	9036	134	abvd	9036
+598	kair1265	Kairui-Midiki	-8.74034	126.059	_	kilima	unknown	_	unknown	no	_	_				kair1265-1	chan2019	Kairui-Midiki.htm
+599	naue1237	Nauete	-8.70733	126.741	lima	kai-lima	full colexification	_	no	no	_	_	1365	abvd	g_Veloso_Naueti	1365	abvd	g_Veloso_Naueti
+600	waim1252	Waima'a	-8.53416	126.317	lime	lime	full colexification	_	no	no	_	_	1368	abvd	d_Beloetal_Waimaa	1368	abvd	d_Beloetal_Waimaa
+601	galo1243	Galoli-Talur	-8.61074	125.959	lima	lima	full colexification	_	no	no	_	_	ilwa1238	lexirumah	hinton00	ilwa1238	lexirumah	hinton00
+602	iliu1237	Ili'uun	-7.84385	125.902	lima	halima	partial colexification	_	no	no	_	_	1362	abvd	s_Penn_Dadua	eray1237	lexirumah	jong47
+603	aput1237	Aputai	-7.84732	126.496	lima	lima	full colexification	_	no	no	_	_	ilpu1239	lexirumah	hinton00	ilpu1239	lexirumah	hinton00
+604	pera1257	Perai	-7.62349	126.576	lima	lima	full colexification	_	no	no	_	_	uhak1237	lexirumah	hinton00	uhak1237	lexirumah	hinton00
+605	tugu1245	Tugun	-7.72555	126.7	'liman	ˈlima	partial colexification	_	no	no	_	_	297	abvd	110693	tugu1245-1	barlowpacific	Taber1993
+606	maku1277	Maku'a	-8.40372	127.239	_	hɔlíma	unknown	_	unknown	no	_	_				maku1277-1	chan2019	Makuva.htm
+607	kisa1266	Kisar	-8.05122	127.18	lima-	woˈlima	partial colexification	_	no	no	_	_	160	abvd	59437;137430	kisa1266	lexirumah	taber93
+608	roma1332	Roma	-7.58643	127.428	ˈlim+na	woˈlima	partial colexification	_	no	no	_	_	roma1332	lexirumah	taber93	roma1332	lexirumah	taber93
+609	leti1246	Leti (Indonesia)	-8.19808	127.674	lima	vò-lima	partial colexification	_	no	no	_	_	70	abvd	66632	leti1246-2	barlowpacific	vanEngelenhoven2004
+610	luan1263	Luang	-8.18378	127.944	lima	wolima	partial colexification	_	no	no	_	_	853	abvd	131680	weta1243	lexirumah	jong87
+611	east2472	East Damar	-7.16991	128.636	'limano	woˈlim	partial colexification	_	no	no	_	_	302	abvd	110693	east2472	lexirumah	taber93
+612	daii1240	Dai	-7.55894	129.687	'imon	nim	lexically distinct	phonological change	no	no	_	_	308	abvd	110693	daii1240-1	chan2019	Dai-Maluku.htm
+613	dawe1237	Dawera-Daweloor	-7.76324	130.06	'imol	lim	lexically distinct	phonological change	no	no	_	_	307	abvd	110693	307	abvd	110693
+614	nort2860	North Babar	-7.84311	129.743	'namne	'nimo	lexically distinct	phonological change	no	no	_	_	309	abvd	110693	nort2860-1	chan2019	Babar-North.htm
+615	cent2072	Central Masela	-8.15414	129.865	ˈlim+nei	wuˈlim	partial colexification	_	no	no	_	_	cent2072	lexirumah	taber93	cent2072	lexirumah	taber93
+616	east2462	East Masela	-8.13455	129.873	ˈnim	ˈwulim	lexically distinct	phonological change	no	no	_	_	east2462	lexirumah	taber93	east2462	lexirumah	taber93
+617	seri1255	Serili	-8.11241	129.901	ˈlim	buˈlim	partial colexification	_	no	no	_	_	seri1255	lexirumah	taber93	seri1255	lexirumah	taber93
+618	sout2883	Southeast Babar	-7.94359	129.8	ˈlim	wɔˈlim	partial colexification	_	no	no	_	_	sout2883	lexirumah	taber93	sout2883	lexirumah	taber93
+619	west2535	West Masela	-8.1804	129.833	_	_	unknown	_	unknown	unknown	_	_						
+620	empl1237	Emplawas	-8.03209	129.721	'lipe	woˈlim	lexically distinct	phonological change	no	no	_	_	314	abvd	110693	empl1237	lexirumah	taber93
+621	imro1237	Imroing	-7.96772	129.651	lim+ˈmu+te	wo'lim	partial colexification	_	no	no	_	_	imro1237	lexirumah	taber93	imro1237-1	chan2019	Imroing.htm
+622	tela1241	Tela-Masbuar	-8.01195	129.687	'itmi	'wolim	lexically distinct	lexical replacement	yes	no	?	_	315	abvd	110693	tela1241-1	chan2019	Tela-Masbuar.htm
+623	west2548	West Damar	-7.12065	128.585	'lima	vi'limo	partial colexification	_	no	no	_	_	306	abvd	110693	west2548-1	chan2019	Damar-West.htm
+624	sela1259	Selaru	-8.18376	130.961	sima-	énasim	partial colexification	_	no	no	_	_	122	abvd	Blust-122-2005	sela1259-1	chan2019	Selaru.htm
+625	selu1242	Seluwasan	-7.59918	131.25	_	dim	unknown	_	unknown	no	_	_				selu1242-2	chan2019	Seluwasan.htm
+626	nila1244	Nila	-6.734956	129.512131	ˈlima	ˈlimu	partial colexification	_	no	no	_	_	nila1244	lexirumah	taber93	nila1244-2	barlowpacific	Taber1993
+627	seru1245	Serua	-6.31107	130.017294	ˈlima	ˈlimu	partial colexification	_	no	no	_	_	seru1245	lexirumah	taber93	seru1245	lexirumah	taber93
+628	teun1241	Te'un	-6.97086	129.143718	'lima	'limu	partial colexification	_	no	no	_	_	303	abvd	110693	teun1241-1	chan2019	Teun-Maluku.htm
+629	ambe1248	Ambelau	-3.85919	127.196	_	'lima	unknown	_	unknown	no	_	_				ambe1248-1	chan2019	Ambelau.htm
+630	buru1303	Buru (Indonesia)	-3.43957	126.632	fahan	lima	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ?	_	50	abvd	Collins-50-2005	50	abvd	Collins-50-2005
+631	huku1237	Hukumina	-3.274	126.194	_	Ěklīma	unknown	_	unknown	no	_	_				huku1237-1	barlowpacific	Stokhof1982Vol3.4
+632	lise1239	Lisela	-3.27358	126.981	_	limo	unknown	_	unknown	no	_	_				lise1239-1	barlowpacific	Stokhof1982Vol3.4
+633	sula1248	Sula	-2.30765	125.9656	_	ɡalima	unknown	_	unknown	no	_	_				sula1245-1	chan2019	Sula-Maluku.htm
+634	kaye1241	Kayeli	-3.39247	127.118	_	Lima	unknown	_	unknown	no	_	_				kaye1241-1	barlowpacific	Wallace1869
+635	asil1242	Asilulu	-3.67302	127.952	lima-	lima	full colexification	_	no	no	_	_	790	abvd	475179	790	abvd	475179
+636	boan1242	Boano (Maluku)	-2.95535	127.953	_	ni'mawa	unknown	_	unknown	no	_	_				boan1242-1	chan2019	Boano-Maluku.htm
+637	lari1255	Larike-Wakasihu	-3.76522	127.956	_	dima	unknown	_	unknown	no	_	_				lari1255-1	chan2019	Larike-Wakasihu.htm
+638	luhu1243	Luhu-Piru	-3.13187	127.966	_	'lima	unknown	_	unknown	no	_	_				luhu1243-1	chan2019	Luhu-Maluku.htm
+639	mani1297	Manipa	-3.30342	127.565	_	'lima	unknown	_	unknown	no	_	_				mani1297-1	chan2019	Manipa-Maluku.htm
+640	paul1238	Paulohi	-3.25404	128.779	rima	rima	full colexification	_	no	no	_	_	110	abvd	59437	paul1238-1	barlowpacific	Stresemann1918
+641	laha1251	Laha (Indonesia)	-3.70755	128.073	_	rima	unknown	_	unknown	no	_	_				laha1251-1	chan2019	Laha-Maluku.htm
+642	seit1239	Seit-Kaitetu	-3.6111	128.068	_	lima	unknown	_	unknown	no	_	_				seit1239-1	barlowpacific	vanHoevell1877
+643	hitu1239	Hitu	-3.57478	128.186	lima	'lima	full colexification	_	no	no	_	_	53	abvd	Collins-53-2005	hitu1239-1	chan2019	Hitu-Maluku.htm
+644	tule1244	Tulehu	-3.57785	128.31	rima	rima	full colexification	_	no	no	_	_	379	abvd	Musgrave-379-2009	379	abvd	Musgrave-379-2009
+645	kaib1244	Kaibobo	-3.1603	128.211	_	'r̃ima	unknown	_	unknown	no	_	_				kaib1244-1	chan2019	Kaibobo.htm
+646	haru1244	Haruku	-3.57029	128.476	_	rima	unknown	_	unknown	no	_	_				haru1244-1	barlowpacific	Stokhof1982Vol3.3
+647	amah1245	Amahai	-3.32028	128.939	rima	rima	full colexification	_	no	no	_	_	358	abvd	Florey-358-2005	358	abvd	Florey-358-2005
+648	nusa1245	Nusa Laut	-3.67727	128.776	_	rima	unknown	_	unknown	no	_	_				nusa1245-1	barlowpacific	Stokhof1982Vol3.4
+649	latu1237	Latu	-3.41302	128.667	_	_	unknown	_	unknown	unknown	_	_						
+650	sapa1251	Saparua	-3.58314	128.639	_	lima	unknown	_	unknown	no	_	_				sapa1251-2	barlowpacific	Stokhof1982Vol3.4
+651	kama1362	Kamarian	-3.40779	128.526	_	'rima	unknown	_	unknown	no	_	_				kama1362-1	chan2019	Kamarian.htm
+652	sepa1242	Sepa (Indonesia)	-3.36682	129.243	_	lima	unknown	_	unknown	no	_	_				sepa1242-1	chan2019	Sepa-Maluku.htm
+653	telu1263	Teluti	-3.2969	129.663	_	lima	unknown	_	unknown	no	_	_				telu1263-1	barlowpacific	Stokhof1981Vol3.1
+654	hulu1246	Hulung	-2.87389	128.587	_	'lima	unknown	_	unknown	no	_	_				hulu1246-1	chan2019	Hulung.htm
+655	lisa1239	Lisabata-Nuniali	-2.87434	128.265	_	'nima	unknown	_	unknown	no	_	_				lisa1239-1	chan2019	Lisabata-Nuniali.htm
+656	loun1239	Loun	-2.8778	128.912	_	_	unknown	_	unknown	unknown	_	_						
+657	sale1244	Saleman	-2.82548	129.427	_	'nima	unknown	_	unknown	no	_	_				sale1244-1	chan2019	Saleman.htm
+658	alun1238	Alune	-3.11477	128.394	bala	lima	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	199	abvd	Florey-199-2005	80	abvd	Collins-80-2005
+659	naka1263	Naka'ela	-2.85543	128.516	_	'lima	unknown	_	unknown	no	_	_				naka1263-1	chan2019	Nakaela.htm
+660	yala1266	Yalahatan-Haruru-Awaiya	-3.3619	129.315	_	lima	unknown	_	unknown	no	_	_				yala1266-1	barlowpacific	Stokhof1981Vol3.2
+661	nort2864	Wemale	-3.05143	128.839	_	'lima	unknown	_	unknown	no	_	_				nort2864-1	chan2019	Wemale.htm
+662	huau1237	Huaulu	-2.95835	129.202	_	lima	unknown	_	unknown	no	_	_				huau1237-1	chan2019	Hualulu.htm
+663	manu1258	Manusela	-3.1109	129.429	_	lima	unknown	_	unknown	no	_	_				manu1258-1	barlowpacific	Stokhof1981Vol3.1
+664	nort2867	North Nuaulu	-2.93154	129.277	_	_	unknown	_	unknown	unknown	_	_						
+665	sout2895	South Nuaulu	-3.23411	129.148	fanare	nima	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ?	_	1181	abvd	148049	1181	abvd	148049
+666	kema1243	Kemak	-9.00299	125.159	lima-r	lima	full colexification	_	no	no	_	_	100844	abvd	Blust, from Stevens (1967)	kema1243-1	barlowpacific	Arnaud1998
+667	tuku1254	Tukudede	-8.6788	125.283	limu	lim	partial colexification	_	no	no	_	_	1367	abvd	Schapper-1367-2016	1367	abvd	Schapper-1367-2016
+668	wela1235	Welaun	-9.097288	125.239513	lima+n	lima	full colexification	_	no	no	_	_	west2547-mahein	lexirumah	edwards19	wela1235-1	barlowpacific	Edwards2019
+669	mamb1306	Mambae	-9.19552	125.475	lima	lim	partial colexification	_	no	no	_	_	mamb1306-Sbeta	lexirumah	fogaca17	mamb1306-1	chan2019	Mambai.htm
+670	ford1242	Fordata	-7.28902	131.511	lima-	limà	full colexification	_	no	no	_	_	1363	abvd	phon_Marshall_Fordata_2000	ford1242-1	barlowpacific	Stokhof1981Vol3.1
+671	keii1239	Kei	-5.63948	133.02	liman	lim	partial colexification	_	no	no	_	_	197	abvd	Collins-197-2005	keii1239-1	chan2019	Kei.htm
+672	yamd1240	Yamdena	-7.73722	131.44	lime	limé	full colexification	_	no	no	_	_	78	abvd	72358	yamd1240-1	barlowpacific	Stokhof1981Vol3.1
+673	urua1244	Uruangnirin	-3.45498	132.745	ˈtaŋan	nima	lexically distinct	lexical replacement	yes	no	PMP *taŋan ‘finger, toe’	_	urua1244	lexirumah	visser19-uruangnirin	urua1244-1	barlowpacific	Galis1960
+674	onin1245	Onin	-2.75976	132.062	ˈniman	ˈnima	partial colexification	_	no	no	_	_	pati1239	lexirumah	vries04	onin1245	lexirumah	donohue10
+675	seka1247	Sekar	-2.65849	132.469	nina-n	nima	full colexification	_	no	no	_	_	186	abvd	GraceNB;Walker-186-2005	seka1247-1	barlowpacific	Grace1955pdf50	hand: typo for nima-n
+676	teor1240	Teor	-4.74159	131.737	_	lima	unknown	_	unknown	no	_	_				teor1240-1	chan2019	Teor.htm
+677	kurr1245	Kur	-5.34077	131.986	_	lima	unknown	_	unknown	no	_	_				kurr1245-1	barlowpacific	Ribbe1903
+678	irar1238	Irarutu	-2.94438	133.586	fra	fradfid	partial colexification	(recolexification)	yes	yes	PMP *baRa ‘hand, arm’ 	hand side	1364	abvd	g_Jackson_Irarutu	1364	abvd	g_Jackson_Irarutu
+679	kuri1260	Nabi	-2.80683	134.098	_	fradəvid	unknown	_	unknown	yes	_	hand side (< PMP *baRa ‘hand, arm’)				kuri1260-2	barlowpacific	Grace1956pdf29
+680	argu1237	Arguni	-2.645798	132.5556	ruma-	rim	lexically distinct	phonological change	no	no	_	_	180	abvd	GraceNB	argu1237-1	barlowpacific	Galis1955
+681	bedo1237	Bedoanas	-2.74438	132.566	_	rim	unknown	_	unknown	no	_	_				bedo1237	lexirumah	donohue10
+682	erok1237	Erokwanas	-2.83746	132.705	_	rim	unknown	_	unknown	no	_	_				erok1237-1	chan2019	Erokwanas.htm
+683	beng1287	Benggoi	-3.13924	130.091	_	_	unknown	_	unknown	unknown	_	_						
+684	hoti1237	Hoti of East Seram	-3.0083	130.168	_	_	unknown	_	unknown	unknown	_	_						
+685	lian1255	Liana-Seti	-3.11832	129.899	_	lima	unknown	_	unknown	no	_	_				lian1255-1	barlowpacific	Collins1986
+686	sala1269	Salas	-3.14654	130.53	_	_	unknown	_	unknown	unknown	_	_						
+687	bobo1254	Bobot	-3.43514	130.179	animan	lima	lexically distinct	phonological change	no	no	_	_	278	abvd	Collins-278-2005	bobo1254-1	barlowpacific	Collins1986
+688	masi1266	Masiwang	-3.29547	130.601	-niman	limǎ	lexically distinct	phonological change	no	no	_	_	88	abvd	Collins-88-2005	masi1266-1	barlowpacific	Stokhof1982Vol3.3
+689	bati1253	Bati (Indonesia)	-3.61403	130.815	_	Lim	unknown	_	unknown	no	_	_				bati1253-1	barlowpacific	Wallace1869
+690	gese1240	Geser-Gorom	-3.8016	130.701	ma	lim	lexically distinct	phonological change	no	no	_	_	8	abvd	Collins-8-2005	gese1240-1	chan2019	Geser-Gorum.htm
+691	kowi1239	Kowiai	-4.21954	133.468	nima	rim	lexically distinct	phonological change	no	no	_	_	161	abvd	Walker-161-2005	kowi1239-1	chan2019	Kowiai.htm
+692	watu1247	Watubela	-4.47294	131.641	ma-	lima	lexically distinct	phonological change	no	no	_	_	143	abvd	Collins-143-2005	watu1247-1	barlowpacific	Cowan1957
+693	band1355	Banda (Indonesia)	-5.42138	133.142	_	'limo	unknown	_	unknown	no	_	_				band1355-1	chan2019	Banda-Maluku.htm
+694	west2538	West Tarangan	-6.62046	134.168	lema-	lema	full colexification	_	no	no	_	_	101	abvd	Collins-101-2005	west2538-1	chan2019	Tarangan-West.htm
+695	east2465	East Tarangan	-6.76213	134.288	_	'lema	unknown	_	unknown	no	_	_				east2465-1	chan2019	Tarangan-East.htm
+696	kare1339	Karey	-6.74181	134.375	_	lim	unknown	_	unknown	no	_	_				kare1339-1	chan2019	Karey.htm
+697	bara1367	Barakai	-6.7394	134.671	_	lem	unknown	_	unknown	no	_	_				bara1367-1	chan2019	Barakai.htm
+698	lora1237	Lorang	-6.30338	134.41	_	'lima	unknown	_	unknown	no	_	_				lora1237-1	chan2019	Lorang.htm
+699	koba1240	Koba	-6.47901	134.61	_	'limay	unknown	_	unknown	no	_	_				koba1240-1	chan2019	Koba-Maluku.htm
+700	dobe1238	Dobel	-6.32531	134.638	lima-	lima	full colexification	_	no	no	_	_	1331	abvd	157386	1331	abvd	157386
+701	mano1275	Manombai	-5.94468	134.329	lim	lima	partial colexification	_	no	no	_	_	mano1275	lexirumah	degen08	mano1275	lexirumah	degen08
+702	lola1248	Lola	-6.34188	134.879	_	'lima	unknown	_	unknown	no	_	_				lola1248-1	chan2019	Lola-Maluku.htm
+703	mari1430	Mariri	-6.15097	134.88107	_	lem	unknown	_	unknown	no	_	_				mari1430-1	chan2019	Mariri.htm
+704	batu1258	Batuley	-5.814412	134.784314	lim	lim	full colexification	_	no	no	_	_	batu1258	lexirumah	daigle15	1338	abvd	475272
+705	ujir1237	Ujir	-5.69329	134.257	lima	lima	full colexification	_	no	no	_	_	190	abvd	Collins-190-2005	1339	abvd	Schapper-1339-2016
+706	komp1237	Kompane	-5.64348	134.742	_	'lima	unknown	_	unknown	no	_	_				komp1237-1	chan2019	Kompane.htm
+707	kola1285	Kola	-5.48833	134.592	lima	lima	full colexification	_	no	no	_	_	1332	abvd	322723	1332	abvd	322723
+708	pala1344	Palauan	7.34138	134.476678	chim	kleim	lexically distinct	phonological change	no	no	_	_	109	abvd	134202	109	abvd	134202
+709	cham1312	Chamorro	13.438011	144.74474	kannai	lima	lexically distinct	lexical replacement	yes	no	?	_	18	abvd	38174	18	abvd	38174
+710	buli1255	Buli (Indonesia)	1.0008	128.443	kakamo	lim	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	49	abvd	64947	buli1255-1	barlowpacific	Stokhof1980Vol2
+711	maba1278	Maba (Indonesia)	0.59011	128.418	_	lim	unknown	_	unknown	no	_	_				maba1278-1	barlowpacific	Stokhof1980Vol2
+712	pata1260	Patani	0.34096	128.634	_	ailiem	unknown	_	unknown	no	_	_				pata1260-1	barlowpacific	Stokhof1980Vol2
+713	sawa1247	Sawai	0.51111	128.086	fa+o	lim	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	sawa1247	lexirumah	whisler95	sawa1247-2	barlowpacific	Stokhof1980Vol2
+714	east2440	East Makian	0.07337	127.423	kamoʔ	p-lim	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	857	abvd	71003	east2440-1	chan2019	Makian-East.htm
+715	gane1237	Gane	-0.42618	127.976	komu	plim	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	10	abvd	Teljeur-10-2005	gane1237-1	barlowpacific	Teljeur1982
+716	gebe1237	Gebe	-0.07877	129.424	kame	pilim	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’ ?	_	93	abvd	GraceNB	gebe1237-1	chan2019	Gebe-Maluku.htm
+717	matb1237	Matbat	-1.8801	130.075	kanano	lim	lexically distinct	lexical replacement	yes	no	?	_	46	abvd	GraceBiga	matb1237-2	barlowpacific	Grace1956pdf32
+718	kawe1240	Kawe	-0.17313	130.327	_	lim	unknown	_	unknown	no	_	_				kawe1240-1	barlowpacific	Remijsen2001
+719	lege1241	Legenyem	-0.3592	130.749	_	lim	unknown	_	unknown	no	_	_				lege1241-1	barlowpacific	Galis1955
+720	maya1282	Misool-Salawati Ma'ya	-1.22329	130.909	_	lim	unknown	_	unknown	no	_	_				maya1282-1	barlowpacific	Remijsen2001
+721	wauy1237	Wauyai	-0.2828	130.597	_	lim	unknown	_	unknown	no	_	_				wauy1237-2	barlowpacific	Remijsen2001
+722	waig1244	Waigeo	-0.17957	130.917	_	lim	unknown	_	unknown	no	_	_				waig1244-1	barlowpacific	Remijsen2001
+723	biga1238	Biga	-1.99574	130.272	_	lim	unknown	_	unknown	no	_	_				biga1238-1	barlowpacific	Remijsen2001
+724	bata1295	Batanta	-0.862394	130.646	_	_	unknown	_	unknown	unknown	_	_						
+725	made1253	Salawati	-1.05325	130.833	_	lim	unknown	_	unknown	no	_	_				made1253-1	barlowpacific	Galis1955
+726	asss1237	As	-0.75267	131.728	-npa	lim	lexically distinct	lexical replacement	yes	no	?	_	207	abvd	GraceNB	asss1237-1	barlowpacific	Grace1955pdf50
+727	biak1248	Biak	-0.9523	135.879	rwa	rim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	106	abvd	27061	1634	abvd	Gasser2019c
+728	roon1237	Roon	-2.43005	134.556	vara	rim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1462	abvd	Gasser-1462-2016	1462	abvd	Gasser-1462-2016
+729	dusn1237	Dusner	-2.73859	134.391	_	rimbi	unknown	_	unknown	no	_	_				dusn1237-1	barlowpacific	Ray1912
+730	meos1237	Meoswar	-2.07828	134.378	_	rim	unknown	_	unknown	no	_	_				meos1237-1	chan2019	Meoswar.htm
+731	yaur1239	Yaur	-3.32519	134.879	_	breiare	unknown	_	unknown	yes	_	arm ? (< PMP *baRa ‘hand, arm’ ?)				yaur1239-1	barlowpacific	Ray1912
+732	ires1239	Yerisiam	-3.62803	135.025	_	rima	unknown	_	unknown	no	_	_				ires1239-1	barlowpacific	Stokhof1987Vol11
+733	yere1243	Yeretuar	-3.01713	134.656	_	matehi	unknown	_	unknown	no	_	_				yere1243-1	chan2019	Yeretuar-Umar.htm
+734	amba1265	Ambai	-1.88126	136.526	waraŋ	riŋ	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	40	abvd	GraceNB	40	abvd	GraceNB
+735	ansu1237	Ansus	-1.7543	135.866	warang	riŋ	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1481	abvd	Gasser2016	ansu1237-1	chan2019	Ansus.htm
+736	mara1397	Marau	-1.66738	135.797	_	riŋ	unknown	_	unknown	no	_	_				mara1397-1	chan2019	Marau-Papua.htm
+737	wand1267	Wandamen	-2.25622	133.996	vara	rim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	145	abvd	121185;van1915a	wand1267-1	barlowpacific	Galis1955
+738	woii1237	Woi	-1.62746	135.484	_	diŋ	unknown	_	unknown	no	_	_				woii1237-1	chan2019	Wooi.htm
+739	mung1269	Munggui	-1.66773	135.918	_	bo-riŋ	unknown	_	unknown	no	_	_				mung1269-1	chan2019	Munggui.htm
+740	papu1251	Papuma	-1.77301	135.907	_	bo-riŋ	unknown	_	unknown	no	_	_				papu1251-1	chan2019	Papuma.htm
+741	pomm1237	Pom	-1.64224	135.619	waran	ri(m)	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1633	abvd	Gasser2019b	pomm1237-1	barlowpacific	Galis1955
+742	busa1254	Busami	-1.73681	136.032	_	riŋ	unknown	_	unknown	no	_	_				busa1254-1	chan2019	Busami.htm
+743	seru1244	Serui-Laut	-1.87766	136.252	_	riŋ	unknown	_	unknown	no	_	_				seru1244-1	chan2019	Serui-Laut.htm
+744	kuru1305	Kurudu	-1.8444	137.018	_	boverim	unknown	_	unknown	no	_	_				kuru1305-1	chan2019	Kurudu.htm
+745	wabo1240	Wabo	-1.77297	136.757	_	weriŋ	unknown	_	unknown	no	_	_				wabo1240-1	chan2019	Wabo-Papua.htm
+746	tand1253	Tandia	-2.84228	134.532	_	marasi	unknown	_	unknown	no	_	_				tand1253-1	barlowpacific	Ray1912
+747	morm1235	Mor (Mor Islands)	-2.87055	135.95	vére	rimo	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	24	abvd	121185;Laycock1965	morm1235-1	barlowpacific	Ray1912
+748	waro1242	Waropen	-2.31142	136.633	baha	rimo	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	142	abvd	61752	142	abvd	61752
+749	ware1253	Warembori	-1.65941	137.566	ke+βera+ro	rinti	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ?	_	ware1253	lexirumah	donohue99	ware1253	lexirumah	donohue99
+750	pauw1243	Pauwi	-1.65	137.8	_	bĕri̱e̱ms	unknown	_	unknown	no	_	_				pauw1243-3	barlowpacific	Stroeve1911
+751	yoke1238	Yoke	-1.68798	138.028	_	biarimsi	unknown	_	unknown	no	_	_				yoke1238-1	chan2019	Yoke-Papuan.htm
+752	ngul1236	Nguluwan	8.45	137.34	pan	_	unknown	_	yes	unknown	PMP *baRa ‘hand, arm’	_	1578	abvd	155142			
+753	yape1248	Yapese	9.55811	138.125	paaq	lal'	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	77	abvd	20421	77	abvd	20421
+754	tobi1238	Tobian	3.004528	131.171295	humwots	rimou	lexically distinct	lexical replacement	yes	no	?	_	1640	abvd	vanDenBerg2014	tobi1238-1	chan2019	Tobian.htm
+755	sons1242	Sonsorol	5.328596	132.221282	paaú	lim	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	337	abvd	304886	1142	abvd	52375
+756	ulit1238	Ulithian	9.961388	139.603611	pa	lɪmou	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	1180	abvd	mellen2010a	ulit1238-1	chan2019	Ulithian.htm
+757	mapi1250	Mapia	0.908889	134.304722	_	lĕmó	unknown	_	unknown	no	_	_				mapi1250-1	barlowpacific	Galis1955
+758	wole1240	Woleaian	7.37957	143.916	paaú	lima-	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	347	abvd	304886	347	abvd	304886
+759	sata1237	Satawalese	7.36084	147.038	paay	nima	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	343	abvd	304886	Satawalese.htm	chan2019	
+760	namo1247	Namonuito	8.584627	149.685202	_	lɨmʷˠow	unknown	_	unknown	no	_	_				namo1247-1	chan2019	Namonuito.htm
+761	paaf1237	Pááfang	8.610194	152.240167	_	lɨmʷˠow	unknown	_	unknown	no	_	_				paaf1237-1	chan2019	Paafang.htm
+762	tana1281	Tanapag	15.237	145.757	gumwuʀ	lima-	lexically distinct	lexical replacement	yes	no	?	_	339	abvd	304886	339	abvd	304886
+763	caro1242	Carolinian	15.205	145.765	payú-	lima	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	338	abvd	304886	caro1242-1	chan2019	Carolinian.htm
+764	pulu1242	Puluwatese	7.35695	149.2005	paaw	lime	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	336	abvd	304886	336	abvd	304886
+765	poll1238	Pollapese	7.638875	149.428723	_	_	unknown	_	unknown	unknown	_	_						
+766	chuu1238	Chuukese	7.346993	151.598607	péwú-	nima-	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	349	abvd	304886;36728	349	abvd	304886;36728
+767	mort1237	Mortlockese	5.50735	153.710778	paʉ-	lima-	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	923	abvd	Odango-923-2012	345	abvd	304886
+768	pohn1238	Pohnpeian	6.87212	158.223	lime	limɛ-ysɛk	partial colexification	_	no	no	_	_	179	abvd	158369	179	abvd	158369
+769	moki1238	Mokilese	6.65651	159.776	pɔɔ	-lim	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	342	abvd	304886	342	abvd	304886
+770	ping1243	Pingelapese	6.20743	160.711	pe	limau	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	794	abvd	21249	794	abvd	21249
+771	mars1254	Marshallese	8.72	167.73	peyi-	lima-	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	344	abvd	304886	344	abvd	304886
+772	gilb1244	Gilbertese	0.179	173.64	bái	nima-	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	346	abvd	TrusselGroves1978	346	abvd	TrusselGroves1978
+773	kosr1238	Kosraean	5.31	162.98	paho	lime-	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	65	abvd	61642	65	abvd	61642
+774	naur1243	Nauru	-0.52957	166.922	e-bee	eːjimo	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	97	abvd	kayser1993a	naur1243-1	chan2019	Nauruan.htm
+775	kani1283	Kaniet-Dempwolff	-0.892611	145.543794	_	himiab	unknown	_	unknown	yes	_	hand ? (< POC *minV- ‘hand’ ?)				kani1283-1	barlowpacific	Blust2021
+776	kani1282	Kaniet	-1.51777	145.086	pani-m	mia	lexically distinct	lexical replacement	yes	yes	PAN *paNij ‘wing’	hand ? (< POC *minV- ‘hand’ ?)	1371	abvd	317042	1371	abvd	317042
+777	seim1238	Seimat	-1.2666667	144.25	mina-n	te-panim	lexically distinct	lexical replacement	yes	yes	POC *minV- ‘hand’ ?	one wing (< PAN *paNij ‘wing’)	121	abvd	Blust-121-2005	seim1238-2	barlowpacific	Blust2021
+778	wuvu1239	Wuvulu-Aua	-1.73938	142.851	pani	aipani	partial colexification	(recolexification)	yes	yes	PAN *paNij ‘wing’	one wing	148	abvd	Blust-148-2005	wuvu1239-1	chan2019	Wuvulu.htm
+779	herm1237	Hermit	-1.52891	145.075	nime-k	liːmep	lexically distinct	phonological change	no	no	_	_	1375	abvd	317042	1375	abvd	317042
+780	bipi1237	Bipi	-2.11115	146.398	liːmew	liːme	partial colexification	_	no	no	_	_	1384	abvd	317042	1384	abvd	317042
+781	nyin1250	Nyindrou	-2.1143	146.627	lime-	lime-h	partial colexification	_	no	no	_	_	1393	abvd	MartinND	1393	abvd	MartinND
+782	sori1242	Sori-Harengan	-1.98384	146.642	nime-m	limep	lexically distinct	phonological change	no	no	_	_	1374	abvd	317042	1374	abvd	317042
+783	liku1243	Likum	-2.16157	146.695	lime-n	lime	full colexification	_	no	no	_	_	72	abvd	Blust-72-2005	liku1243-3	barlowpacific	LeanManus
+784	kheh1237	Khehek	-2.06626	146.746	liːme	liːme	full colexification	_	no	no	_	_	1385	abvd	317042	1385	abvd	317042
+785	mond1265	Mondropolon	-2.01359	146.931	_	limeh	unknown	_	unknown	no	_	_				mond1265-2	barlowpacific	Blust2021
+786	tulu1259	Tulu-Bohuai	-2.14155	146.934	gabweːm	limiah	lexically distinct	lexical replacement	yes	no	PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ ?	_	1386	abvd	317042	tulu1259-1	barlowpacific	LeanManus
+787	pona1250	Ponam	-1.91705	146.887	lime-k	limef	partial colexification	_	no	no	_	_	1377	abvd	317042	1377	abvd	317042
+788	kurt1250	Kurti	-2.01187	147.036	_	limweh	unknown	_	unknown	no	_	_				kurt1250-2	barlowpacific	Blust2021
+789	eluu1241	Elu	-1.99841	147.101	_	_	unknown	_	unknown	unknown	_	_						
+790	kele1258	Kele (Papua New Guinea)	-2.09163	147.064	leme-n	limweh	lexically distinct	phonological change	no	no	_	_	1382	abvd	317042	kele1258-2	barlowpacific	Blust2021
+791	eree1241	Ere	-2.15569	147.083	_	limo	unknown	_	unknown	no	_	_				eree1241-2	barlowpacific	Lean1985Vol02
+792	andr1248	Andra-Hus	-2.05894	147.085	lime-m	limeh	partial colexification	_	no	no	_	_	1378	abvd	317042	andr1248-1	barlowpacific	Blust2021
+793	leip1237	Leipon	-1.9665	147.226	nimu-	(ma)limeh	lexically distinct	phonological change	no	no	_	_	1381	abvd	317042	leip1237-1	barlowpacific	Lean1985Vol02
+794	bowa1234	Manus Koro	-2.03429	147.14267	kope-	lima	lexically distinct	lexical replacement	yes	no	PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ ?	_	995	abvd	Cleary-Kemp-995-2013	bowa1234-3	barlowpacific	Schnee1901
+795	lele1270	Lele (Papua New Guinea)	-2.04783	147.207	_	malimah	unknown	_	unknown	no	_	_				lele1270-1	chan2019	Lele-AN.htm
+796	tita1241	Titan	-2.18168	146.888	lima	lima	full colexification	_	no	no	_	_	510	abvd	125306	510	abvd	125306
+797	nali1245	Nali	-2.14273	147.202	jiːmo-n	yimah	lexically distinct	phonological change	no	no	_	_	1380	abvd	317042	nali1245-2	chan2019	Nali.htm
+798	loni1238	Loniu	-2.06124	147.35	nime-n	limeh	lexically distinct	phonological change	no	no	_	_	73	abvd	Blust-73-2005	loni1238-3	barlowpacific	LeanManus
+799	moke1240	Mokerang	-2.01602	147.423	nime-n	malimeh	lexically distinct	phonological change	no	no	_	_	1383	abvd	317042	moke1240-1	barlowpacific	LeanManus
+800	pakt1239	Pak-Tong	-2.05269	147.767	mine-k	nuron	lexically distinct	lexical replacement	yes	yes	POC *minV- ‘hand’ ?	?	1387	abvd	317042	pakt1239-1	barlowpacific	Blust2021
+801	louu1245	Lou	-2.38659	147.346	mina-	ŋuran	lexically distinct	lexical replacement	yes	yes	POC *minV- ‘hand’ ?	?	74	abvd	Blust-74-2005	74	abvd	Blust-74-2005
+802	balu1257	Paluai	-2.5604	147.282	min-	ŋuːnan	lexically distinct	lexical replacement	yes	yes	POC *minV- ‘hand’ ?	?	balu1257-1	barlowpacific	Lean1985Vol02	1389	abvd	317042
+803	lenk1247	Lenkau	-2.33367	147.742	_	ŋuran	unknown	_	unknown	yes	_	?				lenk1247-2	barlowpacific	Blust2021
+804	penc1239	Penchal	-2.29891	147.81	_	rurin	unknown	_	unknown	yes	_	?				penc1239-1	barlowpacific	LeanManus
+805	naun1237	Nauna	-2.21213	148.201	min	tutən	lexically distinct	lexical replacement	yes	yes	POC *minV- ‘hand’ ?	?	96	abvd	Blust-96-2005	naun1237-2	barlowpacific	Blust2021
+806	muss1246	Mussau-Emira	-1.44105	149.624	nima-	lima	lexically distinct	phonological change	no	no	_	_	79	abvd	92079	79	abvd	92079
+807	teni1244	Tenis	-1.65074	150.672	_	'ɣɑlimɑ	unknown	_	unknown	no	_	_				teni1244-1	chan2019	Tenis.htm
+808	liki1241	Liki	-1.60652	138.731	_	lim	unknown	_	unknown	no	_	_				liki1241-1	chan2019	Liki-Sobei.htm
+809	sobe1238	Sobei	-1.86998	138.75	imi-m	dim	lexically distinct	phonological change	no	no	_	_	126	abvd	GraceNB;144702	sobe1238-1	chan2019	Sobei.htm
+810	wakd1237	Wakde	-1.98457	139.008	_	lim	unknown	_	unknown	no	_	_				wakd1237-1	barlowpacific	Ray1912
+811	masi1265	Masimasi	-2.00717	139.04	_	rim	unknown	_	unknown	no	_	_				masi1265-1	barlowpacific	Ray1912
+812	yamn1237	Yamna	-2.09118	139.206	_	rim	unknown	_	unknown	no	_	_				yamn1237-1	barlowpacific	Ray1912
+813	anus1237	Korur	-2.26271	139.502	_	arim	unknown	_	unknown	no	_	_				anus1237-1	chan2019	Anus-Sobei.htm
+814	pode1237	Podena	-2.20572	139.456	_	_	unknown	_	unknown	unknown	_	_						
+815	bong1287	Bonggo	-2.28044	139.576	_	rim	unknown	_	unknown	no	_	_				bong1287-1	barlowpacific	Galis1955
+816	kapt1235	Kaptiau	-2.388426	139.795818	_	_	unknown	_	unknown	unknown	_	_						
+817	tarp1240	Tarpia	-2.322279	140.115497	mi-	rim	lexically distinct	phonological change	no	no	_	_	132	abvd	GraceNB	tarp1240-1	barlowpacific	Galis1955
+818	ormu1248	Ormu	-2.51361	140.6015	_	aruratima	unknown	_	unknown	no	_	_				ormu1248-2	barlowpacific	Grace1955pdf21
+819	kayu1243	Kayupulau	-2.54415	140.626	ia-	mənema	lexically distinct	lexical replacement	yes	no	?	_	57	abvd	GraceNB	kayu1243-1	barlowpacific	Grace1955pdf48
+820	toba1266	Tobati	-2.56434	140.71	ajè charijog	mə'niʌm	lexically distinct	lexical replacement	yes	no	?	_	1539	abvd	142054	toba1266-1	chan2019	Tobati-Yotafa.htm
+821	kapp1237	Kap	-3.28761	142.659	awiə-k	lim	lexically distinct	lexical replacement	yes	no	?	_	39	abvd	Laycock-39-2005	kapp1237-1	barlowpacific	Laycock1970D08
+822	tuml1238	Tumleo	-3.14955	142.346	_	leim	unknown	_	unknown	no	_	_				tuml1238-1	barlowpacific	Laycock1970D02
+823	sera1260	Sera	-2.9854	141.951	bɛlɔŋ	bíŋɡɑn ponteneŋ	lexically distinct	lexical replacement	yes	yes	PMP *baRa ‘hand, arm’ ?	wing one ?? (< PWOC *baqe ‘wing, (?) hand’)	sera1260-1	barlowpacific	Laycock1970D01	sera1260-1	barlowpacific	Laycock1970D01
+824	arop1242	Arop-Sissano	-3.06984	142.12	bage-k	eltin-eltin-puntanen	lexically distinct	lexical replacement	yes	yes	PWOC *baqe ‘wing, (?) hand’	2+2+1	1360	abvd	LincolnND	arop1242-1	barlowpacific	Ray1919
+825	malo1245	Malol	-3.11695	142.244	_	eltin eltin pontenen	unknown	_	unknown	yes	_	2+2+1				malo1245-1	barlowpacific	vandenBerg2021
+826	siss1243	Sissano	-3.01976	142.049	awen-lapa-n	eltin eltin pontenen	lexically distinct	lexical replacement	yes	yes	?	2+2+1	1394	abvd	Ross-1394-2016;WhiteacreND;Whiteacre1986	siss1243-1	barlowpacific	LeanSandaun
+827	ulau1237	Ulau-Suain	-3.32876	142.845	ayi-m	ayiakalun	partial colexification	(recolexification)	yes	yes	?	hand other ?	ulau1237-2	barlowpacific	LeanSandaun	ulau1237-2	barlowpacific	LeanSandaun
+828	kaie1237	Kaiep	-3.70524	143.884	au-in	lim	lexically distinct	lexical replacement	yes	no	?	_	kaie1237-2	barlowpacific	LeanEastSepik	kaie1237-1	barlowpacific	Laycock1976
+829	tere1276	Terebu	-3.68721	143.835	_	lim	unknown	_	unknown	no	_	_				tere1276-1	chan2019	Terebu.htm
+830	kair1263	Kairiru	-3.34608	143.558	koweñ	lim	lexically distinct	lexical replacement	yes	no	?	_	30	abvd	Wivell-30-2005	30	abvd	Wivell-30-2005
+831	biem1237	Biem	-3.61342	144.816	lima-	kiki be kubwɑ	lexically distinct	lexical replacement	no	yes	_	4+1	biem1237-1	barlowpacific	LeanEastSepik	biem1237-1	chan2019	Biem.htm
+832	mana1295	Manam	-4.07921	145.033	debu	lima	lexically distinct	phonological change	no	no	_	_	168	abvd	Blust-168-2005	168	abvd	Blust-168-2005
+833	sepa1241	Sepa (Papua New Guinea)	-4.27	144.965	lima-	lima	full colexification	_	no	no	_	_	sepa1241-2	barlowpacific	LeanMadang	sepa1241-1	barlowpacific	Laycock1976
+834	kiss1246	Kis	-3.83909	143.96	dəmá	lima	lexically distinct	phonological change	no	no	_	_	23	abvd	Laycock-23-2005	kiss1246-1	chan2019	Kis.htm
+835	woge1237	Wogeo	-3.20238	144.089	lima	(kʷik) bʷa-kobʷá	lexically distinct	lexical replacement	no	yes	_	4+1	1337	abvd	Ross-1337-2016;t_AndersonExter_Wogeo	woge1237-1	chan2019	Wogeo.htm
+836	mede1237	Medebur	-4.49918	145.425	nima-	lim	lexically distinct	phonological change	no	no	_	_	mede1237-3	barlowpacific	LeanMadang	mede1237-1	barlowpacific	Laycock1976
+837	awad1244	Awad Bing	-5.59896	146.355	lima-	lima-d bad	partial colexification	_	no	no	_	_	1347	abvd	LincolnND	1347	abvd	LincolnND
+838	mind1255	Mindiri	-5.5	146.15	moŋga	mandi-ta	lexically distinct	lexical replacement	yes	no	?	_	1353	abvd	LincolnND	1353	abvd	LincolnND
+839	wabb1237	Wab	-5.61216	146.461	ima-	tindum	lexically distinct	lexical replacement	no	yes	_	thumb ??	1346	abvd	LincolnND	1346	abvd	LincolnND
+840	bilb1241	Bilibil	-5.26505	145.764	niman	niman-ta	partial colexification	_	no	no	_	_	402	abvd	Ross-402-2006	bilb1241-1	chan2019	Bilbil.htm
+841	geda1237	Gedaged	-5.18175	145.781	nimán	niman ta	partial colexification	_	no	no	_	_	7	abvd	134622	geda1237-4	barlowpacific	Dempwolff
+842	mari1428	Marik	-5.349	145.59	ima	ima tekelai kusupela	partial colexification	_	no	no	_	_	mari1428-1	barlowpacific	LeanMadang	mari1428-1	barlowpacific	LeanMadang
+843	matu1261	Matukar	-4.9078	145.779	numa/n	numan tahek	partial colexification	_	no	no	_	_	400	abvd	Ross-400-2006	400	abvd	Ross-400-2006
+844	taki1248	Takia	-4.69057	145.975	bani-	bāni(n)	full colexification	(recolexification)	yes	yes	PAN *paNij ‘wing’	wing	366	abvd	180592	taki1248-1	barlowpacific	Ray1919
+845	mato1252	Mato	-5.91639	146.859	rima-ra	lua lua hiliana	lexically distinct	lexical replacement	no	yes	_	2+2+1	1350	abvd	LincolnND	mato1252-4	barlowpacific	Smith1988
+846	ronj1237	Ronji	-5.80782	146.731	dimara	dimɑrɑ pɑtendeninɑ	partial colexification	_	no	no	_	_	ronj1237-1	barlowpacific	Smith1988	ronj1237-1	barlowpacific	Smith1988
+847	arop1243	Arop-Lokep	-5.31671	147.103	bene-	limi	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’	_	arop1243-3	barlowpacific	LeanMadang	arop1243-1	barlowpacific	Carter2012
+848	karn1252	Karnai	-5.74133	147.917	_	lim	unknown	_	unknown	no	_	_				karn1252-1	barlowpacific	Smith1988
+849	mala1487	Malasanga	-5.9401	147.058	bage-ra	bagerata	partial colexification	(recolexification)	yes	yes	PWOC *baqe ‘wing, (?) hand’	wing one	1345	abvd	LincolnND	1345	abvd	LincolnND
+850	murp1234	Mur Pano	-5.6642	146.522	bage-k	igia kalpanə	lexically distinct	lexical replacement	yes	yes	PWOC *baqe ‘wing, (?) hand’	?	murp1234-3	barlowpacific	barlowpacific	murp1234-2	barlowpacific	Carter2012
+851	sioo1240	Sio	-5.96037	147.353	mbau	lima	lexically distinct	lexical replacement	yes	no	PWOC *baqe ‘wing, (?) hand’ ?	_	1355	abvd	LincolnND	1355	abvd	LincolnND
+852	mbul1263	Mbula	-5.66965	148.041	nama	lama ta	lexically distinct	phonological change	no	no	_	_	1330	abvd	303696;323381	mbul1263-1	barlowpacific	Chinnery1928
+853	male1289	Maleu-Kilenge	-5.61613	148.445	ḇaǥe	masa	lexically distinct	lexical replacement	yes	no	PWOC *baqe ‘wing, (?) hand’	_	82	abvd	Anonymous-82-2005	male1289-1	chan2019	Maleu-Kilenge.htm
+854	amar1272	Amara	-5.55778	148.68	lume	lume	full colexification	_	no	no	_	_	285	abvd	100250	amar1272-1	chan2019	Amara-Longa.htm
+855	lamo1244	Lamogai	-5.87071	149.321	milpú	lime	lexically distinct	lexical replacement	yes	no	POC *minV- ‘hand’ ?	_	67	abvd	Brunn-67-2005	lamo1244-5	barlowpacific	Chinnery1928
+856	mouk1239	Mouk-Aria	-5.71155	149.158	limla	elme	lexically distinct	phonological change	no	no	_	_	287	abvd	8526	mouk1239-1	barlowpacific	LeanWestNewBritain
+857	akol1237	Akolet	-6.22711	150.182	lama	lim	lexically distinct	phonological change	no	no	_	_	1395	abvd	Sato-1395-2016	akol1237-1	barlowpacific	Lean1985Vol04
+858	avau1237	Avau	-6.24342	150.427	mini	limi	lexically distinct	lexical replacement	yes	no	POC *minV- ‘hand’ ?	_	1391	abvd	Sato-1391-2016	1391	abvd	Sato-1391-2016
+859	lesi1239	Lesing-Gelimi	-6.19889	150.506	i'meni	lim	lexically distinct	lexical replacement	yes	no	POC *minV- ‘hand’ ?	_	lesi1239-1	barlowpacific	LeanWestNewBritain	lesi1239-1	barlowpacific	LeanWestNewBritain
+860	aikl1237	Aiklep	-6.23575	149.571	_	liem	unknown	_	unknown	no	_	_				aikl1237-1	barlowpacific	Chinnery1928
+861	apal1255	Apalik	-6.29002	149.96	ime	eliem	lexically distinct	lexical replacement	yes	no	POC *minV- ‘hand’ ?	_	apal1255-1	barlowpacific	LeanWestNewBritain	apal1255-1	barlowpacific	LeanWestNewBritain
+862	gimi1242	Gimi (West New Britain)	-6.02464	149.478	imom	lim	lexically distinct	lexical replacement	yes	no	POC *minV- ‘hand’ ?	_	gimi1242-2	barlowpacific	Lean1985Vol04	gimi1242-2	barlowpacific	Lean1985Vol04
+863	solo1258	Solong	-5.86129	148.825	_	(e)nolim	unknown	_	unknown	no	_	_				solo1258-1	barlowpacific	Lean1985Vol04
+864	bebe1252	Bebeli	-5.63282	150.323	mini	elimikapeke	lexically distinct	lexical replacement	yes	no	POC *minV- ‘hand’ ?	_	1361	abvd	Sato-1361-2016	bebe1252-1	barlowpacific	Lean1985Vol04
+865	mang1403	Mangseng	-5.89752	150.68	mɛni	lim	lexically distinct	lexical replacement	yes	no	POC *minV- ‘hand’ ?	_	1335	abvd	Ross-1335-2016;milligan-a	1335	abvd	Ross-1335-2016;milligan-a
+866	aigh1235	Aighon	-5.99488	150.272	_	ɛsip	unknown	_	unknown	yes	_	one wing ?? (< PAN *paNij ‘wing’)				aigh1235-1	chan2019	Aighon.htm
+867	karo1298	Karore	-6.15563	149.907	_	_	unknown	_	unknown	unknown	_	_						
+868	kaul1240	Kaulong	-6.08192	149.696	wĩi-	aep	lexically distinct	lexical replacement	yes	yes	PMP *baRa ‘hand, arm’ ??	one wing ?? (< PAN *paNij ‘wing’)	56	abvd	Throop-56-2005	kaul1240-1	barlowpacific	Lean1985Vol04
+869	miuu1237	Miu	-5.88037	149.557	_	ep	unknown	_	unknown	yes	_	one wing ?? (< PAN *paNij ‘wing’)				miuu1237-1	chan2019	Miu-My.htm
+870	seng1281	Sengseng	-6.16474	149.784	vili-	eip	lexically distinct	lexical replacement	yes	yes	PMP *baRa ‘hand, arm’ ??	one wing ?? (< PAN *paNij ‘wing’)	123	abvd	152885	seng1281-1	barlowpacific	Chinnery1928
+871	lote1237	Lote	-5.954	150.911	pe-	lime	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	lote1237-1	barlowpacific	LeanEastNewBritain	lote1237-1	barlowpacific	LeanEastNewBritain
+872	mamu1254	Mamusi	-5.84776	151.033	kama	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’	_	mamu1254-1	barlowpacific	LeanEastNewBritain	mamu1254-1	barlowpacific	LeanEastNewBritain
+873	meng1267	Mengen	-5.47036	151.373	ka'mana	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’	_	91	abvd	Rath-91-2005	meng1267-1	barlowpacific	Lean1985Vol04
+874	tami1290	Tami	-6.70017	147.732	limang	lim	partial colexification	_	no	no	_	_	tami1290-1	barlowpacific	LeanMorobe	1333	abvd	94718;Ross-1333-2016
+875	mala1489	Malalamai	-5.77495	146.642	nima-	nimanda emo	partial colexification	_	no	no	_	_	1343	abvd	LincolnND	mala1489-1	barlowpacific	LeanMadang
+876	gitu1237	Gitua	-6.0151	147.485	nima-	niːma	full colexification	_	no	no	_	_	1359	abvd	LincolnND	gitu1237-3	barlowpacific	Carter2012
+877	mutu1242	Mutu	-5.79405	148.014	nima-	lim	lexically distinct	phonological change	no	no	_	_	1358	abvd	LincolnND	1358	abvd	LincolnND
+878	bari1286	Bariai	-5.5087	148.666	bage	lima	lexically distinct	lexical replacement	yes	no	PWOC *baqe ‘wing, (?) hand’	_	1336	abvd	Ross-1336-2016;50214	1336	abvd	Ross-1336-2016;50214
+879	kove1237	Kove	-5.58623	149.63	lima	lima	full colexification	_	no	no	_	_	152885	abvd	A. Chowning	282	abvd	152885
+880	lusi1240	Lusi	-5.55033	149.148	_	lima	unknown	_	unknown	no	_	_				lusi1240-1	barlowpacific	Lean1985Vol04
+881	arib1241	Aribwatsa	-6.72266	146.991	baɡiɡ	baɡiɡ wenen	partial colexification	(recolexification)	yes	yes	PWOC *baqe ‘wing, (?) hand’	wing half	arib1241-1	chan2019	Aribwatsa-Lae.htm	arib1241-1	chan2019	Aribwatsa-Lae.htm
+882	arib1240	Aribwaung	-6.65252	146.919	paŋɡi-ŋɡ	paŋɡi-ŋɡ lefen	partial colexification	(recolexification)	yes	yes	PWOC *baqe ‘wing, (?) hand’	wing half	arib1240-1	chan2019	Aribwaung-Yalu.htm	arib1240-1	chan2019	Aribwaung-Yalu.htm
+883	duwe1237	Duwet	-6.45752	146.841	limaŋɡa	limaŋɡa arinaŋ	partial colexification	_	no	no	_	_	duwe1237-1	chan2019	Guwot-Duwet.htm	duwe1237-1	chan2019	Guwot-Duwet.htm
+884	muso1238	Musom	-6.53817	146.93	bai-ŋ	bai-ŋ rehen	partial colexification	(recolexification)	yes	yes	PWOC *baqe ‘wing, (?) hand’	wing half	muso1238-1	chan2019	Musom.htm	muso1238-1	chan2019	Musom.htm
+885	nafi1237	Nafi	-6.43306	146.815	baing	baing lafen	partial colexification	(recolexification)	yes	yes	PWOC *baqe ‘wing, (?) hand’	wing half	nafi1237-1	barlowpacific	Smith1988	nafi1237-1	barlowpacific	Smith1988
+886	labu1248	Labu	-6.75	146.903	_	maipi	unknown	_	unknown	no	_	_				labu1248-1	barlowpacific	Smith1988
+887	wamp1247	Wampar	-6.67364	146.662	baŋi-n	baŋid oroz	partial colexification	(recolexification)	yes	yes	PWOC *baqe ‘wing, (?) hand’	wing one	141	abvd	158598	wamp1247-2	chan2019	Wampar.htm
+888	adze1240	Adzera	-6.39394	146.294	bangi	bangi bitsinta	partial colexification	(recolexification)	yes	yes	PWOC *baqe ‘wing, (?) hand’	wing one	adze1240-2	barlowpacific	Smith1988	adze1240-2	barlowpacific	Smith1988
+889	mari1429	Mari (Madang Province)	-5.97399	145.828	_	hiɾukaŋkwakahiɾukaŋkwabasinta	unknown	_	unknown	yes	_	2+2+1				mari1429-2	barlowpacific	AnonymousRamuA
+890	sara1323	Sarasira	-6.18	146.4	_	iruk da iruk a mangan	unknown	_	unknown	yes	_	2+2+1				sara1323-2	barlowpacific	Smith1988
+891	suku1264	Sukurum	-6.28	146.34187	_	leluk anga leluk anga bisan	unknown	_	unknown	yes	_	2+2+1				suku1264-1	barlowpacific	Smith1988
+892	wamp1248	Wampur	-6.33644	146.126	bacin	bacin marahin sib	partial colexification	(recolexification)	yes	yes	PWOC *baqe ‘wing, (?) hand’	wing half	wamp1248-1	barlowpacific	Smith1988	wamp1248-1	barlowpacific	Smith1988
+893	midd1327	Middle Watut	-6.88249	146.399126	beŋki	lelaso ŋa beŋki	partial colexification	(recolexification)	yes	yes	PWOC *baqe ‘wing, (?) hand’	bend the wing	midd1327-2	barlowpacific	Fischer1963	midd1327-2	barlowpacific	Fischer1963
+894	nort2857	North Watut	-6.64084	146.218	baŋkeʔ	baŋkeʔ haitsiʔ	partial colexification	(recolexification)	yes	yes	PWOC *baqe ‘wing, (?) hand’	wing half	nort2857-1	chan2019	Watut-North-Unank.htm	nort2857-1	chan2019	Watut-North-Unank.htm
+895	sout2877	South Watut	-7.03751	146.409	bangi	bangi takanan	partial colexification	(recolexification)	yes	yes	PWOC *baqe ‘wing, (?) hand’	wing one	sout2877-1	barlowpacific	Smith1988	sout2877-1	barlowpacific	Smith1988
+896	buga1250	Bugawac	-6.67519	147.32	amang	lim dang	lexically distinct	lexical replacement	yes	no	?	_	buga1250-2	barlowpacific	LeanMorobe	buga1250-3	barlowpacific	Smith1988
+897	yabe1254	Yabem	-6.67052	147.81	lêma	lemeŋteŋ	partial colexification	_	no	no	_	_	334	abvd	64760	334	abvd	64760
+898	kela1255	Kela (Papua New Guinea)	-7.47103	147.173	maŋge	lita	lexically distinct	lexical replacement	yes	no	?	_	1557	abvd	Schreyer2018	1557	abvd	Schreyer2018
+899	kapi1250	Kapin	-7.05732	146.529	_	lim	unknown	_	unknown	no	_	_				kapi1250-1	barlowpacific	LeanMorobe
+900	mang1404	Mangga Buang	-6.99891	146.685	nama	nama vaalu	partial colexification	_	no	no	_	_	mang1404-1	barlowpacific	Smith1988	mang1404-1	barlowpacific	Smith1988
+901	mapo1242	Mapos Buang	-6.86672	146.774	oro	oronvalu	partial colexification	(recolexification)	yes	yes	PMP *baRa ‘hand, arm’ ?	hand half	1691	abvd		mapo1242-1	barlowpacific	Smith1988
+902	damb1246	Dambi	-7.00587	146.474	nəˈma	ƀaˈlu	lexically distinct	lexical replacement	no	yes	_	half ?	damb1246-2	barlowpacific	Adams1985	damb1246-1	barlowpacific	Adams1985
+903	kuma1278	Kumalu	-7.1135	146.57	neˈma	nəma'βaru	partial colexification	_	no	no	_	_	kuma1278-1	barlowpacific	Adams1985	kuma1278-1	chan2019	Kumalu.htm
+904	gora1262	Gorakor	-6.85564	146.579	ƀəˈŋɡi	nəma'βəlu	lexically distinct	lexical replacement	yes	no	PWOC *baqe ‘wing, (?) hand’	_	gora1262-2	barlowpacific	Adams1985	gora1262-1	chan2019	Gorakor-Yanta.htm
+905	pate1247	Patep	-6.91988	146.639	vge	vgɛvlu	partial colexification	(recolexification)	yes	yes	PWOC *baqe ‘wing, (?) hand’	wing half	1334	abvd	Ross-1334-2016;adams-a	1334	abvd	Ross-1334-2016;adams-a
+906	zena1237	Zenag	-6.93858	146.546	nəˈma	nəˈma ƀəˈlu	partial colexification	_	no	no	_	_	zena1237-1	barlowpacific	Adams1985	zena1237-1	barlowpacific	Adams1985
+907	piuu1237	Piu	-6.96694	146.455	banggi	vate	lexically distinct	lexical replacement	yes	yes	PWOC *baqe ‘wing, (?) hand’	half ?	piuu1237-2	barlowpacific	Smith1988	piuu1237-1	barlowpacific	LeanMorobe
+908	vehe1237	Vehes	-6.92151	146.895	_	nəma baru	unknown	_	unknown	no	_	_				vehe1237-1	barlowpacific	Smith1988
+909	hote1245	Hote	-7.07708	146.869	baɣan	baɣan-vi	partial colexification	(recolexification)	yes	yes	PWOC *baqe ‘wing, (?) hand’	wing half	1392	abvd	Ross-1392-2016;MuzzeyND	1392	abvd	Ross-1392-2016;MuzzeyND
+910	yama1260	Yamap	-7.05687	146.817	bahe-	bahengvi	partial colexification	(recolexification)	yes	yes	PWOC *baqe ‘wing, (?) hand’	wing half	yama1260-1	barlowpacific	LeanMorobe	yama1260-1	barlowpacific	LeanMorobe
+911	iwal1237	Iwal	-7.20938	146.983	bage	bage tavlu	partial colexification	(recolexification)	yes	yes	PWOC *baqe ‘wing, (?) hand’	wing half	iwal1237-1	barlowpacific	LeanMorobe	iwal1237-1	barlowpacific	LeanMorobe
+912	numb1247	Numbami	-7.52806	147.298	nima	nima teula	partial colexification	_	no	no	_	_	231	abvd	Bradshaw-231-2005	231	abvd	Bradshaw-231-2005
+913	mais1250	Maisin	-9.22853	148.731	fake	faketi tarosi	partial colexification	(recolexification)	yes	yes	PWOC *baqe ‘wing, (?) hand’	wing one side	165	abvd	Davani-165-2005	1440	abvd	schlossberg2012
+914	aree1239	Are	-9.67147	149.999	nima	nima masiana	partial colexification	_	no	no	_	_	aree1239-1	barlowpacific	Lean1986Vol06	aree1239-1	barlowpacific	Lean1986Vol06
+915	doga1238	Doga	-9.63698	149.841	_	imeimate	unknown	_	unknown	no	_	_				doga1238-1	barlowpacific	Lean1986Vol06
+916	arif1239	Arifama-Miniafia	-9.15565	149.246	umat	umat roun	partial colexification	_	no	no	_	_	arif1239-1	chan2019	Miniafia-Oyan.htm	arif1239-1	barlowpacific	Lean1985Vol05
+917	gapa1238	Gapapaiwa	-9.73317	149.854	ima-	ima ikovi	partial colexification	_	no	no	_	_	211	abvd	Blust-211-2005	gapa1238-1	chan2019	Gapapaiwa.htm
+918	ghay1237	Ghayavi	-10.011	149.84	ima	meikovi	lexically distinct	phonological change	no	no	_	_	1432	abvd	schlossberg2012	ghay1237-1	barlowpacific	Lean1986Vol06
+919	kani1281	Kaninuwa	-9.23148	150.253	nima	nima fafana tamo	partial colexification	_	no	no	_	_	kani1281-1	barlowpacific	Lean1986Vol06	kani1281-1	barlowpacific	Lean1986Vol06
+920	ubir1237	Ubir	-9.59044	149.396	ima|n	nim	lexically distinct	phonological change	no	no	_	_	222	abvd	Ross-222-2005	ubir1237-1	barlowpacific	Lean1985Vol05
+921	mina1269	Minaveha	-9.59922	150.501	nima	nima papani keana	partial colexification	_	no	no	_	_	1441	abvd	schlossberg2012	mina1269-1	chan2019	Kukuya.htm
+922	gwed1239	Gweda	-10.2173	150.421	nima	nima emosi i tutu	partial colexification	_	no	no	_	_	gwed1239-1	chan2019	Gweda.htm	gwed1239-1	chan2019	Gweda.htm
+923	haig1237	Haigwai	-10.2741	150.256	nima	nima em mota	partial colexification	_	no	no	_	_	haig1237-1	chan2019	Haigwai.htm	haig1237-1	chan2019	Haigwai.htm
+924	maiw1249	Maiwala	-10.3282	150.33	_	nimatutu	unknown	_	unknown	no	_	_				maiw1249-1	chan2019	Maiwala.htm
+925	taup1242	Taupota	-10.2275	150.373	nima	nima emosi i tutu	partial colexification	_	no	no	_	_	taup1242-1	chan2019	Tawala.htm	taup1242-1	chan2019	Taupota.htm
+926	waem1237	Wa'ema	-10.2897	150.398	_	ulitutu	unknown	_	unknown	yes	_	arm finished (< PMP *baRa ‘hand, arm’ ?)				waem1237-1	chan2019	Waema.htm
+927	tawa1275	Tawala	-10.3115	150.644	nima	nima i-tutu	partial colexification	_	no	no	_	_	651	abvd	Ezard2009	tawa1275-1	chan2019	Tawala.htm
+928	weda1241	Wedau	-10.1246	150.172	urana	ura tagogi	partial colexification	(recolexification)	yes	yes	PMP *baRa ‘hand, arm’ ?	hand one	381	abvd	Tauno-381-2009	1459	abvd	schlossberg2012
+929	yaka1275	Yakaikeke	-10.0852	149.982	nimanʌ	tonu ma rua	lexically distinct	lexical replacement	no	yes	_	3+2 (adhoc formulation?)	yaka1275-1	barlowpacific	Budita1997	yaka1275-1	barlowpacific	Budita1997
+930	dawa1242	Dawawa	-10.1692	149.999	nima	nima tegana yakovina	partial colexification	_	no	no	_	_	1428	abvd	schlossberg2012	dawa1242-1	barlowpacific	Lean1986Vol06
+931	kaka1267	Kakabai	-10.2976	150.027	nima	nima ɣemota	partial colexification	_	no	no	_	_	kaka1267-1	chan2019	Kakabai.htm	kaka1267-1	chan2019	Kakabai.htm
+932	anuk1239	Anuki	-9.6692	149.822	ima	imikovi or imana i kovi	partial colexification	_	no	no	_	_	1423	abvd	schlossberg2012	anuk1239-1	chan2019	Anuki.htm
+933	bwai1242	Bwaidoka	-9.51158	150.297	nima-	nima fafali tamo	partial colexification	_	no	no	_	_	51	abvd	38225	bwai1242-1	barlowpacific	Lean1986Vol06
+934	idun1242	Iduna	-9.34361	150.24	nima	nimada fafalatamo	partial colexification	_	no	no	_	_	1436	abvd	schlossberg2012	idun1242-1	barlowpacific	Lean1986Vol06
+935	diod1237	Diodio	-9.38654	150.168	nimafouna	nimafakewatamo	partial colexification	_	no	no	_	_	374	abvd	Ross-374-2009	diod1237-1	chan2019	Diodio.htm
+936	iama1237	Iamalele	-9.45005	150.573	nima	nima vaiʔai	partial colexification	_	no	no	_	_	1435	abvd	schlossberg2012	iama1237-1	chan2019	Iamalele.htm
+937	maia1251	Maiadomu	-9.47132	150.76	_	dimanina	unknown	_	unknown	no	_	_				maia1251-1	chan2019	Maiadomu.htm
+938	kolu1245	Koluwawa	-9.42742	150.462	nima	nimayavai	partial colexification	_	no	no	_	_	1438	abvd	schlossberg2012	kolu1245-1	chan2019	Kalokalo.htm
+939	moli1248	Molima	-9.57457	150.614	nima-	nima	full colexification	_	no	no	_	_	219	abvd	Chowning-219-2005	moli1248-1	chan2019	Molima.htm
+940	guma1254	Gumawana	-9.28497	150.762	nimana	nima	partial colexification	_	no	no	_	_	511	abvd	Olson-511-2008	511	abvd	Olson-511-2008
+941	bose1237	Boselewa	-9.44763	150.693	_	nimata	unknown	_	unknown	no	_	_				bose1237-1	chan2019	Boselewa.htm
+942	gale1257	Galeya	-9.54137	150.836	_	dimanina	unknown	_	unknown	no	_	_				gale1257-1	chan2019	Galeya.htm
+943	buna1276	Bunama	-10.0761	151.066	nima	nima	full colexification	_	no	no	_	_	1426	abvd	schlossberg2012	1426	abvd	schlossberg2012
+944	mwat1237	Mwatebu	-10.0271	151.066	_	nima	unknown	_	unknown	no	_	_				mwat1237-1	chan2019	Mwatebu.htm
+945	dobu1241	Dobu	-9.63239	150.825	nima-na	nima	full colexification	_	no	no	_	_	1429	abvd	schlossberg2012	218	abvd	39971
+946	duau1237	Duau	-10.187	151.218	_	nimana	unknown	_	unknown	no	_	_				duau1237-1	chan2019	Duau.htm
+947	sewa1251	Sewa Bay	-10.0277	150.956	nima	nima kaikeda	partial colexification	_	no	no	_	_	617	abvd	48805	sewa1251-1	chan2019	Sewa-Bay.htm
+948	unub1234	Unubahe	-10.3652	150.2683	nimɑ	nimɑ ɑmoʔɑ iɡehe	partial colexification	_	no	no	_	_	unub1234-1	barlowpacific	Rueck	unub1234-1	barlowpacific	Rueck
+949	waga1268	Wagawaga	-10.41792	150.37814	nima	nima yatutu	partial colexification	_	no	no	_	_	waga1268-1	barlowpacific	Lean1986Vol06	waga1268-1	barlowpacific	Lean1986Vol06
+950	buhu1237	Buhutu	-10.5074	150.18	nima	faligigi	lexically distinct	lexical replacement	no	yes	_	fingers ?	1425	abvd	schlossberg2012	1425	abvd	schlossberg2012
+951	sali1295	Saliba	-10.6148	150.727	nima	haligigi	lexically distinct	lexical replacement	no	yes	_	fingers ?	404	abvd	Margetts-404-2006	404	abvd	Margetts-404-2006
+952	suau1242	Suau	-10.6606	150.21	nima-	haligigi	lexically distinct	lexical replacement	no	yes	_	fingers ?	227	abvd	162411	227	abvd	162411
+953	oyao1237	Oya'oya	-10.5392	150.658	nima	nima ya tutu	partial colexification	_	no	no	_	_	1461	abvd	schlossberg2012	oyao1237-1	chan2019	Oyaoya.htm
+954	auhe1237	'Auhelawa	-10.0959	151.002	nima-	nima	full colexification	_	no	no	_	_	294	abvd	Anonymous-294-2005	auhe1237-1	chan2019	Auhelawa.htm
+955	bwan1241	Bwanabwana	-10.6599	151.034	nima	valigigi	lexically distinct	lexical replacement	no	yes	_	fingers ?	1458	abvd	schlossberg2012	bwan1241-1	barlowpacific	Lean1986Vol06
+956	abad1241	Abadi	-9.03389	146.992	imanana	ima	partial colexification	_	no	no	_	_	397	abvd	Ross-397-2006	397	abvd	Ross-397-2006
+957	motu1246	Motu	-9.67492	147.424	ima	ima	full colexification	_	no	no	_	_	26	abvd	119011	1444	abvd	schlossberg2012
+958	kuni1263	Kuni	-8.66368	146.874	ima-na	ima beke	partial colexification	_	no	no	_	_	393	abvd	Ross-393-2006	kuni1263-1	barlowpacific	Lean1986Vol07
+959	lala1268	Lala	-8.93195	146.749	ima	ima	full colexification	_	no	no	_	_	1439	abvd	schlossberg2012	395	abvd	Ross-395-2006
+960	meke1243	Mekeo	-8.23853	146.586	ima	ima	full colexification	_	no	no	_	_	89	abvd	Kavana-89-2005	1430	abvd	schlossberg2012
+961	tour1243	Toura (Papua New Guinea)	-9.10008	146.988	ima	ima	full colexification	_	no	no	_	_	396	abvd	Ross-396-2006	396	abvd	Ross-396-2006
+962	waim1251	Waima	-8.67145	146.544	ima-	ima	full colexification	_	no	no	_	_	1451	abvd	schlossberg2012	waim1251-1	barlowpacific	Lean1986Vol07
+963	hula1239	Hula	-9.99427	147.705	ɣima	imaima	lexically distinct	phonological change	no	no	_	_	1434	abvd	schlossberg2012	1434	abvd	schlossberg2012
+964	keap1239	Keapara	-10.1342	147.95	gima	imaima	lexically distinct	phonological change	no	no	_	_	1577	abvd	Karomanu2019	1577	abvd	Karomanu2019
+965	sina1266	Sinaugoro	-9.79791	147.861	ɣima	imaima	lexically distinct	phonological change	no	no	_	_	1424	abvd	schlossberg2012	1424	abvd	schlossberg2012
+966	bina1271	Bina (Papua New Guinea)	-10.2667	149.661	_	ima	unknown	_	unknown	no	_	_				bina1271-1	chan2019	Bina.htm
+967	mago1248	Magori	-10.2321	149.26	ima	ima	full colexification	_	no	no	_	_	164	abvd	Dutton-164-2005	mago1248-1	chan2019	Magori.htm
+968	yoba1237	Yoba	-10.2167	149.283	_	ima	unknown	_	unknown	no	_	_				yoba1237-1	chan2019	Yoba.htm
+969	ouma1237	Ouma	-10.2288	149.101	_	ima	unknown	_	unknown	no	_	_				ouma1237-1	chan2019	Ouma.htm
+970	budi1249	Budibud	-9.29802	153.689	_	akwai-lima	unknown	_	unknown	no	_	_				budi1249-1	barlowpacific	Ray1938EasternPapua
+971	kili1267	Kilivila	-8.72574	151.072	yami-la	lima	lexically distinct	phonological change	no	no	_	_	1437	abvd	schlossberg2012	159	abvd	Moguna-159-2005
+972	muyu1244	Muyuw	-9.195	152.731	nim	kwei-nim	partial colexification	_	no	no	_	_	646	abvd	303286	muyu1244-1	barlowpacific	Lean1986Vol06
+973	misi1243	Misima-Paneati	-10.6821	152.696	nima-na	enima	partial colexification	_	no	no	_	_	1442	abvd	schlossberg2012	94	abvd	Ross-94-2005
+974	nimo1246	Nimoa	-11.2297	153.158	ni'mʌnɛ	ho-limi	lexically distinct	phonological change	no	no	_	_	669	abvd	135521	nimo1246-3	barlowpacific	Ray1938EasternLouisiade
+975	sude1239	Sudest	-11.5229	153.488	nïmae	-lima	lexically distinct	phonological change	no	no	_	_	367	abvd	134183	sude1239-2	chan2019	Sudest.htm
+976	unea1237	Uneapa	-4.89383	149.141	_	ta-lima	unknown	_	unknown	no	_	_				unea1237-2	barlowpacific	Johnston1980
+977	bola1250	Bola	-5.55792	150.095	lima	lima	full colexification	_	no	no	_	_	1202	abvd	Wiebe-1202-2015	1202	abvd	Wiebe-1202-2015
+978	bulu1253	Bulu (Papua New Guinea)	-5.06134	150.101	lima	lima	full colexification	_	no	no	_	_	bulu1253-1	barlowpacific	Lean1985Vol04	bulu1253-1	barlowpacific	Lean1985Vol04
+979	mudu1242	Muduapa	-4.69751	149.489	lima	lima	full colexification	_	no	no	_	_	140	abvd	Ross-140-2005	140	abvd	Ross-140-2005
+980	mera1242	Meramera	-4.97468	151.528	lima	lima	full colexification	_	no	no	_	_	1205	abvd	Ross-1205-2015	mera1242-1	barlowpacific	Lean1985Vol04
+981	naka1262	Nakanai	-5.59931	150.888	lima	lima	full colexification	_	no	no	_	_	281	abvd	152885	naka1262-3	barlowpacific	Grace1955pdf47
+982	tomo1244	Tomoip	-5.30721	151.828	_	liem	unknown	_	unknown	no	_	_				tomo1244-3	barlowpacific	Barlow2023
+983	tung1290	Tungag	-2.52188	150.198	kuŋa-	lima	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’	_	359	abvd	145873	359	abvd	145873
+984	tiga1245	Tigak	-2.70951	150.893	mit	palmit	partial colexification	(recolexification)	yes	yes	POC *minV- ‘hand’ ?	part hand ?	135	abvd	301176	tiga1245-1	barlowpacific	Lean1985Vol01
+985	tian1237	Tiang	-2.95505	150.935	limana	patlima	partial colexification	_	no	no	_	_	391	abvd	Ross-391-2006	391	abvd	Ross-391-2006
+986	kara1486	Kara (Papua New Guinea)	-2.81957	151.111	limana	walima	partial colexification	_	no	no	_	_	384	abvd	Manase-384-2006	384	abvd	Manase-384-2006
+987	laku1238	Lakuramau	-2.883333	151.25	_	lima	unknown	_	unknown	no	_	_				xxxx0029-1	chan2019	Lakumarau.htm
+988	nali1244	Nalik	-2.94411	151.332	mit	avatmit	partial colexification	(recolexification)	yes	yes	POC *minV- ‘hand’ ?	four five (< POC *minV- ‘hand’ ?)	370	abvd	Lindstrom-370-2009	nali1244-2	barlowpacific	Lean1985Vol01
+989	nots1237	Notsi	-3.0557	151.661	lima-	lima	full colexification	_	no	no	_	_	nots1237-1	barlowpacific	Lean1985Vol01	nots1237-1	barlowpacific	Lean1985Vol01
+990	mand1440	Mandara	-2.7828	151.956	rima-na	naparirima	partial colexification	_	no	no	_	_	129	abvd	Ross-129-2005	372	abvd	Ross-372-2009
+991	lihi1237	Lihir	-3.18895	152.606	a liman	a liem	lexically distinct	phonological change	no	no	_	_	385	abvd	Tombeh-385-2006	385	abvd	Tombeh-385-2006
+992	lava1239	Lavatbura-Lamusong	-3.21903	151.728	guma	lima	lexically distinct	lexical replacement	yes	no	?	_	171	abvd	Blust-171-2005	lava1239-1	barlowpacific	Lean1985Vol01
+993	baro1253	Barok	-3.47672	152.193	himine	pitno	lexically distinct	lexical replacement	yes	yes	POC *minV- ‘hand’ ??	?	387	abvd	Tamanas-387-2006	387	abvd	Tamanas-387-2006
+994	mada1285	Madak	-3.34342	151.967	lengen	limo	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	383	abvd	William-383-2009	mada1285-1	barlowpacific	Lean1985Vol01
+995	gura1254	Guramalum	-4.26666	152.933	_	_	unknown	_	unknown	unknown	_	_						
+996	kuan1248	Kuanua	-4.30986	152.114	limana	ilima	partial colexification	_	no	no	_	_	382	abvd	Vue-382-2009	kuan1248-1	barlowpacific	Schnee1901
+997	mini1251	Minigir	-4.31803	152.005	lima	ai lima	full colexification	_	no	no	_	_	386	abvd	Ross-386-2006	386	abvd	Ross-386-2006
+998	patp1243	Patpatar	-3.74711	152.493	lima	liman	partial colexification	_	no	no	_	_	178	abvd	Mitir-178-2005	patp1243-1	chan2019	Patpatar.htm
+999	bilu1244	Bilur	-4.39732	152.334	a kuna	lima	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’	_	392	abvd	Ross-392-2006	392	abvd	Ross-392-2006
+1000	labe1239	Label	-4.46971	152.678	ku	lima	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’	_	1340	abvd	21242	1340	abvd	21242
+1001	kand1301	Kandas	-4.3652	152.781	a lama-	lima-	lexically distinct	phonological change	no	no	_	_	388	abvd	Malaibe-388-2006	388	abvd	Malaibe-388-2006
+1002	ramo1244	Ramoaaina	-4.17306	152.451	lima	lima	full colexification	_	no	no	_	_	1341	abvd	Ross-1341-2016;DaviesFritzellND;s_DaviesFritzell_Ramoaaina	1341	abvd	Ross-1341-2016;DaviesFritzellND;s_DaviesFritzell_Ramoaaina
+1003	siar1238	Siar-Lak	-4.62059	152.892	liman	i lim	partial colexification	_	no	no	_	_	364	abvd	Ross-364-2005	siar1238-1	chan2019	Siar.htm
+1004	surs1246	Sursurunga	-3.99078	152.768	limə	lim	partial colexification	_	no	no	_	_	1342	abvd	Ross-1342-2016;HutchissonND;s_Hutchisson_Sursurunga	1342	abvd	Ross-1342-2016;HutchissonND;s_Hutchisson_Sursurunga
+1005	kono1269	Konomala	-4.16184	152.87	kuk	lima	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’	_	kono1269-1	barlowpacific	Lean1985Vol01	kono1269-1	barlowpacific	Lean1985Vol01
+1006	tang1348	Tangga	-4.08824	153.611	lima	lim	partial colexification	_	no	no	_	_	980	abvd	Wima-980-2013	980	abvd	Wima-980-2013
+1007	hako1237	Hakö	-5.06832	154.594	walima	(lim)	partial colexification	_	no	no	_	_	377	abvd	Ross-377-2009	hako1237-1	barlowpacific	Lean1985Vol03
+1008	hali1244	Halia	-5.26603	154.662	lima	lima	full colexification	_	no	no	_	_	647	abvd	Ross-647-2009	hali1244-2	barlowpacific	Lean1985Vol03
+1009	peta1245	Petats	-5.34068	154.593	_	lim	unknown	_	unknown	no	_	_				peta1245-1	chan2019	Petats.htm
+1010	sapo1253	Saposa	-5.64103	154.732	nima-naih	a nima	full colexification	_	no	no	_	_	225	abvd	Ross-225-2005	sapo1253-2	chan2019	Taiof-Saposa.htm
+1011	haho1237	Hahon	-5.59031	154.801	_	'taunima	unknown	_	unknown	no	_	_				haho1237-1	chan2019	Hahon.htm
+1012	teop1238	Teop	-5.67474	154.971	kurina	taonim	lexically distinct	lexical replacement	yes	no	?	_	187	abvd	Spriggs-187-2005	teop1238-1	barlowpacific	Lean1985Vol03
+1013	tinp1237	Tinputz	-5.58358	154.972	koteniah	tonim	lexically distinct	lexical replacement	yes	no	?	_	tinp1237-2	barlowpacific	Lean1985Vol03	tinp1237-1	barlowpacific	Lean1985Vol03
+1014	neha1247	Nehan	-4.56875	154.2	liman	tolima	partial colexification	_	no	no	_	_	98	abvd	Kenneth-98-2005	472	abvd	137204
+1015	papa1265	Papapana	-5.92283	155.289	_	papaⁱ-taᵘ-nima	unknown	_	unknown	no	_	_				papa1265-2	chan2019	Papapana.htm
+1016	solo1257	Solos	-5.41042	154.624	mo mina uh	tanim	lexically distinct	lexical replacement	yes	no	POC *minV- ‘hand’ ?	_	398	abvd	Ross-398-2006	solo1257-1	barlowpacific	Lean1985Vol03
+1017	bann1247	Bannoni	-6.23061	155.128	numa-	ghinima	lexically distinct	phonological change	no	no	_	_	4	abvd	lincoln1975a	4	abvd	lincoln1975a
+1018	lawu1237	Lawunuia	-6.15201	155.129	numa-gu	'nima	lexically distinct	phonological change	no	no	_	_	858	abvd	Lincoln-858-2011	lawu1237-1	barlowpacific	Lean1985Vol03
+1019	mono1273	Mono-Alu	-7.05102	155.76	ime-	lima	lexically distinct	phonological change	no	no	_	_	81	abvd	85830	530	abvd	85830
+1020	tora1259	Torau	-6.19922	155.496	baela	nima	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	390	abvd	Ross-390-2006	390	abvd	Ross-390-2006
+1021	urua1242	Uruava	-6.23314	155.573	kabe-na	rima	lexically distinct	lexical replacement	yes	no	PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ ?	_	474	abvd	Palmer2004;Lincoln-474-2007	urua1242-2	barlowpacific	Rausch1912
+1022	riri1237	Ririo	-6.88927	156.92	körs	lima	lexically distinct	lexical replacement	yes	no	?	_	182	abvd	Laycock-182-2005	182	abvd	Laycock-182-2005
+1023	baba1268	Babatana	-7.22281	157.149	kərisi	lima	lexically distinct	lexical replacement	yes	no	?	_	569	abvd	85830	44	abvd	85830
+1024	sisi1250	Sisiqa	-7	156.83	körisía	lɨma	lexically distinct	lexical replacement	yes	no	?	_	363	abvd	Ross-363-2005	363	abvd	Ross-363-2005
+1025	vagh1249	Vaghua	-6.68712	156.542	ləma-	kaləma	partial colexification	_	no	no	_	_	139	abvd	85830	139	abvd	85830
+1026	vari1239	Varisi	-6.83443	156.655	karisi-na	kalima	lexically distinct	lexical replacement	yes	no	?	_	191	abvd	85830	191	abvd	85830
+1027	maro1244	Marovo	-8.37943	157.747	lima-	limɑ	full colexification	_	no	no	_	_	87	abvd	85830	maro1244-1	chan2019	Marovo.htm
+1028	vang1243	Vangunu	-8.66826	157.997	lima-na	lima	full colexification	_	no	no	_	_	554	abvd	85830	535	abvd	85830
+1029	hoav1238	Hoava	-8.19679	157.595	reŋgu-	lima	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	54	abvd	85830	54	abvd	85830
+1030	kusa1251	Kusaghe-Njela	-8.04056	157.463	reŋgu-na	lima	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	528	abvd	85830	528	abvd	85830
+1031	rovi1238	Roviana	-8.20493	157.408	lima-na	lima	full colexification	_	no	no	_	_	117	abvd	319882	117	abvd	319882
+1032	ughe1237	Ughele	-8.45725	157.341	kambele-na	lima	lexically distinct	lexical replacement	yes	no	PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ ?	_	518	abvd	85830	518	abvd	85830
+1033	kazu1245	Kazukuru	-8.23886	157.687	vonili	limoni	lexically distinct	lexical replacement	yes	no	?	_	560	abvd	85830	560	abvd	85830
+1034	duke1237	Duke	-7.97768	157.064	hɛhe-na	lima	lexically distinct	lexical replacement	yes	no	?	_	521	abvd	85830	521	abvd	85830
+1035	ghan1242	Ghanongga	-8.02035	156.552	lima	lima	full colexification	_	no	no	_	_	508	abvd	Raymond-508-2008	525	abvd	85830
+1036	lung1249	Lungga	-8.17469	156.573	lima	lima	full colexification	_	no	no	_	_	509	abvd	Raymond-509-2008	509	abvd	Raymond-509-2008
+1037	simb1256	Simbo	-8.26947	156.541	lima	lima	full colexification	_	no	no	_	_	473	abvd	Palmer1993	473	abvd	Palmer1993
+1038	lagh1246	Laghu	-8.00509	158.961	gigirɔ-na	gaɔha	lexically distinct	lexical replacement	yes	yes	?	loan ?	553	abvd	85830	553	abvd	85830
+1039	zaba1237	Zabana	-7.74311	158.753	kame-	gahaɣu	lexically distinct	lexical replacement	yes	yes	PAN *kamay ‘hand’	loan ?	234	abvd	85830	234	abvd	85830
+1040	koko1269	Kokota	-8.16481	159.191	kame	ɣŋɣŋau	lexically distinct	lexical replacement	yes	yes	PAN *kamay ‘hand’	loan ?	365	abvd	85830;154088	365	abvd	85830;154088
+1041	blab1237	Blablanga	-8.15058	159.419	khame	glima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’	_	578	abvd	85830	580	abvd	85830
+1042	zaza1245	Zazao	-8.18719	159.255	kʰame-	gaha	lexically distinct	lexical replacement	yes	yes	PAN *kamay ‘hand’	loan ?	21	abvd	85830	21	abvd	85830
+1043	chek1238	Cheke Holo	-8.27055	159.625	khame	glima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’	_	209	abvd	118627	574	abvd	85830
+1044	gaoo1237	Gao	-8.35163	159.789	khame-ña	lima	lexically distinct	lexical replacement	yes	no	PAN *kamay ‘hand’	_	555	abvd	85830	gaoo1237-1	barlowpacific	Codrington1885
+1045	bugh1239	Bughotu	-8.47948	159.802	lima	lima	full colexification	_	no	no	_	_	37	abvd	Blust-37-2005	37	abvd	Blust-37-2005
+1046	gela1263	Gela	-9.04587	160.186	lima	lima	full colexification	_	no	no	_	_	102	abvd	68998	102	abvd	68998
+1047	ghar1239	Ghari	-9.4791	159.917	lima-	čeɣe	lexically distinct	lexical replacement	no	yes	_	loan ?	9	abvd	85830	537	abvd	85830
+1048	leng1259	Lengo	-9.56425	160.42	lima	lima	full colexification	_	no	no	_	_	531	abvd	85830	531	abvd	85830
+1049	mala1484	Malango	-9.61383	160.118	lima-na	čehe	lexically distinct	lexical replacement	no	yes	_	loan ?	542	abvd	85830	542	abvd	85830
+1050	tali1259	Talise	-9.76764	160.231	lima	lima	full colexification	_	no	no	_	_	469	abvd	63651	545	abvd	85830
+1051	bira1254	Birao	-9.73716	160.52	lima-na	lima	full colexification	_	no	no	_	_	548	abvd	85830	548	abvd	85830
+1052	long1395	Longgu	-9.75258	160.663	lima	lima	full colexification	_	no	no	_	_	561	abvd	85830	561	abvd	85830
+1053	gula1270	Gula'alaa	-8.74742	161.023	aba	nima	lexically distinct	lexical replacement	yes	no	PNCV *bisu ‘finger, toe, nail’ < POC *bwisi ‘finger (?)’	_	550	abvd	85830	550	abvd	85830
+1054	kwai1243	Kwaio	-8.93744	160.965	nima-na	nima	full colexification	_	no	no	_	_	66	abvd	127160	66	abvd	127160
+1055	kwar1239	Kwara'ae	-8.75779	160.804	lima	lima	full colexification	_	no	no	_	_	213	abvd	Gegeo-213-2005	213	abvd	Gegeo-213-2005
+1056	baeg1237	Baeggu	-8.49014	160.771	amba-na	lima	lexically distinct	lexical replacement	yes	no	PNCV *bisu ‘finger, toe, nail’ < POC *bwisi ‘finger (?)’	_	565	abvd	85830	565	abvd	85830
+1057	bael1237	Baelelea	-8.41627	160.721	aba	lima	lexically distinct	lexical replacement	yes	no	PNCV *bisu ‘finger, toe, nail’ < POC *bwisi ‘finger (?)’	_	564	abvd	85830	564	abvd	85830
+1058	fata1245	Fataleka	-8.59041	160.861	amba-na	lima	lexically distinct	lexical replacement	yes	no	PNCV *bisu ‘finger, toe, nail’ < POC *bwisi ‘finger (?)’	_	566	abvd	85830	566	abvd	85830
+1059	lauu1247	Lau	-8.51018	160.872	aba-na	lima	lexically distinct	lexical replacement	yes	no	PNCV *bisu ‘finger, toe, nail’ < POC *bwisi ‘finger (?)’	_	588	abvd	85830	68	abvd	82675
+1060	toab1237	To'abaita	-8.39233	160.619	amba-na	lima	lexically distinct	lexical replacement	yes	no	PNCV *bisu ‘finger, toe, nail’ < POC *bwisi ‘finger (?)’	_	223	abvd	Foanaota-223-2005	223	abvd	Foanaota-223-2005
+1061	wala1266	Wala	-8.81936	160.741	nima-la	nima	full colexification	_	no	no	_	_	549	abvd	85830	549	abvd	85830
+1062	area1240	'Are'are	-9.20699	161.158	kaikaʔi-na	nima	lexically distinct	lexical replacement	yes	no	?	_	585	abvd	85830	568	abvd	85830
+1063	dori1246	Dori'o	-9.11536	160.897	gagaʔu-na	nima	lexically distinct	lexical replacement	yes	no	?	_	532	abvd	85830	532	abvd	85830
+1064	oroh1237	Oroha	-9.7386	161.513	kikiʔina	nima	lexically distinct	lexical replacement	yes	no	?	_	557	abvd	85830	557	abvd	85830
+1065	saaa1240	Sa'a	-9.60258	161.467	lima	lima	full colexification	_	no	no	_	_	534	abvd	85830	saaa1240-2	chan2019	Sa-a.htm
+1066	aros1241	Arosi	-10.2441	161.432	rima-na	rima	full colexification	_	no	no	_	_	583	abvd	85830	583	abvd	85830
+1067	baur1252	Bauro	-10.5826	161.863	rima-na	rima	full colexification	_	no	no	_	_	582	abvd	85830	567	abvd	85830
+1068	faga1239	Fagani	-10.4479	161.662	rima-na	rima	full colexification	_	no	no	_	_	517	abvd	85830	570	abvd	85830
+1069	kahu1241	Kahua	-10.6963	162.191	ruma-na	rima	lexically distinct	phonological change	no	no	_	_	514	abvd	85830	514	abvd	85830
+1070	owaa1237	Owa	-10.82553	162.30467	rima	rima	full colexification	_	no	no	_	_	558	abvd	85830	558	abvd	85830
+1071	ayiw1239	Äiwoo	-10.282595	166.328715	nyime	vili	lexically distinct	phonological change	no	no	_	_	501	abvd	139210;85830	501	abvd	139210;85830
+1072	nang1262	Nanggu	-10.7441	165.887	nümü	məpũ	lexically distinct	phonological change	no	no	_	_	502	abvd	85830	nang1262-4	chan2019	Nanggu.htm
+1073	nalo1235	Nalögo	-10.8	165.8	_	nɵulʉn	unknown	_	unknown	no	_	_				nalo1235-1	chan2019	Nalogo.htm
+1074	natu1246	Natügu	-10.6771	165.835	mü	na vlu nu	lexically distinct	phonological change	no	no	_	_	505	abvd	85830	natu1246-1	barlowpacific	Codrington1885
+1075	vano1237	Lovono	-11.6107	166.7984	me	teli	lexically distinct	phonological change	no	no	_	_	356	abvd	85830;314442	356	abvd	85830;314442
+1076	tane1237	Tanema	-11.68	166.97	me	teli	lexically distinct	phonological change	no	no	_	_	357	abvd	85830;314442	tane1237-1	chan2019	Tanema.htm
+1077	tean1237	Teanu	-11.6752	166.868	ma	tili	lexically distinct	phonological change	no	no	_	_	355	abvd	85830;314442	355	abvd	85830;314442
+1078	amba1266	Amba (Solomon Islands)	-11.2958	166.498	mbiɔ	hāŋi	lexically distinct	lexical replacement	yes	yes	?	one count ?	352	abvd	85830;314442	352	abvd	85830;314442
+1079	asum1237	Asumboa	-11.2969	166.499	nama‐ŋge	sini	lexically distinct	lexical replacement	yes	no	?	_	353	abvd	85830;314442	353	abvd	85830;314442
+1080	tani1255	Tanimbili	-11.2975	166.507	namba-ŋgu	kavili	lexically distinct	lexical replacement	yes	no	?	_	354	abvd	85830;314442	354	abvd	85830;314442
+1081	hiww1237	Hiw	-13.126367	166.584857	mja-	toβo-yim	lexically distinct	phonological change	no	no	_	_	639	abvd	Francois-639-2009	1058	abvd	52375
+1082	loto1240	Lo-Toga	-13.334872	166.634338	limo-k	təβe-lim	partial colexification	_	no	no	_	_	1153	abvd	52375	1153	abvd	52375
+1083	leha1243	Lehali	-13.5043	167.332	bini-k	teβa-lem	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’	_	1168	abvd	52375	1168	abvd	52375
+1084	leha1244	Lehalurup	-13.542726	167.343342	pene-k	teveliem	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’	_	1123	abvd	52375	leha1244-1	barlowpacific	Codrington1885
+1085	motl1237	Mwotlap	-13.655015	167.706277	na-mnɪ-k	teβe-lem	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’	_	376	abvd	Francois-376-2009	1130	abvd	52375
+1086	mota1237	Mota	-13.835361	167.690924	pane-k	lima	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’	_	52375	abvd	Tryon (1976)	25	abvd	20301
+1087	leme1238	Lemerig	-13.739697	167.420676	pænæ-n	eβe-lim	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’	_	696	abvd	Francois-696-2010	1136	abvd	52375
+1088	vera1241	Vera'a	-13.892528	167.428701	ᵐbini-k	’evelem	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’	_	1077	abvd	52375	vera1241-1	barlowpacific	Codrington1885
+1089	vure1239	Vurës	-13.905677	167.451412	ᵐbeni-k	teβe-lim	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’	_	1104	abvd	52375	1065	abvd	52375
+1090	nume1241	Nume	-14.230149	167.593474	lima-k	tiβi-lim	partial colexification	_	no	no	_	_	1172	abvd	52375	1172	abvd	52375
+1091	koro1308	Koro-Olrat	-14.2943	167.467	ᵐbini-ŋ	teβæ-lim	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’	_	1032	abvd	52375	1032	abvd	52375
+1092	lako1245	Lakon	-14.29899	167.429382	lima-k	tiβi-lɪm	partial colexification	_	no	no	_	_	1019	abvd	52375	lako1245-1	chan2019	Lakona.htm
+1093	weta1242	Dorig	-14.366666	167.545897	na-lmu-k	taβa-lim	lexically distinct	phonological change	no	no	_	_	1134	abvd	52375	1134	abvd	52375
+1094	merl1237	Merlav	-14.450679	168.053527	lima-k	tavalim	partial colexification	_	no	no	_	_	1017	abvd	52375	merl1237-1	barlowpacific	Codrington1885
+1095	mari1426	Sunwadia	-14.970047	168.057941	lima-ku	taβa-lima	partial colexification	_	no	no	_	_	1086	abvd	52375	1086	abvd	52375
+1096	cent2058	Central Maewo	-15.0784	168.135	lima	lima	full colexification	_	no	no	_	_	1605	abvd	RodriguezEnnever2018	1604	abvd	RodriguezEnnever2018
+1097	baet1237	Baetora	-15.2574	168.159	lima	teβe-lima	partial colexification	_	no	no	_	_	1606	abvd	RodriguezEnnever2018	1070	abvd	52375
+1098	east2443	East Ambae	-15.3523	167.89	lime	lime	full colexification	_	no	no	_	_	1584	abvd	RodriguezEnnever2018	1116	abvd	52375
+1099	west2513	West Ambae	-15.4281	167.807	kaᵐba	ka-lima	lexically distinct	lexical replacement	yes	no	PNCV *bisu ‘finger, toe, nail’ < POC *bwisi ‘finger (?)’	_	1599	abvd	RodriguezEnnever2018	1144	abvd	52375
+1100	hano1246	Hano	-15.5432	168.167	lima	lima	full colexification	_	no	no	_	_	1603	abvd	RodriguezEnnever2018	1165	abvd	52375
+1101	noku1237	Nokuku	-14.8974	166.603	lima-ʔu	lima	full colexification	_	no	no	_	_	1166	abvd	52375	1166	abvd	52375
+1102	piam1242	Piamatsina	-14.9959	166.738	lima-	lima	full colexification	_	no	no	_	_	1036	abvd	52375	1036	abvd	52375
+1103	tasm1246	Tasmate	-15.0792	166.664	lima-ku	lima	full colexification	_	no	no	_	_	1108	abvd	52375	1108	abvd	52375
+1104	valp1237	Valpei	-14.712	166.606	lima-ku	lima	full colexification	_	no	no	_	_	1138	abvd	52375	1138	abvd	52375
+1105	vuna1239	Vunapu	-14.8477	166.691	lona-lima-ʔu	lima	partial colexification	_	no	no	_	_	1015	abvd	52375	1015	abvd	52375
+1106	tolo1255	Tolomako	-15.1569	166.772	lina-	lina	full colexification	_	no	no	_	_	1152	abvd	52375	tolo1255-1	barlowpacific	Codrington1885
+1107	wusi1237	Kula (Vanuatu)	-15.2786	166.696	lima-	lima	full colexification	_	no	no	_	_	1179	abvd	52375	1072	abvd	52375
+1108	mere1242	Merei	-15.2839	166.905	lima-	lima	full colexification	_	no	no	_	_	1158	abvd	52375	1158	abvd	52375
+1109	navu1237	Navut	-15.3169	166.798	lima-	lima	full colexification	_	no	no	_	_	1115	abvd	52375	1113	abvd	52375
+1110	tial1239	Tiale	-15.2334	166.842	lima	lima	full colexification	_	no	no	_	_	1117	abvd	52375	1117	abvd	52375
+1111	ambl1237	Amblong	-15.5169	166.95	farnum-luma-m	mo lima	lexically distinct	phonological change	no	no	_	_	1042	abvd	52375	ambl1237-1	chan2019	Amblong.htm
+1112	moro1286	Ande	-15.3498	166.891	lima-ku	lima	full colexification	_	no	no	_	_	1024	abvd	52375	1101	abvd	52375
+1113	nara1263	Narango	-15.5259	167.047	farlon luma-	lima	lexically distinct	phonological change	no	no	_	_	1056	abvd	52375	1056	abvd	52375
+1114	fort1240	Kiai	-15.4484	166.931	lima-	lima	full colexification	_	no	no	_	_	1167	abvd	52375	1167	abvd	52375
+1115	akei1237	Akei	-15.6377	166.767	lima-	lima	full colexification	_	no	no	_	_	1023	abvd	52375	1010	abvd	52375
+1116	wail1242	Ale	-15.5656	166.902	loloi-lima-ku	mo lima	partial colexification	_	no	no	_	_	1114	abvd	52375	1114	abvd	52375
+1117	lore1244	Nethalp	-15.334763	167.166325	farsin bili-	linə	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ??	_	1049	abvd	52375	1049	abvd	52375
+1118	shar1244	Ngen	-15.255284	167.138859	pili-ŋ	line	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ??	_	1174	abvd	52375	1064	abvd	52375
+1119	mafe1237	Mafea	-15.4316	167.241	faraŋo	lim̈a	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ??	_	1125	abvd	52375	1125	abvd	52375
+1120	tutu1241	Tutuba	-15.580667	167.268889	lima-	e-lima	full colexification	_	no	no	_	_	1011	abvd	52375	1011	abvd	52375
+1121	butm1237	Farafi	-15.3353	167.034	loᵐbli-k	fi-lne	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ??	_	1100	abvd	52375	1100	abvd	52375
+1122	polo1242	Polonombauk	-15.4653	167.09	loaβa-k	fu-lni	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ??	_	1151	abvd	52375	1151	abvd	52375
+1123	tamb1253	Tambotalo	-15.5004	167.139	faraŋo-	lina	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’ ??	_	1084	abvd	52375	1084	abvd	52375
+1124	aore1237	Aore	-15.5753	167.166	pisu-	a lim̈a	lexically distinct	lexical replacement	yes	no	PNCV *bisu ‘finger, toe, nail’ < POC *bwisi ‘finger (?)’ ?	_	1068	abvd	52375	1068	abvd	52375
+1125	arak1252	Araki	-15.632997	166.952542	lim'a	lim'a	full colexification	_	no	no	_	_	465	abvd	97023	465	abvd	97023
+1126	tang1347	Movono	-15.5643	166.958	lim̈a	mo-lim̈a	full colexification	_	no	no	_	_	1027	abvd	52375	1027	abvd	52375
+1127	rori1237	Mores	-15.4048	166.843	ⁿdisnio-	nye-lni	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1006	abvd	52375	1006	abvd	52375
+1128	malo1243	Tamambo	-15.6835	167.16	lima	a-lima	full colexification	_	no	no	_	_	1048	abvd	52375	1048	abvd	52375
+1129	saka1289	Wanohe	-15.0757	167.051	limɛ	kailime	partial colexification	_	no	no	_	_	1595	abvd	RodriguezEnnever2018	1595	abvd	RodriguezEnnever2018
+1130	malu1245	Malua-Tepërav	-15.9813	167.208	nə-βəra-k	i-lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1096	abvd	52375	1279	abvd	Shimelman-1279-2016
+1131	mpot1241	Mpotovoro	-15.8988	167.232	na-βaraŋo-m	lima	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1009	abvd	52375	mpot1241-1	chan2019	Morouas.htm
+1132	vaoo1237	Vao-Vovo	-15.898299	167.309973	nim̈a-k	ɣe-lim̈e	lexically distinct	phonological change	no	no	_	_	1001	abvd	52375	1001	abvd	52375
+1133	nese1235	Nese	-15.952608	167.222769	navaɾ-	line	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1307	abvd	Shimelman-1307-2016	459	abvd	39695
+1134	lare1249	Larevat	-16.1971	167.387	n-ləβɣanəβa-ɣ	lum	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1034	abvd	52375	1034	abvd	52375
+1135	litz1237	Naman	-16.1331	167.415	nɪ-vɛru-	i-ləm	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1256	abvd	Shimelman-1256-2015	1053	abvd	52375
+1136	vinm1237	Neve'ei	-16.2253	167.427	nɛ-vɛra-	i-lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1249	abvd	Shimelman-1249-2015	1029	abvd	52375
+1137	ling1265	Neverver	-16.1986	167.499	nɛ-vɛra-	i-lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1243	abvd	Shimelman-1243-2015	1140	abvd	52375
+1138	bign1238	Big Nambas	-16.0903	167.239	lɪma-	i-lɪm	partial colexification	_	no	no	_	_	1284	abvd	Shimelman-1284-2016	1284	abvd	Shimelman-1284-2016
+1139	mara1399	Maragus	-16.0695	167.33	lɪmɛ-	i-lɪm	partial colexification	_	no	no	_	_	1283	abvd	Shimelman-1283-2016	1283	abvd	Shimelman-1283-2016
+1140	maee1241	Tirax	-15.9914	167.288	vra-	i-lin	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1319	abvd	Shimelman-1319-2016	1045	abvd	52375
+1141	katb1237	Avava	-16.2701	167.484	fara-	i-lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1221	abvd	Shimelman-1221-2015	1087	abvd	52375
+1142	dixo1238	Dixon Reef	-16.3267	167.516	fara-	i-lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1225	abvd	Shimelman-1225-2015	1225	abvd	Shimelman-1225-2015
+1143	lete1241	Letemboi-Repanbitip	-16.4339	167.566	var-	i-lme	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1242	abvd	Shimelman-1242-2015	1239	abvd	Shimelman-1239-2015
+1144	nasa1240	Nasarian	-16.3497	167.414	a-vara-	i-salœme	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1237	abvd	Shimelman-1237-2015	nasa1240-1	chan2019	Nasarian.htm
+1145	navw1234	Navwien	-16.502947	167.554419	nɛ-vɛra-ŋk	i-lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1411	abvd	Shimelman-1411-2016	1411	abvd	Shimelman-1411-2016
+1146	malf1237	Na'ahai	-16.5499	167.509	na-vara-n	i-lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1396	abvd	Shimelman-1396-2016	1102	abvd	52375
+1147	sout2857	Nahavaq	-16.5116	167.477	vara-	lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1226	abvd	Shimelman-1226-2015	453	abvd	Dimock-453-2006
+1148	niti1249	Nitita	-16.2	167.46	nɛ-vɛra-	i-lin	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1254	abvd	Shimelman-1254-2015	1254	abvd	Shimelman-1254-2015
+1149	vivt1234	Vivti	-16.28	167.5	nɪ-fɪra-	ɪ-ldin	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1253	abvd	Shimelman-1253-2015	1253	abvd	Shimelman-1253-2015
+1150	nati1244	Nati	-16.468709	167.496054	vara-	i-lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1229	abvd	Shimelman-1229-2015	1229	abvd	Shimelman-1229-2015
+1151	labo1244	Ninde	-16.4291	167.442	nɛ-vaxa-	se-lme	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1218	abvd	Shimelman-1218-2015	1047	abvd	52375
+1152	urip1239	Uripiv-Wala-Rano-Atchin	-16.00951	167.34643	vɛra-	e-lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1289	abvd	Shimelman-1289-2016	1289	abvd	Shimelman-1289-2016
+1153	rere1240	Rerep	-16.2934	167.651	fɛra-	xe-rim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1246	abvd	Shimelman-1246-2015	1150	abvd	52375
+1154	unua1237	Unua	-16.2638	167.599	nɛ-var-	ɣerim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1247	abvd	Shimelman-1247-2015	1248	abvd	Shimelman-1248-2015
+1155	aulu1238	Aulua	-16.3579	167.697	vari-	limɛ	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1252	abvd	Shimelman-1252-2015	1251	abvd	Shimelman-1251-2015
+1156	burm1263	Burmbar	-16.41653	167.73124	fara-	e-rim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1320	abvd	Shimelman-1320-2016	1081	abvd	52375
+1157	bwen1239	Bwenelang	-16.338946	167.660849	n-vari-	i-lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1316	abvd	Shimelman-1316-2016	1316	abvd	Shimelman-1316-2016
+1158	mask1242	Maskelynes	-16.5073	167.818	vɪla-m	e-rim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1412	abvd	Shimelman-1412-2016	1002	abvd	52375
+1159	nasv1234	Nasvang	-16.458173	167.639563	vɛra-	i-lɪm	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1420	abvd	Shimelman-1420-2016	1404	abvd	Shimelman-1404-2016
+1160	nisv1234	Nisvai	-16.41306	167.785556	na-fra-	ɳa-lɪm	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1293	abvd	Shimelman-1293-2016	1293	abvd	Shimelman-1293-2016
+1161	avok1244	Avok	-16.536653	167.773866	nɛ-var	ɳɔ-rn	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1409	abvd	Shimelman-1409-2016	1400	abvd	Shimelman-1400-2016
+1162	axam1237	Axamb	-16.4838	167.707	na-βere-	ŋo-rəm	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1176	abvd	52375	1035	abvd	52375
+1163	port1285	Port Sandwich	-16.4952	167.78	vea-	e-rim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1321	abvd	Shimelman-1321-2016	1085	abvd	52375
+1164	seke1241	Seke (Vanuatu)	-15.8839	168.197	ŋiê-	a-lim	lexically distinct	lexical replacement	yes	no	?	_	645	abvd	Gray-645-2009	1037	abvd	52375
+1165	sowa1244	Sowa	-15.82653	168.18653	ŋê-	i-lim	lexically distinct	lexical replacement	yes	no	?	_	644	abvd	Gray-644-2009	1173	abvd	52375
+1166	apma1240	Apma	-15.8559	168.189	lima-	ka-lim	partial colexification	_	no	no	_	_	642	abvd	Gray-642-2009	52375	abvd	1162
+1167	saaa1241	Sa	-15.9534	168.228	aɾam	lima	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1544	abvd	Garde2018c	saaa1241-2	barlowpacific	Garde2015
+1168	nort2839	North Ambrym	-16.1741	168.14	wera-ŋ	lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1131	abvd	52375	1016	abvd	52375
+1169	sout2859	Southeast Ambrym	-16.2975	168.211	he	he tei pin	partial colexification	(recolexification)	yes	yes	PMP *baRa ‘hand, arm’	hand one finished	120	abvd	d_Parker_Southeast-Ambrym	sout2859-1	chan2019	Ambrym-Southeast.htm
+1170	lonw1238	Lonwolwol	-16.2286	168.016	wera-k	lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1026	abvd	52375	1026	abvd	52375
+1171	orko1234	Orkon-Fanbak	-16.210501	168.212109	vela-	lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	476	abvd	Crowley-476-2007	476	abvd	Crowley-476-2007
+1172	dalk1234	Dalkalaen	-16.26246	167.93334	_	_	unknown	_	unknown	unknown	_	_						
+1173	port1286	Daakie	-16.3083	168.046	βelo-k	lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1128	abvd	52375	port1286-1	chan2019	Port-Vato.htm
+1174	daka1243	Dakaka	-16.2696	168.013	βeo-k	lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1038	abvd	52375	798	abvd	Prince-798-2011
+1175	paam1238	Paama	-16.47548	168.23693	he-ku	e-lim	lexically distinct	lexical replacement	yes	no	PMP *baRa ‘hand, arm’	_	1059	abvd	52375	1003	abvd	52375
+1176	baki1244	Baki	-16.7096	168.165	čuma-ku	čumo	partial colexification	_	no	no	_	_	1033	abvd	52375	1033	abvd	52375
+1177	bier1244	Bierebo	-16.6663	168.154	čima-ᵑgu	čima	full colexification	_	no	no	_	_	1022	abvd	52375	1007	abvd	52375
+1178	bier1246	Bieria	-16.7867	168.232	limana	lima	partial colexification	_	no	no	_	_	1667	abvd	Takau2022	1667	abvd	Takau2022
+1179	maii1238	Maii	-16.7388	168.211	luma-ŋ	i-limə	lexically distinct	phonological change	no	no	_	_	1075	abvd	52375	1075	abvd	52375
+1180	lame1260	Lamenu	-16.6098	168.171	limao	lima	partial colexification	_	no	no	_	_	1692	abvd		lame1260-1	chan2019	Lamen.htm
+1181	lewo1242	Lewo	-16.7612	168.334	lima-u	lima	full colexification	_	no	no	_	_	1135	abvd	52375	1103	abvd	52375
+1182	lele1267	Lelepa	-17.6042	168.202	nara	lima	lexically distinct	lexical replacement	yes	no	?	_	1000	abvd	Lacrampe-1000-2014	1000	abvd	Lacrampe-1000-2014
+1183	nort2836	North Efate	-17.5774	168.375	naruna	lima	lexically distinct	lexical replacement	yes	no	?	_	1670	abvd	Takau2022	103	abvd	schuetz1969a;schuetz1969b
+1184	eton1255	Eton (Vanuatu)	-17.74	168.549	aru-ŋ	e-lim	lexically distinct	lexical replacement	yes	no	?	_	1088	abvd	52375	1088	abvd	52375
+1185	sout2856	Nafsan	-17.7006	168.377	nar	i-lim	lexically distinct	lexical replacement	yes	no	?	_	322	abvd	101432	1110	abvd	52375
+1186	nama1268	Namakura	-16.8979	168.569	lima	ke-lim	partial colexification	_	no	no	_	_	475	abvd	13129	1091	abvd	52375
+1187	ifoo1237	Ifo	-18.7668	169.007	_	sukrim	unknown	_	unknown	no	_	_				1540	abvd	24951
+1188	siee1239	Sie	-18.8181	169.166	noru-	sukrim	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	463	abvd	41979	463	abvd	41979
+1189	urav1235	Ura (Vanuatu)	-18.6747	169.084	leŋe-	suelem	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	464	abvd	62308	1141	abvd	52375
+1190	lena1238	Lenakel	-19.4763	169.261	na-limu-ku	katilim	partial colexification	_	no	no	_	_	1112	abvd	52375	162	abvd	Lynch-162-2005
+1191	nort2847	North Tanna	-19.3733	169.303	ne-lma-k	kariem	lexically distinct	phonological change	no	no	_	_	1083	abvd	52375	nort2847-1	chan2019	Tanna-North.htm
+1192	whit1269	Whitesands	-19.5019	169.381	na-l̥ima-k	kərilem	lexically distinct	phonological change	no	no	_	_	1139	abvd	52375	whit1269-1	chan2019	Whitesands.htm
+1193	kwam1252	Kwamera	-19.5954	169.442	rəŋə-	kerirəm	lexically distinct	lexical replacement	yes	no	PMP *leŋen ‘forearm, lower arm’ ?	_	477	abvd	47028	1028	abvd	52375
+1194	sout2869	Southwest Tanna	-19.57953	169.35603	lɨm	kɨlkɨlɨp	lexically distinct	phonological change	no	no	_	_	1642	abvd	312803	1642	abvd	312803
+1195	anei1239	Aneityum	-20.1864	169.825	nijma-	nijman [nit͡ʃman), faiv	partial colexification	_	no	no	_	_	149	abvd	Lynch-149-2005	anei1239-1	chan2019	Aneityum.htm
+1196	dehu1237	Dehu	-20.8892	167.229	ime	tripi	lexically distinct	lexical replacement	no	yes	_	one hit ?	1515	abvd	303461	196	abvd	85830
+1197	iaai1238	Iaai	-20.6301	166.59	beñi-	baa|xaca	lexically distinct	lexical replacement	yes	yes	PAN *paNij ‘wing’	finger one ?	471	abvd	303623	471	abvd	303623
+1198	neng1238	Nengone	-21.5305	167.964	nin	se dongo	lexically distinct	lexical replacement	no	yes	_	one finished ?	99	abvd	Blust-99-2005	neng1238-1	barlowpacific	Codrington1885
+1199	caac1237	Caac	-20.4114	164.578	hik	nim	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1531	abvd	HollymanMweau	1491	abvd	303461
+1200	kuma1276	Nêlêmwa-Nixumwak	-20.4035	164.193	shi-	poanem	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	76	abvd	Bril-76-2005	1490	abvd	303461
+1201	yuag1237	Yuaga	-20.5664	164.51	’i n	ni	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1510	abvd	303461	yuag1237-1	barlowpacific	Grace1955pdfNotes
+1202	bala1316	Balade	-20.25	164.2	ie n	poanem	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1506	abvd	303461	1506	abvd	303461
+1203	nyal1254	Belep	-19.72	163.66	e n	nem	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1509	abvd	303461	1187	abvd	29428
+1204	jawe1237	Jawe	-20.6648	164.676	hi	nim	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1617	abvd	haudricourt1982a	212	abvd	122134
+1205	fwai1237	Fwâi	-20.6873	164.901	hi	nim	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1573	abvd	haudricourt1982a	1498	abvd	303461
+1206	nemi1240	Nemi	-20.6791	164.797	hi	nim	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1614	abvd	haudricourt1982a	1495	abvd	303461
+1207	pije1237	Pije	-20.7824	164.942	hi	nim	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1574	abvd	haudricourt1982a	1497	abvd	303461
+1208	pwaa1237	Pwaamei	-20.8442	164.77	’i n	nim	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1499	abvd	303461	1499	abvd	303461
+1209	pwap1237	Pwapwa	-20.8133	164.556	sin	nim	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1528	abvd	HollymanND	1500	abvd	303461
+1210	cemu1238	Cemuhî	-20.8489	165.13	a ’i n	nim	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1503	abvd	303461	1503	abvd	303461
+1211	paic1239	Paicî	-21.096	165.15	î˥	ca:˥-kä˥rä˥-î˥-jè˥	partial colexification	(recolexification)	yes	yes	PAN *kuSkuS ‘claw, talon, fingernail’ ?	one of our hands	1479	abvd	8286	1479	abvd	8286
+1212	bwat1240	Bwatoo	-21.3777	165.076	өin	nim	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1527	abvd	55944	1527	abvd	55944
+1213	haek1239	Haeke	-21.0735	164.869	θi n	nim	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1513	abvd	303461	1513	abvd	303461
+1214	have1241	Haveke	-21.0249	164.753	Ɵin	nim	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1530	abvd	55944	1514	abvd	303461
+1215	hmwa1243	Hmwaveke	-20.9246	164.768	si	nim	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1508	abvd	303461	1508	abvd	303461
+1216	vama1243	Vamale	-20.7708	165.04	i si n	nim	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1507	abvd	303461	1507	abvd	303461
+1217	waam1236	Waamwang	-20.5014	164.409	θi n	nim	lexically distinct	lexical replacement	yes	no	PAN *kuSkuS ‘claw, talon, fingernail’ ?	_	1502	abvd	303461	1502	abvd	303461
+1218	ajie1238	Ajië	-21.3029	165.468	e	kani	lexically distinct	lexical replacement	yes	no	?	_	1188	abvd	34363	1482	abvd	303461
+1219	arha1237	Arhâ	-21.2866	165.273	gawi ø xerua	keni	lexically distinct	lexical replacement	yes	no	?	_	1485	abvd	303461	1485	abvd	303461
+1220	arho1237	Arhö	-21.3183	165.161	ã e xerua	kani:	lexically distinct	lexical replacement	yes	no	?	_	1484	abvd	303461	1484	abvd	303461
+1221	tiri1258	Tiri-Mea	-21.8147	165.792	me:hi	anɔ̃rɔ̃	lexically distinct	lexical replacement	yes	yes	PAN *paNij ‘wing’	?	1612	abvd	44453	1610	abvd	MoyseFaurie2019B
+1222	orow1242	Orowe	-21.6269	165.473	gawi ɛ	keni:	lexically distinct	lexical replacement	yes	no	?	_	1511	abvd	303461	1511	abvd	303461
+1223	zire1240	Zire	-21.6544	165.482	mãrã	anoro	lexically distinct	lexical replacement	yes	yes	PAN *paNij ‘wing’	?	1618	abvd	lercari1994a	1501	abvd	303461
+1224	neku1237	Neku	-21.6524	165.578	gawi ø	keni:	lexically distinct	lexical replacement	yes	no	?	_	1492	abvd	303461	1492	abvd	303461
+1225	xara1244	Xârâcùù	-21.7034	165.996	xɛ̃	ʃã:ʃɛ̃xɛ̃	partial colexification	(recolexification)	yes	yes	?	one hand	1576	abvd	moysefaurie1986a	1576	abvd	moysefaurie1986a
+1226	xara1243	Xaragure	-21.8223	166.376	mɛ	xãːxɛ̃ mɛ̃	partial colexification	(recolexification)	yes	yes	PAN *paNij ‘wing’	one wing	1609	abvd	MoyseFaurie2019A	xara1243-1	chan2019	Xaragure.htm
+1227	dumb1241	Dumbea	-22.0947	166.531	mi	tàakȗ(xẹ́)	lexically distinct	lexical replacement	yes	yes	PAN *paNij ‘wing’	one on top	1369	abvd	Shintani1990a	dumb1241-1	barlowpacific	Paita1990
+1228	nume1242	Numee	-22.2689	166.705	mẽ	tAA vïxé	lexically distinct	lexical replacement	yes	yes	PAN *paNij ‘wing’	one make thing	1615	abvd	Rivierre2019	nume1242-1	barlowpacific	Dubois1977
+1229	rotu1241	Rotuman	-12.5008	177.066	si' hapa	lima	lexically distinct	lexical replacement	yes	no	PAN *paNij ‘wing’ ?	_	116	abvd	Schmidt-116-2005	116	abvd	Schmidt-116-2005
+1230	namo1248	Namosi-Naitasiri-Serua	-18.5308	177.637	_	lima	unknown	_	unknown	no	_	_				gone1237-2	chan2019	Fijian-Namosi-Naitasiri-Serua.htm
+1231	west2519	Western Viti Levu-Yasawas Fijian	-17.8355	177.657	lima	lima	full colexification	_	no	no	_	_	512	abvd	Tuisawau-512-2008	512	abvd	Tuisawau-512-2008
+1232	fiji1243	Fijian	-18	178.33	liga	lima	lexically distinct	phonological change	no	no	_	_	1627	abvd	Geraghty2019	11	abvd	120166
+1233	loma1261	Lomaiviti	-18.0001	179.306	_	_	unknown	_	unknown	unknown	_	_						
+1234	gone1237	Gone Dau	-16.5886	178.599	_	lima	unknown	_	unknown	no	_	_				gone1237-1	chan2019	Fijian-Gone-Dau.htm
+1235	laua1243	Lauan	-18.2131	-178.785	_	_	unknown	_	unknown	unknown	_	_						
+1236	tong1325	Tonga (Tonga Islands)	-21.17	-175.25	nima	nima	full colexification	_	no	no	_	_	136	abvd	117207	136	abvd	117207
+1237	niue1239	Niuean	-19.06	-169.86	lima	lima	full colexification	_	no	no	_	_	247	abvd	POLLEX	247	abvd	POLLEX
+1238	east2447	East Futuna	-14.278717	-178.137222	lima	lima	full colexification	_	no	no	_	_	210	abvd	POLLEX	210	abvd	POLLEX
+1239	niua1240	Niuafo'ou	-15.6014	-175.64	_	nima	unknown	_	unknown	no	_	_				niua1240-1	chan2019	Niuafoou.htm
+1240	niua1241	Niuatoputapu	-15.957686	-173.778333	_	Lima	unknown	_	unknown	no	_	_				niua1241-1	barlowpacific	Kern1948
+1241	wall1257	East Uvean	-13.2903	-176.207	nima	nima	full colexification	_	no	no	_	_	258	abvd	POLLEX	258	abvd	POLLEX
+1242	samo1305	Samoan	-13.92	-171.83	lima	lima	full colexification	_	no	no	_	_	118	abvd	Blust-118-2005	118	abvd	Blust-118-2005
+1243	toke1240	Tokelau	-9.227642	-171.780833	_	lima	unknown	_	unknown	no	_	_				toke1240-1	chan2019	Tokelauan.htm
+1244	puka1242	Pukapuka	-10.91	-165.83	lima	lima	full colexification	_	no	no	_	_	152	abvd	Salisbury-152-2005	152	abvd	Salisbury-152-2005
+1245	tuva1244	Tuvalu	-8.520813	179.198088	lima	lima	full colexification	_	no	no	_	_	753	abvd	29903	753	abvd	29903
+1246	west2516	West Uvean	-20.4145	166.589	lima	lima	full colexification	_	no	no	_	_	259	abvd		259	abvd	
+1247	futu1245	Futuna-Aniwa	-19.5303	170.215	rima	rima	full colexification	_	no	no	_	_	156	abvd	POLLEX	1004	abvd	52375
+1248	mele1250	Mele-Fila	-17.6841	168.275	rima	rima	full colexification	_	no	no	_	_	1163	abvd	52375	242	abvd	POLLEX
+1249	emae1237	Emae	-17.052	168.399	rima	rima	full colexification	_	no	no	_	_	229	abvd	POLLEX	229	abvd	POLLEX
+1250	tiko1237	Tikopia	-12.2766	168.822	rima	rima	full colexification	_	no	no	_	_	155	abvd	POLLEX	155	abvd	POLLEX
+1251	anut1237	Anuta	-11.61	169.85	nima	nima	full colexification	_	no	no	_	_	253	abvd	POLLEX	253	abvd	POLLEX
+1252	pile1238	Vaeakau-Taumako	-10.173335	166.247188	lima	lima	full colexification	_	no	no	_	_	375	abvd	Hovdhaugen-375-2009	375	abvd	Hovdhaugen-375-2009
+1253	renn1242	Rennell-Bellona	-11.6237	160.265	gima	gima	full colexification	_	no	no	_	_	206	abvd	POLLEX	206	abvd	POLLEX
+1254	kapi1249	Kapingamarangi	1.039166	154.797223	lima	lima	full colexification	_	no	no	_	_	217	abvd	POLLEX	217	abvd	POLLEX
+1255	nuku1260	Nukuoro	3.84	154.975	lima	lima	full colexification	_	no	no	_	_	64	abvd	POLLEX	64	abvd	POLLEX
+1256	sika1261	Sikaiana	-8.378194	162.72952	lima	lima	full colexification	_	no	no	_	_	243	abvd	POLLEX	243	abvd	POLLEX
+1257	onto1237	Luangiua	-5.49029	159.701	lima	lima	full colexification	_	no	no	_	_	238	abvd	POLLEX	238	abvd	POLLEX
+1258	nuku1258	Nukumanu	-4.576321	159.48537	rima	rima	full colexification	_	no	no	_	_	1654	abvd	FeinbergND	1654	abvd	FeinbergND
+1259	taku1257	Takuu	-4.773094	157.032085	rima	rima	full colexification	_	no	no	_	_	244	abvd	POLLEX	244	abvd	POLLEX
+1260	nuku1259	Nukuria	-3.40038	154.731	rima	rima	full colexification	_	no	no	_	_	675	abvd	POLLEX	1212	abvd	Davletshin-1212-2015
+1261	maor1246	Maori	-38.2881	176.541	ringa	rima	lexically distinct	phonological change	no	no	_	_	85	abvd	Biggs-85-2005	85	abvd	Biggs-85-2005
+1262	mori1267	Moriori	-44	-176.5	ri/rima	te/rima	partial colexification	_	no	no	_	_	676	abvd	POLLEX	676	abvd	POLLEX
+1263	raro1241	Southern Cook Island Maori	-21.23	-159.78	rima	rima	full colexification	_	no	no	_	_	1631	abvd	MaukeOD	58	abvd	POLLEX
+1264	raka1237	Rakahanga-Manihiki	-10.03	-161.09	rima	rima	full colexification	_	no	no	_	_	589	abvd	Clark-589-2008	raka1237-1	barlowpacific	Olesen2020
+1265	penr1237	Māngarongaro	-9.082238	-157.922908	rima	rima	full colexification	_	no	no	_	_	235	abvd	POLLEX	235	abvd	POLLEX
+1266	aust1304	Austral	-23.3843	-149.462	rima	pae	lexically distinct	lexical replacement	no	yes	_	part	128	abvd	Meyer-128-2005	aust1304-1	barlowpacific	Charpentier2015
+1267	tahi1242	Tahitian	-17.6485	-149.45	rima	rima	full colexification	_	no	no	_	_	1636	abvd	AT2020	130	abvd	Clark-130-2005
+1268	tuam1242	Tuamotuan	-16.17259	-146.321755	rima	rima	full colexification	_	no	no	_	_	246	abvd	POLLEX	246	abvd	POLLEX
+1269	rapa1245	Mangaia-Old Rapa	-27.6304	-144.338	rima	rima	full colexification	_	no	no	_	_	1626	abvd	MangaiaOD	1626	abvd	MangaiaOD
+1270	hawa1245	Hawaiian	19.6297	-155.43	lima	lima	full colexification	_	no	no	_	_	52	abvd	71458	52	abvd	71458
+1271	nort2845	North Marquesan	-8.89412	-140.108	'ima	'ima	full colexification	_	no	no	_	_	654	abvd	Pawley-654-2009	38	abvd	POLLEX
+1272	sout2866	South Marquesan	-9.75663	-138.979	_	e ʔima	unknown	_	unknown	no	_	_				sout2866-1	chan2019	Marquesan-South.htm
+1273	mang1401	Mangareva	-23.1095	-134.97	rima	rima	full colexification	_	no	no	_	_	239	abvd	POLLEX	239	abvd	POLLEX
+1274	rapa1244	Rapanui	-27.113	-109.342	rima	rima	full colexification	_	no	no	_	_	264	abvd	POLLEX	264	abvd	POLLEX
