@@ -10,7 +10,7 @@ $${\color{red}⏺}$$ | full colexification | 194
 $${\color{orange}⏺}$$ | partial colexification | 153
 &nbsp; | &nbsp; | **1274**
 
-![colex](colex.html)
+![colex](colex.svg)
 
 View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/colex.html).
 
@@ -22,7 +22,7 @@ $${\color{black}⏺}$$ | lexical replacement | 380
 $${\color{yellow}⏺}$$ | phonological change | 85
 &nbsp; | &nbsp; | **465**
 
-![dist](dist.html)
+![dist](dist.svg)
 
 View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/dist.html).
 
@@ -35,7 +35,7 @@ $${\color{red}⏺}$$ | yes | 390
 $${\color{gray}⏺}$$ | unknown | 456
 &nbsp; | &nbsp; | **1274**
 
-![repl_hand](repl_hand.html)
+![repl_hand](repl_hand.svg)
 
 View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/repl_hand.html).
 
@@ -48,7 +48,7 @@ $${\color{red}⏺}$$ | yes | 84
 $${\color{gray}⏺}$$ | unknown | 69
 &nbsp; | &nbsp; | **1274**
 
-![repl_five](repl_five.html)
+![repl_five](repl_five.svg)
 
 View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/repl_five.html).
 
@@ -63,7 +63,7 @@ $${\color{yellow}⏺}$$ | wing | 69
 $${\color{blue}⏺}$$ | ‘hold onto’ | 1
 &nbsp; | &nbsp; | **390**
 
-![hand_replacement](hand_replacement.html)
+![hand_replacement](hand_replacement.svg)
 
 View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/hand_replacement.html).
 
@@ -80,6 +80,6 @@ $${\color{orange}⏺}$$ | addition with 4 | 2
 $${\color{blue}⏺}$$ | ‘part’ | 1
 &nbsp; | &nbsp; | **84**
 
-![five_replacement](five_replacement.html)
+![five_replacement](five_replacement.svg)
 
 View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/five_replacement.html).

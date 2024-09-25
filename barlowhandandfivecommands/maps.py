@@ -69,13 +69,13 @@ def run(args):
             {c['ID']: c['color'] for c in codes},
             cldf.directory / cldf.filename,
             mapdir)
-        p = plot(
+        readme.append('\n![{}]({})\n'.format(pid, p.name))
+        plot(
             'html',
             pid,
             {c['ID']: c['color'] for c in codes},
             cldf.directory / cldf.filename,
             mapdir)
-        readme.append('\n![{}]({})\n'.format(pid, p.name))
         readme.append(
             'View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/{}.html).\n'.format(pid))
     mapdir.joinpath('README.md').write_text('\n'.join(readme))
