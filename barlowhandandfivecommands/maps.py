@@ -77,5 +77,5 @@ def run(args):
             mapdir)
         readme.append('\n![{}]({})\n'.format(pid, p.name))
         readme.append(
-            'View [interactive map](https://raw.githubusercontent.com/cldf-datasets/barlowhandandfive/refs/heads/main/maps/{}.html).\n'.format(pid))
+            'View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/{}.html).\n'.format(pid))
     mapdir.joinpath('README.md').write_text('\n'.join(readme))

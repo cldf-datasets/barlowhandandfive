@@ -12,7 +12,7 @@ $${\color{orange}⏺}$$ | partial colexification | 153
 
 ![colex](colex.html)
 
-View [interactive map](https://raw.githubusercontent.com/cldf-datasets/barlowhandandfive/refs/heads/main/maps/colex.html).
+View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/colex.html).
 
 ## Is distinctness due to lexical replacement or phonological change?
 
@@ -24,7 +24,7 @@ $${\color{yellow}⏺}$$ | phonological change | 85
 
 ![dist](dist.html)
 
-View [interactive map](https://raw.githubusercontent.com/cldf-datasets/barlowhandandfive/refs/heads/main/maps/dist.html).
+View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/dist.html).
 
 ## Was there lexical replacement of hand?
 
@@ -37,7 +37,7 @@ $${\color{gray}⏺}$$ | unknown | 456
 
 ![repl_hand](repl_hand.html)
 
-View [interactive map](https://raw.githubusercontent.com/cldf-datasets/barlowhandandfive/refs/heads/main/maps/repl_hand.html).
+View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/repl_hand.html).
 
 ## Was there lexical replacement of five?
 
@@ -50,7 +50,7 @@ $${\color{gray}⏺}$$ | unknown | 69
 
 ![repl_five](repl_five.html)
 
-View [interactive map](https://raw.githubusercontent.com/cldf-datasets/barlowhandandfive/refs/heads/main/maps/repl_five.html).
+View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/repl_five.html).
 
 ## What replaced hand?
 
@@ -65,7 +65,7 @@ $${\color{blue}⏺}$$ | ‘hold onto’ | 1
 
 ![hand_replacement](hand_replacement.html)
 
-View [interactive map](https://raw.githubusercontent.com/cldf-datasets/barlowhandandfive/refs/heads/main/maps/hand_replacement.html).
+View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/hand_replacement.html).
 
 ## What replaced five?
 
@@ -82,4 +82,4 @@ $${\color{blue}⏺}$$ | ‘part’ | 1
 
 ![five_replacement](five_replacement.html)
 
-View [interactive map](https://raw.githubusercontent.com/cldf-datasets/barlowhandandfive/refs/heads/main/maps/five_replacement.html).
+View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/five_replacement.html).
