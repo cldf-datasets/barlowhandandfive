@@ -1,0 +1,25 @@
+ID,Parameter_ID,Name,Description,color
+colex-lexicallydistinct,colex,lexically distinct,,black
+colex-unknown,colex,unknown,,gray
+colex-fullcolexification,colex,full colexification,,red
+colex-partialcolexification,colex,partial colexification,,orange
+dist-lexicalreplacement,dist,lexical replacement,,black
+dist-phonologicalchange,dist,phonological change,,yellow
+repl_hand-no,repl_hand,no,,white
+repl_hand-yes,repl_hand,yes,,red
+repl_hand-unknown,repl_hand,unknown,,gray
+repl_five-no,repl_five,no,,white
+repl_five-yes,repl_five,yes,,red
+repl_five-unknown,repl_five,unknown,,gray
+hand_replacement-handwordotherthanqalima,hand_replacement,“hand” word other than *qalima,,black
+hand_replacement-partofthearm,hand_replacement,part of the arm,,red
+hand_replacement-unclear,hand_replacement,unclear,,gray
+hand_replacement-wing,hand_replacement,wing,,yellow
+hand_replacement-holdonto,hand_replacement,‘hold onto’,,blue
+five_replacement-handwordotherthanqalima,five_replacement,“hand” word other than *qalima,,black
+five_replacement-unclear,five_replacement,unclear,,gray
+five_replacement-additionwith2,five_replacement,addition with 2,,yellow
+five_replacement-tallyword,five_replacement,tally word,,red
+five_replacement-count,five_replacement,‘count’,,purple
+five_replacement-additionwith4,five_replacement,addition with 4,,orange
+five_replacement-part,five_replacement,‘part’,,blue

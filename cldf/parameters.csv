@@ -1,0 +1,9 @@
+ID,Name,Description,ColumnSpec
+five,What is the word for 'five'?,,
+hand,What is the word for 'hand'?,,
+colex,Is_there_colexification?,,
+dist,Is_distinctness_due_to_lexical_replacement_or_phonological_change?,,
+repl_hand,Was_there_lexical_replacement_of_hand?,,
+repl_five,Was_there_lexical_replacement_of_five?,,
+hand_replacement,What_replaced_hand?,,
+five_replacement,What_replaced_five?,,
