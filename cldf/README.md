@@ -1,6 +1,6 @@
 <a name="ds-structuredatasetmetadatajson"> </a>
 
-# StructureDataset CLDF dataset with data and supplements for Barlow 2024 ...
+# StructureDataset CLDF dataset with data and supplements for Barlow 'Loss of colexification of ‘hand’ and ‘five’ in Austronesian languages'
 
 **CLDF Metadata**: [StructureDataset-metadata.json](./StructureDataset-metadata.json)
 
@@ -9,7 +9,7 @@ property | value
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF StructureDataset](http://cldf.clld.org/v1.0/terms.rdf#StructureDataset)
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/cldf-datasets/barlowhandandfive
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/barlowhandandfive/tree/0a6f547">cldf-datasets/barlowhandandfive 0a6f547</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/barlowhandandfive/tree/ce6b3a4">cldf-datasets/barlowhandandfive ce6b3a4</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.10.12</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | barlowhandandfive
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -53,6 +53,8 @@ Name/Property | Datatype | Description
 [Segments](http://cldf.clld.org/v1.0/terms.rdf#segments) | list of `string` (separated by ` `) | 
 [Comment](http://cldf.clld.org/v1.0/terms.rdf#comment) | `string` | 
 [Contribution_ID](http://cldf.clld.org/v1.0/terms.rdf#contributionReference) | `string` | Key of lexical dataset from which the form was taken.<br>References [contributions.csv::ID](#table-contributionscsv)
+`Glottocode_in_dataset` | `string` | Glottocode assigned to the variety in the source dataset from which the form was picked
+`Language_name_in_dataset` | `string` | Name of the variety in the source dataset from which the form was picked
 
 ## <a name="table-languagescsv"></a>Table [languages.csv](./languages.csv)
 
@@ -120,7 +122,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF CodeTable](http://cldf.clld.org/v1.0/terms.rdf#CodeTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 25
+[dc:extent](http://purl.org/dc/terms/extent) | 24
 
 
 ### Columns
@@ -131,6 +133,7 @@ Name/Property | Datatype | Description
 [Parameter_ID](http://cldf.clld.org/v1.0/terms.rdf#parameterReference) | `string` | The parameter or variable the code belongs to.<br>References [parameters.csv::ID](#table-parameterscsv)
 [Name](http://cldf.clld.org/v1.0/terms.rdf#name) | `string` | 
 [Description](http://cldf.clld.org/v1.0/terms.rdf#description) | `string` | 
+`color` | `string` | 
 
 ## <a name="table-replacementscsv"></a>Table [replacements.csv](./replacements.csv)
 
@@ -142,7 +145,7 @@ Replacement events are considered taking a relatively conservative approach: tha
 
 property | value
  --- | ---
-[dc:extent](http://purl.org/dc/terms/extent) | 54
+[dc:extent](http://purl.org/dc/terms/extent) | 189
 
 
 ### Columns
@@ -154,6 +157,6 @@ Name/Property | Datatype | Description
 `Subgroup` | `string` | 
 `Comment` | `string` | 
 `Source` | `string` | 
-[Concept](http://cldf.clld.org/v1.0/terms.rdf#parameterReference) | list of `string` (separated by ` `) | References [parameters.csv::ID](#table-parameterscsv)
+[Concept](http://cldf.clld.org/v1.0/terms.rdf#parameterReference) | `string` | References [parameters.csv::ID](#table-parameterscsv)
 [Language_IDs](http://cldf.clld.org/v1.0/terms.rdf#languageReference) | list of `string` (separated by ` `) | References [languages.csv::ID](#table-languagescsv)
 

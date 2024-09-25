@@ -1,5 +1,8 @@
 # Maps
 
+The maps below have been created using the `cldfviz.map` command from the [`cldfviz` package](https://pypi.org/project/cldfviz/).
+
+
 ## Is there colexification?
 
 &nbsp; | Description | Count

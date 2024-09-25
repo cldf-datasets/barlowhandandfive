@@ -1,4 +1,4 @@
-# CLDF dataset with data and supplements for Barlow 2024 ...
+# CLDF dataset with data and supplements for Barlow 'Loss of colexification of ‘hand’ and ‘five’ in Austronesian languages'
 
 [![CLDF validation](https://github.com/cldf-datasets/barlowhandandfive/workflows/CLDF-validation/badge.svg)](https://github.com/cldf-datasets/barlowhandandfive/actions?query=workflow%3ACLDF-validation)
 
@@ -12,6 +12,28 @@ this dataset using the DOI of the [particular released version](../../releases/)
 
 This dataset is licensed under a CC-BY-4.0 license
 
+
+
+
+### Forms
+
+Counterparts for 'five' and 'hand' in Austronesian languages have been collected from four datasets
+described in the [ContributionTable](cldf/contributions.csv). Since forms were aggregated on language
+level (with forms for dialects taken as forms for the parent language) and across datasets, often more
+than one word per language and concept was attested.
+If multiple forms were attested, one was chosen trying to "maximize potential for colexification".
+I.e. the pair of forms picked for a language is the one closest to exhibiting (partial) 
+colexification. The is done to minimize "false negatives": i.e., cases where there could appear to 
+be *no* colexification of the two concepts, but only because there are, e.g., two synonyms for 
+'hand' and the particular dataset chose the "wrong" one.
+
+
+### Features
+
+Based on the words for 'five' and 'hand' collected in the [FormTable](cldf/forms.csv) and inferred
+replacement events (described below), six features have been coded, with values reported in the 
+[ValueTable](cldf/values.csv). The distribution of values for these features can be investigated 
+using [geographical maps](maps/README.md).
 
 
 ### Replacement events

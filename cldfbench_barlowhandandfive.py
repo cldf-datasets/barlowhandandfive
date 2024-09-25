@@ -6,6 +6,28 @@ from clldutils.markup import add_markdown_text
 from cldfbench import Dataset as BaseDataset, CLDFSpec
 
 NOTES = """
+
+### Forms
+
+Counterparts for 'five' and 'hand' in Austronesian languages have been collected from four datasets
+described in the [ContributionTable](cldf/contributions.csv). Since forms were aggregated on language
+level (with forms for dialects taken as forms for the parent language) and across datasets, often more
+than one word per language and concept was attested.
+If multiple forms were attested, one was chosen trying to "maximize potential for colexification".
+I.e. the pair of forms picked for a language is the one closest to exhibiting (partial) 
+colexification. The is done to minimize "false negatives": i.e., cases where there could appear to 
+be *no* colexification of the two concepts, but only because there are, e.g., two synonyms for 
+'hand' and the particular dataset chose the "wrong" one.
+
+
+### Features
+
+Based on the words for 'five' and 'hand' collected in the [FormTable](cldf/forms.csv) and inferred
+replacement events (described below), six features have been coded, with values reported in the 
+[ValueTable](cldf/values.csv). The distribution of values for these features can be investigated 
+using [geographical maps](maps/README.md).
+
+
 ### Replacement events
 
 Replacement events, i.e. rows in the [replacements table](cldf/replacements.csv), represent a probable loss of the 
@@ -148,8 +170,17 @@ class Dataset(BaseDataset):
                 'dc:description': 'Key of lexical dataset from which the form was taken.',
                 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#contributionReference',
             },
-            #'Glottocode' of variety in source dataset
-            #'Language_Name' of variety in source dataset
+            {
+                'name': 'Glottocode_in_dataset',
+                'dc:description':
+                    'Glottocode assigned to the variety in the source dataset from which the form '
+                    'was picked',
+            },
+            {
+                'name': 'Language_name_in_dataset',
+                'dc:description':
+                    'Name of the variety in the source dataset from which the form was picked',
+            },
         )
         args.writer.cldf.remove_columns('FormTable', 'Source')
         args.writer.cldf.remove_columns('ValueTable', 'Source')
@@ -230,7 +261,7 @@ class Dataset(BaseDataset):
                 row['Glottocode'] = row['Language_level_glottocode']
             if row['Glottocode']:
                 assert row['Glottocode'] in aust, row['Glottocode']
-                forms[row['Language_level_glottocode']][(row['Dataset'], row['Glottocode'])].add((row['Form'], row['Parameter_ID']))
+                forms[row['Language_level_glottocode']][(row['Dataset'], row['Glottocode'], row['Language_name'])].add((row['Form'], row['Parameter_ID']))
 
         for cid, (name, citation) in CONTRIBUTIONS.items():
             args.writer.objects['ContributionTable'].append(dict(
@@ -251,13 +282,6 @@ class Dataset(BaseDataset):
                     Name=code,
                     color=color,
                 ))
-            #if pid.endswith('_replacement'):
-            #    for code in set(what_replaced[pid.split('_')[0]].values()):
-            #        args.writer.objects['CodeTable'].append(dict(
-            #            ID='{}-{}'.format(pid, slug(code)),
-            #            Parameter_ID=pid,
-            #            Name=code,
-            #        ))
 
         for row in self.iterrows('Colexification_of_hand_and_five_in_Austronesian_languages'):
             # Language_number	Glottocode	Language_name	Latitude	Longitude
@@ -272,7 +296,14 @@ class Dataset(BaseDataset):
             ))
 
             for col in ['five', 'hand']:
-                if row[col]:
+                form = row[col]
+                if form:
+                    datasets = {}
+                    for k, v in forms[row['Glottocode']].items():
+                        if form in {f for f, c in v if c == col}:
+                            datasets[k[0]] = (k[1], k[2])
+                    assert row['Dataset_for_{}'.format(col)] in datasets
+                    ds_gc, ds_name = datasets[row['Dataset_for_{}'.format(col)]]
                     args.writer.objects['FormTable'].append(dict(
                         ID='{}-{}'.format(row['Glottocode'], col),
                         Language_ID=row['Glottocode'],
@@ -280,6 +311,8 @@ class Dataset(BaseDataset):
                         Value=row[col],
                         Form=row[col],
                         Contribution_ID=row['Dataset_for_' + col],
+                        Glottocode_in_dataset=ds_gc,
+                        Language_name_in_dataset=ds_name,
                     ))
 
             for (pid, pname), codes in PARAMETERS.items():
@@ -303,33 +336,6 @@ class Dataset(BaseDataset):
                         Code_ID=cid,
                         Comment=row[pname] if row[pname] == '(recolexification)' else None,
                     ))
-
-            # Is_there_colexification? -> lexically distinct | unknown | full colexification | partial colexification
-            # Is_distinctness_due_to_lexical_replacement_or_phonological_change? -> lexical replacement | phonological change | (recolexification)
-            # Was_there_lexical_replacement_of_hand? -> no/yes/unknown
-            # Was_there_lexical_replacement_of_five? -> no/yes/unknown
-
-            # What_replaced_hand? -> no codes
-            # What_replaced_five? -> no codes
-
-            # Language_ID_for_hand
-            # Dataset_for_hand
-            # Source_for_hand
-
-            # Language_ID_for_five
-            # Dataset_for_five
-            # Source_for_five
-
-            # Comment
-
-            for concept in {'hand', 'five'}:
-                form = row[concept]
-                if form:
-                    datasets = set()
-                    for k, v in forms[row['Glottocode']].items():
-                        if form in {f for f, c in v if c == concept}:
-                            datasets.add(k[0])
-                    assert row['Dataset_for_{}'.format(concept)] in datasets
 
             if row['hand'] and row['hand'] == row['five']:
                 assert row['Is_there_colexification?'] == 'full colexification', row

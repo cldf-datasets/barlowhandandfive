@@ -13,7 +13,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/barlowhandandfive",
             "rdf:type": "prov:Entity",
-            "dc:created": "5fc3460",
+            "dc:created": "ce6b3a4",
             "dc:title": "Repository"
         },
         {
@@ -185,6 +185,14 @@
                         "dc:description": "Key of lexical dataset from which the form was taken.",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#contributionReference",
                         "name": "Contribution_ID"
+                    },
+                    {
+                        "dc:description": "Glottocode assigned to the variety in the source dataset from which the form was picked",
+                        "name": "Glottocode_in_dataset"
+                    },
+                    {
+                        "dc:description": "Name of the variety in the source dataset from which the form was picked",
+                        "name": "Language_name_in_dataset"
                     }
                 ],
                 "foreignKeys": [
