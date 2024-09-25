@@ -9,6 +9,9 @@ setup(
     entry_points={
         'cldfbench.dataset': [
             'barlowhandandfive=cldfbench_barlowhandandfive:Dataset',
+        ],
+        'cldfbench.commands': [
+            'barlowhandandfive=barlowhandandfivecommands',
         ]
     },
     install_requires=[

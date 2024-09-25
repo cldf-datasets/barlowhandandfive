@@ -7,13 +7,13 @@
     ],
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
-    "dc:title": "CLDF dataset with data and supplements for Barlow 2024 ...",
+    "dc:title": "CLDF dataset with data and supplements for Barlow 'Loss of colexification of \u2018hand\u2019 and \u2018five\u2019 in Austronesian languages'",
     "dcat:accessURL": "https://github.com/cldf-datasets/barlowhandandfive",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/cldf-datasets/barlowhandandfive",
             "rdf:type": "prov:Entity",
-            "dc:created": "0a6f547",
+            "dc:created": "5fc3460",
             "dc:title": "Repository"
         },
         {
@@ -389,7 +389,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CodeTable",
-            "dc:extent": 25,
+            "dc:extent": 24,
             "tableSchema": {
                 "columns": [
                     {
@@ -420,6 +420,10 @@
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
                         "required": false,
                         "name": "Description"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "color"
                     }
                 ],
                 "foreignKeys": [

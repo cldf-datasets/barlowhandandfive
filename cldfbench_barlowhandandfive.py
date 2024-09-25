@@ -53,16 +53,44 @@ Kela (Papua New Guinea),possibly shared change between Bugawac/Kela
 ```
 """
 PARAMETERS = {
-    ('five', "What is the word for 'five'?"): [],
-    ('hand', "What is the word for 'hand'?"): [],
-    ('colex', 'Is_there_colexification?'):
-        ['lexically distinct', 'unknown', 'full colexification', 'partial colexification'],
-    ('dist', 'Is_distinctness_due_to_lexical_replacement_or_phonological_change?'):
-        ['lexical replacement', 'phonological change', '(recolexification)'],
-    ('repl_hand', 'Was_there_lexical_replacement_of_hand?'):  ['no', 'yes', 'unknown'],
-    ('repl_five', 'Was_there_lexical_replacement_of_five?'):  ['no', 'yes', 'unknown'],
-    ('hand_replacement', 'What_replaced_hand?'): [],
-    ('five_replacement', 'What_replaced_five?'): [],
+    ('five', "What is the word for 'five'?"): {},
+    ('hand', "What is the word for 'hand'?"): {},
+    ('colex', 'Is_there_colexification?'): {
+        'lexically distinct': 'black',
+        'unknown': 'gray',
+        'full colexification': 'red',
+        'partial colexification': 'orange',
+    },
+    ('dist', 'Is_distinctness_due_to_lexical_replacement_or_phonological_change?'): {
+        'lexical replacement': 'black',
+        'phonological change': 'yellow',
+    },
+    ('repl_hand', 'Was_there_lexical_replacement_of_hand?'): {
+        'no': 'white',
+        'yes': 'red',
+        'unknown': 'gray',
+    },
+    ('repl_five', 'Was_there_lexical_replacement_of_five?'): {
+        'no': 'white',
+        'yes': 'red',
+        'unknown': 'gray',
+    },
+    ('hand_replacement', 'What_replaced_hand?'): {
+        '“hand” word other than *qalima': 'black',
+        'part of the arm': 'red',
+        'unclear': 'gray',
+        'wing': 'yellow',
+        '‘hold onto’': 'blue',
+    },
+    ('five_replacement', 'What_replaced_five?'): {
+        '“hand” word other than *qalima': 'black',
+        'unclear': 'gray',
+        'addition with 2': 'yellow',
+        'tally word': 'red',
+        '‘count’': 'purple',
+        'addition with 4': 'orange',
+        '‘part’': 'blue',
+    },
 }
 CONTRIBUTIONS = {  # ID, Name, Citation
     #- the Austronesian basic vocabulary database (ABVD) (Greenhill, Blust, and Gray 2008),
@@ -137,7 +165,7 @@ class Dataset(BaseDataset):
             ("This dataset provides two kinds of parameters: 1) The two concepts 'hand' and 'five', with the "
              "corresponding counterparts listed in FormTable, and 2) six parameters analyzing the colexification "
              "status for these two concepts in Austronesian languages, with values listed in ValueTable.")
-        args.writer.cldf.add_component('CodeTable')
+        args.writer.cldf.add_component('CodeTable', 'color')
         t = args.writer.cldf.add_table(
             'replacements.csv',
             {
@@ -216,20 +244,20 @@ class Dataset(BaseDataset):
                 ID=pid,
                 Name=pname,
             ))
-            for code in codes:
+            for code, color in codes.items():
                 args.writer.objects['CodeTable'].append(dict(
                     ID='{}-{}'.format(pid, slug(code)),
                     Parameter_ID=pid,
                     Name=code,
+                    color=color,
                 ))
-            if pid.endswith('_replacement'):
-                for code in set(what_replaced[pid.split('_')[0]].values()):
-                    args.writer.objects['CodeTable'].append(dict(
-                        ID='{}-{}'.format(pid, slug(code)),
-                        Parameter_ID=pid,
-                        Name=code,
-                    ))
-
+            #if pid.endswith('_replacement'):
+            #    for code in set(what_replaced[pid.split('_')[0]].values()):
+            #        args.writer.objects['CodeTable'].append(dict(
+            #            ID='{}-{}'.format(pid, slug(code)),
+            #            Parameter_ID=pid,
+            #            Name=code,
+            #        ))
 
         for row in self.iterrows('Colexification_of_hand_and_five_in_Austronesian_languages'):
             # Language_number	Glottocode	Language_name	Latitude	Longitude
@@ -239,6 +267,8 @@ class Dataset(BaseDataset):
                 ID=row['Glottocode'],
                 Glottocode=row['Glottocode'],
                 Name=row['Language_name'],
+                Latitude=aust[row['Glottocode']].latitude,
+                Longitude=aust[row['Glottocode']].longitude,
             ))
 
             for col in ['five', 'hand']:
@@ -254,16 +284,24 @@ class Dataset(BaseDataset):
 
             for (pid, pname), codes in PARAMETERS.items():
                 if row.get(pname):
-                    if codes:
+                    if row[pname] == '(recolexification)':
+                        cid = None
+                    elif pid.endswith('_replacement'):
+                        cid = '{}-{}'.format(pid, slug(what_replaced[pid.split('_')[0]][row['Glottocode']]))
+                    elif codes:
                         cid = '{}-{}'.format(pid, slug(row[pname]))
                     else:
-                        cid = '{}-{}'.format(pid, slug(what_replaced[pid.split('_')[0]][row['Glottocode']]))
+                        cid = None
+
+                    if pid.endswith('replacement') and row[pname] == '?':
+                        row[pname] = 'unclear'
                     args.writer.objects['ValueTable'].append(dict(
                         ID='{}-{}'.format(pid, row['Glottocode']),
                         Language_ID=row['Glottocode'],
                         Parameter_ID=pid,
-                        Value=row[pname],
+                        Value=None if row[pname] == '(recolexification)' else row[pname],
                         Code_ID=cid,
+                        Comment=row[pname] if row[pname] == '(recolexification)' else None,
                     ))
 
             # Is_there_colexification? -> lexically distinct | unknown | full colexification | partial colexification

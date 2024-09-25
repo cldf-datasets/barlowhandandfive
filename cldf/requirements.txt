@@ -10,6 +10,7 @@ certifi==2022.12.7
 cffi==1.16.0
 chardet==5.2.0
 cldfbench==1.14.0
+-e git+https://github.com/cldf-datasets/barlowhandandfive@5fc3460ec5f8e982232761d4bbe3f0f81a66b7ce#egg=cldfbench_barlowhandandfive
 -e git+https://github.com/cldf-datasets/doreco/@8124db8c45f1186e998d7536401dc6d6dceebb32#egg=cldfbench_doreco
 -e git+https://github.com/cldf-datasets/haigandschnellmulticast.git@a03269497020aeab5c862a0e8d294786d567c241#egg=cldfbench_haigandschnellmulticast
 -e git+https://github.com/cldf-datasets/imtvault@1087aa3d1dc1d846bf2fdc986290d7950025c03b#egg=cldfbench_imtvault
@@ -18,7 +19,7 @@ cldfbench==1.14.0
 -e git+https://github.com/cldf-datasets/languageatlasofthepacificarea@8883352b08516e26261a8e060a40db40f34619fa#egg=cldfbench_languageatlasofthepacificarea
 cldfcatalog==1.5.1
 cldfgeojson==1.0.0
-cldfviz==1.0.1
+-e git+https://github.com/cldf/cldfviz@c66ad293c6bf84c075979df35721d9188015deed#egg=cldfviz
 cldfzenodo==2.1.1
 click==8.1.7
 clldutils==3.22.1
@@ -96,6 +97,7 @@ tqdm==4.64.1
 Unidecode==1.3.6
 uritemplate==4.1.1
 urllib3==1.26.13
+webcolors==24.8.0
 webencodings==0.5.1
 xlrd==2.0.1
 zenodoclient==0.5.0
