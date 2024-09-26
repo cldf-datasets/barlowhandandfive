@@ -13,7 +13,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/barlowhandandfive",
             "rdf:type": "prov:Entity",
-            "dc:created": "ce6b3a4",
+            "dc:created": "fa7a427",
             "dc:title": "Repository"
         },
         {
@@ -238,7 +238,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:description": "This table lists each language-level languoid in Glottolog 5.0 classified as Austronesian.",
+            "dc:description": "This table lists each language-level languoid in Glottolog 5.0 classified as Austronesian. Languages are roughly sorted by genealogy and then geography, more or less reflecting the spread of Austronesian languages from Taiwan to Polynesia. This sorting is reflected by the numbers given in the \u201cNumber\u201d column.",
             "dc:extent": 1274,
             "tableSchema": {
                 "columns": [
@@ -301,6 +301,10 @@
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#iso639P3code",
                         "required": false,
                         "name": "ISO639P3code"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "Number"
                     }
                 ],
                 "primaryKey": [

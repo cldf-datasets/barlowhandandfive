@@ -75,45 +75,131 @@ Kela (Papua New Guinea),possibly shared change between Bugawac/Kela
 ```
 """
 PARAMETERS = {
-    ('five', "What is the word for 'five'?"): {},
-    ('hand', "What is the word for 'hand'?"): {},
-    ('colex', 'Is_there_colexification?'): {
-        'lexically distinct': 'black',
-        'unknown': 'gray',
-        'full colexification': 'red',
-        'partial colexification': 'orange',
+    (
+        'five',
+        "What is the word for 'five'?",
+        ""
+    ): {},
+    (
+        'hand',
+        "What is the word for 'hand'?",
+        ""
+    ): {},
+    (
+        'colex',
+        'Is_there_colexification?',
+        ""
+    ): {
+        'lexically distinct': (
+            'black', 'The concepts ‘hand’ and ‘five’ are lexically distinct in the language.'),
+        'unknown': (
+            'gray',
+            'The relationship between ‘hand’ and ‘five’ is unknown in the language due to '
+            'insufficient data.'),
+        'full colexification': ('red', '‘hand’ and ‘five’ are fully colexified.'),
+        'partial colexification': ('orange', '‘hand’ and ‘five’ are partially colexified.'),
     },
-    ('dist', 'Is_distinctness_due_to_lexical_replacement_or_phonological_change?'): {
-        'lexical replacement': 'black',
-        'phonological change': 'yellow',
+    (
+        'dist',
+        'Is_distinctness_due_to_lexical_replacement_or_phonological_change?',
+        "For those languages that lack colexification, i.e. languages with value ‘lexically "
+        "distinct’ for parameter ‘Is there colexification?’, values for this parameter are "
+        "‘lexical replacement’ or ‘phonological change’. However, some languages exhibit both "
+        "lexical replacement and (partial) colexification; this is possible when there has been "
+        "replacement of both ‘hand’ and ‘five’ such that the new forms are (partially) colexified: "
+        "these cases are indicated by rows in ValueTable with an empty value and a comment "
+        "“(recolexification)”."
+    ): {
+        'lexical replacement': (
+            'black',
+            'The concepts ‘hand’ and ‘five’ are lexically distinct in the language due to '
+            'lexical replacement.'),
+        'phonological change': (
+            'yellow', '‘hand’ and ‘five’ are distinct due to phonological change.'),
     },
-    ('repl_hand', 'Was_there_lexical_replacement_of_hand?'): {
-        'no': 'white',
-        'yes': 'red',
-        'unknown': 'gray',
+    (
+        'repl_hand',
+        'Was_there_lexical_replacement_of_hand?',
+        ""
+    ): {
+        'no': ('white', 'The word for the concept ‘hand’ has not been replaced.'),
+        'yes': ('red', ' The word for the concept ‘hand’ has been replaced.'),
+        'unknown': (
+            'gray',
+            'It is unknown whether or not the word for the concept ‘hand’ has been replaced.'),
     },
-    ('repl_five', 'Was_there_lexical_replacement_of_five?'): {
-        'no': 'white',
-        'yes': 'red',
-        'unknown': 'gray',
+    (
+        'repl_five',
+        'Was_there_lexical_replacement_of_five?',
+        ""
+    ): {
+        'no': ('white', 'The word for the concept ‘five’ has not been replaced.'),
+        'yes': ('red', 'The word for the concept ‘five’ has been replaced.'),
+        'unknown': (
+            'gray',
+            'It is unknown whether or not the word for the concept ‘five’ has been replaced.'),
     },
-    ('hand_replacement', 'What_replaced_hand?'): {
-        '“hand” word other than *qalima': 'black',
-        'part of the arm': 'red',
-        'unclear': 'gray',
-        'wing': 'yellow',
-        '‘hold onto’': 'blue',
+    (
+        'hand_replacement',
+        'What_replaced_hand?',
+        "Values for this parameter are descriptions of the most likely etymology (traced as far "
+        "back as possible in the Austronesian family) given for the word in the language that "
+        "came to mean ‘hand’; values followed by ‘?’ are somewhat uncertain; and those followed "
+        "by ‘??’ are even more uncertain; when no likely etymology has been posited, then the "
+        "value is given simply as ‘unclear’ (with no preceding etymology). Values are batched into "
+        "five different categories, referenced by the `Code_ID` column."
+    ): {
+        '“hand” word other than *qalima': (
+            'black',
+            '‘hand’ derives from a word meaning ‘hand’ or ‘arm’ other than *qalima, whether '
+            '[PAn *kamay ‘hand’](https://acd.clld.org/cognatesets/26632), '
+            '[PMP *baRa ‘hand, arm’](https://acd.clld.org/cognatesets/25155), or '
+            'POc *minV- ‘hand’.'),
+        'part of the arm': (
+            'red',
+            '‘hand’ derives from a word referring to part of the arm, whether '
+            '[PAn *qabaRa ‘shoulder’](https://acd.clld.org/cognatesets/25155), '
+            '[PAn *kuSkuS ‘claw, talon, fingernail’](https://acd.clld.org/cognatesets/30315), '
+            'Proto-Tsouic *ramuCu ‘finger’ (?), '
+            '[PMP *taŋan ‘finger, toe’](https://acd.clld.org/cognatesets/25155), '
+            '[PMP *leŋen ‘forearm, lower arm’](https://acd.clld.org/cognatesets/30521), '
+            '[PPh *dalukap ‘palm of the hand, sole of the foot’](https://acd.clld.org/cognatesets/34040), or '
+            'PNCV *bisu ‘finger, toe, nail’'),
+        'wing': (
+            'yellow',
+            '‘hand’ derives from a word referring to the wing (of an animal), whether '
+            '[PAn *paNij ‘wing’](https://acd.clld.org/cognatesets/27294), '
+            '[PMP *kapak ‘wings; flutter’](https://acd.clld.org/cognatesets/31811), or '
+            'PWOc *baqe ‘wing, (?) hand’'),
+        '‘hold onto’': ('blue', '‘hand’ derives from ‘hold onto, cling to’'),
+        'unclear': (
+            'gray', '‘hand’ derives from a form other than *qalima, but its etymology is unclear.'),
     },
-    ('five_replacement', 'What_replaced_five?'): {
-        '“hand” word other than *qalima': 'black',
-        'unclear': 'gray',
-        'addition with 2': 'yellow',
-        'tally word': 'red',
-        '‘count’': 'purple',
-        'addition with 4': 'orange',
-        '‘part’': 'blue',
+    (
+        'five_replacement',
+        'What_replaced_five?',
+        "The same conventions apply here as for the parameter “What replaced_hand?” except that "
+        "here most entries are given a language-internal etymology. Values are batched into "
+        "seven different categories, referenced by the `Code_ID` column."
+    ): {
+        '“hand” word other than *qalima': (
+            'black',
+            'The word for ‘five’ derives from a hand-related word unrelated to *qalima (in '
+            'some cases ultimately derived from ‘finger’ or ‘wing’)'),
+        'addition with 2': ('yellow', '‘five’ derives from a formulation like ‘2+2+1’.'),
+        'tally word': (
+            'red',
+            '‘five’ derives from an expression apparently referring to a physical tallying '
+            'practice, including words like ‘finished’, ‘on top’, or ‘make/take’.'),
+        '‘count’': ('purple', '‘five’ derives from ‘count’.'),
+        'addition with 4': ('orange', '‘five’ derives from a formulation like ‘4+1’.'),
+        '‘part’': ('blue', '‘five’ derives from ‘part’.'),
+        'unclear': (
+            'gray', '‘five’ derives from a form other than *lima, but its etymology is unclear.'),
     },
 }
+
+
 CONTRIBUTIONS = {  # ID, Name, Citation
     #- the Austronesian basic vocabulary database (ABVD) (Greenhill, Blust, and Gray 2008),
     'abvd': (
@@ -184,9 +270,13 @@ class Dataset(BaseDataset):
         )
         args.writer.cldf.remove_columns('FormTable', 'Source')
         args.writer.cldf.remove_columns('ValueTable', 'Source')
-        t = args.writer.cldf.add_component('LanguageTable')
+        t = args.writer.cldf.add_component(
+            'LanguageTable', {'name': 'Number', 'datatype': 'integer'})
         t.common_props['dc:description'] = \
-            'This table lists each language-level languoid in Glottolog 5.0 classified as Austronesian.'
+            ('This table lists each language-level languoid in Glottolog 5.0 classified as '
+             'Austronesian. Languages are roughly sorted by genealogy and then geography, more or '
+             'less reflecting the spread of Austronesian languages from Taiwan to Polynesia. This '
+             'sorting is reflected by the numbers given in the “Number” column.')
         t = args.writer.cldf.add_component('ContributionTable')
         t.common_props['dc:description'] = \
             ("Forms for this study, i.e. counterparts of 'five' and 'hand' in Austronesian languages, were taken from "
@@ -264,22 +354,17 @@ class Dataset(BaseDataset):
                 forms[row['Language_level_glottocode']][(row['Dataset'], row['Glottocode'], row['Language_name'])].add((row['Form'], row['Parameter_ID']))
 
         for cid, (name, citation) in CONTRIBUTIONS.items():
-            args.writer.objects['ContributionTable'].append(dict(
-                ID=cid,
-                Name=name,
-                Citation=citation,
-            ))
+            args.writer.objects['ContributionTable'].append(
+                dict(ID=cid, Name=name, Citation=citation))
 
-        for (pid, pname), codes in PARAMETERS.items():
-            args.writer.objects['ParameterTable'].append(dict(
-                ID=pid,
-                Name=pname,
-            ))
-            for code, color in codes.items():
+        for (pid, pname, desc), codes in PARAMETERS.items():
+            args.writer.objects['ParameterTable'].append(dict(ID=pid, Name=pname, Description=desc))
+            for code, (color, desc) in codes.items():
                 args.writer.objects['CodeTable'].append(dict(
                     ID='{}-{}'.format(pid, slug(code)),
                     Parameter_ID=pid,
                     Name=code,
+                    Description=desc,
                     color=color,
                 ))
 
@@ -293,6 +378,7 @@ class Dataset(BaseDataset):
                 Name=row['Language_name'],
                 Latitude=aust[row['Glottocode']].latitude,
                 Longitude=aust[row['Glottocode']].longitude,
+                Number=int(row['Language_number']),
             ))
 
             for col in ['five', 'hand']:
@@ -315,7 +401,7 @@ class Dataset(BaseDataset):
                         Language_name_in_dataset=ds_name,
                     ))
 
-            for (pid, pname), codes in PARAMETERS.items():
+            for (pid, pname, _), codes in PARAMETERS.items():
                 if row.get(pname):
                     if row[pname] == '(recolexification)':
                         cid = None

@@ -59,12 +59,12 @@ The maps below have been created using the `cldfviz.map` command from the [`cldf
     for pid, codes in sorted(parameters.items(), key=lambda t: pids.index(t[0])):
         readme.append('## {}\n'.format(
             cldf.get_row('ParameterTable', pid)['Name'].replace('_', ' ')))
-        readme.append('&nbsp; | Description | Count')
-        readme.append('--- | --- | ---:')
+        readme.append('&nbsp; | Value | Count | Description')
+        readme.append('--- | --- | ---:| ---')
         for c in codes:
-            readme.append('$${{\color{{{}}}⏺}}$$ | {} | {}'.format(
-                c['color'], c['Name'], value_count[c['ID']]))
-        readme.append('&nbsp; | &nbsp; | **{}**'.format(sum(value_count[c['ID']] for c in codes)))
+            readme.append('$${{\color{{{}}}⏺}}$$ | {} | {} | {}'.format(
+                c['color'], c['Name'], value_count[c['ID']], c['Description']))
+        readme.append('&nbsp; | &nbsp; | **{}** | &nbsp;'.format(sum(value_count[c['ID']] for c in codes)))
 
         plotargs = (
             pid, {c['ID']: c['color'] for c in codes}, cldf.directory / cldf.filename, mapdir)
