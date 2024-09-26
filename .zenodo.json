@@ -8,5 +8,16 @@
     "upload_type": "dataset",
     "license": {
         "id": "CC-BY-4.0"
-    }
+    },
+    "creators": [
+        {
+            "name": "Russell Barlow"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Robert Forkel",
+            "type": "DataCurator"
+        }
+    ]
 }
