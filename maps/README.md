@@ -22,7 +22,7 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/co
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
 $${\color{black}⏺}$$ | lexical replacement | 380 | The concepts ‘hand’ and ‘five’ are lexically distinct in the language due to lexical replacement.
-$${\color{yellow}⏺}$$ | phonological change | 85 | ‘hand’ and ‘five’ are distinct due to phonological change.
+$${\color{yellow}⏺}$$ | phonological change | 85 | The concepts ‘hand’ and ‘five’ are distinct due to phonological change.
 &nbsp; | &nbsp; | **465** | &nbsp;
 
 ![dist](dist.svg)
