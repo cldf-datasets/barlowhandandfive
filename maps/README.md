@@ -59,11 +59,11 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/re
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
-$${\color{black}⏺}$$ | “hand” word other than *qalima | 139 | ‘hand’ derives from a word meaning ‘hand’ or ‘arm’ other than *qalima, whether [PAn *kamay ‘hand’](https://acd.clld.org/cognatesets/26632), [PMP *baRa ‘hand, arm’](https://acd.clld.org/cognatesets/25155), or POc *minV- ‘hand’.
-$${\color{red}⏺}$$ | part of the arm | 109 | ‘hand’ derives from a word referring to part of the arm, whether [PAn *qabaRa ‘shoulder’](https://acd.clld.org/cognatesets/25155), [PAn *kuSkuS ‘claw, talon, fingernail’](https://acd.clld.org/cognatesets/30315), Proto-Tsouic *ramuCu ‘finger’ (?), [PMP *taŋan ‘finger, toe’](https://acd.clld.org/cognatesets/25155), [PMP *leŋen ‘forearm, lower arm’](https://acd.clld.org/cognatesets/30521), [PPh *dalukap ‘palm of the hand, sole of the foot’](https://acd.clld.org/cognatesets/34040), or PNCV *bisu ‘finger, toe, nail’
-$${\color{yellow}⏺}$$ | wing | 69 | ‘hand’ derives from a word referring to the wing (of an animal), whether [PAn *paNij ‘wing’](https://acd.clld.org/cognatesets/27294), [PMP *kapak ‘wings; flutter’](https://acd.clld.org/cognatesets/31811), or PWOc *baqe ‘wing, (?) hand’
-$${\color{blue}⏺}$$ | ‘hold onto’ | 1 | ‘hand’ derives from ‘hold onto, cling to’
-$${\color{gray}⏺}$$ | unclear | 72 | ‘hand’ derives from a form other than *qalima, but its etymology is unclear.
+$${\color{black}⏺}$$ | “hand” word other than *qalima | 139 | The word for ‘hand’ derives from a word meaning ‘hand’ or ‘arm’ other than *qalima, whether [PAn *kamay ‘hand’](https://acd.clld.org/cognatesets/26632), [PMP *baRa ‘hand, arm’](https://acd.clld.org/cognatesets/25155), or POc *minV- ‘hand’.
+$${\color{red}⏺}$$ | part of the arm | 109 | The word for ‘hand’ derives from a word referring to part of the arm, whether [PAn *qabaRa ‘shoulder’](https://acd.clld.org/cognatesets/25155), [PAn *kuSkuS ‘claw, talon, fingernail’](https://acd.clld.org/cognatesets/30315), Proto-Tsouic *ramuCu ‘finger’ (?), [PMP *taŋan ‘finger, toe’](https://acd.clld.org/cognatesets/25155), [PMP *leŋen ‘forearm, lower arm’](https://acd.clld.org/cognatesets/30521), [PPh *dalukap ‘palm of the hand, sole of the foot’](https://acd.clld.org/cognatesets/34040), or PNCV *bisu ‘finger, toe, nail’.
+$${\color{yellow}⏺}$$ | wing | 69 | The word for ‘hand’ derives from a word referring to the wing (of an animal), whether [PAn *paNij ‘wing’](https://acd.clld.org/cognatesets/27294), [PMP *kapak ‘wings; flutter’](https://acd.clld.org/cognatesets/31811), or PWOc *baqe ‘wing, (?) hand’.
+$${\color{blue}⏺}$$ | ‘hold onto’ | 1 | The word for ‘hand’ derives from ‘hold onto, cling to’.
+$${\color{gray}⏺}$$ | unclear | 72 | The word for ‘hand’ derives from a form other than *qalima, but its etymology is unclear.
 &nbsp; | &nbsp; | **390** | &nbsp;
 
 ![hand_replacement](hand_replacement.svg)
@@ -74,13 +74,13 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/ha
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
-$${\color{black}⏺}$$ | “hand” word other than *qalima | 45 | The word for ‘five’ derives from a hand-related word unrelated to *qalima (in some cases ultimately derived from ‘finger’ or ‘wing’)
-$${\color{yellow}⏺}$$ | addition with 2 | 8 | ‘five’ derives from a formulation like ‘2+2+1’.
-$${\color{red}⏺}$$ | tally word | 6 | ‘five’ derives from an expression apparently referring to a physical tallying practice, including words like ‘finished’, ‘on top’, or ‘make/take’.
-$${\color{purple}⏺}$$ | ‘count’ | 2 | ‘five’ derives from ‘count’.
-$${\color{orange}⏺}$$ | addition with 4 | 2 | ‘five’ derives from a formulation like ‘4+1’.
-$${\color{blue}⏺}$$ | ‘part’ | 1 | ‘five’ derives from ‘part’.
-$${\color{gray}⏺}$$ | unclear | 20 | ‘five’ derives from a form other than *lima, but its etymology is unclear.
+$${\color{black}⏺}$$ | “hand” word other than *qalima | 45 | The word for ‘five’ derives from a hand-related word unrelated to *qalima (in some cases ultimately derived from ‘finger’ or ‘wing’).
+$${\color{yellow}⏺}$$ | addition with 2 | 8 | The word ‘five’ derives from a formulation like ‘2+2+1’.
+$${\color{red}⏺}$$ | tally word | 6 | The word ‘five’ derives from an expression apparently referring to a physical tallying practice, including words like ‘finished’, ‘on top’, or ‘make/take’.
+$${\color{purple}⏺}$$ | ‘count’ | 2 | The word for ‘five’ derives from ‘count’.
+$${\color{orange}⏺}$$ | addition with 4 | 2 | The word for ‘five’ derives from a formulation like ‘4+1’.
+$${\color{blue}⏺}$$ | ‘part’ | 1 | The word for ‘five’ derives from ‘part’.
+$${\color{gray}⏺}$$ | unclear | 20 | The word for ‘five’ derives from a form other than *lima, but its etymology is unclear.
 &nbsp; | &nbsp; | **84** | &nbsp;
 
 ![five_replacement](five_replacement.svg)
