@@ -54,7 +54,7 @@ Name/Property | Datatype | Description
 [Comment](http://cldf.clld.org/v1.0/terms.rdf#comment) | `string` | 
 [Contribution_ID](http://cldf.clld.org/v1.0/terms.rdf#contributionReference) | `string` | Key of lexical dataset from which the form was taken<br>References [contributions.csv::ID](#table-contributionscsv)
 `Glottocode_in_dataset` | `string` | Glottocode assigned to the variety in the source dataset from which the form was selected
-`Language_name_in_dataset` | `string` | Name of the variety in the source dataset from which the form was picked
+`Language_name_in_dataset` | `string` | Name of the variety in the source dataset from which the form was selected
 
 ## <a name="table-languagescsv"></a>Table [languages.csv](./languages.csv)
 
