@@ -75,8 +75,8 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/ha
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
 $${\color{black}⏺}$$ | “hand” word other than *qalima | 45 | The word for ‘five’ derives from a hand-related word unrelated to *qalima (in some cases ultimately derived from ‘finger’ or ‘wing’).
-$${\color{yellow}⏺}$$ | addition with 2 | 8 | The word ‘five’ derives from a formulation like ‘2+2+1’.
-$${\color{red}⏺}$$ | tally word | 6 | The word ‘five’ derives from an expression apparently referring to a physical tallying practice, including words like ‘finished’, ‘on top’, or ‘make/take’.
+$${\color{yellow}⏺}$$ | addition with 2 | 8 | The word for ‘five’ derives from a formulation like ‘2+2+1’.
+$${\color{red}⏺}$$ | tally word | 6 | The word for ‘five’ derives from an expression apparently referring to a physical tallying practice, including words like ‘finished’, ‘on top’, or ‘make/take’.
 $${\color{purple}⏺}$$ | ‘count’ | 2 | The word for ‘five’ derives from ‘count’.
 $${\color{orange}⏺}$$ | addition with 4 | 2 | The word for ‘five’ derives from a formulation like ‘4+1’.
 $${\color{blue}⏺}$$ | ‘part’ | 1 | The word for ‘five’ derives from ‘part’.
