@@ -140,7 +140,7 @@ Name/Property | Datatype | Description
 
 This table lists coding decisions for “replacement events” for the words for 'hand' or 'five' in subgroups or single languages of the Austronesian family.
 For the concept 'hand', a row represents a probable loss of the inherited Proto-Austronesian form *qalima ‘hand’, whether in the individual history of a single language or in a protolanguage ancestral to multiple languages.
-For the concept 'five', a row represents a probable loss of the inherited Proto-Austronesian *lima ‘five’.
+For the concept 'five', a row represents a probable loss of the inherited Proto-Austronesian form *lima ‘five’.
 
 Replacement events are considered taking a relatively conservative approach: that is, a replacement event is reconstructed to a protolanguage only if there is strong evidence for it and no apparent exceptions (such as a reflex of *qalima ‘hand’ found in one or more member languages of the given group).
 
