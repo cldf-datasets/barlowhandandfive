@@ -47,7 +47,7 @@ languoid, the individual languages in our sample that fall within this designati
 
 Looking up related data from different tables of the dataset is best done by exploiting the fact that 
 [any CLDF dataset can be converted to a SQLite database](https://github.com/cldf/pycldf?tab=readme-ov-file#converting-a-cldf-dataset-to-an-sqlite-database).
-The schema of this database here is described below. If, for example, we wanted to see whether the language Lenkau appears in any
+The schema of this database here is described below. If, for example, we wanted to see whether the language [Lenkau](https://glottolog.org/resource/languoid/id/lenk1247) appears in any
 replacement events, we could run the following query:
 ```sql
 sqlite> select distinct r.subgroup from languagetable as l, "replacements.csv_languagetable" as rl, "replacements.csv" as r where l.cldf_id == rl.languagetable_cldf_id and rl."replacemen
