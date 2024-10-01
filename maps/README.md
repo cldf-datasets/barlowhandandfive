@@ -9,8 +9,8 @@ The maps below have been created using the `cldfviz.map` command from the [`cldf
 --- | --- | ---:| ---
 $${\color{black}⏺}$$ | lexically distinct | 465 | The concepts ‘hand’ and ‘five’ are lexically distinct in the language.
 $${\color{gray}⏺}$$ | unknown | 462 | The relationship between ‘hand’ and ‘five’ is unknown in the language due to insufficient data.
-$${\color{red}⏺}$$ | full colexification | 194 | The concepts ‘hand’ and ‘five’ are fully colexified.
-$${\color{orange}⏺}$$ | partial colexification | 153 | The concepts ‘hand’ and ‘five’ are partially colexified.
+$${\color{red}⏺}$$ | full colexification | 194 | The concepts ‘hand’ and ‘five’ are fully colexified in the language.
+$${\color{orange}⏺}$$ | partial colexification | 153 | The concepts ‘hand’ and ‘five’ are partially colexified in the language.
 &nbsp; | &nbsp; | **1274** | &nbsp;
 
 ![colex](colex.svg)
@@ -22,7 +22,7 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/co
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
 $${\color{black}⏺}$$ | lexical replacement | 380 | The concepts ‘hand’ and ‘five’ are distinct in the language due to lexical replacement.
-$${\color{yellow}⏺}$$ | phonological change | 85 | The concepts ‘hand’ and ‘five’ are distinct due to phonological change.
+$${\color{yellow}⏺}$$ | phonological change | 85 | The concepts ‘hand’ and ‘five’ are distinct in the language due to phonological change.
 &nbsp; | &nbsp; | **465** | &nbsp;
 
 ![dist](dist.svg)
