@@ -10,7 +10,7 @@ certifi==2022.12.7
 cffi==1.16.0
 chardet==5.2.0
 cldfbench==1.14.0
--e git+https://github.com/cldf-datasets/barlowhandandfive@04ad9d94f1f83a04b8868504158d1a0344d682ad#egg=cldfbench_barlowhandandfive
+-e git+https://github.com/cldf-datasets/barlowhandandfive@13c236bcc18556e9765265d86eab2077f9a6dc77#egg=cldfbench_barlowhandandfive
 -e git+https://github.com/cldf-datasets/doreco/@8124db8c45f1186e998d7536401dc6d6dceebb32#egg=cldfbench_doreco
 -e git+https://github.com/cldf-datasets/haigandschnellmulticast.git@a03269497020aeab5c862a0e8d294786d567c241#egg=cldfbench_haigandschnellmulticast
 -e git+https://github.com/cldf-datasets/imtvault@1087aa3d1dc1d846bf2fdc986290d7950025c03b#egg=cldfbench_imtvault

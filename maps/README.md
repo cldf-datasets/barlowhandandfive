@@ -8,9 +8,9 @@ The maps below have been created using the `cldfviz.map` command from the [`cldf
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
 $${\color{black}⏺}$$ | lexically distinct | 465 | The concepts ‘hand’ and ‘five’ are lexically distinct in the language.
-$${\color{gray}⏺}$$ | unknown | 462 | The relationship between ‘hand’ and ‘five’ is unknown in the language due to insufficient data.
 $${\color{red}⏺}$$ | full colexification | 194 | ‘hand’ and ‘five’ are fully colexified.
 $${\color{orange}⏺}$$ | partial colexification | 153 | ‘hand’ and ‘five’ are partially colexified.
+$${\color{gray}⏺}$$ | unknown | 462 | The relationship between ‘hand’ and ‘five’ is unknown in the language due to insufficient data.
 &nbsp; | &nbsp; | **1274** | &nbsp;
 
 ![colex](colex.svg)

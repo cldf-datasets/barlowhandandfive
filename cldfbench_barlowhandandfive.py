@@ -92,12 +92,12 @@ PARAMETERS = {
     ): {
         'lexically distinct': (
             'black', 'The concepts ‘hand’ and ‘five’ are lexically distinct in the language.'),
+        'full colexification': ('red', '‘hand’ and ‘five’ are fully colexified.'),
+        'partial colexification': ('orange', '‘hand’ and ‘five’ are partially colexified.'),
         'unknown': (
             'gray',
             'The relationship between ‘hand’ and ‘five’ is unknown in the language due to '
             'insufficient data.'),
-        'full colexification': ('red', '‘hand’ and ‘five’ are fully colexified.'),
-        'partial colexification': ('orange', '‘hand’ and ‘five’ are partially colexified.'),
     },
     (
         'dist',
@@ -357,9 +357,12 @@ class Dataset(BaseDataset):
             args.writer.objects['ContributionTable'].append(
                 dict(ID=cid, Name=name, Citation=citation))
 
+        cid_order, cindex = {}, 0
         for (pid, pname, desc), codes in PARAMETERS.items():
             args.writer.objects['ParameterTable'].append(dict(ID=pid, Name=pname, Description=desc))
             for code, (color, desc) in codes.items():
+                cindex += 1
+                cid_order['{}-{}'.format(pid, slug(code))] = cindex
                 args.writer.objects['CodeTable'].append(dict(
                     ID='{}-{}'.format(pid, slug(code)),
                     Parameter_ID=pid,
@@ -428,6 +431,10 @@ class Dataset(BaseDataset):
             elif row['hand'] and row['five'] and (row['hand'] in row['five'] or row['five'] in row['hand']):
                 if row['Is_there_colexification?'] not in {'full colexification', 'partial colexification'}:
                     assert (row['five'].startswith('lim')) and (row['hand'].startswith('im'))
+
+        args.writer.objects['ValueTable'] = sorted(
+            args.writer.objects['ValueTable'],
+            key=lambda r: cid_order[r['Code_ID']] if r['Code_ID'] else 0)
 
         for concept in ['five', 'hand']:
             for row in self.iterrows('Replacements_of_{}_in_Austronesian'.format(concept)):

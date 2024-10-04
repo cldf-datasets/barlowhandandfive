@@ -1,8 +1,8 @@
 ID,Parameter_ID,Name,Description,color
 colex-lexicallydistinct,colex,lexically distinct,The concepts ‘hand’ and ‘five’ are lexically distinct in the language.,black
-colex-unknown,colex,unknown,The relationship between ‘hand’ and ‘five’ is unknown in the language due to insufficient data.,gray
 colex-fullcolexification,colex,full colexification,‘hand’ and ‘five’ are fully colexified.,red
 colex-partialcolexification,colex,partial colexification,‘hand’ and ‘five’ are partially colexified.,orange
+colex-unknown,colex,unknown,The relationship between ‘hand’ and ‘five’ is unknown in the language due to insufficient data.,gray
 dist-lexicalreplacement,dist,lexical replacement,The concepts ‘hand’ and ‘five’ are lexically distinct in the language due to lexical replacement.,black
 dist-phonologicalchange,dist,phonological change,‘hand’ and ‘five’ are distinct due to phonological change.,yellow
 repl_hand-no,repl_hand,no,The word for the concept ‘hand’ has not been replaced.,white
