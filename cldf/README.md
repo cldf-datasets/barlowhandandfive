@@ -47,14 +47,14 @@ property | value
 Name/Property | Datatype | Description
  --- | --- | --- 
 [ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string`<br>Regex: `[a-zA-Z0-9_\-]+` | Primary key
-[Language_ID](http://cldf.clld.org/v1.0/terms.rdf#languageReference) | `string` | A reference to a language (or variety) the form belongs to<br>References [languages.csv::ID](#table-languagescsv)
+[Language_ID](http://cldf.clld.org/v1.0/terms.rdf#languageReference) | `string` | A reference to the language (or variety) to which the form belongs<br>References [languages.csv::ID](#table-languagescsv)
 [Parameter_ID](http://cldf.clld.org/v1.0/terms.rdf#parameterReference) | `string` | A reference to the meaning denoted by the form<br>References [parameters.csv::ID](#table-parameterscsv)
-[Form](http://cldf.clld.org/v1.0/terms.rdf#form) | `string` | The written expression of the form. If possible the transcription system used for the written form should be described in CLDF metadata (e.g. via adding a common property `dc:conformsTo` to the column description using concept URLs of the GOLD Ontology (such as [phonemicRep](http://linguistics-ontology.org/gold/2010/phonemicRep) or [phoneticRep](http://linguistics-ontology.org/gold/2010/phoneticRep)) as values).
+[Form](http://cldf.clld.org/v1.0/terms.rdf#form) | `string` | The written expression of the form. If possible, the transcription system used for the written form should be described in CLDF metadata (e.g., by adding a common property `dc:conformsTo` to the column description using concept URLs of the GOLD Ontology (such as [phonemicRep](http://linguistics-ontology.org/gold/2010/phonemicRep) or [phoneticRep](http://linguistics-ontology.org/gold/2010/phoneticRep)) as values).
 [Segments](http://cldf.clld.org/v1.0/terms.rdf#segments) | list of `string` (separated by ` `) | 
 [Comment](http://cldf.clld.org/v1.0/terms.rdf#comment) | `string` | 
-[Contribution_ID](http://cldf.clld.org/v1.0/terms.rdf#contributionReference) | `string` | Key of lexical dataset from which the form was taken.<br>References [contributions.csv::ID](#table-contributionscsv)
-`Glottocode_in_dataset` | `string` | Glottocode assigned to the variety in the source dataset from which the form was picked
-`Language_name_in_dataset` | `string` | Name of the variety in the source dataset from which the form was picked
+[Contribution_ID](http://cldf.clld.org/v1.0/terms.rdf#contributionReference) | `string` | Key of lexical dataset from which the form was taken<br>References [contributions.csv::ID](#table-contributionscsv)
+`Glottocode_in_dataset` | `string` | Glottocode assigned to the variety in the source dataset from which the form was selected
+`Language_name_in_dataset` | `string` | Name of the variety in the source dataset from which the form was selected
 
 ## <a name="table-languagescsv"></a>Table [languages.csv](./languages.csv)
 
@@ -81,7 +81,7 @@ Name/Property | Datatype | Description
 
 ## <a name="table-contributionscsv"></a>Table [contributions.csv](./contributions.csv)
 
-Forms for this study, i.e. counterparts of 'five' and 'hand' in Austronesian languages, were taken from the four datasets listed in this table.
+Forms for this study (i.e., words for the concepts 'five' and 'hand' in Austronesian languages) were taken from the four datasets listed in this table.
 
 property | value
  --- | ---
@@ -101,7 +101,7 @@ Name/Property | Datatype | Description
 
 ## <a name="table-parameterscsv"></a>Table [parameters.csv](./parameters.csv)
 
-This dataset provides two kinds of parameters: 1) The two concepts 'hand' and 'five', with the corresponding counterparts listed in FormTable, and 2) six parameters analyzing the colexification status for these two concepts in Austronesian languages, with values listed in ValueTable.
+This dataset provides two kinds of parameters: 1) The two concepts 'hand' and 'five', with the corresponding forms listed in FormTable, and 2) six parameters analyzing the colexification status for these two concepts in Austronesian languages, with values listed in ValueTable.
 
 property | value
  --- | ---
@@ -131,18 +131,18 @@ property | value
 Name/Property | Datatype | Description
  --- | --- | --- 
 [ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string`<br>Regex: `[a-zA-Z0-9_\-]+` | Primary key
-[Parameter_ID](http://cldf.clld.org/v1.0/terms.rdf#parameterReference) | `string` | The parameter or variable the code belongs to.<br>References [parameters.csv::ID](#table-parameterscsv)
+[Parameter_ID](http://cldf.clld.org/v1.0/terms.rdf#parameterReference) | `string` | The parameter or variable to which the code belongs<br>References [parameters.csv::ID](#table-parameterscsv)
 [Name](http://cldf.clld.org/v1.0/terms.rdf#name) | `string` | 
 [Description](http://cldf.clld.org/v1.0/terms.rdf#description) | `string` | 
 `color` | `string` | 
 
 ## <a name="table-replacementscsv"></a>Table [replacements.csv](./replacements.csv)
 
-This table lists coding decisions for “replacement events” for the words for 'hand' or 'five' in sub-groups or single languages of the Austronesian family.
-For concept 'hand', a row represents a probable loss of the inherited Proto-Austronesian form *qalima ‘hand’, whether in the individual history of a single language or in a protolanguage ancestral to multiple languages.
-For concept 'five', a row represents a probable loss of the inherited Proto-Austronesian *lima ‘five’.
+This table lists coding decisions for “replacement events” for the words for 'hand' or 'five' in subgroups or single languages of the Austronesian family.
+For the concept 'hand', a row represents a probable loss of the inherited Proto-Austronesian form *qalima ‘hand’, whether in the individual history of a single language or in a protolanguage ancestral to multiple languages.
+For the concept 'five', a row represents a probable loss of the inherited Proto-Austronesian form *lima ‘five’.
 
-Replacement events are considered taking a relatively conservative approach: that is, a replacement event is reconstructed to a protolanguage only if there is strong evidence for it and no apparent exceptions (i.e., a reflex of *qalima ‘hand’ found in one or more member languages of the given group).
+Replacement events are considered taking a relatively conservative approach—that is, a replacement event is reconstructed to a protolanguage only if there is strong evidence for it and no apparent exceptions (such as a reflex of *qalima ‘hand’ found in one or more member languages of the given group).
 
 property | value
  --- | ---
@@ -154,7 +154,7 @@ property | value
 Name/Property | Datatype | Description
  --- | --- | --- 
 [ID](http://cldf.clld.org/v1.0/terms.rdf#id) | `string` | Primary key
-`Replacement_Group` | `string` | Replacement events can also be considered taking a more liberal approach: that is, replacement events can, in some cases, be reconstructed to higher-order protolanguages or to multiple protolanguages in an area, either when the apparent exceptions seem to be possibly due to subsequent borrowing or when the “replacement event” could be viewed as a single areal spread across multiple languages or language groups. The “conservative” replacement events listed here are grouped into “liberal” events via matching values for the `Replacement_Group` column. If there is no discrepancy between the more conservative and the more liberal approaches, an event will be in a replacement group of its own.
+`Replacement_Group` | `string` | Replacement events can also be considered taking a more liberal approach—that is, replacement events can, in some cases, be reconstructed to higher-order protolanguages or to multiple protolanguages in an area, either when the apparent exceptions seem to be possibly due to subsequent borrowing or when the “replacement event” could be viewed as a single areal spread across multiple languages or language groups. The “conservative” replacement events listed here are grouped into “liberal” events via matching values for the `Replacement_Group` column. If there is no discrepancy between the more conservative and the more liberal approaches, an event will be in a replacement group of its own.
 `Subgroup` | `string` | 
 `Comment` | `string` | 
 `Source` | `string` | 
