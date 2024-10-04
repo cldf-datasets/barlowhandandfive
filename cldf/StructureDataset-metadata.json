@@ -13,7 +13,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/barlowhandandfive",
             "rdf:type": "prov:Entity",
-            "dc:created": "13c236b",
+            "dc:created": "ad2907d",
             "dc:title": "Repository"
         },
         {
@@ -187,11 +187,11 @@
                         "name": "Contribution_ID"
                     },
                     {
-                        "dc:description": "Glottocode assigned to the variety in the source dataset from which the form was picked",
+                        "dc:description": "Glottocode assigned to the variety in the source dataset from which the form was selected",
                         "name": "Glottocode_in_dataset"
                     },
                     {
-                        "dc:description": "Name of the variety in the source dataset from which the form was picked",
+                        "dc:description": "Name of the variety in the source dataset from which the form was selected",
                         "name": "Language_name_in_dataset"
                     }
                 ],
@@ -315,7 +315,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
-            "dc:description": "Forms for this study, i.e. counterparts of 'five' and 'hand' in Austronesian languages, were taken from the four datasets listed in this table.",
+            "dc:description": "Forms for this study (i.e., words for the concepts 'five' and 'hand' in Austronesian languages) were taken from the four datasets listed in this table.",
             "dc:extent": 4,
             "tableSchema": {
                 "columns": [
@@ -361,7 +361,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:description": "This dataset provides two kinds of parameters: 1) The two concepts 'hand' and 'five', with the corresponding counterparts listed in FormTable, and 2) six parameters analyzing the colexification status for these two concepts in Austronesian languages, with values listed in ValueTable.",
+            "dc:description": "This dataset provides two kinds of parameters: 1) The two concepts 'hand' and 'five', with the corresponding forms listed in FormTable, and 2) six parameters analyzing the colexification status for these two concepts in Austronesian languages, with values listed in ValueTable.",
             "dc:extent": 8,
             "tableSchema": {
                 "columns": [
@@ -458,7 +458,7 @@
             "url": "codes.csv"
         },
         {
-            "dc:description": "This table lists coding decisions for \u201creplacement events\u201d for the words for 'hand' or 'five' in sub-groups or single languages of the Austronesian family.\nFor concept 'hand', a row represents a probable loss of the inherited Proto-Austronesian form *qalima \u2018hand\u2019, whether in the individual history of a single language or in a protolanguage ancestral to multiple languages.\nFor concept 'five', a row represents a probable loss of the inherited Proto-Austronesian *lima \u2018five\u2019.\n\nReplacement events are considered taking a relatively conservative approach: that is, a replacement event is reconstructed to a protolanguage only if there is strong evidence for it and no apparent exceptions (i.e., a reflex of *qalima \u2018hand\u2019 found in one or more member languages of the given group).",
+            "dc:description": "This table lists coding decisions for \u201creplacement events\u201d for the words for 'hand' or 'five' in subgroups or single languages of the Austronesian family.\nFor the concept 'hand', a row represents a probable loss of the inherited Proto-Austronesian form *qalima \u2018hand\u2019, whether in the individual history of a single language or in a protolanguage ancestral to multiple languages.\nFor the concept 'five', a row represents a probable loss of the inherited Proto-Austronesian form *lima \u2018five\u2019.\n\nReplacement events are considered taking a relatively conservative approach\u2014that is, a replacement event is reconstructed to a protolanguage only if there is strong evidence for it and no apparent exceptions (such as a reflex of *qalima \u2018hand\u2019 found in one or more member languages of the given group).",
             "dc:extent": 189,
             "tableSchema": {
                 "columns": [
@@ -467,7 +467,7 @@
                         "name": "ID"
                     },
                     {
-                        "dc:description": "Replacement events can also be considered taking a more liberal approach: that is, replacement events can, in some cases, be reconstructed to higher-order protolanguages or to multiple protolanguages in an area, either when the apparent exceptions seem to be possibly due to subsequent borrowing or when the \u201creplacement event\u201d could be viewed as a single areal spread across multiple languages or language groups. The \u201cconservative\u201d replacement events listed here are grouped into \u201cliberal\u201d events via matching values for the `Replacement_Group` column.\nIf there is no discrepancy between the more conservative and the more liberal approaches, an event will be in a replacement group of its own.",
+                        "dc:description": "Replacement events can also be considered taking a more liberal approach\u2014that is, replacement events can, in some cases, be reconstructed to higher-order protolanguages or to multiple protolanguages in an area, either when the apparent exceptions seem to be possibly due to subsequent borrowing or when the \u201creplacement event\u201d could be viewed as a single areal spread across multiple languages or language groups. The \u201cconservative\u201d replacement events listed here are grouped into \u201cliberal\u201d events via matching values for the `Replacement_Group` column.\nIf there is no discrepancy between the more conservative and the more liberal approaches, an event will be in a replacement group of its own.",
                         "name": "Replacement_Group"
                     },
                     {

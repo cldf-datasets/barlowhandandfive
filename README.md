@@ -18,14 +18,14 @@ This dataset is licensed under a CC-BY-4.0 license
 ### Forms
 
 Words for the concepts 'five' and 'hand' in Austronesian languages have been collected from four datasets
-described in the [ContributionTable](cldf/contributions.csv). Since forms were aggregated at the language
+described in the [ContributionTable](cldf/contributions.csv). Since forms were aggregated on language
 level (with forms for dialects taken as forms for the parent language) and across datasets, often more
 than one form per language and concept was attested.
 If multiple forms were attested, one was chosen so as to maximize potential for colexification.
-In other words, the pair of forms selected for a language is the one closest to exhibiting full
-colexification (or, failing that, partial colexification). The decision was made so as to minimize "false negatives" (i.e., cases where there could appear to 
-be *no* colexification of the two concepts, but only because there are, e.g., two synonyms for 
-'hand' in a given language and the particular dataset chose the "wrong" one).
+In other words, the pair of forms selected for a language is the one closest to exhibiting full 
+colexification (or, failing that, partial colexification). The decision was made so as to minimize 
+"false negatives" (i.e., cases where there could appear to be *no* colexification of the two concepts, 
+but only because there are, e.g., two synonyms for 'hand' in a given language and the particular dataset chose the "wrong" one).
 
 
 ### Features
@@ -40,14 +40,15 @@ using [geographical maps](maps/README.md).
 
 Replacement events (i.e., rows in the [replacements table](cldf/replacements.csv)) represent a probable loss of the 
 inherited form for ‘hand’ or ‘five’, whether in the individual history of a single language or in a protolanguage ancestral
-to multiple languages, with Glottolog languoids (i.e., language subgroups or individual languages in the Glottolog 5.0 
+to multiple languages, with Glottolog languoids (i.e. language subgroups or individual languages in the Glottolog 5.0 
 classification of the Austronesian family) serving as proxies. While the replacements table lists the name and Glottocode of this
 languoid, the individual languages in our sample that fall within this designation are linked via the Glottocodes in the
 `Language_IDs` column.
 
 Looking up related data from different tables of the dataset is best done by exploiting the fact that 
 [any CLDF dataset can be converted to a SQLite database](https://github.com/cldf/pycldf?tab=readme-ov-file#converting-a-cldf-dataset-to-an-sqlite-database).
-The schema of this database here is described below. If, for example, we wanted to see whether the language [Lenkau](https://glottolog.org/resource/languoid/id/lenk1247) appears in any
+The schema of this database here is described below. If, for example, we wanted to see whether the language 
+[Lenkau](https://glottolog.org/resource/languoid/id/lenk1247) appears in any
 replacement events, we could run the following query:
 ```sql
 sqlite> select distinct r.subgroup from languagetable as l, "replacements.csv_languagetable" as rl, "replacements.csv" as r where l.cldf_id == rl.languagetable_cldf_id and rl."replacemen

@@ -1,25 +1,25 @@
 ID,Parameter_ID,Name,Description,color
 colex-lexicallydistinct,colex,lexically distinct,The concepts ‘hand’ and ‘five’ are lexically distinct in the language.,black
-colex-fullcolexification,colex,full colexification,‘hand’ and ‘five’ are fully colexified.,red
-colex-partialcolexification,colex,partial colexification,‘hand’ and ‘five’ are partially colexified.,orange
+colex-fullcolexification,colex,full colexification,The concepts ‘hand’ and ‘five’ are fully colexified in the language.,red
+colex-partialcolexification,colex,partial colexification,The concepts ‘hand’ and ‘five’ are partially colexified in the language.,orange
 colex-unknown,colex,unknown,The relationship between ‘hand’ and ‘five’ is unknown in the language due to insufficient data.,gray
-dist-lexicalreplacement,dist,lexical replacement,The concepts ‘hand’ and ‘five’ are lexically distinct in the language due to lexical replacement.,black
-dist-phonologicalchange,dist,phonological change,‘hand’ and ‘five’ are distinct due to phonological change.,yellow
+dist-lexicalreplacement,dist,lexical replacement,The concepts ‘hand’ and ‘five’ are distinct in the language due to lexical replacement.,black
+dist-phonologicalchange,dist,phonological change,The concepts ‘hand’ and ‘five’ are distinct in the language due to phonological change.,yellow
 repl_hand-no,repl_hand,no,The word for the concept ‘hand’ has not been replaced.,white
 repl_hand-yes,repl_hand,yes, The word for the concept ‘hand’ has been replaced.,red
 repl_hand-unknown,repl_hand,unknown,It is unknown whether or not the word for the concept ‘hand’ has been replaced.,gray
 repl_five-no,repl_five,no,The word for the concept ‘five’ has not been replaced.,white
 repl_five-yes,repl_five,yes,The word for the concept ‘five’ has been replaced.,red
 repl_five-unknown,repl_five,unknown,It is unknown whether or not the word for the concept ‘five’ has been replaced.,gray
-hand_replacement-handwordotherthanqalima,hand_replacement,“hand” word other than *qalima,"‘hand’ derives from a word meaning ‘hand’ or ‘arm’ other than *qalima, whether [PAn *kamay ‘hand’](https://acd.clld.org/cognatesets/26632), [PMP *baRa ‘hand, arm’](https://acd.clld.org/cognatesets/25155), or POc *minV- ‘hand’.",black
-hand_replacement-partofthearm,hand_replacement,part of the arm,"‘hand’ derives from a word referring to part of the arm, whether [PAn *qabaRa ‘shoulder’](https://acd.clld.org/cognatesets/25155), [PAn *kuSkuS ‘claw, talon, fingernail’](https://acd.clld.org/cognatesets/30315), Proto-Tsouic *ramuCu ‘finger’ (?), [PMP *taŋan ‘finger, toe’](https://acd.clld.org/cognatesets/25155), [PMP *leŋen ‘forearm, lower arm’](https://acd.clld.org/cognatesets/30521), [PPh *dalukap ‘palm of the hand, sole of the foot’](https://acd.clld.org/cognatesets/34040), or PNCV *bisu ‘finger, toe, nail’",red
-hand_replacement-wing,hand_replacement,wing,"‘hand’ derives from a word referring to the wing (of an animal), whether [PAn *paNij ‘wing’](https://acd.clld.org/cognatesets/27294), [PMP *kapak ‘wings; flutter’](https://acd.clld.org/cognatesets/31811), or PWOc *baqe ‘wing, (?) hand’",yellow
-hand_replacement-holdonto,hand_replacement,‘hold onto’,"‘hand’ derives from ‘hold onto, cling to’",blue
-hand_replacement-unclear,hand_replacement,unclear,"‘hand’ derives from a form other than *qalima, but its etymology is unclear.",gray
+hand_replacement-handwordotherthanqalima,hand_replacement,“hand” word other than *qalima,"The word for ‘hand’ derives from a word meaning ‘hand’ or ‘arm’ other than *qalima, whether [PAn *kamay ‘hand’](https://acd.clld.org/cognatesets/26632), [PMP *baRa ‘hand, arm’](https://acd.clld.org/cognatesets/25155), or POc *minV- ‘hand’.",black
+hand_replacement-partofthearm,hand_replacement,part of the arm,"The word for ‘hand’ derives from a word referring to part of the arm, whether [PAn *qabaRa ‘shoulder’](https://acd.clld.org/cognatesets/27538), [PAn *kuSkuS ‘claw, talon, fingernail’](https://acd.clld.org/cognatesets/30315), Proto-Tsouic *ramuCu ‘finger’ (?), [PMP *taŋan ‘finger, toe’](https://acd.clld.org/cognatesets/28404), [PMP *leŋen ‘forearm, lower arm’](https://acd.clld.org/cognatesets/30521), [PPh *dalukap ‘palm of the hand, sole of the foot’](https://acd.clld.org/cognatesets/34040), or PNCV *bisu ‘finger, toe, nail’",red
+hand_replacement-wing,hand_replacement,wing,"The word for ‘hand’ derives from a word referring to the wing (of an animal), whether [PAn *paNij ‘wing’](https://acd.clld.org/cognatesets/27294), [PMP *kapak ‘wings; flutter’](https://acd.clld.org/cognatesets/31811), or PWOc *baqe ‘wing, (?) hand’",yellow
+hand_replacement-holdonto,hand_replacement,‘hold onto’,"The word for ‘hand’ derives from ‘hold onto, cling to’",blue
+hand_replacement-unclear,hand_replacement,unclear,"The word for ‘hand’ derives from a form other than *qalima, but its etymology is unclear.",gray
 five_replacement-handwordotherthanqalima,five_replacement,“hand” word other than *qalima,The word for ‘five’ derives from a hand-related word unrelated to *qalima (in some cases ultimately derived from ‘finger’ or ‘wing’),black
-five_replacement-additionwith2,five_replacement,addition with 2,‘five’ derives from a formulation like ‘2+2+1’.,yellow
-five_replacement-tallyword,five_replacement,tally word,"‘five’ derives from an expression apparently referring to a physical tallying practice, including words like ‘finished’, ‘on top’, or ‘make/take’.",red
-five_replacement-count,five_replacement,‘count’,‘five’ derives from ‘count’.,purple
-five_replacement-additionwith4,five_replacement,addition with 4,‘five’ derives from a formulation like ‘4+1’.,orange
-five_replacement-part,five_replacement,‘part’,‘five’ derives from ‘part’.,blue
-five_replacement-unclear,five_replacement,unclear,"‘five’ derives from a form other than *lima, but its etymology is unclear.",gray
+five_replacement-additionwith2,five_replacement,addition with 2,The word for ‘five’ derives from a formulation like ‘2+2+1’.,yellow
+five_replacement-tallyword,five_replacement,tally word,"The word for ‘five’ derives from an expression apparently referring to a physical tallying practice, including words like ‘finished’, ‘on top’, or ‘make/take’.",red
+five_replacement-count,five_replacement,‘count’,The word for ‘five’ derives from ‘count’.,purple
+five_replacement-additionwith4,five_replacement,addition with 4,The word for ‘five’ derives from a formulation like ‘4+1’.,orange
+five_replacement-part,five_replacement,‘part’,The word for ‘five’ derives from ‘part’.,blue
+five_replacement-unclear,five_replacement,unclear,"The word for ‘five’ derives from a form other than *lima, but its etymology is unclear.",gray
