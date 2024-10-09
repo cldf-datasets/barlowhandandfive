@@ -1,6 +1,6 @@
 # Contributors
 
-name | role        | github
---- |-------------| ---
-Russell Barlow | author      | @barlowrussell
-Robert Forkel | DataCurator | @xrotwang
+name | role   | github
+--- |--------| ---
+Russell Barlow | author | @barlowrussell
+Robert Forkel | author | @xrotwang

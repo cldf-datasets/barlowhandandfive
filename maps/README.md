@@ -5,6 +5,8 @@ The maps below have been created using the `cldfviz.map` command from the [`cldf
 
 ## Is there colexification?
 
+
+
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
 $${\color{black}⏺}$$ | lexically distinct | 465 | The concepts ‘hand’ and ‘five’ are lexically distinct in the language.
@@ -19,6 +21,8 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/co
 
 ## Is distinctness due to lexical replacement or phonological change?
 
+For those languages that lack colexification, i.e. languages with value ‘lexically distinct’ for parameter ‘Is there colexification?’, values for this parameter are ‘lexical replacement’ or ‘phonological change’. However, some languages exhibit both lexical replacement and (partial) colexification; this is possible when there has been replacement of both ‘hand’ and ‘five’ such that the new forms are (partially) colexified: these cases are indicated by rows in ValueTable with an empty value and a comment “(recolexification)”.
+
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
 $${\color{black}⏺}$$ | lexical replacement | 380 | The concepts ‘hand’ and ‘five’ are distinct in the language due to lexical replacement.
@@ -30,6 +34,8 @@ $${\color{yellow}⏺}$$ | phonological change | 85 | The concepts ‘hand’ and
 View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/dist.html).
 
 ## Was there lexical replacement of hand?
+
+
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
@@ -44,6 +50,8 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/re
 
 ## Was there lexical replacement of five?
 
+
+
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
 $${\color{white}⏺}$$ | no | 1121 | The word for the concept ‘five’ has not been replaced.
@@ -56,6 +64,8 @@ $${\color{gray}⏺}$$ | unknown | 69 | It is unknown whether or not the word for
 View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/repl_five.html).
 
 ## What replaced hand?
+
+Values for this parameter are descriptions of the most likely etymology (traced as far back as possible in the Austronesian family) given for the word in the language that came to mean ‘hand’; values followed by ‘?’ are somewhat uncertain; and those followed by ‘??’ are even more uncertain; when no likely etymology has been posited, then the value is given simply as ‘unclear’ (with no preceding etymology). Values are batched into five different categories, referenced by the `Code_ID` column.
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
@@ -72,6 +82,8 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/ha
 
 ## What replaced five?
 
+The same conventions apply here as for the parameter “What replaced_hand?” except that here most entries are given a language-internal etymology. Values are batched into seven different categories, referenced by the `Code_ID` column.
+
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
 $${\color{black}⏺}$$ | “hand” word other than *qalima | 45 | The word for ‘five’ derives from a hand-related word unrelated to *qalima (in some cases ultimately derived from ‘finger’ or ‘wing’)
@@ -86,3 +98,27 @@ $${\color{gray}⏺}$$ | unclear | 20 | The word for ‘five’ derives from a fo
 ![five_replacement](five_replacement.svg)
 
 View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/five_replacement.html).
+
+## What is the numeral system?
+
+The values for this parameter are taken from Barlow 2023, "Papuan-Austronesian contact and the spread of numeral systems in Melanesia".
+
+&nbsp; | Value | Count | Description
+--- | --- | ---:| ---
+$${\color{red}⏺}$$ | decimal proper | 632 | A proper decimal system.
+$${\color{orange}⏺}$$ | decimal modified | 228 | A modified decimal system.
+$${\color{yellow}⏺}$$ | quinary | 290 | A quinary system.
+$${\color{blue}⏺}$$ | binary proper | 22 | A proper binary system.
+$${\color{purple}⏺}$$ | binary+3 | 14 | A binary+3 system.
+$${\color{black}⏺}$$ | quaternary | 5 | A quaternary system.
+$${\color{gray}⏺}$$ | unknown | 83 | Unknown system.
+&nbsp; | &nbsp; | **1274** | &nbsp;
+
+&nbsp; | Value | Count | Description
+---:| --- | ---:| ---
+⏺| Melanesian | 514 | 
+▼| Non-melanesian | 760 | 
+
+![num_syst](num_syst.svg)
+
+View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/num_syst.html).

@@ -23,3 +23,10 @@ five_replacement-count,five_replacement,‘count’,The word for ‘five’ deri
 five_replacement-additionwith4,five_replacement,addition with 4,The word for ‘five’ derives from a formulation like ‘4+1’.,orange
 five_replacement-part,five_replacement,‘part’,The word for ‘five’ derives from ‘part’.,blue
 five_replacement-unclear,five_replacement,unclear,"The word for ‘five’ derives from a form other than *lima, but its etymology is unclear.",gray
+num_syst-decimalproper,num_syst,decimal proper,A proper decimal system.,red
+num_syst-decimalmodified,num_syst,decimal modified,A modified decimal system.,orange
+num_syst-quinary,num_syst,quinary,A quinary system.,yellow
+num_syst-binaryproper,num_syst,binary proper,A proper binary system.,blue
+num_syst-binary3,num_syst,binary+3,A binary+3 system.,purple
+num_syst-quaternary,num_syst,quaternary,A quaternary system.,black
+num_syst-unknown,num_syst,unknown,Unknown system.,gray

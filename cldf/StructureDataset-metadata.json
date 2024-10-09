@@ -13,7 +13,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/barlowhandandfive",
             "rdf:type": "prov:Entity",
-            "dc:created": "ad2907d",
+            "dc:created": "6a976e5",
             "dc:title": "Repository"
         },
         {
@@ -38,7 +38,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 4789,
+            "dc:extent": 6063,
             "tableSchema": {
                 "columns": [
                     {
@@ -305,6 +305,14 @@
                     {
                         "datatype": "integer",
                         "name": "Number"
+                    },
+                    {
+                        "dc:description": "Languages are classified as Melanesian if they are spoken in PG, SB, VU, NC or the \"Papuan\" provinces of ID.",
+                        "datatype": {
+                            "base": "string",
+                            "format": "yes|no"
+                        },
+                        "name": "Melanesian"
                     }
                 ],
                 "primaryKey": [
@@ -362,7 +370,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
             "dc:description": "This dataset provides two kinds of parameters: 1) The two concepts 'hand' and 'five', with the corresponding forms listed in FormTable, and 2) six parameters analyzing the colexification status for these two concepts in Austronesian languages, with values listed in ValueTable.",
-            "dc:extent": 8,
+            "dc:extent": 9,
             "tableSchema": {
                 "columns": [
                     {
@@ -401,7 +409,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CodeTable",
-            "dc:extent": 24,
+            "dc:extent": 31,
             "tableSchema": {
                 "columns": [
                     {

@@ -16,6 +16,8 @@ setup(
     },
     install_requires=[
         'cldfbench',
+        'shapely',
+        'clldutils',
     ],
     extras_require={
         'test': [

@@ -1,7 +1,10 @@
 import pathlib
 import collections
 
+from shapely.geometry import shape, Point
+from shapely import distance
 from clldutils.misc import slug
+from clldutils.jsonlib import load
 from clldutils.markup import add_markdown_text
 from cldfbench import Dataset as BaseDataset, CLDFSpec
 
@@ -122,7 +125,7 @@ PARAMETERS = {
     },
     (
         'repl_hand',
-        'Was_there_lexical_replacement_of_hand?',
+        'Was there lexical replacement of hand?',
         ""
     ): {
         'no': ('white', 'The word for the concept ‘hand’ has not been replaced.'),
@@ -133,7 +136,7 @@ PARAMETERS = {
     },
     (
         'repl_five',
-        'Was_there_lexical_replacement_of_five?',
+        'Was there lexical replacement of five?',
         ""
     ): {
         'no': ('white', 'The word for the concept ‘five’ has not been replaced.'),
@@ -144,7 +147,7 @@ PARAMETERS = {
     },
     (
         'hand_replacement',
-        'What_replaced_hand?',
+        'What replaced hand?',
         "Values for this parameter are descriptions of the most likely etymology (traced as far "
         "back as possible in the Austronesian family) given for the word in the language that "
         "came to mean ‘hand’; values followed by ‘?’ are somewhat uncertain; and those followed "
@@ -183,7 +186,7 @@ PARAMETERS = {
     },
     (
         'five_replacement',
-        'What_replaced_five?',
+        'What replaced five?',
         "The same conventions apply here as for the parameter “What replaced_hand?” except that "
         "here most entries are given a language-internal etymology. Values are batched into "
         "seven different categories, referenced by the `Code_ID` column."
@@ -212,6 +215,23 @@ PARAMETERS = {
             'gray',
             'The word for ‘five’ derives from a form other than *lima, but its etymology is unclear.'),
     },
+    ('num_syst',
+     'What is the numeral system?',
+     'The classifications for numeral systems are taken from Barlow (2023) '
+     '"Papuan-Austronesian contact and the spread of numeral systems in Melanesia", updated here '
+     'to reflect changes between Glottolog 4.6 and Glottolog 5.0: (1) badu1237 is removed '
+     '(subsumed within sund1252); (2) bali1287 is added (with numeral system “unknown”); '
+     '(3) dalk1234 is added (with numeral system “unknown”); (4) mori1267 is added '
+     '(split from maor1246: both with numeral system “decimal proper”); and '
+     '(5) ngga1239 is added (with numeral system “unknown”).'): {
+        'decimal proper': ('red', 'A proper decimal system.'), # (632x)
+        'decimal modified': ('orange', 'A modified decimal system.'), # (228x)
+        'quinary': ('yellow', 'A quinary system.'), # (290x)
+        'binary proper': ('blue', 'A proper binary system.'),  # (22x)
+        'binary+3': ('purple', 'A binary+3 system.'),  # (14x)
+        'quaternary': ('black', 'A quaternary system.'),  # (5x)
+        'unknown': ('gray', 'Unknown system.'),  # (83x)
+    }
 }
 
 
@@ -286,7 +306,15 @@ class Dataset(BaseDataset):
         args.writer.cldf.remove_columns('FormTable', 'Source')
         args.writer.cldf.remove_columns('ValueTable', 'Source')
         t = args.writer.cldf.add_component(
-            'LanguageTable', {'name': 'Number', 'datatype': 'integer'})
+            'LanguageTable',
+            {'name': 'Number', 'datatype': 'integer'},
+            {
+                'name': 'Melanesian',
+                'datatype': {'base': 'string', 'format': 'yes|no'},
+                'dc:description':
+                    'Languages are classified as Melanesian if they are spoken in PG, SB, VU, NC '
+                    'or the "Papuan" provinces of ID.'},
+        )
         t.common_props['dc:description'] = \
             ('This table lists each language-level languoid in Glottolog 5.0 classified as '
              'Austronesian. Languages are roughly sorted by genealogy and then geography, more or '
@@ -346,15 +374,16 @@ class Dataset(BaseDataset):
              "event is reconstructed to a protolanguage only if there is strong evidence for it and no apparent "
              "exceptions (such as a reflex of *qalima ‘hand’ found in one or more member languages of the given group).")
 
-        aust, lineages = {}, {}
+        gl_langs, lineages, gl_countries = {}, {}, {}
         for lg in args.glottolog.api.languoids():
             if lg.lineage and lg.lineage[0][1] == 'aust1307':
                 if lg.level == args.glottolog.api.languoid_levels.language:
                     lineages[lg.id] = {gc for _, gc, _ in lg.lineage}
-                aust[lg.id] = lg
+                gl_countries[lg.id] = {c.id for c in lg.countries}
+                gl_langs[lg.id] = lg
                 if lg.id == 'amba1266':  # Amba (Solomon Islands)
-                    aust['Amba'] = lg
-                aust[lg.name] = lg
+                    gl_langs['Amba'] = lg
+                gl_langs[lg.name] = lg
 
         what_replaced = {'hand': {}, 'five': {}}
         for row in self.raw_dir.read_csv('values.csv', dicts=True):
@@ -366,7 +395,7 @@ class Dataset(BaseDataset):
             if (not row['Glottocode']) and row['Language_level_glottocode']:
                 row['Glottocode'] = row['Language_level_glottocode']
             if row['Glottocode']:
-                assert row['Glottocode'] in aust, row['Glottocode']
+                assert row['Glottocode'] in gl_langs, row['Glottocode']
                 forms[row['Language_level_glottocode']][(row['Dataset'], row['Glottocode'], row['Language_name'])].add((row['Form'], row['Parameter_ID']))
 
         for cid, (name, citation) in CONTRIBUTIONS.items():
@@ -387,17 +416,40 @@ class Dataset(BaseDataset):
                     color=color,
                 ))
 
+        papuan_provinces = [
+            shape(f['geometry']) for f in
+            load(self.raw_dir / 'idn_papuan_provinces.geojson')['features']]
+
         for row in self.iterrows('Colexification_of_hand_and_five_in_Austronesian_languages'):
             # Language_number	Glottocode	Language_name	Latitude	Longitude
             # hand	five -> forms
             row = {k: None if v == '_' else v for k, v in row.items()}
+
+            # Compute whether a language is classified as Melanesian or not:
+            countries = gl_countries[row['Glottocode']]
+            if row['Glottocode'] == 'tons1239':
+                # Glottolog 5.0 erroneously lists Tonsawang as spoken also in the Solomons.
+                countries.remove('SB')
+            if row['Glottocode'] == 'gilb1244':
+                # We ignore the small, relocated Gilbertese population in the Solomons.
+                countries.remove('SB')
+            # Languages spoken in PG, SB, VU or NC - but not in ID - are considered Melanesian.
+            melanesian = bool(countries.intersection({'PG', 'SB', 'VU', 'NC'}))
+            if not melanesian:
+                # Languages from ID are considered Melanesian, if they are spoken in the "Papuan"
+                # provinces.
+                p = Point(float(row['Longitude']), float(row['Latitude']))
+                melanesian = (any(pp.contains(p) for pp in papuan_provinces)
+                              or min(distance(p, pp) for pp in papuan_provinces) < 0.2)
+
             args.writer.objects['LanguageTable'].append(dict(
                 ID=row['Glottocode'],
                 Glottocode=row['Glottocode'],
                 Name=row['Language_name'],
-                Latitude=aust[row['Glottocode']].latitude,
-                Longitude=aust[row['Glottocode']].longitude,
+                Latitude=gl_langs[row['Glottocode']].latitude,
+                Longitude=gl_langs[row['Glottocode']].longitude,
                 Number=int(row['Language_number']),
+                Melanesian='yes' if melanesian else 'no',
             ))
 
             for col in ['five', 'hand']:
@@ -421,25 +473,26 @@ class Dataset(BaseDataset):
                     ))
 
             for (pid, pname, _), codes in PARAMETERS.items():
-                if row.get(pname):
-                    if row[pname] == '(recolexification)':
+                val = row.get(pname.replace(' ', '_'))
+                if val:
+                    if val == '(recolexification)':
                         cid = None
                     elif pid.endswith('_replacement'):
                         cid = '{}-{}'.format(pid, slug(what_replaced[pid.split('_')[0]][row['Glottocode']]))
                     elif codes:
-                        cid = '{}-{}'.format(pid, slug(row[pname]))
+                        cid = '{}-{}'.format(pid, slug(val))
                     else:
                         cid = None
 
-                    if pid.endswith('replacement') and row[pname] == '?':
-                        row[pname] = 'unclear'
+                    if pid.endswith('replacement') and val == '?':
+                        val = 'unclear'
                     args.writer.objects['ValueTable'].append(dict(
                         ID='{}-{}'.format(pid, row['Glottocode']),
                         Language_ID=row['Glottocode'],
                         Parameter_ID=pid,
-                        Value=None if row[pname] == '(recolexification)' else row[pname],
+                        Value=None if val == '(recolexification)' else val,
                         Code_ID=cid,
-                        Comment=row[pname] if row[pname] == '(recolexification)' else None,
+                        Comment=val if val == '(recolexification)' else None,
                     ))
 
             if row['hand'] and row['hand'] == row['five']:
@@ -448,13 +501,22 @@ class Dataset(BaseDataset):
                 if row['Is_there_colexification?'] not in {'full colexification', 'partial colexification'}:
                     assert (row['five'].startswith('lim')) and (row['hand'].startswith('im'))
 
+        for row in self.raw_dir.read_csv('num_syst.csv', dicts=True):
+            args.writer.objects['ValueTable'].append(dict(
+                ID='num_syst-{}'.format(row['Language_ID']),
+                Language_ID=row['Language_ID'],
+                Parameter_ID='num_syst',
+                Value=row['Value'],
+                Code_ID='num_syst-{}'.format(slug(row['Value'])),
+            ))
+
         args.writer.objects['ValueTable'] = sorted(
             args.writer.objects['ValueTable'],
             key=lambda r: cid_order[r['Code_ID']] if r['Code_ID'] else 0)
 
         for concept in ['five', 'hand']:
             for row in self.iterrows('Replacements_of_{}_in_Austronesian'.format(concept)):
-                gl = aust[row['Subgroup']]
+                gl = gl_langs[row['Subgroup']]
                 args.writer.objects['replacements.csv'].append(dict(
                     ID='{}-{}'.format(concept, row['Higher_count']),
                     Concept=concept,
