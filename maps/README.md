@@ -33,7 +33,7 @@ $${\color{yellow}⏺}$$ | phonological change | 85 | The concepts ‘hand’ and
 
 View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/dist.html).
 
-## Was there lexical replacement of hand?
+## Was there lexical replacement of ‘hand’?
 
 
 
@@ -48,7 +48,7 @@ $${\color{gray}⏺}$$ | unknown | 456 | It is unknown whether or not the word fo
 
 View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/repl_hand.html).
 
-## Was there lexical replacement of five?
+## Was there lexical replacement of ‘five’?
 
 
 
@@ -63,7 +63,7 @@ $${\color{gray}⏺}$$ | unknown | 69 | It is unknown whether or not the word for
 
 View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/repl_five.html).
 
-## What replaced hand?
+## What replaced ‘hand’?
 
 Values for this parameter are descriptions of the most likely etymology (traced as far back as possible in the Austronesian family) given for the word in the language that came to mean ‘hand’; values followed by ‘?’ are somewhat uncertain; and those followed by ‘??’ are even more uncertain; when no likely etymology has been posited, then the value is given simply as ‘unclear’ (with no preceding etymology). Values are batched into five different categories, referenced by the `Code_ID` column.
 
@@ -80,7 +80,7 @@ $${\color{gray}⏺}$$ | unclear | 72 | The word for ‘hand’ derives from a fo
 
 View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/hand_replacement.html).
 
-## What replaced five?
+## What replaced ‘five’?
 
 The same conventions apply here as for the parameter “What replaced_hand?” except that here most entries are given a language-internal etymology. Values are batched into seven different categories, referenced by the `Code_ID` column.
 
@@ -101,7 +101,7 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/fi
 
 ## What is the numeral system?
 
-The values for this parameter are taken from Barlow 2023, "Papuan-Austronesian contact and the spread of numeral systems in Melanesia".
+The values for this parameter are taken from Barlow (2023), “Papuan-Austronesian contact and the spread of numeral systems in Melanesia”.
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
