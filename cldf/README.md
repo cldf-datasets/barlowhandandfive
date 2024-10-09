@@ -9,7 +9,7 @@ property | value
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF StructureDataset](http://cldf.clld.org/v1.0/terms.rdf#StructureDataset)
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/cldf-datasets/barlowhandandfive
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/barlowhandandfive/tree/6a976e5">cldf-datasets/barlowhandandfive 6a976e5</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/barlowhandandfive/tree/fef1cad">cldf-datasets/barlowhandandfive v1.0-21-gfef1cad</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v5.0">Glottolog v5.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.10.12</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | barlowhandandfive
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -78,7 +78,7 @@ Name/Property | Datatype | Description
 [Glottocode](http://cldf.clld.org/v1.0/terms.rdf#glottocode) | `string`<br>Regex: `[a-z0-9]{4}[1-9][0-9]{3}` | 
 [ISO639P3code](http://cldf.clld.org/v1.0/terms.rdf#iso639P3code) | `string`<br>Regex: `[a-z]{3}` | 
 `Number` | `integer` | 
-`Melanesia` | `string`<br>Valid choices:<br> `yes` `no` | Languages are classified as being in Melanesia if they are primarily spoken in PG, SB, VU, NC, or the Western New Guinea provinces of ID.
+`Melanesia` | `string`<br>Valid choices:<br> `yes` `no` | Languages are classified as being in Melanesia if they are primarily spoken in PG, SB, VU, NC or the Western New Guinea provinces of ID.
 
 ## <a name="table-contributionscsv"></a>Table [contributions.csv](./contributions.csv)
 

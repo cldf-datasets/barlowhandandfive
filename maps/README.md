@@ -21,7 +21,7 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/co
 
 ## Is distinctness due to lexical replacement or phonological change?
 
-For those languages that lack colexification (i.e., languages with value “lexically distinct” for the parameter “Is there colexification?”), values for this parameter are “lexical replacement” or “phonological change”. However, some languages exhibit both lexical replacement and (partial) colexification; this is possible when there has been replacement of both ‘hand’ and ‘five’ such that the new forms are (partially) colexified: these cases are indicated by rows in the ValueTable with an empty value and a comment “(recolexification)”.
+For those languages that lack colexification (i.e., languages with value “lexically distinct” for the parameter “Is there colexification?”), the values for this parameter are “lexical replacement” or “phonological change”. However, some languages exhibit both lexical replacement and (partial) colexification; this is possible when there has been replacement of both ‘hand’ and ‘five’ such that the new forms are (partially) colexified: these cases are indicated by rows in the ValueTable with an empty value and a comment “(recolexification)”.
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
@@ -40,7 +40,7 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/di
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
 $${\color{white}⏺}$$ | no | 428 | The word for the concept ‘hand’ has not been replaced.
-$${\color{red}⏺}$$ | yes | 390 | The word for the concept ‘hand’ has been replaced.
+$${\color{red}⏺}$$ | yes | 390 |  The word for the concept ‘hand’ has been replaced.
 $${\color{gray}⏺}$$ | unknown | 456 | It is unknown whether or not the word for the concept ‘hand’ has been replaced.
 &nbsp; | &nbsp; | **1274** | &nbsp;
 
@@ -101,7 +101,7 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/fi
 
 ## What is the numeral system?
 
-The values for this parameter are taken from Barlow (2023), “Papuan-Austronesian contact and the spread of numeral systems in Melanesia”.
+The values for this parameter  are taken from Barlow (2023) “Papuan-Austronesian contact and the spread of numeral systems in Melanesia”, updated here to reflect changes between Glottolog 4.6 and Glottolog 5.0: (1) badu1237 is removed (subsumed within sund1252); (2) bali1287 is added (with numeral system “unknown”); (3) dalk1234 is added (with numeral system “unknown”); (4) mori1267 is added (split from maor1246: both with numeral system “decimal proper”); and (5) ngga1239 is added (with numeral system “unknown”).
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
@@ -109,7 +109,7 @@ $${\color{red}⏺}$$ | decimal proper | 632 | A decimal system with atomic numer
 $${\color{orange}⏺}$$ | decimal modified | 228 | A decimal system with one or more derived numerals lower than ‘ten’.
 $${\color{yellow}⏺}$$ | quinary | 290 | A system that constructs numerals based on the number 5.
 $${\color{blue}⏺}$$ | binary proper | 22 | A system that constructs the numerals ‘three’ and ‘four’ based on the number 2.
-$${\color{purple}⏺}$$ | binary+3 | 14 | A system that constructs the numeral ‘four’ based on the number 2 but has an atomic ‘three’
+$${\color{purple}⏺}$$ | binary+3 | 14 | A system that constructs the numeral ‘four’ based on the number 2 but has an atomic ‘three’.
 $${\color{black}⏺}$$ | quaternary | 5 | A system that constructs numerals based on the number 4.
 $${\color{gray}⏺}$$ | unknown | 83 | An unknown numeral system.
 &nbsp; | &nbsp; | **1274** | &nbsp;
@@ -117,7 +117,7 @@ $${\color{gray}⏺}$$ | unknown | 83 | An unknown numeral system.
 &nbsp; | Value | Count | Description
 ---:| --- | ---:| ---
 ⏺| in Melanesia | 514 | 
-▼| not in melanesian | 760 | 
+▼| not in Melanesia | 760 | 
 
 ![num_syst](num_syst.svg)
 

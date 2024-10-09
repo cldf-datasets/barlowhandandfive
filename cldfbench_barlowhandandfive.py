@@ -109,7 +109,7 @@ PARAMETERS = {
         'dist',
         'Is distinctness due to lexical replacement or phonological change?',
         "For those languages that lack colexification (i.e., languages with value “lexically "
-        "distinct” for parameter “Is there colexification?”), the values for this parameter are "
+        "distinct” for the parameter “Is there colexification?”), the values for this parameter are "
         "“lexical replacement” or “phonological change”. However, some languages exhibit both "
         "lexical replacement and (partial) colexification; this is possible when there has been "
         "replacement of both ‘hand’ and ‘five’ such that the new forms are (partially) colexified: "
@@ -224,13 +224,13 @@ PARAMETERS = {
      '(3) dalk1234 is added (with numeral system “unknown”); (4) mori1267 is added '
      '(split from maor1246: both with numeral system “decimal proper”); and '
      '(5) ngga1239 is added (with numeral system “unknown”).'): {
-        'decimal proper': ('red', 'A proper decimal system.'), # (632x)
-        'decimal modified': ('orange', 'A modified decimal system.'), # (228x)
-        'quinary': ('yellow', 'A quinary system.'), # (290x)
-        'binary proper': ('blue', 'A proper binary system.'),  # (22x)
-        'binary+3': ('purple', 'A binary+3 system.'),  # (14x)
-        'quaternary': ('black', 'A quaternary system.'),  # (5x)
-        'unknown': ('gray', 'Unknown system.'),  # (83x)
+        'decimal proper': ('red', 'A decimal system with atomic numerals ‘one’ through ‘nine’.'), # (632x)
+        'decimal modified': ('orange', 'A decimal system with one or more derived numerals lower than ‘ten’.'), # (228x)
+        'quinary': ('yellow', 'A system that constructs numerals based on the number 5.'), # (290x)
+        'binary proper': ('blue', 'A system that constructs the numerals ‘three’ and ‘four’ based on the number 2.'),  # (22x)
+        'binary+3': ('purple', 'A system that constructs the numeral ‘four’ based on the number 2 but has an atomic ‘three’.'),  # (14x)
+        'quaternary': ('black', 'A system that constructs numerals based on the number 4.'),  # (5x)
+        'unknown': ('gray', 'An unknown numeral system.'),  # (83x)
     }
 }
 
@@ -517,6 +517,10 @@ class Dataset(BaseDataset):
 
         for concept in ['five', 'hand']:
             for row in self.iterrows('Replacements_of_{}_in_Austronesian'.format(concept)):
+                row['Subgroup'] = {
+                    'East Choiseul3': 'East Choiseul',
+                    'Mainland New Caledonia':  'Mainland New Caledonian',
+                }.get(row['Subgroup'], row['Subgroup'])
                 gl = gl_langs[row['Subgroup']]
                 args.writer.objects['replacements.csv'].append(dict(
                     ID='{}-{}'.format(concept, row['Higher_count']),

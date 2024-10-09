@@ -120,8 +120,8 @@ The maps below have been created using the `cldfviz.map` command from the [`cldf
 
     readme.append('\n&nbsp; | Value | Count | Description')
     readme.append('---:| --- | ---:| ---')
-    readme.append('⏺| Melanesian | {} | '.format(sum(1 for l in cldf['LanguageTable'] if l['Melanesian'] == 'yes')))
-    readme.append('▼| Non-melanesian | {} | '.format(sum(1 for l in cldf['LanguageTable'] if l['Melanesian'] == 'no')))
+    readme.append('⏺| in Melanesia | {} | '.format(sum(1 for l in cldf['LanguageTable'] if l['Melanesia'] == 'yes')))
+    readme.append('▼| not in Melanesia | {} | '.format(sum(1 for l in cldf['LanguageTable'] if l['Melanesia'] == 'no')))
 
     readme.append('\n![num_syst](num_syst.svg)\n')
 
@@ -130,7 +130,7 @@ The maps below have been created using the `cldfviz.map` command from the [`cldf
         'cldfbench',
         'cldfviz.map',
         '--parameter', 'num_syst',
-        '--language-properties', 'Melanesian',
+        '--language-properties', 'Melanesia',
         '--colormaps',
         json.dumps({c['ID']: c['color'] for c in parameters['num_syst']}),
         '--language-properties-colormaps', '{"yes":"circle","no":"triangle_up"}',
