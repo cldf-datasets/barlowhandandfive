@@ -78,7 +78,7 @@ Name/Property | Datatype | Description
 [Glottocode](http://cldf.clld.org/v1.0/terms.rdf#glottocode) | `string`<br>Regex: `[a-z0-9]{4}[1-9][0-9]{3}` | 
 [ISO639P3code](http://cldf.clld.org/v1.0/terms.rdf#iso639P3code) | `string`<br>Regex: `[a-z]{3}` | 
 `Number` | `integer` | 
-`Melanesian` | `string`<br>Valid choices:<br> `yes` `no` | Languages are classified as Melanesian if they are spoken in PG, SB, VU, NC or the "Papuan" provinces of ID.
+`Melanesia` | `string`<br>Valid choices:<br> `yes` `no` | Languages are classified as being in Melanesia if they are primarily spoken in PG, SB, VU, NC or the Western New Guinea provinces of ID.
 
 ## <a name="table-contributionscsv"></a>Table [contributions.csv](./contributions.csv)
 
