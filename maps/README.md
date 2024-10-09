@@ -21,7 +21,7 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/co
 
 ## Is distinctness due to lexical replacement or phonological change?
 
-For those languages that lack colexification, i.e. languages with value ‘lexically distinct’ for parameter ‘Is there colexification?’, values for this parameter are ‘lexical replacement’ or ‘phonological change’. However, some languages exhibit both lexical replacement and (partial) colexification; this is possible when there has been replacement of both ‘hand’ and ‘five’ such that the new forms are (partially) colexified: these cases are indicated by rows in ValueTable with an empty value and a comment “(recolexification)”.
+For those languages that lack colexification (i.e., languages with value “lexically distinct” for parameter “Is there colexification?”), values for this parameter are “lexical replacement” or “phonological change”. However, some languages exhibit both lexical replacement and (partial) colexification; this is possible when there has been replacement of both ‘hand’ and ‘five’ such that the new forms are (partially) colexified: these cases are indicated by rows in the ValueTable with an empty value and a comment “(recolexification)”.
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
@@ -40,7 +40,7 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/di
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
 $${\color{white}⏺}$$ | no | 428 | The word for the concept ‘hand’ has not been replaced.
-$${\color{red}⏺}$$ | yes | 390 |  The word for the concept ‘hand’ has been replaced.
+$${\color{red}⏺}$$ | yes | 390 | The word for the concept ‘hand’ has been replaced.
 $${\color{gray}⏺}$$ | unknown | 456 | It is unknown whether or not the word for the concept ‘hand’ has been replaced.
 &nbsp; | &nbsp; | **1274** | &nbsp;
 
@@ -65,7 +65,7 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/re
 
 ## What replaced ‘hand’?
 
-Values for this parameter are descriptions of the most likely etymology (traced as far back as possible in the Austronesian family) given for the word in the language that came to mean ‘hand’; values followed by ‘?’ are somewhat uncertain; and those followed by ‘??’ are even more uncertain; when no likely etymology has been posited, then the value is given simply as ‘unclear’ (with no preceding etymology). Values are batched into five different categories, referenced by the `Code_ID` column.
+Values for this parameter are descriptions of the most likely etymology (traced as far back as possible in the Austronesian family) given for the word in the language that came to mean ‘hand’; values followed by “?” are somewhat uncertain; and those followed by “??” are even more uncertain; when no likely etymology has been posited, then the value is given simply as “unclear” (with no preceding etymology). Values are batched into five different categories, referenced by the `Code_ID` column.
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
@@ -82,7 +82,7 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/ha
 
 ## What replaced ‘five’?
 
-The same conventions apply here as for the parameter “What replaced_hand?” except that here most entries are given a language-internal etymology. Values are batched into seven different categories, referenced by the `Code_ID` column.
+The same conventions apply here as for the parameter “What replaced hand?” except that here most entries are given a language-internal etymology. Values are batched into seven different categories, referenced by the `Code_ID` column.
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
@@ -105,19 +105,19 @@ The values for this parameter are taken from Barlow (2023), “Papuan-Austronesi
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
-$${\color{red}⏺}$$ | decimal proper | 632 | A proper decimal system.
-$${\color{orange}⏺}$$ | decimal modified | 228 | A modified decimal system.
-$${\color{yellow}⏺}$$ | quinary | 290 | A quinary system.
-$${\color{blue}⏺}$$ | binary proper | 22 | A proper binary system.
-$${\color{purple}⏺}$$ | binary+3 | 14 | A binary+3 system.
-$${\color{black}⏺}$$ | quaternary | 5 | A quaternary system.
-$${\color{gray}⏺}$$ | unknown | 83 | Unknown system.
+$${\color{red}⏺}$$ | decimal proper | 632 | A decimal system with atomic numerals ‘one’ through ‘nine’.
+$${\color{orange}⏺}$$ | decimal modified | 228 | A decimal system with one or more derived numerals lower than ‘ten’.
+$${\color{yellow}⏺}$$ | quinary | 290 | A system that constructs numerals based on the number 5.
+$${\color{blue}⏺}$$ | binary proper | 22 | A system that constructs the numerals ‘three’ and ‘four’ based on the number 2.
+$${\color{purple}⏺}$$ | binary+3 | 14 | A system that constructs the numeral ‘four’ based on the number 2 but has an atomic ‘three’
+$${\color{black}⏺}$$ | quaternary | 5 | A system that constructs numerals based on the number 4.
+$${\color{gray}⏺}$$ | unknown | 83 | An unknown numeral system.
 &nbsp; | &nbsp; | **1274** | &nbsp;
 
 &nbsp; | Value | Count | Description
 ---:| --- | ---:| ---
-⏺| Melanesian | 514 | 
-▼| Non-melanesian | 760 | 
+⏺| in Melanesia | 514 | 
+▼| not in melanesian | 760 | 
 
 ![num_syst](num_syst.svg)
 
