@@ -1,6 +1,6 @@
 <a name="ds-structuredatasetmetadatajson"> </a>
 
-# StructureDataset CLDF dataset with data and supplements for Barlow 'Loss of colexification of ‘hand’ and ‘five’ in Austronesian languages'
+# StructureDataset CLDF dataset with data and supplements for Barlow “Loss of colexification of ‘hand’ and ‘five’ in Austronesian languages”
 
 **CLDF Metadata**: [StructureDataset-metadata.json](./StructureDataset-metadata.json)
 
