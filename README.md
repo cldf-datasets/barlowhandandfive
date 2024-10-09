@@ -1,4 +1,4 @@
-# CLDF dataset with data and supplements for Barlow 'Loss of colexification of ‘hand’ and ‘five’ in Austronesian languages'
+# CLDF dataset with data and supplements for Barlow “Loss of colexification of ‘hand’ and ‘five’ in Austronesian languages”
 
 [![CLDF validation](https://github.com/cldf-datasets/barlowhandandfive/workflows/CLDF-validation/badge.svg)](https://github.com/cldf-datasets/barlowhandandfive/actions?query=workflow%3ACLDF-validation)
 
