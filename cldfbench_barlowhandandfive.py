@@ -81,17 +81,17 @@ Kela (Papua New Guinea),possibly shared change between Bugawac/Kela
 PARAMETERS = {
     (
         'five',
-        "What is the word for 'five'?",
+        "What is the word for ‘five’?",
         ""
     ): {},
     (
         'hand',
-        "What is the word for 'hand'?",
+        "What is the word for ‘hand’?",
         ""
     ): {},
     (
         'colex',
-        'Is_there_colexification?',
+        'Is there colexification?',
         ""
     ): {
         'lexically distinct': (
@@ -107,13 +107,13 @@ PARAMETERS = {
     },
     (
         'dist',
-        'Is_distinctness_due_to_lexical_replacement_or_phonological_change?',
-        "For those languages that lack colexification, i.e. languages with value ‘lexically "
-        "distinct’ for parameter ‘Is there colexification?’, values for this parameter are "
-        "‘lexical replacement’ or ‘phonological change’. However, some languages exhibit both "
+        'Is distinctness due to lexical replacement or phonological change?',
+        "For those languages that lack colexification (i.e., languages with value “lexically "
+        "distinct” for parameter “Is there colexification?”), the values for this parameter are "
+        "“lexical replacement” or “phonological change”. However, some languages exhibit both "
         "lexical replacement and (partial) colexification; this is possible when there has been "
         "replacement of both ‘hand’ and ‘five’ such that the new forms are (partially) colexified: "
-        "these cases are indicated by rows in ValueTable with an empty value and a comment "
+        "these cases are indicated by rows in the ValueTable with an empty value and a comment "
         "“(recolexification)”."
     ): {
         'lexical replacement': (
@@ -125,7 +125,7 @@ PARAMETERS = {
     },
     (
         'repl_hand',
-        'Was there lexical replacement of hand?',
+        'Was there lexical replacement of ‘hand’?',
         ""
     ): {
         'no': ('white', 'The word for the concept ‘hand’ has not been replaced.'),
@@ -136,7 +136,7 @@ PARAMETERS = {
     },
     (
         'repl_five',
-        'Was there lexical replacement of five?',
+        'Was there lexical replacement of ‘five’?',
         ""
     ): {
         'no': ('white', 'The word for the concept ‘five’ has not been replaced.'),
@@ -147,12 +147,12 @@ PARAMETERS = {
     },
     (
         'hand_replacement',
-        'What replaced hand?',
+        'What replaced ‘hand’?',
         "Values for this parameter are descriptions of the most likely etymology (traced as far "
         "back as possible in the Austronesian family) given for the word in the language that "
-        "came to mean ‘hand’; values followed by ‘?’ are somewhat uncertain; and those followed "
-        "by ‘??’ are even more uncertain; when no likely etymology has been posited, then the "
-        "value is given simply as ‘unclear’ (with no preceding etymology). Values are batched into "
+        "came to mean ‘hand’; values followed by “?” are somewhat uncertain; and those followed "
+        "by “??” are even more uncertain; when no likely etymology has been posited, then the "
+        "value is given simply as “unclear” (with no preceding etymology). Values are batched into "
         "five different categories, referenced by the `Code_ID` column."
     ): {
         '“hand” word other than *qalima': (
@@ -186,8 +186,8 @@ PARAMETERS = {
     },
     (
         'five_replacement',
-        'What replaced five?',
-        "The same conventions apply here as for the parameter “What replaced_hand?” except that "
+        'What replaced ‘five’?',
+        "The same conventions apply here as for the parameter “What replaced hand?” except that "
         "here most entries are given a language-internal etymology. Values are batched into "
         "seven different categories, referenced by the `Code_ID` column."
     ): {
@@ -217,8 +217,8 @@ PARAMETERS = {
     },
     ('num_syst',
      'What is the numeral system?',
-     'The classifications for numeral systems are taken from Barlow (2023) '
-     '"Papuan-Austronesian contact and the spread of numeral systems in Melanesia", updated here '
+     'The values for this parameter  are taken from Barlow (2023) '
+     '“Papuan-Austronesian contact and the spread of numeral systems in Melanesia”, updated here '
      'to reflect changes between Glottolog 4.6 and Glottolog 5.0: (1) badu1237 is removed '
      '(subsumed within sund1252); (2) bali1287 is added (with numeral system “unknown”); '
      '(3) dalk1234 is added (with numeral system “unknown”); (4) mori1267 is added '
@@ -309,11 +309,11 @@ class Dataset(BaseDataset):
             'LanguageTable',
             {'name': 'Number', 'datatype': 'integer'},
             {
-                'name': 'Melanesian',
+                'name': 'Melanesia',
                 'datatype': {'base': 'string', 'format': 'yes|no'},
                 'dc:description':
-                    'Languages are classified as Melanesian if they are spoken in PG, SB, VU, NC '
-                    'or the "Papuan" provinces of ID.'},
+                    'Languages are classified as being in Melanesia if they are primarily spoken in PG, SB, VU, NC '
+                    'or the Western New Guinea provinces of ID.'},
         )
         t.common_props['dc:description'] = \
             ('This table lists each language-level languoid in Glottolog 5.0 classified as '
@@ -449,7 +449,7 @@ class Dataset(BaseDataset):
                 Latitude=gl_langs[row['Glottocode']].latitude,
                 Longitude=gl_langs[row['Glottocode']].longitude,
                 Number=int(row['Language_number']),
-                Melanesian='yes' if melanesian else 'no',
+                Melanesia='yes' if melanesian else 'no',
             ))
 
             for col in ['five', 'hand']:
@@ -473,7 +473,7 @@ class Dataset(BaseDataset):
                     ))
 
             for (pid, pname, _), codes in PARAMETERS.items():
-                val = row.get(pname.replace(' ', '_'))
+                val = row.get(pname.replace(' ', '_').replace('‘', '').replace('’', ''))
                 if val:
                     if val == '(recolexification)':
                         cid = None
@@ -508,6 +508,7 @@ class Dataset(BaseDataset):
                 Parameter_ID='num_syst',
                 Value=row['Value'],
                 Code_ID='num_syst-{}'.format(slug(row['Value'])),
+                Comment=row['Comment'] or None,
             ))
 
         args.writer.objects['ValueTable'] = sorted(

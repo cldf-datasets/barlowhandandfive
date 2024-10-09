@@ -7,13 +7,13 @@
     ],
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
-    "dc:title": "CLDF dataset with data and supplements for Barlow 'Loss of colexification of \u2018hand\u2019 and \u2018five\u2019 in Austronesian languages'",
+    "dc:title": "CLDF dataset with data and supplements for Barlow \u201cLoss of colexification of \u2018hand\u2019 and \u2018five\u2019 in Austronesian languages\u201d",
     "dcat:accessURL": "https://github.com/cldf-datasets/barlowhandandfive",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/cldf-datasets/barlowhandandfive",
             "rdf:type": "prov:Entity",
-            "dc:created": "6a976e5",
+            "dc:created": "v1.0-15-g3c90f45",
             "dc:title": "Repository"
         },
         {
@@ -307,12 +307,12 @@
                         "name": "Number"
                     },
                     {
-                        "dc:description": "Languages are classified as Melanesian if they are spoken in PG, SB, VU, NC or the \"Papuan\" provinces of ID.",
+                        "dc:description": "Languages are classified as being in Melanesia if they are primarily spoken in PG, SB, VU, NC or the Western New Guinea provinces of ID.",
                         "datatype": {
                             "base": "string",
                             "format": "yes|no"
                         },
-                        "name": "Melanesian"
+                        "name": "Melanesia"
                     }
                 ],
                 "primaryKey": [

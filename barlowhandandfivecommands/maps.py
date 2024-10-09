@@ -89,7 +89,7 @@ The maps below have been created using the `cldfviz.map` command from the [`cldf
         'cldfbench',
         'cldfviz.map',
         '--parameter', 'num_syst',
-        '--language-properties', 'Melanesian',
+        '--language-properties', 'Melanesia',
         '--colormaps',
         json.dumps({c['ID']: c['color'] for c in parameters['num_syst']}),
         '--language-properties-colormaps', '{"yes":"circle","no":"triangle_up"}',
