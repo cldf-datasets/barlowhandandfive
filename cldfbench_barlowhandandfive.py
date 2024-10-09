@@ -425,7 +425,7 @@ class Dataset(BaseDataset):
             # hand	five -> forms
             row = {k: None if v == '_' else v for k, v in row.items()}
 
-            # Compute whether a language is classified as Melanesian or not:
+            # Compute whether a language is classified as in Melanesia or not:
             countries = gl_countries[row['Glottocode']]
             if row['Glottocode'] == 'tons1239':
                 # Glottolog 5.0 erroneously lists Tonsawang as spoken also in the Solomons.
@@ -433,10 +433,10 @@ class Dataset(BaseDataset):
             if row['Glottocode'] == 'gilb1244':
                 # We ignore the small, relocated Gilbertese population in the Solomons.
                 countries.remove('SB')
-            # Languages spoken in PG, SB, VU or NC - but not in ID - are considered Melanesian.
+            # Languages spoken in PG, SB, VU or NC - but not in ID - are considered in Melanesia.
             melanesian = bool(countries.intersection({'PG', 'SB', 'VU', 'NC'}))
             if not melanesian:
-                # Languages from ID are considered Melanesian, if they are spoken in the "Papuan"
+                # Languages from ID are considered in Melanesia, if they are spoken in the "Papuan"
                 # provinces.
                 p = Point(float(row['Longitude']), float(row['Latitude']))
                 melanesian = (any(pp.contains(p) for pp in papuan_provinces)
