@@ -37,7 +37,7 @@ using [geographical maps](maps/README.md).
 
 ### Replacement events
 
-Replacement events (i.e., rows in the [replacements table](cldf/replacements.csv)) represent a probable loss of the 
+Replacement events (i.e., rows in the [ReplacementsTable](cldf/replacements.csv)) represent a probable loss of the 
 inherited form for ‘hand’ or ‘five’, whether in the individual history of a single language or in a protolanguage ancestral
 to multiple languages, with Glottolog languoids (i.e., language subgroups or individual languages in the Glottolog 5.0 
 classification of the Austronesian family) serving as proxies. While the replacements table lists the name and Glottocode of this
