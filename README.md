@@ -17,22 +17,21 @@ This dataset is licensed under a CC-BY-4.0 license
 
 ### Forms
 
-Words for the concepts 'five' and 'hand' in Austronesian languages have been collected from four datasets
-described in the [ContributionTable](cldf/contributions.csv). Since forms were aggregated on language
+Words for the concepts ‘five’ and ‘hand’ in Austronesian languages have been collected from four datasets,
+described in the [ContributionTable](cldf/contributions.csv). Since some entries in these datasets contain multiple forms for a single concept, and since forms were aggregated at the language
 level (with forms for dialects taken as forms for the parent language) and across datasets, often more
-than one form per language and concept was attested.
-If multiple forms were attested, one was chosen so as to maximize potential for colexification.
+than one form per concept in a given language was attested.
+If multiple forms were attested, one was chosen so as to maximize the potential for finding colexification.
 In other words, the pair of forms selected for a language is the one closest to exhibiting full 
 colexification (or, failing that, partial colexification). The decision was made so as to minimize 
-"false negatives" (i.e., cases where there could appear to be *no* colexification of the two concepts, 
-but only because there are, e.g., two synonyms for 'hand' in a given language and the particular dataset chose the "wrong" one).
+“false negatives” (i.e., cases where there could appear to be *no* colexification of the two concepts, 
+but only because there are, e.g., two synonyms for ‘hand’ in a given language and the particular dataset chose the “wrong” one).
 
 
 ### Features
 
-Based on the words for 'five' and 'hand' collected in the [FormTable](cldf/forms.csv) and the inferred
-replacement events (described below), six features have been coded, with values reported in the 
-[ValueTable](cldf/values.csv). The distribution of values for these features can be investigated 
+Based on the words for ‘five’ and ‘hand’ collected in the [FormTable](cldf/forms.csv), six features have been coded, with values reported in the 
+[ValueTable](cldf/values.csv). A seventh feature details the types of numeral systems found in the languages in this dataset; it derives from Barlow (2023) “Papuan-Austronesian contact and the spread of numeral systems in Melanesia”, updated to reflect the changes in classifications between Glottolog versions 4.7 and 5.0. The distribution of values for these features can be investigated 
 using [geographical maps](maps/README.md).
 
 
@@ -40,7 +39,7 @@ using [geographical maps](maps/README.md).
 
 Replacement events (i.e., rows in the [replacements table](cldf/replacements.csv)) represent a probable loss of the 
 inherited form for ‘hand’ or ‘five’, whether in the individual history of a single language or in a protolanguage ancestral
-to multiple languages, with Glottolog languoids (i.e. language subgroups or individual languages in the Glottolog 5.0 
+to multiple languages, with Glottolog languoids (i.e., language subgroups or individual languages in the Glottolog 5.0 
 classification of the Austronesian family) serving as proxies. While the replacements table lists the name and Glottocode of this
 languoid, the individual languages in our sample that fall within this designation are linked via the Glottocodes in the
 `Language_IDs` column.
@@ -55,7 +54,7 @@ sqlite> select distinct r.subgroup from languagetable as l, "replacements.csv_la
 ts.csv_cldf_id" = r.cldf_id and l.cldf_name = 'Lenkau';
 South-East Admiralty
 ```
-and if we wanted to see which other languages are subsumed under "South-East Admiralty", we could run
+and if we wanted to see which other languages are subsumed under “South-East Admiralty”, we could run
 ```
 sqlite> select distinct l.cldf_name from languagetable as l, "replacements.csv_languagetable" as rl, "replacements.csv" as r where l.cldf_id == rl.languagetable_cldf_id and rl."replacements.csv_cldf_id" = r.cldf_id and r.subgroup = 'South-East Admiralty';
 Lenkau
