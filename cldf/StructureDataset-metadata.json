@@ -14,7 +14,7 @@
         {
             "rdf:about": "https://github.com/cldf-datasets/barlowhandandfive",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-37-gd6e6509",
+            "dc:created": "v1.0-39-g6aea5cf",
             "dc:title": "Repository"
         },
         {
