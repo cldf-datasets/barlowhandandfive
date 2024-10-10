@@ -380,7 +380,7 @@ class Dataset(BaseDataset):
              "status for these two concepts in Austronesian languages, with values listed in ValueTable; "
              "and 3) one parameter replicating coding decisions about types of numeral systems, derived "
              "from Barlow (2023) but updated here to reflect changes in classifications between Glottolog "
-             "versions 4.7 and 5.0, with values also listed in ValueTable.")
+             "versions 4.6 and 5.0, with values also listed in ValueTable.")
         args.writer.cldf.add_component('CodeTable', 'color')
         t = args.writer.cldf.add_table(
             'replacements.csv',
