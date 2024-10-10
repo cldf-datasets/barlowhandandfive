@@ -21,7 +21,7 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/co
 
 ## Is distinctness due to lexical replacement or phonological change?
 
-For those languages that lack colexification (i.e., languages with value “lexically distinct” for the parameter “Is there colexification?”), the values for this parameter are “lexical replacement” or “phonological change”. However, some languages exhibit both lexical replacement and (partial) colexification; this is possible when there has been replacement of both ‘hand’ and ‘five’ such that the new forms are (partially) colexified: these cases are indicated by rows in the ValueTable with an empty value and a comment “(recolexification)”.
+For those languages that lack colexification (i.e., languages with the value “lexically distinct” for the parameter “Is there colexification?”), the values for this parameter are “lexical replacement” or “phonological change”. However, some languages exhibit both lexical replacement and (partial) colexification; this is possible when there has been replacement of both ‘hand’ and ‘five’ such that the new forms are (partially) colexified: these cases are indicated by rows in the ValueTable with an empty value and a comment “(recolexification)”.
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
@@ -101,7 +101,7 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/fi
 
 ## What is the numeral system?
 
-The values for this parameter  are taken from Barlow (2023) “Papuan-Austronesian contact and the spread of numeral systems in Melanesia”, updated here to reflect changes between Glottolog 4.6 and Glottolog 5.0: (1) badu1237 is removed (subsumed within sund1252); (2) bali1287 is added (with numeral system “unknown”); (3) dalk1234 is added (with numeral system “unknown”); (4) mori1267 is added (split from maor1246: both with numeral system “decimal proper”); and (5) ngga1239 is added (with numeral system “unknown”).
+The values for this parameter are taken from Barlow (2023) “Papuan-Austronesian contact and the spread of numeral systems in Melanesia”, updated here to reflect changes between Glottolog 4.6 and Glottolog 5.0: (1) badu1237 is removed (subsumed within sund1252); (2) bali1287 is added (with numeral system “unknown”); (3) dalk1234 is added (with numeral system “unknown”); (4) mori1267 is added (split from maor1246: both with numeral system “decimal proper”); and (5) ngga1239 is added (with numeral system “unknown”).
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
