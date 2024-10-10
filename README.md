@@ -31,7 +31,7 @@ but only because there are, e.g., two synonyms for ‘hand’ in a given languag
 ### Features
 
 Based on the words for ‘five’ and ‘hand’ collected in the [FormTable](cldf/forms.csv), six features have been coded, with values reported in the 
-[ValueTable](cldf/values.csv). A seventh feature details the types of numeral systems found in the languages in this dataset; it derives from Barlow (2023) “Papuan-Austronesian contact and the spread of numeral systems in Melanesia”, updated to reflect the changes in classifications between Glottolog versions 4.7 and 5.0. The distribution of values for these features can be investigated 
+[ValueTable](cldf/values.csv). A seventh feature details the types of numeral systems found in the languages in this dataset; it derives from Barlow (2023), updated to reflect the changes in classifications between Glottolog versions 4.7 and 5.0. The distribution of values for these features can be investigated 
 using [geographical maps](maps/README.md).
 
 
