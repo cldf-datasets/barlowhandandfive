@@ -24,7 +24,7 @@ than one form per concept in a given language was attested.
 If multiple forms were attested, one was chosen so as to maximize the potential for finding colexification.
 In other words, the pair of forms selected for a language is the one closest to exhibiting full 
 colexification (or, failing that, partial colexification). The decision was made so as to minimize 
-“false negatives” (i.e., cases where there could appear to be *no* colexification of the two concepts, 
+“false negatives” (i.e., cases where there could appear to be no colexification of the two concepts, 
 but only because there are, e.g., two synonyms for ‘hand’ in a given language and the particular dataset chose the “wrong” one).
 
 
