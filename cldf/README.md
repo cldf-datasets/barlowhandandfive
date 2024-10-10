@@ -106,7 +106,7 @@ Name/Property | Datatype | Description
 
 ## <a name="table-parameterscsv"></a>Table [parameters.csv](./parameters.csv)
 
-This dataset provides three kinds of parameters: 1) The two concepts ‘hand’ and ‘five’, with the corresponding forms listed in FormTable; 2) six parameters analyzing the colexification status for these two concepts in Austronesian languages, with values listed in ValueTable; and 3) one parameter replicating coding decisions about types of numeral systems, derived from Barlow (2023) but updated here to reflect changes in classifications between Glottolog versions 4.7 and 5.0, with values also listed in ValueTable.
+This dataset provides three kinds of parameters: 1) The two concepts ‘hand’ and ‘five’, with the corresponding forms listed in FormTable; 2) six parameters analyzing the colexification status for these two concepts in Austronesian languages, with values listed in ValueTable; and 3) one parameter replicating coding decisions about types of numeral systems, derived from Barlow (2023) but updated here to reflect changes in classifications between Glottolog versions 4.6 and 5.0, with values also listed in ValueTable.
 
 property | value
  --- | ---
