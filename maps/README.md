@@ -21,7 +21,7 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/co
 
 ## Is distinctness due to lexical replacement or phonological change?
 
-For those languages that lack colexification (i.e., languages with value “lexically distinct” for the parameter “Is there colexification?”), the values for this parameter are “lexical replacement” or “phonological change”. However, some languages exhibit both lexical replacement and (partial) colexification; this is possible when there has been replacement of both ‘hand’ and ‘five’ such that the new forms are (partially) colexified: these cases are indicated by rows in the ValueTable with an empty value and a comment “(recolexification)”.
+For those languages that lack colexification (i.e., languages with the value “lexically distinct” for the parameter “Is there colexification?”), the values for this parameter are “lexical replacement” or “phonological change”. However, some languages exhibit both lexical replacement and (partial) colexification; this is possible when there has been replacement of both ‘hand’ and ‘five’ such that the new forms are (partially) colexified: these cases are indicated by rows in the ValueTable with an empty value and a comment “(recolexification)”.
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
@@ -70,9 +70,9 @@ Values for this parameter are descriptions of the most likely etymology (traced 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
 $${\color{black}⏺}$$ | “hand” word other than *qalima | 139 | The word for ‘hand’ derives from a word meaning ‘hand’ or ‘arm’ other than *qalima, whether [PAn *kamay ‘hand’](https://acd.clld.org/cognatesets/26632), [PMP *baRa ‘hand, arm’](https://acd.clld.org/cognatesets/25155), or POc *minV- ‘hand’.
-$${\color{red}⏺}$$ | part of the arm | 109 | The word for ‘hand’ derives from a word referring to part of the arm, whether [PAn *qabaRa ‘shoulder’](https://acd.clld.org/cognatesets/27538), [PAn *kuSkuS ‘claw, talon, fingernail’](https://acd.clld.org/cognatesets/30315), Proto-Tsouic *ramuCu ‘finger’ (?), [PMP *taŋan ‘finger, toe’](https://acd.clld.org/cognatesets/28404), [PMP *leŋen ‘forearm, lower arm’](https://acd.clld.org/cognatesets/30521), [PPh *dalukap ‘palm of the hand, sole of the foot’](https://acd.clld.org/cognatesets/34040), or PNCV *bisu ‘finger, toe, nail’
-$${\color{yellow}⏺}$$ | wing | 69 | The word for ‘hand’ derives from a word referring to the wing (of an animal), whether [PAn *paNij ‘wing’](https://acd.clld.org/cognatesets/27294), [PMP *kapak ‘wings; flutter’](https://acd.clld.org/cognatesets/31811), or PWOc *baqe ‘wing, (?) hand’
-$${\color{blue}⏺}$$ | ‘hold onto’ | 1 | The word for ‘hand’ derives from ‘hold onto, cling to’
+$${\color{red}⏺}$$ | part of the arm | 109 | The word for ‘hand’ derives from a word referring to part of the arm, whether [PAn *qabaRa ‘shoulder’](https://acd.clld.org/cognatesets/27538), [PAn *kuSkuS ‘claw, talon, fingernail’](https://acd.clld.org/cognatesets/30315), Proto-Tsouic *ramuCu ‘finger’ (?), [PMP *taŋan ‘finger, toe’](https://acd.clld.org/cognatesets/28404), [PMP *leŋen ‘forearm, lower arm’](https://acd.clld.org/cognatesets/30521), [PPh *dalukap ‘palm of the hand, sole of the foot’](https://acd.clld.org/cognatesets/34040), or PNCV *bisu ‘finger, toe, nail’.
+$${\color{yellow}⏺}$$ | wing | 69 | The word for ‘hand’ derives from a word referring to the wing (of an animal), whether [PAn *paNij ‘wing’](https://acd.clld.org/cognatesets/27294), [PMP *kapak ‘wings; flutter’](https://acd.clld.org/cognatesets/31811), or PWOc *baqe ‘wing, (?) hand’.
+$${\color{blue}⏺}$$ | ‘hold onto’ | 1 | The word for ‘hand’ derives from ‘hold onto, cling to’.
 $${\color{gray}⏺}$$ | unclear | 72 | The word for ‘hand’ derives from a form other than *qalima, but its etymology is unclear.
 &nbsp; | &nbsp; | **390** | &nbsp;
 
@@ -86,7 +86,7 @@ The same conventions apply here as for the parameter “What replaced hand?” e
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
-$${\color{black}⏺}$$ | “hand” word other than *qalima | 45 | The word for ‘five’ derives from a hand-related word unrelated to *qalima (in some cases ultimately derived from ‘finger’ or ‘wing’)
+$${\color{black}⏺}$$ | “hand” word other than *qalima | 45 | The word for ‘five’ derives from a hand-related word unrelated to *qalima (in some cases ultimately derived from ‘finger’ or ‘wing’).
 $${\color{yellow}⏺}$$ | addition with 2 | 8 | The word for ‘five’ derives from a formulation like ‘2+2+1’.
 $${\color{red}⏺}$$ | tally word | 6 | The word for ‘five’ derives from an expression apparently referring to a physical tallying practice, including words like ‘finished’, ‘on top’, or ‘make/take’.
 $${\color{purple}⏺}$$ | ‘count’ | 2 | The word for ‘five’ derives from ‘count’.
@@ -101,7 +101,7 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/fi
 
 ## What is the numeral system?
 
-The values for this parameter  are taken from Barlow (2023) “Papuan-Austronesian contact and the spread of numeral systems in Melanesia”, updated here to reflect changes between Glottolog 4.6 and Glottolog 5.0: (1) badu1237 is removed (subsumed within sund1252); (2) bali1287 is added (with numeral system “unknown”); (3) dalk1234 is added (with numeral system “unknown”); (4) mori1267 is added (split from maor1246: both with numeral system “decimal proper”); and (5) ngga1239 is added (with numeral system “unknown”).
+The values for this parameter are taken from Barlow (2023), updated here to reflect changes between Glottolog 4.6 and Glottolog 5.0: (1) badu1237 is removed (subsumed within sund1252); (2) bali1287 is added (with numeral system “unknown”); (3) dalk1234 is added (with numeral system “unknown”); (4) mori1267 is added (split from maor1246: both with numeral system “decimal proper”); and (5) ngga1239 is added (with numeral system “unknown”).
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
