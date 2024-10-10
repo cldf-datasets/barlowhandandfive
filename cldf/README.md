@@ -82,7 +82,7 @@ Name/Property | Datatype | Description
 
 ## <a name="table-contributionscsv"></a>Table [contributions.csv](./contributions.csv)
 
-Forms for this study (i.e., words for the concepts 'five' and 'hand' in Austronesian languages) were taken from the four datasets listed in this table.
+Forms for this study (i.e., words for the concepts ‘five’ and ‘hand’ in Austronesian languages) were taken from the four datasets listed in this table.
 
 property | value
  --- | ---
@@ -102,7 +102,7 @@ Name/Property | Datatype | Description
 
 ## <a name="table-parameterscsv"></a>Table [parameters.csv](./parameters.csv)
 
-This dataset provides two kinds of parameters: 1) The two concepts 'hand' and 'five', with the corresponding forms listed in FormTable, and 2) six parameters analyzing the colexification status for these two concepts in Austronesian languages, with values listed in ValueTable.
+This dataset provides two kinds of parameters: 1) The two concepts ‘hand’ and ‘five’, with the corresponding forms listed in FormTable, and 2) six parameters analyzing the colexification status for these two concepts in Austronesian languages, with values listed in ValueTable.
 
 property | value
  --- | ---
@@ -139,9 +139,9 @@ Name/Property | Datatype | Description
 
 ## <a name="table-replacementscsv"></a>Table [replacements.csv](./replacements.csv)
 
-This table lists coding decisions for “replacement events” for the words for 'hand' or 'five' in subgroups or single languages of the Austronesian family.
-For the concept 'hand', a row represents a probable loss of the inherited Proto-Austronesian form *qalima ‘hand’, whether in the individual history of a single language or in a protolanguage ancestral to multiple languages.
-For the concept 'five', a row represents a probable loss of the inherited Proto-Austronesian form *lima ‘five’.
+This table lists coding decisions for “replacement events” for the words for ‘hand’ or ‘five’ in subgroups or single languages of the Austronesian family.
+For the concept ‘hand’, a row represents a probable loss of the inherited Proto-Austronesian form *qalima ‘hand’, whether in the individual history of a single language or in a protolanguage ancestral to multiple languages.
+For the concept ‘five’, a row represents a probable loss of the inherited Proto-Austronesian form *lima ‘five’.
 
 Replacement events are considered taking a relatively conservative approach—that is, a replacement event is reconstructed to a protolanguage only if there is strong evidence for it and no apparent exceptions (such as a reflex of *qalima ‘hand’ found in one or more member languages of the given group).
 
