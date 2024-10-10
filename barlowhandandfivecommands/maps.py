@@ -146,6 +146,7 @@ The maps below have been created using the `cldfviz.map` command from the [`cldf
     html = o.read_text(encoding='utf8').replace('__no__', 'no').replace('__yes__', 'yes')
     for c in parameters['num_syst']:
         html = html.replace('__' + c['ID'] + '__', c['Name'])
+    html = html.replace(' / yes"', '"').replace(' / no"', '"')
     o.write_text(html, encoding='utf8')
     readme.append(
         'View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/'
