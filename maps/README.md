@@ -101,7 +101,7 @@ View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/fi
 
 ## What is the numeral system?
 
-The values for this parameter are taken from Barlow (2023) “Papuan-Austronesian contact and the spread of numeral systems in Melanesia”, updated here to reflect changes between Glottolog 4.6 and Glottolog 5.0: (1) badu1237 is removed (subsumed within sund1252); (2) bali1287 is added (with numeral system “unknown”); (3) dalk1234 is added (with numeral system “unknown”); (4) mori1267 is added (split from maor1246: both with numeral system “decimal proper”); and (5) ngga1239 is added (with numeral system “unknown”).
+The values for this parameter are taken from Barlow (2023), updated here to reflect changes between Glottolog 4.6 and Glottolog 5.0: (1) badu1237 is removed (subsumed within sund1252); (2) bali1287 is added (with numeral system “unknown”); (3) dalk1234 is added (with numeral system “unknown”); (4) mori1267 is added (split from maor1246: both with numeral system “decimal proper”); and (5) ngga1239 is added (with numeral system “unknown”).
 
 &nbsp; | Value | Count | Description
 --- | --- | ---:| ---
