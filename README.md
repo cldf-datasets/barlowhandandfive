@@ -17,8 +17,9 @@ This dataset is licensed under a CC-BY-4.0 license
 
 ### Forms
 
-Words for the concepts ‘five’ and ‘hand’ in Austronesian languages have been collected from four datasets,
-described in the [ContributionTable](cldf/contributions.csv). Since some entries in these datasets contain multiple forms for a single concept, and since forms were aggregated at the language
+Words for the concepts 'five' and 'hand' in Austronesian languages have been collected from four datasets,
+described in the [ContributionTable](cldf/contributions.csv). Since some entries in these datasets contain 
+multiple forms for a single concept, and since forms were aggregated at the language
 level (with forms for dialects taken as forms for the parent language) and across datasets, often more
 than one form per concept in a given language was attested.
 If multiple forms were attested, one was chosen so as to maximize the potential for finding colexification.
@@ -31,13 +32,13 @@ but only because there are, e.g., two synonyms for ‘hand’ in a given languag
 ### Features
 
 Based on the words for ‘five’ and ‘hand’ collected in the [FormTable](cldf/forms.csv), six features have been coded, with values reported in the 
-[ValueTable](cldf/values.csv). A seventh feature details the types of numeral systems found in the languages in this dataset; it derives from Barlow (2023), updated to reflect the changes in classifications between Glottolog versions 4.7 and 5.0. The distribution of values for these features can be investigated 
+[ValueTable](cldf/values.csv). A seventh feature details the types of numeral systems found in the languages in this dataset; it derives from Barlow (2023), updated to reflect the changes in classifications between Glottolog versions 4.6 and 5.0. The distribution of values for these features can be investigated 
 using [geographical maps](maps/README.md).
 
 
 ### Replacement events
 
-Replacement events (i.e., rows in the [ReplacementsTable](cldf/replacements.csv)) represent a probable loss of the 
+Replacement events (i.e., rows in the [ReplacementsTable](cldf/replacements.csv)) represent a probable loss of the
 inherited form for ‘hand’ or ‘five’, whether in the individual history of a single language or in a protolanguage ancestral
 to multiple languages, with Glottolog languoids (i.e., language subgroups or individual languages in the Glottolog 5.0 
 classification of the Austronesian family) serving as proxies. While the replacements table lists the name and Glottocode of this

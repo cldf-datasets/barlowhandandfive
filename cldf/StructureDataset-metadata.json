@@ -7,13 +7,14 @@
     ],
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
+    "dc:source": "sources.bib",
     "dc:title": "CLDF dataset with data and supplements for Barlow \u201cLoss of colexification of \u2018hand\u2019 and \u2018five\u2019 in Austronesian languages\u201d",
     "dcat:accessURL": "https://github.com/cldf-datasets/barlowhandandfive",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/cldf-datasets/barlowhandandfive",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-21-gfef1cad",
+            "dc:created": "v1.0-35-g23cdfba",
             "dc:title": "Repository"
         },
         {
@@ -87,6 +88,13 @@
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
                         "required": false,
                         "name": "Comment"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "required": false,
+                        "separator": ";",
+                        "name": "Source"
                     }
                 ],
                 "foreignKeys": [
@@ -180,6 +188,13 @@
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
                         "required": false,
                         "name": "Comment"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "required": false,
+                        "separator": ";",
+                        "name": "Source"
                     },
                     {
                         "dc:description": "Key of lexical dataset from which the form was taken.",
@@ -323,7 +338,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
-            "dc:description": "Forms for this study (i.e., words for the concepts 'five' and 'hand' in Austronesian languages) were taken from the four datasets listed in this table.",
+            "dc:description": "Forms for this study (i.e., words for the concepts \u2018five\u2019 and \u2018hand\u2019 in Austronesian languages) were taken from the four datasets listed in this table.",
             "dc:extent": 4,
             "tableSchema": {
                 "columns": [
@@ -369,7 +384,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:description": "This dataset provides two kinds of parameters: 1) The two concepts 'hand' and 'five', with the corresponding forms listed in FormTable, and 2) six parameters analyzing the colexification status for these two concepts in Austronesian languages, with values listed in ValueTable.",
+            "dc:description": "This dataset provides three kinds of parameters: 1) The two concepts \u2018hand\u2019 and \u2018five\u2019, with the corresponding forms listed in FormTable; 2) six parameters analyzing the colexification status for these two concepts in Austronesian languages, with values listed in ValueTable; and 3) one parameter replicating coding decisions about types of numeral systems, derived from Barlow (2023) but updated here to reflect changes in classifications between Glottolog versions 4.7 and 5.0, with values also listed in ValueTable.",
             "dc:extent": 9,
             "tableSchema": {
                 "columns": [
@@ -466,7 +481,7 @@
             "url": "codes.csv"
         },
         {
-            "dc:description": "This table lists coding decisions for \u201creplacement events\u201d for the words for 'hand' or 'five' in subgroups or single languages of the Austronesian family.\nFor the concept 'hand', a row represents a probable loss of the inherited Proto-Austronesian form *qalima \u2018hand\u2019, whether in the individual history of a single language or in a protolanguage ancestral to multiple languages.\nFor the concept 'five', a row represents a probable loss of the inherited Proto-Austronesian form *lima \u2018five\u2019.\n\nReplacement events are considered taking a relatively conservative approach\u2014that is, a replacement event is reconstructed to a protolanguage only if there is strong evidence for it and no apparent exceptions (such as a reflex of *qalima \u2018hand\u2019 found in one or more member languages of the given group).",
+            "dc:description": "This table lists coding decisions for \u201creplacement events\u201d for the words for \u2018hand\u2019 or \u2018five\u2019 in subgroups or single languages of the Austronesian family.\nFor the concept \u2018hand\u2019, a row represents a probable loss of the inherited Proto-Austronesian form *qalima \u2018hand\u2019, whether in the individual history of a single language or in a protolanguage ancestral to multiple languages.\nFor the concept \u2018five\u2019, a row represents a probable loss of the inherited Proto-Austronesian form *lima \u2018five\u2019.\n\nReplacement events are considered taking a relatively conservative approach\u2014that is, a replacement event is reconstructed to a protolanguage only if there is strong evidence for it and no apparent exceptions (such as a reflex of *qalima \u2018hand\u2019 found in one or more member languages of the given group).",
             "dc:extent": 189,
             "tableSchema": {
                 "columns": [

@@ -8,34 +8,85 @@ from clldutils.jsonlib import load
 from clldutils.markup import add_markdown_text
 from cldfbench import Dataset as BaseDataset, CLDFSpec
 
+BARLOW_2023 = """\
+@article{Barlow2023,
+  title = {Papuan-Austronesian contact and the spread of numeral systems in Melanesia},
+  volume = {40},
+  ISSN = {1569-9714},
+  url = {https://doi.org/10.1075/dia.22005.bar},
+  DOI = {10.1075/dia.22005.bar},
+  number = {3},
+  journal = {Diachronica},
+  publisher = {John Benjamins Publishing Company},
+  author = {Barlow,  Russell},
+  year = {2023},
+  month = jul,
+  pages = {287–340}
+}"""
+ABVD = """@article{abvd,
+author = {Simon J. Greenhill and Robert Blust and Russell D. Gray},
+title ={The Austronesian Basic Vocabulary Database: From Bioinformatics to Lexomics},
+journal = {Evolutionary Bioinformatics},
+volume = {4},
+year = {2008},
+doi = {10.4137/EBO.S893},
+URL = {https://doi.org/10.4137/EBO.S893},
+}"""
+LEXIRUMAH = """@dataset{lexirumah,
+  author       = {Edwards, Owen and Kaiping, Gereon A. and Klamer, Marian},
+  title        = {LexiRumah v3.0.0},
+  year         = {2019},
+  publisher    = {Zenodo},
+  version      = {v3.0.0},
+  doi          = {10.5281/zenodo.3537977},
+  url          = {https://doi.org/10.5281/zenodo.3537977}
+}"""
+CHANNUMERALS = """@dataset{chan2019,
+  author       = {Eugene Chan and Hans-Jörg Bibiko and Christoph Rzymski and Simon J Greenhill and Robert Forkel},
+  title        = {channumerals},
+  year         = {2019},
+  publisher    = {Zenodo},
+  version      = {v1.0},
+  doi          = {10.5281/zenodo.3475912},
+  url          = {https://doi.org/10.5281/zenodo.3475912}
+}"""
+BARLOWPACIFIC = """@dataset{barlowpacific,
+  author       = {Russell Barlow},
+  title        = {CLDF dataset derived from Barlow's "Numerals of the Pacific" from 2024},
+  year         = {2024},
+  publisher    = {Zenodo},
+  version      = {v1.6},
+  doi          = {10.5281/zenodo.13766733},
+  url          = {https://doi.org/10.5281/zenodo.13766733}
+}"""
 NOTES = """
 
 ### Forms
 
-Words for the concepts 'five' and 'hand' in Austronesian languages have been collected from four datasets
-described in the [ContributionTable](cldf/contributions.csv). Since forms were aggregated on language
+Words for the concepts 'five' and 'hand' in Austronesian languages have been collected from four datasets,
+described in the [ContributionTable](cldf/contributions.csv). Since some entries in these datasets contain 
+multiple forms for a single concept, and since forms were aggregated at the language
 level (with forms for dialects taken as forms for the parent language) and across datasets, often more
-than one form per language and concept was attested.
-If multiple forms were attested, one was chosen so as to maximize potential for colexification.
+than one form per concept in a given language was attested.
+If multiple forms were attested, one was chosen so as to maximize the potential for finding colexification.
 In other words, the pair of forms selected for a language is the one closest to exhibiting full 
 colexification (or, failing that, partial colexification). The decision was made so as to minimize 
-"false negatives" (i.e., cases where there could appear to be *no* colexification of the two concepts, 
-but only because there are, e.g., two synonyms for 'hand' in a given language and the particular dataset chose the "wrong" one).
+“false negatives” (i.e., cases where there could appear to be no colexification of the two concepts, 
+but only because there are, e.g., two synonyms for ‘hand’ in a given language and the particular dataset chose the “wrong” one).
 
 
 ### Features
 
-Based on the words for 'five' and 'hand' collected in the [FormTable](cldf/forms.csv) and the inferred
-replacement events (described below), six features have been coded, with values reported in the 
-[ValueTable](cldf/values.csv). The distribution of values for these features can be investigated 
+Based on the words for ‘five’ and ‘hand’ collected in the [FormTable](cldf/forms.csv), six features have been coded, with values reported in the 
+[ValueTable](cldf/values.csv). A seventh feature details the types of numeral systems found in the languages in this dataset; it derives from Barlow (2023), updated to reflect the changes in classifications between Glottolog versions 4.6 and 5.0. The distribution of values for these features can be investigated 
 using [geographical maps](maps/README.md).
 
 
 ### Replacement events
 
-Replacement events (i.e., rows in the [replacements table](cldf/replacements.csv)) represent a probable loss of the 
+Replacement events (i.e., rows in the [ReplacementsTable](cldf/replacements.csv)) represent a probable loss of the
 inherited form for ‘hand’ or ‘five’, whether in the individual history of a single language or in a protolanguage ancestral
-to multiple languages, with Glottolog languoids (i.e. language subgroups or individual languages in the Glottolog 5.0 
+to multiple languages, with Glottolog languoids (i.e., language subgroups or individual languages in the Glottolog 5.0 
 classification of the Austronesian family) serving as proxies. While the replacements table lists the name and Glottocode of this
 languoid, the individual languages in our sample that fall within this designation are linked via the Glottocodes in the
 `Language_IDs` column.
@@ -50,7 +101,7 @@ sqlite> select distinct r.subgroup from languagetable as l, "replacements.csv_la
 ts.csv_cldf_id" = r.cldf_id and l.cldf_name = 'Lenkau';
 South-East Admiralty
 ```
-and if we wanted to see which other languages are subsumed under "South-East Admiralty", we could run
+and if we wanted to see which other languages are subsumed under “South-East Admiralty”, we could run
 ```
 sqlite> select distinct l.cldf_name from languagetable as l, "replacements.csv_languagetable" as rl, "replacements.csv" as r where l.cldf_id == rl.languagetable_cldf_id and rl."replacements.csv_cldf_id" = r.cldf_id and r.subgroup = 'South-East Admiralty';
 Lenkau
@@ -108,7 +159,7 @@ PARAMETERS = {
     (
         'dist',
         'Is distinctness due to lexical replacement or phonological change?',
-        "For those languages that lack colexification (i.e., languages with value “lexically "
+        "For those languages that lack colexification (i.e., languages with the value “lexically "
         "distinct” for the parameter “Is there colexification?”), the values for this parameter are "
         "“lexical replacement” or “phonological change”. However, some languages exhibit both "
         "lexical replacement and (partial) colexification; this is possible when there has been "
@@ -170,16 +221,16 @@ PARAMETERS = {
             '[PMP *taŋan ‘finger, toe’](https://acd.clld.org/cognatesets/28404), '
             '[PMP *leŋen ‘forearm, lower arm’](https://acd.clld.org/cognatesets/30521), '
             '[PPh *dalukap ‘palm of the hand, sole of the foot’](https://acd.clld.org/cognatesets/34040), or '
-            'PNCV *bisu ‘finger, toe, nail’'),
+            'PNCV *bisu ‘finger, toe, nail’.'),
         'wing': (
             'yellow',
             'The word for ‘hand’ derives from a word referring to the wing (of an animal), whether '
             '[PAn *paNij ‘wing’](https://acd.clld.org/cognatesets/27294), '
             '[PMP *kapak ‘wings; flutter’](https://acd.clld.org/cognatesets/31811), or '
-            'PWOc *baqe ‘wing, (?) hand’'),
+            'PWOc *baqe ‘wing, (?) hand’.'),
         '‘hold onto’': (
             'blue',
-            'The word for ‘hand’ derives from ‘hold onto, cling to’'),
+            'The word for ‘hand’ derives from ‘hold onto, cling to’.'),
         'unclear': (
             'gray',
             'The word for ‘hand’ derives from a form other than *qalima, but its etymology is unclear.'),
@@ -194,7 +245,7 @@ PARAMETERS = {
         '“hand” word other than *qalima': (
             'black',
             'The word for ‘five’ derives from a hand-related word unrelated to *qalima (in '
-            'some cases ultimately derived from ‘finger’ or ‘wing’)'),
+            'some cases ultimately derived from ‘finger’ or ‘wing’).'),
         'addition with 2': (
             'yellow',
             'The word for ‘five’ derives from a formulation like ‘2+2+1’.'),
@@ -217,8 +268,7 @@ PARAMETERS = {
     },
     ('num_syst',
      'What is the numeral system?',
-     'The values for this parameter  are taken from Barlow (2023) '
-     '“Papuan-Austronesian contact and the spread of numeral systems in Melanesia”, updated here '
+     'The values for this parameter are taken from Barlow (2023), updated here '
      'to reflect changes between Glottolog 4.6 and Glottolog 5.0: (1) badu1237 is removed '
      '(subsumed within sund1252); (2) bali1287 is added (with numeral system “unknown”); '
      '(3) dalk1234 is added (with numeral system “unknown”); (4) mori1267 is added '
@@ -303,8 +353,6 @@ class Dataset(BaseDataset):
                     'Name of the variety in the source dataset from which the form was selected',
             },
         )
-        args.writer.cldf.remove_columns('FormTable', 'Source')
-        args.writer.cldf.remove_columns('ValueTable', 'Source')
         t = args.writer.cldf.add_component(
             'LanguageTable',
             {'name': 'Number', 'datatype': 'integer'},
@@ -322,14 +370,17 @@ class Dataset(BaseDataset):
              'sorting is reflected by the numbers given in the “Number” column.')
         t = args.writer.cldf.add_component('ContributionTable')
         t.common_props['dc:description'] = \
-            ("Forms for this study (i.e., words for the concepts 'five' and 'hand' in Austronesian "
+            ("Forms for this study (i.e., words for the concepts ‘five’ and ‘hand’ in Austronesian "
              "languages) were taken from "
              "the four datasets listed in this table.")
         t = args.writer.cldf.add_component('ParameterTable')
         t.common_props['dc:description'] = \
-            ("This dataset provides two kinds of parameters: 1) The two concepts 'hand' and 'five', with the "
-             "corresponding forms listed in FormTable, and 2) six parameters analyzing the colexification "
-             "status for these two concepts in Austronesian languages, with values listed in ValueTable.")
+            ("This dataset provides three kinds of parameters: 1) The two concepts ‘hand’ and ‘five’, with the "
+             "corresponding forms listed in FormTable; 2) six parameters analyzing the colexification "
+             "status for these two concepts in Austronesian languages, with values listed in ValueTable; "
+             "and 3) one parameter replicating coding decisions about types of numeral systems, derived "
+             "from Barlow (2023) but updated here to reflect changes in classifications between Glottolog "
+             "versions 4.7 and 5.0, with values also listed in ValueTable.")
         args.writer.cldf.add_component('CodeTable', 'color')
         t = args.writer.cldf.add_table(
             'replacements.csv',
@@ -363,16 +414,18 @@ class Dataset(BaseDataset):
             }
         )
         t.common_props['dc:description'] = \
-            ("This table lists coding decisions for “replacement events” for the words for 'hand' or 'five' in "
+            ("This table lists coding decisions for “replacement events” for the words for ‘hand’ or ‘five’ in "
              "subgroups or single languages of the Austronesian family.\n"
-             "For the concept 'hand', a row represents a probable loss of the inherited Proto-Austronesian form "
+             "For the concept ‘hand’, a row represents a probable loss of the inherited Proto-Austronesian form "
              "*qalima ‘hand’, whether in the individual history of a single language or in a protolanguage ancestral "
              "to multiple languages.\n"
-             "For the concept 'five', a row represents a probable loss of the inherited Proto-Austronesian form *lima ‘five’.\n"
+             "For the concept ‘five’, a row represents a probable loss of the inherited Proto-Austronesian form *lima ‘five’.\n"
              "\n"
              "Replacement events are considered taking a relatively conservative approach—that is, a replacement "
              "event is reconstructed to a protolanguage only if there is strong evidence for it and no apparent "
              "exceptions (such as a reflex of *qalima ‘hand’ found in one or more member languages of the given group).")
+
+        args.writer.cldf.add_sources(BARLOW_2023, ABVD, LEXIRUMAH, CHANNUMERALS, BARLOWPACIFIC)
 
         gl_langs, lineages, gl_countries = {}, {}, {}
         for lg in args.glottolog.api.languoids():
@@ -468,6 +521,7 @@ class Dataset(BaseDataset):
                         Value=row[col],
                         Form=row[col],
                         Contribution_ID=row['Dataset_for_' + col],
+                        Source=[row['Dataset_for_' + col]],
                         Glottocode_in_dataset=ds_gc,
                         Language_name_in_dataset=ds_name,
                     ))
@@ -509,6 +563,7 @@ class Dataset(BaseDataset):
                 Value=row['Value'],
                 Code_ID='num_syst-{}'.format(slug(row['Value'])),
                 Comment=row['Comment'] or None,
+                Source=['Barlow2023'],
             ))
 
         args.writer.objects['ValueTable'] = sorted(
