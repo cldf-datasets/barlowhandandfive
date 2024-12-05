@@ -1,51 +1,51 @@
 ID,Replacement_Group,Subgroup,Comment,Source,Concept,Language_IDs
-five-1,five-01,Northwest Formosan,,< *RaCeb ?,five,kulo1237 kulo1238 sais1237
-five-2,five-01,Babuza,possibly loan from Northwest Formosan,< *RaCeb ?,five,babu1240
+five-1,five-01,Northwest Formosan,possibly loaned into Babuza,< *RaCeb (?),five,kulo1237 kulo1238 sais1237
+five-2,five-01,Babuza,possibly loan from Northwest Formosan,< *RaCeb (?),five,babu1240
 five-3,five-02,Ilongot,,‘one count’,five,ilon1239
-five-4,five-03,Kibosy Kiantalaotsy-Majunga,,loan from English?,five,bush1250
+five-4,five-03,Kibosy Kiantalaotsy-Majunga,,loan from English (??),five,bush1250
 five-5,five-04,Nabi-Irarutu,,"‘hand side’ (< PMP *baRa ‘hand, arm’)",five,irar1238 kuri1260
-five-6,five-05,Yaur,,"‘arm’ ? (< PMP *baRa ‘hand, arm’ ?)",five,yaur1239
-five-7,five-06,Western Admiralty Islands,,‘one wing’ (< PAN *paNij ‘wing’); ‘hand’ ? (< POC *minV- ‘hand’ ?),five,wuvu1239 seim1238 kani1282 kani1283
+five-6,five-05,Yaur,,"‘arm’ (?) (< PMP *baRa ‘hand, arm’?)",five,yaur1239
+five-7,five-06,Western Admiralty Islands,,‘one wing’ (< PAN *paNij ‘wing’); ‘hand’ (?) (< POC *minV- ‘hand’?),five,kani1282 kani1283 seim1238 wuvu1239
 five-8,five-07,Pak-Tong,possibly loan from South-East Admiralty,unclear,five,pakt1239
-five-9,five-07,South-East Admiralty,,unclear,five,lenk1247 naun1237 penc1239 louu1245 balu1257
-five-10,five-08,Sera-Sissano,,"‘2+2+1’; ‘wing one’ ?? (< PWOC *baqe ‘wing, (?) hand’)",five,sera1260 arop1242 siss1243 malo1245
+five-9,five-07,South-East Admiralty,possibly loaned into Pak-Tong,unclear,five,balu1257 lenk1247 louu1245 naun1237 penc1239
+five-10,five-08,Sera-Sissano,,"‘2+2+1’; ‘wing one’ (??) (< PWOC *baqe ‘wing, (?) hand’)",five,arop1242 malo1245 sera1260 siss1243
 five-11,five-09,Biem,possibly shared change between Biem/Wogeo,‘4+1’,five,biem1237
 five-12,five-09,Wogeo,possibly shared change between Biem/Wogeo,‘4+1’,five,woge1237
-five-13,five-10,Wab,,‘thumb’ ??,five,wabb1237
+five-13,five-10,Wab,,‘thumb’ (?),five,wabb1237
 five-14,five-11,Takia,,‘wing’,five,taki1248
 five-15,five-12,Mato,,‘2+2+1’,five,mato1252
 five-16,five-13,Malasanga,possibly shared change between Malasanga/Mur Pano,‘wing one’,five,mala1487
-five-17,five-13,Mur Pano,,unclear,five,murp1234
-five-18,five-14,Pasismanua,,‘one wing’ ?? (< PAN *paNij ‘wing’),five,miuu1237 aigh1235 seng1281 karo1298 kaul1240
+five-17,five-13,Mur Pano,possibly shared change between Malasanga/Mur Pano,unclear,five,murp1234
+five-18,five-14,Pasismanua,,‘one wing’ (??) (< PAN *paNij ‘wing’),five,aigh1235 karo1298 kaul1240 miuu1237 seng1281
 five-19,five-15,Aribwatsa,possibly shared Busu change (only Duwet seems to reflect *lima ‘five’),‘wing half’,five,arib1241
 five-20,five-15,Aribwaung,possibly shared Busu change (only Duwet seems to reflect *lima ‘five’),‘wing half’,five,arib1240
-five-21,five-15,Musom-Sirak,possibly shared Busu change (only Duwet seems to reflect *lima ‘five’),‘wing half’,five,nafi1237 muso1238
-five-22,five-16,Upper Markham,,‘2+2+1’; ‘2+2+x’; ‘wing one’; ‘wing half’,five,adze1240 sara1323 suku1264 wamp1248 mari1429
+five-21,five-15,Musom-Sirak,possibly shared Busu change (only Duwet seems to reflect *lima ‘five’),‘wing half’,five,muso1238 nafi1237
+five-22,five-16,Upper Markham,,‘2+2+1’; ‘2+2+x’; ‘wing one’; ‘wing half’,five,adze1240 mari1429 sara1323 suku1264 wamp1248
 five-23,five-17,Wampar,possibly loan from Watut,‘wing one’,five,wamp1247
-five-24,five-17,Watut,,‘bend the wing’; ‘wing half’; ‘wing one’,five,midd1327 nort2857 sout2877
+five-24,five-17,Watut,possibly loan into Wampar,‘bend the wing’; ‘wing half’; ‘wing one’,five,midd1327 nort2857 sout2877
 five-25,five-18,Mapos Buang,possibly diffused around northwest of Buang linkage,‘wing half’,five,mapo1242
-five-26,five-18,Dambi,possibly diffused around northwest of Buang linkage,‘half’ ?,five,damb1246
+five-26,five-18,Dambi,possibly diffused around northwest of Buang linkage,‘half’ (?),five,damb1246
 five-27,five-18,Patep,possibly diffused around northwest of Buang linkage,‘wing half’,five,pate1247
 five-28,five-18,Piu,possibly diffused around northwest of Buang linkage,‘wing half’,five,piuu1237
 five-29,five-19,Misim-Yamap,possibly shared change between Misim-Yamap/Iwal,‘wing half’,five,hote1245 yama1260
 five-30,five-19,Iwal,possibly shared change between Misim-Yamap/Iwal,‘wing half’,five,iwal1237
 five-31,five-20,Maisin,,‘wing one side’,five,mais1250
-five-32,five-21,Wa'ema,,"‘arm finished’ (< PMP *baRa ‘hand, arm’ ?)",five,waem1237
-five-33,five-22,Wedauic,,‘hand one’; ‘3+2’ (adhoc formulation?),five,weda1241 yaka1275
-five-34,five-23,Buhutu,possibly shared change among Buhutu/Bwanabwana/Suau chain,‘fingers’ ?,five,buhu1237
-five-35,five-23,Bwanabwana,possibly shared change among Buhutu/Bwanabwana/Suau chain,‘fingers’ ?,five,bwan1241
-five-36,five-23,Suau chain,possibly shared change among Buhutu/Bwanabwana/Suau chain,‘fingers’ ?,five,suau1242 sali1295
-five-37,five-24,Tigak,possibly shared change between Tigak/Nalik,‘part hand’ ?,five,tiga1245
-five-38,five-24,Nalik,possibly shared change between Tigak/Nalik,‘four five’ (< POC *minV- ‘hand’ ?),five,nali1244
+five-32,five-21,Wa'ema,,"‘arm finished’ (< PMP *baRa ‘hand, arm’?)",five,waem1237
+five-33,five-22,Wedauic,,‘hand one’; ‘3+2’ (ad hoc formulation?),five,weda1241 yaka1275
+five-34,five-23,Buhutu,possibly shared change among Buhutu/Bwanabwana/Suau chain,‘fingers’ (?),five,buhu1237
+five-35,five-23,Bwanabwana,possibly shared change among Buhutu/Bwanabwana/Suau chain,‘fingers’ (?),five,bwan1241
+five-36,five-23,Suau chain,possibly shared change among Buhutu/Bwanabwana/Suau chain,‘fingers’ (?),five,sali1295 suau1242
+five-37,five-24,Tigak,possibly shared change between Tigak/Nalik,‘part hand’ (?),five,tiga1245
+five-38,five-24,Nalik,possibly shared change between Tigak/Nalik,‘four five’ (< POC *minV- ‘hand’?),five,nali1244
 five-39,five-25,Barok,,unclear,five,baro1253
-five-40,five-26,West Santa Isabel,possibly shared change among West Santa Isabel/Kokota/Zazao,loan from Savosavo?,five,zaba1237 lagh1246
-five-41,five-26,Kokota,possibly shared change among West Santa Isabel/Kokota/Zazao,loan from Savosavo?,five,koko1269
-five-42,five-26,Zazao,possibly shared change among West Santa Isabel/Kokota/Zazao,loan from Savosavo?,five,zaza1245
-five-43,five-27,Ghari,possibly shared change between Ghari/Malango,loan from Lavukaleve / Bilua?,five,ghar1239
-five-44,five-27,Malango,possibly shared change between Ghari/Malango,loan from Lavukaleve / Bilua?,five,mala1484
-five-45,five-28,Amba,,‘one count’ ?,five,amba1266
+five-40,five-26,West Santa Isabel,possibly shared change among West Santa Isabel/Kokota/Zazao,loan from Savosavo (??),five,lagh1246 zaba1237
+five-41,five-26,Kokota,possibly shared change among West Santa Isabel/Kokota/Zazao,loan from Savosavo (??),five,koko1269
+five-42,five-26,Zazao,possibly shared change among West Santa Isabel/Kokota/Zazao,loan from Savosavo (??),five,zaza1245
+five-43,five-27,Ghari,possibly shared change between Ghari/Malango,loan from Lavukaleve / Bilua (?),five,ghar1239
+five-44,five-27,Malango,possibly shared change between Ghari/Malango,loan from Lavukaleve / Bilua (?),five,mala1484
+five-45,five-28,Amba,,‘one count’ (?),five,amba1266
 five-46,five-29,Southeast Ambrym,possibly loan from Loyalty Islands,‘hand one finished’,five,sout2859
-five-47,five-29,Loyalty Islands,,‘one hit’ ?; ‘finger one’ ?; ‘one finished’ ?,five,neng1238 iaai1238 dehu1237
+five-47,five-29,Loyalty Islands,possibly loan into Southeast Ambrym,‘one hit’ (?); ‘finger one’ (?); ‘one finished’ (?),five,dehu1237 iaai1238 neng1238
 five-48,five-30,Paicî,,‘one of our hands’,five,paic1239
 five-49,five-31,Tiri-Mea,"possibly shared change between Tiri-Mea/Zire (and, additionally, with Xârâcùù/Xaragure)",unclear,five,tiri1258
 five-50,five-31,Zire,"possibly shared change between Tiri-Mea/Zire (and, additionally, with Xârâcùù/Xaragure)",unclear,five,zire1240
@@ -53,78 +53,78 @@ five-51,five-31,Xârâcùù,"possibly shared change between Xârâcùù/Xaragure
 five-52,five-31,Xaragure,"possibly shared change between Xârâcùù/Xaragure (and, additionally, with Tiri-Mea/Zire)",‘one wing’,five,xara1243
 five-53,five-32,Extreme Southern New Caledonian,,‘one on top’; ‘one make thing’,five,dumb1241 nume1242
 five-54,five-33,Austral,,‘part’,five,aust1304
-hand-1,hand-01,Atayalic,,< PAN *qabaRa ‘shoulder’ ?,hand,taro1264 atay1247
-hand-2,hand-02,Tsouic,,< Proto-Tsouic *ramuCu ‘finger’ ? ‘hand’ ?,hand,tsou1248 saar1237 kana1286
+hand-1,hand-01,Atayalic,,< PAN *qabaRa ‘shoulder’ (?),hand,atay1247 taro1264
+hand-2,hand-02,Tsouic,,"< Proto-Tsouic *ramuCu ‘finger’ (?), ‘hand’ (?)",hand,kana1286 saar1237 tsou1248
 hand-3,hand-03,Ibatan,,unclear,hand,ibat1238
-hand-4,hand-04,Gaddang,,"< PMP *leŋen ‘forearm, lower arm’ ?",hand,gadd1244
-hand-5,hand-05,Kankanay,,"unclear; < PMP *leŋen ‘forearm, lower arm’ ?",hand,kank1243 nort2877 maen1235
-hand-6,hand-06,Ifugaw,,"unclear; < PMP *leŋen ‘forearm, lower arm’ ?",hand,amga1235 tuwa1243 mayo1262 bata1298
-hand-7,hand-07,Nuclear Southern Cordilleran,,unclear,hand,iwak1237 ibal1244 kara1487 kele1259 ahin1234
-hand-8,hand-08,South Mangyan,,"< PPH *dalukap ‘palm of the hand, sole of the foot’",hand,hanu1241 buhi1245 east2482 west2559
-hand-9,hand-09,Central and Southern Manobo,,< PAN *paNij ‘wing’ ?,hand,atam1240 mati1250 diba1242 agus1235 raja1254 obom1235 ilia1236 west2555 taga1272 cota1241 sara1327
-hand-10,hand-10,Central Subanen,,< PAN *paNij ‘wing’ ?,hand,cent2089
+hand-4,hand-04,Gaddang,,"< PMP *leŋen ‘forearm, lower arm’ (?)",hand,gadd1244
+hand-5,hand-05,Kankanay,,"unclear; < PMP *leŋen ‘forearm, lower arm’ (?)",hand,kank1243 maen1235 nort2877
+hand-6,hand-06,Ifugaw,,"unclear; < PMP *leŋen ‘forearm, lower arm’ (?)",hand,amga1235 bata1298 mayo1262 tuwa1243
+hand-7,hand-07,Nuclear Southern Cordilleran,,unclear,hand,ahin1234 ibal1244 iwak1237 kara1487 kele1259
+hand-8,hand-08,South Mangyan,,"< PPH *dalukap ‘palm of the hand, sole of the foot’",hand,buhi1245 east2482 hanu1241 west2559
+hand-9,hand-09,Central and Southern Manobo,,< PAN *paNij ‘wing’ (?),hand,agus1235 atam1240 cota1241 diba1242 ilia1236 mati1250 obom1235 raja1254 sara1327 taga1272 west2555
+hand-10,hand-10,Central Subanen,,< PAN *paNij ‘wing’ (?),hand,cent2089
 hand-11,hand-11,Gorontalo,,"< PAN *kuSkuS ‘claw, talon, fingernail’",hand,goro1259
-hand-12,hand-12,North Mangyan,,"< PPH *dalukap ‘palm of the hand, sole of the foot’",hand,tady1237 alan1249 iray1237
-hand-13,hand-13,Tboli-Blaan,,unclear,hand,tbol1240 koro1310 sara1326
-hand-14,hand-14,Tonsea,,"< PMP *leŋen ‘forearm, lower arm’ ?",hand,tons1240
-hand-15,hand-15,Northern Kaili-Wolio,,< PAN *paNij ‘wing’ ?,hand,topo1243 tomb1245 pamo1252 sedo1237 lind1248 moma1242 daak1235 ledo1238 unde1235 bara1371 umaa1242 saru1242
+hand-12,hand-12,North Mangyan,,"< PPH *dalukap ‘palm of the hand, sole of the foot’",hand,alan1249 iray1237 tady1237
+hand-13,hand-13,Tboli-Blaan,,unclear,hand,koro1310 sara1326 tbol1240
+hand-14,hand-14,Tonsea,,"< PMP *leŋen ‘forearm, lower arm’ (?)",hand,tons1240
+hand-15,hand-15,Northern Kaili-Wolio,,< PAN *paNij ‘wing’ (?),hand,bara1371 daak1235 ledo1238 lind1248 moma1242 pamo1252 saru1242 sedo1237 tomb1245 topo1243 umaa1242 unde1235
 hand-16,hand-16,Embaloh,possibly loan from Borneo languages,"< PMP *taŋan ‘finger, toe’",hand,emba1238
-hand-17,hand-16,Basap-Greater Barito,possibly shared Borneo change,"< PMP *taŋan ‘finger, toe’; *leŋen ‘forearm, lower arm’ ?; unclear",hand,basa1286 dusu1269 dusu1271 dusu1267 bush1250 sout2920 plat1254 anta1255 nort2890 tsim1257 tand1256 tesa1236 maha1309 masi1268 saka1291 bara1369 tano1246 paku1239 maan1238 lawa1257 tawo1243 tunj1244 ampa1239 inab1237 yaka1277 pang1291 sout2918 cent2092 bala1311 mapu1244 indo1317 west2560 sian1254 kohi1250 otda1235 baku1263 ngaj1237
-hand-18,hand-16,North Borneo Malayo-Polynesian,possibly shared Borneo change,"< PMP *baRa ‘hand, arm’ ?; < PMP *leŋen ‘forearm, lower arm’ ?; < PMP *taŋan ‘finger, toe’; unclear",hand,bolo1268 idaa1241 bong1289 klia1235 kima1244 kuij1237 kota1279 tobi1239 cent2100 sugu1243 mino1243 rung1259 labu1249 dump1242 seru1246 abai1240 tomb1244 lana1236 tamp1254 uppe1427 lotu1250 saba1267 brun1245 papa1268 tata1257 abai1241 kala1391 okol1241 selu1243 semb1240 gana1277 palu1253 timu1262 keni1249 book1241 taga1273 buru1304 nort3262 sout3241 bint1246 saba1265 leng1260 lund1271 kela1258 trin1273 main1275 umal1238 umal1239 waha1238 long1406 east2485 west2563 sebo1238 bela1260 kipu1237 tuto1241 lela1246 naro1251 west2564 cent2098 east2486 cent2101 daro1239 kano1244 sibu1258 seka1248 kaja1250 laha1253 puna1268 puna1267 sian1255 puna1278 ukit1237 buka1261 buki1248 puna1275 puna1266 saja1241 aohe1237 hovo1239 kere1285 moda1244 sega1243 muri1259 baha1257 kaya1325 bara1370 mend1267 busa1255 kaya1324 reja1241
-hand-19,hand-16,Malayo-Chamic,possibly shared Borneo change,"< PMP *taŋan ‘finger, toe’",hand,achi1257 haro1237 west2650 east2563 chru1239 sout3010 cacg1235 nort2994 tsat1238 jara1266 rade1240 biha1246 duan1242 haji1235 oldm1243 mala1480 kubu1239 coll1240 musi1241 teng1267 jaku1244 oran1259 bali1279 oran1258 mala1479 temu1239 urak1238 keda1251 patt1249 pera1256 beta1252 coco1260 sril1245 maka1305 baba1267 mala1482 kupa1239 papu1250 lara1260 ambo1250 band1353 mala1481 nort2828 gora1261 stan1306 indo1316 cent2053 kaur1269 jamb1236 keri1250 nege1240 peka1242 mina1268 lubu1241 bang1365 lonc1237 kota1275 buki1247 banj1239 bera1262 saba1263 baca1243 brun1242 ment1251 kend1254 keni1248 mual1241 sebe1242 remu1237 iban1264
-hand-20,hand-16,Land Dayak,possibly shared Borneo change,"< PMP *taŋan ‘finger, toe’; < PMP *baRa ‘hand, arm’ ?",hand,jang1257 sema1269 kemb1249 ribu1241 sang1339 buka1257 trin1271 baub1235 biat1246 beny1237 beka1241 rara1235 sara1329
+hand-17,hand-16,Basap-Greater Barito,possibly shared Borneo change,"< PMP *taŋan ‘finger, toe’; *leŋen ‘forearm, lower arm’ (?); unclear",hand,ampa1239 anta1255 baku1263 bala1311 bara1369 basa1286 bush1250 cent2092 dusu1267 dusu1269 dusu1271 inab1237 indo1317 kohi1250 lawa1257 maan1238 maha1309 mapu1244 masi1268 ngaj1237 nort2890 otda1235 paku1239 pang1291 plat1254 saka1291 sian1254 sout2918 sout2920 tand1256 tano1246 tawo1243 tesa1236 tsim1257 tunj1244 west2560 yaka1277
+hand-18,hand-16,North Borneo Malayo-Polynesian,possibly shared Borneo change,"< PMP *baRa ‘hand, arm’ (?); < PMP *leŋen ‘forearm, lower arm’ (?); < PMP *taŋan ‘finger, toe’; unclear",hand,abai1240 abai1241 aohe1237 baha1257 bara1370 bela1260 bint1246 bolo1268 bong1289 book1241 brun1245 buka1261 buki1248 buru1304 busa1255 cent2098 cent2100 cent2101 daro1239 dump1242 east2485 east2486 gana1277 hovo1239 idaa1241 kaja1250 kala1391 kano1244 kaya1324 kaya1325 kela1258 keni1249 kere1285 kima1244 kipu1237 klia1235 kota1279 kuij1237 labu1249 laha1253 lana1236 lela1246 leng1260 long1406 lotu1250 lund1271 main1275 mend1267 mino1243 moda1244 muri1259 naro1251 nort3262 okol1241 palu1253 papa1268 puna1266 puna1267 puna1268 puna1275 puna1278 reja1241 rung1259 saba1265 saba1267 saja1241 sebo1238 sega1243 seka1248 selu1243 semb1240 seru1246 sian1255 sibu1258 sout3241 sugu1243 taga1273 tamp1254 tata1257 timu1262 tobi1239 tomb1244 trin1273 tuto1241 ukit1237 umal1238 umal1239 uppe1427 waha1238 west2563 west2564
+hand-19,hand-16,Malayo-Chamic,possibly shared Borneo change,"< PMP *taŋan ‘finger, toe’",hand,achi1257 ambo1250 baba1267 baca1243 bali1279 band1353 bang1365 banj1239 bera1262 beta1252 biha1246 brun1242 buki1247 cacg1235 cent2053 chru1239 coco1260 coll1240 duan1242 east2563 gora1261 haji1235 haro1237 iban1264 indo1316 jaku1244 jamb1236 jara1266 kaur1269 keda1251 kend1254 keni1248 keri1250 kota1275 kubu1239 kupa1239 lara1260 lonc1237 lubu1241 maka1305 mala1479 mala1480 mala1481 mala1482 ment1251 mina1268 mual1241 musi1241 nege1240 nort2828 nort2994 oldm1243 oran1258 oran1259 papu1250 patt1249 peka1242 pera1256 rade1240 remu1237 saba1263 sebe1242 sout3010 sril1245 stan1306 temu1239 teng1267 tsat1238 urak1238 west2650
+hand-20,hand-16,Land Dayak,possibly shared Borneo change,"< PMP *taŋan ‘finger, toe’; < PMP *baRa ‘hand, arm’ (?)",hand,baub1235 beka1241 beny1237 biat1246 buka1257 jang1257 kemb1249 rara1235 ribu1241 sang1339 sara1329 sema1269 trin1271
 hand-21,hand-16,Moken-Moklen,possibly shared Borneo change,"< PMP *taŋan ‘finger, toe’",hand,moke1242 mokl1243
-hand-22,hand-16,Northwest Sumatra-Barrier Islands,possibly shared Borneo change,"< PMP *taŋan ‘finger, toe’; < PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ ?; unclear",hand,gayo1244 bata1288 bata1289 bata1290 bata1291 bata1294 bata1293 bata1292 sime1241 ment1249 siku1242 nias1242
+hand-22,hand-16,Northwest Sumatra-Barrier Islands,possibly shared Borneo change,"< PMP *taŋan ‘finger, toe’; < PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ (?); unclear",hand,bata1288 bata1289 bata1290 bata1291 bata1292 bata1293 bata1294 gayo1244 ment1249 nias1242 siku1242 sime1241
 hand-23,hand-16,Rejang,possibly shared Borneo change,"< PMP *taŋan ‘finger, toe’",hand,reja1240
 hand-24,hand-16,Nasal,possibly shared Borneo change,unclear,hand,nasa1239
 hand-25,hand-16,Enggano,possibly shared Borneo change,"< PMP *kapet ‘hold onto, cling to’",hand,engg1245
-hand-26,hand-16,Lampungic,possibly shared Borneo change,unclear,hand,lamp1242 kome1238 lamp1243
-hand-27,hand-16,Sundanese,possibly shared Borneo change,"< PMP *leŋen ‘forearm, lower arm’ ?",hand,sund1252
-hand-28,hand-16,Javanesic,possibly shared Borneo change,"< PMP *taŋan ‘finger, toe’",hand,kawi1241 osin1237 teng1272 java1254 cari1276 newc1244
+hand-26,hand-16,Lampungic,possibly shared Borneo change,unclear,hand,kome1238 lamp1242 lamp1243
+hand-27,hand-16,Sundanese,possibly shared Borneo change,"< PMP *leŋen ‘forearm, lower arm’ (?)",hand,sund1252
+hand-28,hand-16,Javanesic,possibly shared Borneo change,"< PMP *taŋan ‘finger, toe’",hand,cari1276 java1254 kawi1241 newc1244 osin1237 teng1272
 hand-29,hand-16,Maduresic,possibly shared Borneo change,"< PMP *taŋan ‘finger, toe’",hand,kang1289 nucl1460
 hand-30,hand-17,Hawu,,unclear,hand,sabu1255
 hand-31,hand-18,Rembong-Wangka,,unclear,hand,remb1250
 hand-32,hand-19,Tela-Masbuar,,unclear,hand,tela1241
-hand-33,hand-20,Buru (Indonesia),,"< PMP *baRa ‘hand, arm’ ?",hand,buru1303
-hand-34,hand-21,Alune,,< PAN *paNij ‘wing’ ?,hand,alun1238
-hand-35,hand-22,South Nuaulu,,"< PMP *baRa ‘hand, arm’ ?",hand,sout2895
+hand-33,hand-20,Buru (Indonesia),,"< PMP *baRa ‘hand, arm’ (?)",hand,buru1303
+hand-34,hand-21,Alune,,< PAN *paNij ‘wing’ (?),hand,alun1238
+hand-35,hand-22,South Nuaulu,,"< PMP *baRa ‘hand, arm’ (?)",hand,sout2895
 hand-36,hand-23,Uruangnirin,,"< PMP *taŋan ‘finger, toe’",hand,urua1244
 hand-37,hand-24,Irarutu,,"< PMP *baRa ‘hand, arm’",hand,irar1238
 hand-38,hand-25,Chamorro,,unclear,hand,cham1312
-hand-39,hand-26,South Halmahera-West New Guinea,,"< PMP *baRa ‘hand, arm’; < PAN *paNij ‘wing’; unclear; (also < < PAN *kamay ‘hand’ ?)",hand,waro1242 tand1253 morm1235 kuru1305 wabo1240 woii1237 ansu1237 mara1397 amba1265 wand1267 mung1269 pomm1237 papu1251 seru1244 busa1254 dusn1237 meos1237 roon1237 biak1248 yere1243 yaur1239 ires1239 asss1237 waig1244 biga1238 bata1295 made1253 gebe1237 gane1237 east2440 buli1255 sawa1247 pata1260 maba1278 matb1237 wauy1237 lege1241 kawe1240 maya1282 ware1253 pauw1243 yoke1238
+hand-39,hand-26,South Halmahera-West New Guinea,,"< PMP *baRa ‘hand, arm’; < PAN *paNij ‘wing’; unclear; (also < PAN *kamay ‘hand’?)",hand,amba1265 ansu1237 asss1237 bata1295 biak1248 biga1238 buli1255 busa1254 dusn1237 east2440 gane1237 gebe1237 ires1239 kawe1240 kuru1305 lege1241 maba1278 made1253 mara1397 matb1237 maya1282 meos1237 morm1235 mung1269 papu1251 pata1260 pauw1243 pomm1237 roon1237 sawa1247 seru1244 tand1253 wabo1240 waig1244 wand1267 ware1253 waro1242 wauy1237 woii1237 yaur1239 yere1243 yoke1238
 hand-40,hand-27,Yapesic,,"< PMP *baRa ‘hand, arm’",hand,ngul1236 yape1248
-hand-41,hand-28,Trukic,possibly shared Micronesian change (only Pohnpeian seems to reflect *qalima ‘hand’),< PAN *paNij ‘wing’ ?; unclear,hand,ulit1238 tobi1238 sons1242 wole1240 mapi1250 pulu1242 poll1238 mort1237 chuu1238 sata1237 caro1242 namo1247 paaf1237 tana1281
-hand-42,hand-28,Mokilese,possibly shared Micronesian change (only Pohnpeian seems to reflect *qalima ‘hand’),< PAN *paNij ‘wing’ ?,hand,moki1238
-hand-43,hand-28,Pingelapese,possibly shared Micronesian change (only Pohnpeian seems to reflect *qalima ‘hand’),< PAN *paNij ‘wing’ ?,hand,ping1243
-hand-44,hand-28,Marshallese,possibly shared Micronesian change (only Pohnpeian seems to reflect *qalima ‘hand’),< PAN *paNij ‘wing’ ?,hand,mars1254
-hand-45,hand-28,Gilbertese,possibly shared Micronesian change (only Pohnpeian seems to reflect *qalima ‘hand’),< PAN *paNij ‘wing’ ?,hand,gilb1244
-hand-46,hand-28,Kosraean-Nauruan,possibly shared Micronesian change (only Pohnpeian seems to reflect *qalima ‘hand’),< PAN *paNij ‘wing’ ?,hand,naur1243 kosr1238
-hand-47,hand-29,Western Admiralty Islands,,< PAN *paNij ‘wing’; < POC *minV- ‘hand’ ?,hand,wuvu1239 seim1238 kani1282 kani1283
-hand-48,hand-30,Tulu-Bohuai,,"< PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ ?",hand,tulu1259
-hand-49,hand-31,Manus Koro,,"< PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ ?",hand,bowa1234
-hand-50,hand-32,Pak-Tong,possibly loan from South-East Admiralty,< POC *minV- ‘hand’ ?,hand,pakt1239
-hand-51,hand-32,South-East Admiralty,,< POC *minV- ‘hand’ ?,hand,lenk1247 naun1237 penc1239 louu1245 balu1257
-hand-52,hand-33,Jayapura Bay,,unclear,hand,toba1266 kayu1243 ormu1248
-hand-53,hand-34,Siau,,"< PMP *baRa ‘hand, arm’ ?; < PWOC *baqe ‘wing, (?) hand’; unclear",hand,ulau1237 tuml1238 kapp1237 sera1260 arop1242 siss1243 malo1245
-hand-54,hand-35,Kairiruic linkage,,unclear,hand,kair1263 tere1276 kaie1237
+hand-41,hand-28,Trukic,possibly shared Micronesian change (only Pohnpeian seems to reflect *qalima ‘hand’),< PAN *paNij ‘wing’ (?); unclear,hand,caro1242 chuu1238 mapi1250 mort1237 namo1247 paaf1237 poll1238 pulu1242 sata1237 sons1242 tana1281 tobi1238 ulit1238 wole1240
+hand-42,hand-28,Mokilese,possibly shared Micronesian change (only Pohnpeian seems to reflect *qalima ‘hand’),< PAN *paNij ‘wing’ (?),hand,moki1238
+hand-43,hand-28,Pingelapese,possibly shared Micronesian change (only Pohnpeian seems to reflect *qalima ‘hand’),< PAN *paNij ‘wing’ (?),hand,ping1243
+hand-44,hand-28,Marshallese,possibly shared Micronesian change (only Pohnpeian seems to reflect *qalima ‘hand’),< PAN *paNij ‘wing’ (?),hand,mars1254
+hand-45,hand-28,Gilbertese,possibly shared Micronesian change (only Pohnpeian seems to reflect *qalima ‘hand’),< PAN *paNij ‘wing’ (?),hand,gilb1244
+hand-46,hand-28,Kosraean-Nauruan,possibly shared Micronesian change (only Pohnpeian seems to reflect *qalima ‘hand’),< PAN *paNij ‘wing’ (?),hand,kosr1238 naur1243
+hand-47,hand-29,Western Admiralty Islands,,< PAN *paNij ‘wing’; < POC *minV- ‘hand’ (?),hand,kani1282 kani1283 seim1238 wuvu1239
+hand-48,hand-30,Tulu-Bohuai,,"< PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ (?)",hand,tulu1259
+hand-49,hand-31,Manus Koro,,"< PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ (?)",hand,bowa1234
+hand-50,hand-32,Pak-Tong,possibly loan from South-East Admiralty,< POC *minV- ‘hand’ (?),hand,pakt1239
+hand-51,hand-32,South-East Admiralty,possibly loan into Pak-Tong,< POC *minV- ‘hand’ (?),hand,balu1257 lenk1247 louu1245 naun1237 penc1239
+hand-52,hand-33,Jayapura Bay,,unclear,hand,kayu1243 ormu1248 toba1266
+hand-53,hand-34,Siau,,"< PMP *baRa ‘hand, arm’ (?); < PWOC *baqe ‘wing, (?) hand’; unclear",hand,arop1242 kapp1237 malo1245 sera1260 siss1243 tuml1238 ulau1237
+hand-54,hand-35,Kairiruic linkage,,unclear,hand,kaie1237 kair1263 tere1276
 hand-55,hand-36,Mindiri,,unclear,hand,mind1255
 hand-56,hand-37,Takia,,< PAN *paNij ‘wing’,hand,taki1248
-hand-57,hand-38,Korap linkage,possibly shared change among Korap linkage/Sio/Maleu-Kilenge,"< PAN *paNij ‘wing’; < PWOC *baqe ‘wing, (?) hand’",hand,arop1243 karn1252 murp1234 mala1487
-hand-58,hand-38,Sio,possibly shared change among Korap linkage/Sio/Maleu-Kilenge,"< PWOC *baqe ‘wing, (?) hand’ ?",hand,sioo1240
-hand-59,hand-38,Maleu-Kilenge,possibly shared change among Korap linkage/Sio/Maleu-Kilenge,"< PWOC *baqe ‘wing, (?) hand’ ?",hand,male1289
-hand-60,hand-39,Lamogai,possibly shared Arawe-Pasismanua change (only Akolet seems to reflect *qalima ‘hand’),< POC *minV- ‘hand’ ?,hand,lamo1244
-hand-61,hand-39,Avau,possibly shared Arawe-Pasismanua change (only Akolet seems to reflect *qalima ‘hand’),< POC *minV- ‘hand’ ?,hand,avau1237
-hand-62,hand-39,Lesing-Gelimi,possibly shared Arawe-Pasismanua change (only Akolet seems to reflect *qalima ‘hand’),< POC *minV- ‘hand’ ?,hand,lesi1239
-hand-63,hand-39,West Arawe,possibly shared Arawe-Pasismanua change (only Akolet seems to reflect *qalima ‘hand’),< POC *minV- ‘hand’ ?,hand,apal1255 gimi1242 aikl1237 solo1258
-hand-64,hand-39,Bebeli-Mangseng,possibly shared Arawe-Pasismanua change (only Akolet seems to reflect *qalima ‘hand’),< POC *minV- ‘hand’ ?,hand,mang1403 bebe1252
-hand-65,hand-39,Pasismanua,possibly shared Arawe-Pasismanua change (only Akolet seems to reflect *qalima ‘hand’),"< PMP *baRa ‘hand, arm’ ??",hand,miuu1237 aigh1235 seng1281 karo1298 kaul1240
-hand-66,hand-40,Mengenic,,< PAN *paNij ‘wing’ ?; (also < PAN *kamay ‘hand’ ?),hand,lote1237 mamu1254 meng1267
+hand-57,hand-38,Korap linkage,possibly shared change among Korap linkage/Sio/Maleu-Kilenge,"< PAN *paNij ‘wing’; < PWOC *baqe ‘wing, (?) hand’",hand,arop1243 karn1252 mala1487 murp1234
+hand-58,hand-38,Sio,possibly shared change among Korap linkage/Sio/Maleu-Kilenge,"< PWOC *baqe ‘wing, (?) hand’ (?)",hand,sioo1240
+hand-59,hand-38,Maleu-Kilenge,possibly shared change among Korap linkage/Sio/Maleu-Kilenge,"< PWOC *baqe ‘wing, (?) hand’ (?)",hand,male1289
+hand-60,hand-39,Lamogai,possibly shared Arawe-Pasismanua change (only Akolet seems to reflect *qalima ‘hand’),< POC *minV- ‘hand’ (?),hand,lamo1244
+hand-61,hand-39,Avau,possibly shared Arawe-Pasismanua change (only Akolet seems to reflect *qalima ‘hand’),< POC *minV- ‘hand’ (?),hand,avau1237
+hand-62,hand-39,Lesing-Gelimi,possibly shared Arawe-Pasismanua change (only Akolet seems to reflect *qalima ‘hand’),< POC *minV- ‘hand’ (?),hand,lesi1239
+hand-63,hand-39,West Arawe,possibly shared Arawe-Pasismanua change (only Akolet seems to reflect *qalima ‘hand’),< POC *minV- ‘hand’ (?),hand,aikl1237 apal1255 gimi1242 solo1258
+hand-64,hand-39,Bebeli-Mangseng,possibly shared Arawe-Pasismanua change (only Akolet seems to reflect *qalima ‘hand’),< POC *minV- ‘hand’ (?),hand,bebe1252 mang1403
+hand-65,hand-39,Pasismanua,possibly shared Arawe-Pasismanua change (only Akolet seems to reflect *qalima ‘hand’),"< PMP *baRa ‘hand, arm’ (??)",hand,aigh1235 karo1298 kaul1240 miuu1237 seng1281
+hand-66,hand-40,Mengenic,,< PAN *paNij ‘wing’ (?); (also < PAN *kamay ‘hand’?),hand,lote1237 mamu1254 meng1267
 hand-67,hand-41,Bariai,,"< PWOC *baqe ‘wing, (?) hand’",hand,bari1286
 hand-68,hand-42,Aribwatsa,possibly shared Busu change (only Busu seems to reflect *qalima ‘hand’); part of larger Markham areal trend?,"< PWOC *baqe ‘wing, (?) hand’",hand,arib1241
 hand-69,hand-42,Aribwaung,possibly shared Busu change (only Busu seems to reflect *qalima ‘hand’); part of larger Markham areal trend?,"< PWOC *baqe ‘wing, (?) hand’",hand,arib1240
-hand-70,hand-42,Musom-Sirak,possibly shared Busu change (only Busu seems to reflect *qalima ‘hand’); part of larger Markham areal trend?,"< PWOC *baqe ‘wing, (?) hand’",hand,nafi1237 muso1238
+hand-70,hand-42,Musom-Sirak,possibly shared Busu change (only Busu seems to reflect *qalima ‘hand’); part of larger Markham areal trend?,"< PWOC *baqe ‘wing, (?) hand’",hand,muso1238 nafi1237
 hand-71,hand-42,Wampar,possibly shared Busu change (only Busu seems to reflect *qalima ‘hand’); part of larger Markham areal trend?,"< PWOC *baqe ‘wing, (?) hand’",hand,wamp1247
-hand-72,hand-42,Upper Markham,possibly part of larger Markham areal trend,"< PWOC *baqe ‘wing, (?) hand’",hand,adze1240 sara1323 suku1264 wamp1248 mari1429
+hand-72,hand-42,Upper Markham,possibly part of larger Markham areal trend,"< PWOC *baqe ‘wing, (?) hand’",hand,adze1240 mari1429 sara1323 suku1264 wamp1248
 hand-73,hand-42,Watut,possibly part of larger Markham areal trend,"< PWOC *baqe ‘wing, (?) hand’",hand,midd1327 nort2857 sout2877
 hand-74,hand-43,Bugawac,possibly shared change between Bugawac/Kela,unclear,hand,buga1250
 hand-75,hand-43,Kela (Papua New Guinea),possibly shared change between Bugawac/Kela,unclear,hand,kela1255
@@ -135,56 +135,56 @@ hand-79,hand-47,Patep,,"< PWOC *baqe ‘wing, (?) hand’",hand,pate1247
 hand-80,hand-48,Misim-Yamap,possibly shared change between Misim-Yamap/Iwal,"< PWOC *baqe ‘wing, (?) hand’",hand,hote1245 yama1260
 hand-81,hand-48,Iwal,possibly shared change between Misim-Yamap/Iwal,"< PWOC *baqe ‘wing, (?) hand’",hand,iwal1237
 hand-82,hand-49,Maisin,,"< PWOC *baqe ‘wing, (?) hand’",hand,mais1250
-hand-83,hand-50,Wedau,,"< PMP *baRa ‘hand, arm’ ?",hand,weda1241
+hand-83,hand-50,Wedau,,"< PMP *baRa ‘hand, arm’ (?)",hand,weda1241
 hand-84,hand-51,Tungag,possibly shared change among Tungag/Tigak/Nalik,"< PAN *kuSkuS ‘claw, talon, fingernail’",hand,tung1290
-hand-85,hand-51,Tigak,possibly shared change among Tungag/Tigak/Nalik,< POC *minV- ‘hand’ ?,hand,tiga1245
-hand-86,hand-51,Nalik,possibly shared change among Tungag/Tigak/Nalik,< POC *minV- ‘hand’ ?,hand,nali1244
-hand-87,hand-52,Madak linkage,,"< POC *minV- ‘hand’ ??; < PMP *leŋen ‘forearm, lower arm’ ?; unclear",hand,mada1285 lava1239 baro1253
-hand-88,hand-53,Label-Bilur,,"< PAN *kuSkuS ‘claw, talon, fingernail’",hand,labe1239 bilu1244
+hand-85,hand-51,Tigak,possibly shared change among Tungag/Tigak/Nalik,< POC *minV- ‘hand’ (?),hand,tiga1245
+hand-86,hand-51,Nalik,possibly shared change among Tungag/Tigak/Nalik,< POC *minV- ‘hand’ (?),hand,nali1244
+hand-87,hand-52,Madak linkage,,"< POC *minV- ‘hand’ (??); < PMP *leŋen ‘forearm, lower arm’ (?); unclear",hand,baro1253 lava1239 mada1285
+hand-88,hand-53,Label-Bilur,,"< PAN *kuSkuS ‘claw, talon, fingernail’",hand,bilu1244 labe1239
 hand-89,hand-54,Konomala,,"< PAN *kuSkuS ‘claw, talon, fingernail’",hand,kono1269
-hand-90,hand-55,Solos,,< POC *minV- ‘hand’ ?,hand,solo1257
+hand-90,hand-55,Solos,,< POC *minV- ‘hand’ (?),hand,solo1257
 hand-91,hand-56,Torau,possibly shared change between Torau/Uruava,"< PMP *baRa ‘hand, arm’",hand,tora1259
-hand-92,hand-56,Uruava,possibly shared change between Torau/Uruava,"< PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ ?",hand,urua1242
-hand-93,hand-57,Tinputzic,possibly diffused among Tinputzic/East Choiseul/Varisi,unclear,hand,teop1238 haho1237 tinp1237
-hand-94,hand-57,East Choiseul,possibly diffused among Tinputzic/East Choiseul/Varisi,unclear,hand,riri1237 baba1268 sisi1250
+hand-92,hand-56,Uruava,possibly shared change between Torau/Uruava,"< PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ (?)",hand,urua1242
+hand-93,hand-57,Tinputzic,possibly diffused among Tinputzic/East Choiseul/Varisi,unclear,hand,haho1237 teop1238 tinp1237
+hand-94,hand-57,East Choiseul,possibly diffused among Tinputzic/East Choiseul/Varisi,unclear,hand,baba1268 riri1237 sisi1250
 hand-95,hand-57,Varisi,possibly diffused among Tinputzic/East Choiseul/Varisi,unclear,hand,vari1239
-hand-96,hand-58,Hoava-Kusaghe,,"< PMP *leŋen ‘forearm, lower arm’ ?",hand,kusa1251 hoav1238
-hand-97,hand-59,Ughele,,"< PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ ?",hand,ughe1237
+hand-96,hand-58,Hoava-Kusaghe,,"< PMP *leŋen ‘forearm, lower arm’ (?)",hand,hoav1238 kusa1251
+hand-97,hand-59,Ughele,,"< PMP *kapak ‘beat the wings, flap the wings; sound of flapping’ (?)",hand,ughe1237
 hand-98,hand-60,Kazukuru,,unclear,hand,kazu1245
 hand-99,hand-61,Duke,,unclear,hand,duke1237
 hand-100,hand-62,Laghu,,unclear,hand,lagh1246
-hand-101,hand-63,Gula'alaa,possibly shared with North Malaitan,"< PMP *kapak ‘beat the wings, flap the wings; sound of flapping’",hand,gula1270
-hand-102,hand-63,North Malaitan,,"< PMP *kapak ‘beat the wings, flap the wings; sound of flapping’",hand,fata1245 lauu1247 toab1237 bael1237 baeg1237
-hand-103,hand-65,Southern Malaita,,unclear,hand,area1240 oroh1237 dori1246
-hand-104,hand-66,Utupua,,unclear,hand,tani1255 asum1237 amba1266
+hand-101,hand-63,Gula'alaa,possibly shared change between Gula'alaa/North Malaitan,"< PMP *kapak ‘beat the wings, flap the wings; sound of flapping’",hand,gula1270
+hand-102,hand-63,North Malaitan,possibly shared change between Gula'alaa/North Malaitan,"< PMP *kapak ‘beat the wings, flap the wings; sound of flapping’",hand,baeg1237 bael1237 fata1245 lauu1247 toab1237
+hand-103,hand-64,Southern Malaita,,unclear,hand,area1240 dori1246 oroh1237
+hand-104,hand-65,Utupua,,unclear,hand,amba1266 asum1237 tani1255
 hand-105,hand-66,Lehali,possibly shared change among Lehali/Lehalurup/Mwotlap/Mota/Lemerig-Veraa/Vurës,< PAN *paNij ‘wing’,hand,leha1243
 hand-106,hand-66,Lehalurup,possibly shared change among Lehali/Lehalurup/Mwotlap/Mota/Lemerig-Veraa/Vurës,< PAN *paNij ‘wing’,hand,leha1244
 hand-107,hand-66,Mwotlap,possibly shared change among Lehali/Lehalurup/Mwotlap/Mota/Lemerig-Veraa/Vurës,< PAN *paNij ‘wing’,hand,motl1237
 hand-108,hand-66,Mota,possibly shared change among Lehali/Lehalurup/Mwotlap/Mota/Lemerig-Veraa/Vurës,< PAN *paNij ‘wing’,hand,mota1237
-hand-109,hand-66,Lemerig-Veraa,possibly shared change among Lehali/Lehalurup/Mwotlap/Mota/Lemerig-Veraa/Vurës,< PAN *paNij ‘wing’,hand,vera1241 leme1238
+hand-109,hand-66,Lemerig-Veraa,possibly shared change among Lehali/Lehalurup/Mwotlap/Mota/Lemerig-Veraa/Vurës,< PAN *paNij ‘wing’,hand,leme1238 vera1241
 hand-110,hand-66,Vurës,possibly shared change among Lehali/Lehalurup/Mwotlap/Mota/Lemerig-Veraa/Vurës,< PAN *paNij ‘wing’,hand,vure1239
 hand-111,hand-66,Koro-Olrat,possibly shared with Lehali/Lehalurup/Mwotlap/Mota/Lemerig-Veraa/Vurës,< PAN *paNij ‘wing’,hand,koro1308
 hand-112,hand-67,West Ambae,,"< PNCV *bisu ‘finger, toe, nail’ < POC *bwisi ‘finger (?)’",hand,west2513
-hand-113,hand-68,Shark Bayic,,"< PMP *baRa ‘hand, arm’ ??",hand,lore1244 shar1244
+hand-113,hand-68,Shark Bayic,,"< PMP *baRa ‘hand, arm’ (??)",hand,lore1244 shar1244
 hand-114,hand-69,Mafea,possibly shared East Santo change (only Tutuba seems to reflect *qalima ‘hand’),"< PMP *baRa ‘hand, arm’",hand,mafe1237
-hand-115,hand-69,Southeast Santo,possibly shared East Santo change (only Tutuba seems to reflect *qalima ‘hand’),"< PMP *baRa ‘hand, arm’ ??",hand,tamb1253 polo1242 butm1237
-hand-116,hand-70,Aore,,"< PNCV *bisu ‘finger, toe, nail’ < POC *bwisi ‘finger (?)’ ?",hand,aore1237
-hand-117,hand-71,Mores,,"< PAN *kuSkuS ‘claw, talon, fingernail’ ?",hand,rori1237
+hand-115,hand-69,Southeast Santo,possibly shared East Santo change (only Tutuba seems to reflect *qalima ‘hand’),"< PMP *baRa ‘hand, arm’ (??)",hand,butm1237 polo1242 tamb1253
+hand-116,hand-70,Aore,,"< PNCV *bisu ‘finger, toe, nail’ < POC *bwisi ‘finger (?)’ (?)",hand,aore1237
+hand-117,hand-71,Mores,,"< PAN *kuSkuS ‘claw, talon, fingernail’ (?)",hand,rori1237
 hand-118,hand-72,Malua-Tepërav,"possibly shared Malekula change (only Vao-Vovo, Big Nambas, and Maragus seem to reflect *qalima ‘hand’)","< PMP *baRa ‘hand, arm’",hand,malu1245
 hand-119,hand-72,Mpotovoro,"possibly shared Malekula change (only Vao-Vovo, Big Nambas, and Maragus seem to reflect *qalima ‘hand’)","< PMP *baRa ‘hand, arm’",hand,mpot1241
 hand-120,hand-72,Nese,"possibly shared Malekula change (only Vao-Vovo, Big Nambas, and Maragus seem to reflect *qalima ‘hand’)","< PMP *baRa ‘hand, arm’",hand,nese1235
-hand-121,hand-72,Central-Western Malakula,"possibly shared Malekula change (only Vao-Vovo, Big Nambas, and Maragus seem to reflect *qalima ‘hand’)","< PMP *baRa ‘hand, arm’",hand,lare1249 vinm1237 litz1237 ling1265
+hand-121,hand-72,Central-Western Malakula,"possibly shared Malekula change (only Vao-Vovo, Big Nambas, and Maragus seem to reflect *qalima ‘hand’)","< PMP *baRa ‘hand, arm’",hand,lare1249 ling1265 litz1237 vinm1237
 hand-122,hand-72,Tirax,"possibly shared Malekula change (only Vao-Vovo, Big Nambas, and Maragus seem to reflect *qalima ‘hand’)","< PMP *baRa ‘hand, arm’",hand,maee1241
-hand-123,hand-72,Southwestern Malakula,"possibly shared Malekula change (only Vao-Vovo, Big Nambas, and Maragus seem to reflect *qalima ‘hand’)","< PMP *baRa ‘hand, arm’",hand,navw1234 katb1237 nasa1240 dixo1238 lete1241 niti1249 vivt1234 sout2857 malf1237
-hand-124,hand-72,Ninde-Nati,"possibly shared Malekula change (only Vao-Vovo, Big Nambas, and Maragus seem to reflect *qalima ‘hand’)","< PMP *baRa ‘hand, arm’",hand,nati1244 labo1244
-hand-125,hand-72,Eastern Malakula linkage,"possibly shared Malekula change (only Vao-Vovo, Big Nambas, and Maragus seem to reflect *qalima ‘hand’)","< PMP *baRa ‘hand, arm’",hand,urip1239 aulu1238 burm1263 rere1240 unua1237 bwen1239 mask1242 nasv1234 nisv1234 avok1244 port1285 axam1237
+hand-123,hand-72,Southwestern Malakula,"possibly shared Malekula change (only Vao-Vovo, Big Nambas, and Maragus seem to reflect *qalima ‘hand’)","< PMP *baRa ‘hand, arm’",hand,dixo1238 katb1237 lete1241 malf1237 nasa1240 navw1234 niti1249 sout2857 vivt1234
+hand-124,hand-72,Ninde-Nati,"possibly shared Malekula change (only Vao-Vovo, Big Nambas, and Maragus seem to reflect *qalima ‘hand’)","< PMP *baRa ‘hand, arm’",hand,labo1244 nati1244
+hand-125,hand-72,Eastern Malakula linkage,"possibly shared Malekula change (only Vao-Vovo, Big Nambas, and Maragus seem to reflect *qalima ‘hand’)","< PMP *baRa ‘hand, arm’",hand,aulu1238 avok1244 axam1237 burm1263 bwen1239 mask1242 nasv1234 nisv1234 port1285 rere1240 unua1237 urip1239
 hand-126,hand-73,Seke-Sowa,,unclear,hand,seke1241 sowa1244
 hand-127,hand-74,Sa,,"< PMP *baRa ‘hand, arm’",hand,saaa1241
-hand-128,hand-75,Ambrym,,"< PMP *baRa ‘hand, arm’",hand,nort2839 sout2859 lonw1238 orko1234 dalk1234 port1286 daka1243
-hand-129,hand-75,Paama,possibly shared with Ambrym,,hand,paam1238
-hand-130,hand-76,Efate,,unclear,hand,eton1255 sout2856 nort2836 lele1267
-hand-131,hand-77,Erromanga,,"< PMP *leŋen ‘forearm, lower arm’ ?",hand,urav1235 ifoo1237 siee1239
-hand-132,hand-77,Kwamera,possibly loan from Erromanga,"< PMP *leŋen ‘forearm, lower arm’ ?",hand,kwam1252
+hand-128,hand-75,Ambrym,possibly shared change between Ambrym/Paama,"< PMP *baRa ‘hand, arm’",hand,daka1243 dalk1234 lonw1238 nort2839 orko1234 port1286 sout2859
+hand-129,hand-75,Paama,possibly shared change between Ambrym/Paama,"< PMP *baRa ‘hand, arm’",hand,paam1238
+hand-130,hand-76,Efate,,unclear,hand,eton1255 lele1267 nort2836 sout2856
+hand-131,hand-77,Erromanga,possibly loaned into Kwamera,"< PMP *leŋen ‘forearm, lower arm’ (?)",hand,ifoo1237 siee1239 urav1235
+hand-132,hand-77,Kwamera,possibly loan from Erromanga,"< PMP *leŋen ‘forearm, lower arm’ (?)",hand,kwam1252
 hand-133,hand-78,Iaai,,< PAN *paNij ‘wing’,hand,iaai1238
-hand-134,hand-79,Mainland New Caledonian,,"< PAN *kuSkuS ‘claw, talon, fingernail’ ?; < PAN *paNij ‘wing’; unclear",hand,nyal1254 bala1316 caac1237 yuag1237 kuma1276 jawe1237 pwaa1237 pwap1237 pije1237 fwai1237 nemi1240 waam1236 hmwa1243 vama1243 have1241 bwat1240 haek1239 paic1239 cemu1238 orow1242 neku1237 zire1240 tiri1258 xara1243 xara1244 arho1237 arha1237 ajie1238 dumb1241 nume1242
-hand-135,hand-80,Rotuman,,< PAN *paNij ‘wing’ ?,hand,rotu1241
+hand-134,hand-79,Mainland New Caledonian,,"< PAN *kuSkuS ‘claw, talon, fingernail’ (?); < PAN *paNij ‘wing’; unclear",hand,ajie1238 arha1237 arho1237 bala1316 bwat1240 caac1237 cemu1238 dumb1241 fwai1237 haek1239 have1241 hmwa1243 jawe1237 kuma1276 neku1237 nemi1240 nume1242 nyal1254 orow1242 paic1239 pije1237 pwaa1237 pwap1237 tiri1258 vama1243 waam1236 xara1243 xara1244 yuag1237 zire1240
+hand-135,hand-80,Rotuman,,< PAN *paNij ‘wing’ (?),hand,rotu1241

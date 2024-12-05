@@ -584,5 +584,5 @@ class Dataset(BaseDataset):
                     Subgroup=row['Subgroup'],
                     Comment=row['Comment'],
                     Source=row['Sources_of_‘{}’'.format(concept)],
-                    Language_IDs=[k for k, v in lineages.items() if gl.id in v] if gl.id not in lineages else [gl.id],
+                    Language_IDs=sorted([k for k, v in lineages.items() if gl.id in v] if gl.id not in lineages else [gl.id]),
                 ))
