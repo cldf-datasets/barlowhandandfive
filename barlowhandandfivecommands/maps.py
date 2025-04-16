@@ -21,7 +21,7 @@ def plot(format, pid, colors, mdpath, mapdir):
     ]
     if format == 'html':
         cmd.extend(['--with-layers', '--value-template', '__{code}__'])
-        cmd.extend(['--markersize', '12'])
+        cmd.extend(['--markersize', '14'])
     else:  # format == 'svg'
         cmd.extend([
             '--format', 'svg',
@@ -78,7 +78,8 @@ The maps below have been created using the `cldfviz.map` command from the [`cldf
         plotargs = list(plotargs)
         if pid == 'colex':
             plotargs[1] = {
-                k: ['circle' if 'distinct' in k else ('diamond' if 'lexif' in k else 'square'), v]
+                k: ['circle' if 'distinct' in k else
+                    ('triangle_up' if 'partial' in k else ('diamond' if 'lexif' in k else 'square')), v]
                 for k, v in plotargs[1].items()
             }
         elif pid == 'dist':
