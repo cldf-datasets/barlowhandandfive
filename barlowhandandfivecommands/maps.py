@@ -73,6 +73,32 @@ The maps below have been created using the `cldfviz.map` command from the [`cldf
             pid, {c['ID']: c['color'] for c in codes}, cldf.directory / cldf.filename, mapdir)
         p = plot('svg', *plotargs)
         readme.append('\n![{}]({})\n'.format(pid, p.name))
+        # Use shapes for HTML maps!
+        plotargs = list(plotargs)
+        if pid == 'colex':
+            plotargs[1] = {
+                k: ['circle' if 'distinct' in k else ('diamond' if 'lexif' in k else 'square'), v]
+                for k, v in plotargs[1].items()
+            }
+        elif pid == 'dist':
+            plotargs[1] = {
+                k: ['circle' if 'lexical' in k else 'diamond', v]
+                for k, v in plotargs[1].items()
+            }
+        elif pid == 'five_replacement':
+            plotargs[1] = {
+                k: ['triangle_up' if 'addition' in k else
+                    ('triangle_down' if 'part' in k or 'count' in k else
+                     ('square' if 'other' in k else ('diamond' if 'tally' in k else 'circle'))), v]
+                for k, v in plotargs[1].items()
+            }
+        elif pid == 'hand_replacement':
+            plotargs[1] = {
+                k: ['triangle_up' if 'arm' in k else
+                    ('triangle_down' if 'wing' in k else
+                     ('square' if 'other' in k else ('diamond' if 'hold' in k else 'circle'))), v]
+                for k, v in plotargs[1].items()
+            }
         p = plot('html', *plotargs)
         html = p.read_text(encoding='utf8')
         for c in codes:
