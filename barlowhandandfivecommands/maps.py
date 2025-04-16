@@ -8,10 +8,6 @@ import subprocess
 from cldfbench_barlowhandandfive import Dataset
 
 
-def register(parser):
-    parser.add_argument('--format', choices=['html', 'svg'], default='svg')
-
-
 def plot(format, pid, colors, mdpath, mapdir):
     o = mapdir / '{}.{}'.format(pid, format)
     cmd = [
@@ -21,9 +17,11 @@ def plot(format, pid, colors, mdpath, mapdir):
         '--colormaps',
         json.dumps(colors),
         '--pacific-centered',
+        '--no-open',
     ]
     if format == 'html':
-        cmd.append('--with-layers')
+        cmd.extend(['--with-layers', '--value-template', '__{code}__'])
+        cmd.extend(['--markersize', '12'])
     else:  # format == 'svg'
         cmd.extend([
             '--format', 'svg',
@@ -53,29 +51,131 @@ def run(args):
         cid: len(list(rows)) for cid, rows in itertools.groupby(
             sorted(cldf.iter_rows('ValueTable'), key=lambda r: r['Code_ID'] or 'xxxx'),
             lambda r: r['Code_ID'])}
-    readme = ['# Maps\n']
-    for pid, codes in sorted(parameters.items(), key=lambda t: pids.index(t[0])):
-        readme.append('## {}\n'.format(cldf.get_row('ParameterTable', pid)['Name'].replace('_', ' ')))
-        readme.append('&nbsp; | Description | Count')
-        readme.append('--- | --- | ---:')
-        for c in codes:
-            readme.append('$${{\color{{{}}}⏺}}$$ | {} | {}'.format(
-                c['color'], c['Name'], value_count[c['ID']]))
-        readme.append('&nbsp; | &nbsp; | **{}**'.format(sum(value_count[c['ID']] for c in codes)))
+    readme = ["""\
+# Maps
 
-        p = plot(
-            args.format,
-            pid,
-            {c['ID']: c['color'] for c in codes},
-            cldf.directory / cldf.filename,
-            mapdir)
-        p = plot(
-            'html',
-            pid,
-            {c['ID']: c['color'] for c in codes},
-            cldf.directory / cldf.filename,
-            mapdir)
+The maps below have been created using the `cldfviz.map` command from the [`cldfviz` package](https://pypi.org/project/cldfviz/).
+
+"""]
+    for pid, codes in sorted(parameters.items(), key=lambda t: pids.index(t[0])):
+        if pid == 'num_syst':
+            continue
+        readme.append('## {}\n'.format(
+            cldf.get_row('ParameterTable', pid)['Name'].replace('_', ' ')))
+        readme.append(cldf.get_row('ParameterTable', pid)['Description'] or '')
+        readme.append('\n&nbsp; | Value | Count | Description')
+        readme.append('--- | --- | ---:| ---')
+        for c in codes:
+            readme.append('$${{\color{{{}}}⏺}}$$ | {} | {} | {}'.format(
+                c['color'], c['Name'], value_count[c['ID']], c['Description']))
+        readme.append('&nbsp; | &nbsp; | **{}** | &nbsp;'.format(sum(value_count[c['ID']] for c in codes)))
+
+        plotargs = (
+            pid, {c['ID']: c['color'] for c in codes}, cldf.directory / cldf.filename, mapdir)
+        p = plot('svg', *plotargs)
         readme.append('\n![{}]({})\n'.format(pid, p.name))
+        # Use shapes for HTML maps!
+        plotargs = list(plotargs)
+        if pid == 'colex':
+            plotargs[1] = {
+                k: ['circle' if 'distinct' in k else ('diamond' if 'lexif' in k else 'square'), v]
+                for k, v in plotargs[1].items()
+            }
+        elif pid == 'dist':
+            plotargs[1] = {
+                k: ['circle' if 'lexical' in k else 'diamond', v]
+                for k, v in plotargs[1].items()
+            }
+        elif pid == 'five_replacement':
+            plotargs[1] = {
+                k: ['triangle_up' if 'addition' in k else
+                    ('triangle_down' if 'part' in k or 'count' in k else
+                     ('square' if 'other' in k else ('diamond' if 'tally' in k else 'circle'))), v]
+                for k, v in plotargs[1].items()
+            }
+        elif pid == 'hand_replacement':
+            plotargs[1] = {
+                k: ['triangle_up' if 'arm' in k else
+                    ('triangle_down' if 'wing' in k else
+                     ('square' if 'other' in k else ('diamond' if 'hold' in k else 'circle'))), v]
+                for k, v in plotargs[1].items()
+            }
+        p = plot('html', *plotargs)
+        html = p.read_text(encoding='utf8')
+        for c in codes:
+            html = html.replace('__' + c['ID'] + '__', c['Name'])
+        p.write_text(html, encoding='utf8')
         readme.append(
-            'View [interactive map](https://raw.githubusercontent.com/cldf-datasets/barlowhandandfive/refs/heads/main/maps/{}.html).\n'.format(pid))
+            'View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/'
+            '{}.html).\n'.format(pid))
+    #
+    # Now add a "numeral systems" map
+    #
+    o = mapdir / 'num_syst.svg'
+    cmd = [
+        'cldfbench',
+        'cldfviz.map',
+        '--parameter', 'num_syst',
+        '--language-properties', 'Melanesia',
+        '--colormaps',
+        json.dumps({c['ID']: c['color'] for c in parameters['num_syst']}),
+        '--language-properties-colormaps', '{"yes":"circle","no":"triangle_up"}',
+        '--pacific-centered',
+        '--no-open',
+        '--format', 'svg',
+        '--padding-top', '5',
+        '--padding-bottom', '5',
+        '--projection', 'Mollweide',
+        '--width', '10',
+        '--markersize', '4',
+        '--with-ocean',
+        '--no-legend',
+        '--output', str(o),
+        str(cldf.directory / cldf.filename)]
+    subprocess.check_call(cmd)
+    assert o.exists()
+
+    readme.append('## {}\n'.format(
+        cldf.get_row('ParameterTable', pid)['Name'].replace('_', ' ')))
+    readme.append(cldf.get_row('ParameterTable', pid)['Description'])
+    readme.append('\n&nbsp; | Value | Count | Description')
+    readme.append('--- | --- | ---:| ---')
+    for c in codes:
+        readme.append('$${{\color{{{}}}⏺}}$$ | {} | {} | {}'.format(
+            c['color'], c['Name'], value_count[c['ID']], c['Description']))
+    readme.append('&nbsp; | &nbsp; | **{}** | &nbsp;'.format(sum(value_count[c['ID']] for c in codes)))
+
+    readme.append('\n&nbsp; | Value | Count | Description')
+    readme.append('---:| --- | ---:| ---')
+    readme.append('⏺| in Melanesia | {} | '.format(sum(1 for l in cldf['LanguageTable'] if l['Melanesia'] == 'yes')))
+    readme.append('▼| not in Melanesia | {} | '.format(sum(1 for l in cldf['LanguageTable'] if l['Melanesia'] == 'no')))
+
+    readme.append('\n![num_syst](num_syst.svg)\n')
+
+    o = mapdir / 'num_syst.html'
+    cmd = [
+        'cldfbench',
+        'cldfviz.map',
+        '--parameter', 'num_syst',
+        '--language-properties', 'Melanesia',
+        '--colormaps',
+        json.dumps({c['ID']: c['color'] for c in parameters['num_syst']}),
+        '--language-properties-colormaps', '{"yes":"circle","no":"triangle_up"}',
+        '--pacific-centered',
+        '--no-open',
+        '--with-layers',
+        '--value-template', '__{code}__',
+        '--output', str(o),
+        str(cldf.directory / cldf.filename)]
+    subprocess.check_call(cmd)
+    assert o.exists()
+
+    html = o.read_text(encoding='utf8').replace('__no__', 'no').replace('__yes__', 'yes')
+    for c in parameters['num_syst']:
+        html = html.replace('__' + c['ID'] + '__', c['Name'])
+    html = html.replace(' / yes"', '"').replace(' / no"', '"')
+    o.write_text(html, encoding='utf8')
+    readme.append(
+        'View [interactive map](https://cldf-datasets.github.io/barlowhandandfive/maps/'
+        'num_syst.html).\n')
     mapdir.joinpath('README.md').write_text('\n'.join(readme))
