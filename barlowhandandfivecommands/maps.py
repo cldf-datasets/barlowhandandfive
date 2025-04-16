@@ -21,6 +21,7 @@ def plot(format, pid, colors, mdpath, mapdir):
     ]
     if format == 'html':
         cmd.extend(['--with-layers', '--value-template', '__{code}__'])
+        cmd.extend(['--markersize', '12'])
     else:  # format == 'svg'
         cmd.extend([
             '--format', 'svg',
